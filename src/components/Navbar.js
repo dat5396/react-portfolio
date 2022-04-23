@@ -14,6 +14,30 @@ function Navbar() {
 					<NavLink to='/' className='navbar-logo' onClick={closeMobileMenu}>
 						<img src='images/logo.png' alt='logo' />
 					</NavLink>
+					<div>
+						<ul className='desktop-menu'>
+							<li className='nav-item'>
+								<NavLink to='/' className='nav-links'>
+									Home
+								</NavLink>
+							</li>
+							<li className='nav-item'>
+								<NavLink to='/about' className='nav-links'>
+									About
+								</NavLink>
+							</li>
+							<li className='nav-item'>
+								<NavLink to='/projects' className='nav-links'>
+									Projects
+								</NavLink>
+							</li>
+							<li className='nav-item'>
+								<NavLink to='/contact' className='nav-links'>
+									Contact
+								</NavLink>
+							</li>
+						</ul>
+					</div>
 					<div className='menu-icon' onClick={handleClick}>
 						<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
 					</div>

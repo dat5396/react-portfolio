@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import CardItem from './Carditem';
 import './Cards.css';
 
 function Cards() {
 	return (
 	<div>
-		<video playsinline webkit-playsinline autoPlay loop muted className='projectpage__video' src="/videos/projectpage.mp4"/>
-		<div className='cards'>
+		<video playsInline webkit-playsinline autoPlay loop muted className='projectpage__video' src="/videos/projectpage.mp4"/>
+		<div>
 			<div className='cards__container'>
-				<div className='cards_wrapper'>
+				<div className='cards__wrapper'>
 					<h2>UX/UI Design</h2>
 					<ul className='cards__items'>
 						<CardItem
