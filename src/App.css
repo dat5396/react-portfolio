@@ -1,38 +1,122 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  color: #fff;
+}
+
+.home,
+.about,
+.projects,
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  align-items: center;
+  /* justify-content: center; */
+  color: #fff;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+p {
+  font-size: 32px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact a {
+  font-size: 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:visited {
+  text-decoration: none;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.project__container {
+  padding: 0 15vw 20vh 15vw;
+  /* display: flex;
+  flex-direction: column; */
+  /* width: 60vw; */
+  /* display: flex;
+  flex-flow: column;
+  align-items: center; */
 }
 
-.App-link {
-  color: #61dafb;
+.project__container div {
+  font-size: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+img {
+  width: 100%;
+}
+
+.prototype__link {
+  padding: 50px;
+}
+
+/* Carousel */
+/* .slide img {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+} */
+
+
+/* Project videos */
+.project__video {
+	  position: absolute; 
+    /* right: 0; 
+    bottom: 0; */
+    /* min-width: 100%; 
+    min-height: 100%; */
+    width: 70vw; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 650px) {
+  .project__container {
+    padding: 4rem 0rem;
   }
 }

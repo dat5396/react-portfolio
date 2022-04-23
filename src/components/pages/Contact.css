@@ -1,0 +1,26 @@
+.contact p {
+    font-size: 30px;
+}
+
+.contact h1 {
+    font-size: 80px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+.contact i {
+    font-size: 50px;
+}
+
+.social__links {
+    margin: 20px;
+}
+
+/* .social__links i {
+    text-decoration: none;
+} */
+
+.social__links a {
+    text-decoration: none;
+    margin: 5px;
+}
