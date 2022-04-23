@@ -5,7 +5,7 @@ import './Contact.css';
 export default function Contact() {
 	return (
 		<div className="contact">
-			<video src="/videos/contact.mp4" autoPlay loop muted />
+			<video src="/videos/contact.mp4" playsinline autoPlay loop muted />
 			<h1>Contact Me</h1>
 			<p> Dat Tran </p>
 			<p> dattientran6868@gmail.com</p>
