@@ -43,7 +43,7 @@ export default function About() {
 			<div className="about-cta">
 				<div className="about-btns">
 					<Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-					EXPLORE MY PROJECTS
+					Explore My Projects
 					</Button>
 				</div>
 				<div className="about-btns">
