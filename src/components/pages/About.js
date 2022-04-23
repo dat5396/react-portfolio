@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 export default function About() {
 	return (
 		<div className="about">
-			<video src="/videos/about.mp4" autoPlay loop muted className='about__video'/>
+			<video playsinline webkit-playsinline autoPlay loop muted className='about__video' src="/videos/about.mp4" />
 			<h1>About Me</h1>
 			<div>
 			</div>

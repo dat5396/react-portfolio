@@ -6,7 +6,7 @@ import './Cards.css';
 function Cards() {
 	return (
 	<div>
-		<video src="/videos/projectpage.mp4" playsinline webkit-playsinline autoPlay loop muted className='projectpage__video'/>
+		<video playsinline webkit-playsinline autoPlay loop muted className='projectpage__video' src="/videos/projectpage.mp4"/>
 		<div className='cards'>
 			<div className='cards__container'>
 				<div className='cards_wrapper'>
