@@ -11,18 +11,29 @@ img {
 }
 
 a:visited {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #fff;
 }
 
 /* project styling */
 .project__container div {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
   font-size: 0;
 }
 
 .prototype__link {
   padding: 50px;
+  color: #fff;
+  font-size: 20px;
 }
+
+/* .prototype__link a {
+  color: #fff;
+  font-size: 20px;
+} */
 
 .project__video {
   position: absolute; 

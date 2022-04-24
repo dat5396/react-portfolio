@@ -28,7 +28,7 @@ function XscapeRentals() {
 				<img src='images/project images/NXR Portfolio-20.png' ></img>
 				<img src='images/project images/NXR Portfolio-21.png' ></img>
 				<img src='images/project images/NXR Portfolio-22.png' ></img>
-				<a href='https://xd.adobe.com/view/1009a2bf-05a7-4c07-ac96-d971bf0e7018-455a/' target='_blank'><p className='prototype__link'>Experience Prototype Here</p></a>
+				<a className='prototype__link' href='https://xd.adobe.com/view/1009a2bf-05a7-4c07-ac96-d971bf0e7018-455a/' target='_blank'>Experience Prototype Here</a>
 			</div>
 		</div>
 	)
