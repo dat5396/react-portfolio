@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video preload playsInline webkit-playsinline autoPlay loop muted poster="/images/hero-poster.png" src="/videos/hero.mp4"/>
+      <video preload="metadata" playsInline webkit-playsinline autoPlay loop muted poster="/images/hero-poster.png" src="/videos/hero-copy.mp4"/>
       <h1>Hi, I'm Dat Tran</h1>
       <p>Welcome to my portfolio</p>
       <div className="hero-btns">
