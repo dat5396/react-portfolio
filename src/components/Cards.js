@@ -46,8 +46,8 @@ function Cards() {
 							path="/louis-vuitton"
 						/>
 						<CardItem
-							src="images/kinetic-typography.png"
-							text="Kinetic Typography"
+							src="images/flower-animation.png"
+							text="Flower Animation"
 							label="Motion Design"
 							path="/kinetic-typography"
 						/>
