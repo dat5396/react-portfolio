@@ -47,7 +47,7 @@ function Cards() {
 						/>
 						<CardItem
 							src="images/flower-animation.png"
-							text="Flower Animation"
+							text="Infinite Flower Animation"
 							label="Motion Design"
 							path="/kinetic-typography"
 						/>
