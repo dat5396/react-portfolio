@@ -15,6 +15,18 @@ a:visited {
   color: #fff;
 }
 
+/* .copyright {
+  position: fixed;
+  bottom: 0;
+}
+
+.copyright p {
+  font-size: 10px;
+  font-weight: 100;
+  padding-bottom: 10px;
+  text-align: center;
+} */
+
 /* project styling */
 
 .project__container div {
@@ -42,11 +54,12 @@ a:visited {
   bottom: 0; */
   /* min-width: 100%; 
   min-height: 100%; */
-  width: 70vw; 
-  height: auto; 
+  width: auto; 
+  height: 80vh; 
   z-index: -100;
   background-size: cover;
   overflow: hidden;
+  opacity: 1;
 }
 
 /* Carousel */
@@ -95,6 +108,6 @@ a:visited {
 
 @media only screen and (min-width: 650px) {
   .project__container {
-    padding: 0 15vw 20vh 15vw;
+    padding: 0 10vw 20vh 10vw;
   }
 }

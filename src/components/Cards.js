@@ -15,13 +15,13 @@ function Cards() {
 						<CardItem
 							src="images/Xcape.png"
 							text="Xscape Renting App"
-							label="UX/UI"
+							label="UX/UI Case Study"
 							path="/xscape-rentals"
 						/>
 						<CardItem
 							src="images/Pizzaville-website.png"
 							text="Pizzaville Website"
-							label="UX/UI"
+							label="UX/UI Case Study"
 							path="/pizzaville-website"
 						/>
 						<CardItem

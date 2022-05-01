@@ -24,6 +24,15 @@ function Pizzaville() {
 				<img src='images/project images/Pizzaville-13.png' ></img>
 				<img src='images/project images/Pizzaville-14.png' ></img>
 				<img src='images/project images/Pizzaville-15.png' ></img>
+				<img src='images/project images/Pizzaville-16.png' ></img>
+				<img src='images/project images/Pizzaville-17.png' ></img>
+				<img src='images/project images/Pizzaville-18.png' ></img>
+				<img src='images/project images/Pizzaville-19.png' ></img>
+				<img src='images/project images/Pizzaville-20.png' ></img>
+				<img src='images/project images/Pizzaville-21.png' ></img>
+				<img src='images/project images/Pizzaville-22.png' ></img>
+				<img src='images/project images/Pizzaville-23.png' ></img>
+				<img src='images/project images/Pizzaville-24.png' ></img>
 				<a href='https://xd.adobe.com/view/23ab0ea1-b4a5-445a-b1ff-900935c0c6b8-76f8/' target='_blank'><p className='prototype__link'>Experience Prototype Here</p></a>
 			</div>
 		</div>

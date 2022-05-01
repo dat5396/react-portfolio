@@ -52,6 +52,9 @@ export default function About() {
 					</Button> */}
 					<Link to="/files/Dat Tran - Resume.pdf" target="_blank" download>Download My Resume</Link>
 				</div>
+				{/* <div className='copyright'>
+					<p>Developed by Dat Tran. All Rights Reserved</p>
+				</div>   */}
 			</div>
 		</div>
 	)

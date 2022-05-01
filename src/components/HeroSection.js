@@ -14,6 +14,9 @@ function HeroSection() {
           Explore My Projects
         </Button>
       </div>
+      {/* <div className='copyright'>
+        <p>Developed by Dat Tran. All Rights Reserved</p>
+      </div>   */}
     </div>
   )
 }
