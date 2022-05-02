@@ -14,6 +14,7 @@ import AlphaGuidelines from './components/pages/project-pages/AlphaGuidelines'
 import PenguinLogo from './components/pages/project-pages/PenguinLogo'
 import UrgoStart from './components/pages/project-pages/UrgoStart'
 import Contact from './components/pages/Contact';
+import Epicon from './components/pages/project-pages/Epicon';
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
 						<Route path='/pizzaville-website' element={<Pizzaville />} />
+						<Route path='/epicon-landing-page' element={<Epicon />} />
 						<Route path='/alpha-bottle' element={<AlphaBottle />} />
 						<Route path='/louis-vuitton' element={<LouisVuitton />} />
 						<Route path='/kinetic-typography' element={<KineticTypography />} />

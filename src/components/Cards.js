@@ -24,11 +24,19 @@ function Cards() {
 							label="UX/UI Case Study"
 							path="/pizzaville-website"
 						/>
+					</ul>
+					<ul className='cards__items'>	
 						<CardItem
 							src="images/Alpha-website.png"
 							text="Alpha Sportwear Website"
 							label="UX/UI"
 							path="/alpha-website"
+						/>
+						<CardItem
+							src="images/Epicon.png"
+							text="Epicon Interactive Concert Landing Page"
+							label="UX/UI"
+							path="/epicon-landing-page"
 						/>
 					</ul>
 					<h2>Motion Design</h2>
