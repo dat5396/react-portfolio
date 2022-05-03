@@ -20,7 +20,7 @@ function Cards() {
 						/>
 						<CardItem
 							src="images/Pizzaville-website.png"
-							text="Pizzaville Website"
+							text="Pizzaville Redesigned Website"
 							label="UX/UI Case Study"
 							path="/pizzaville-website"
 						/>
