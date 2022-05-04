@@ -44,19 +44,19 @@ function Cards() {
 						<CardItem
 							src="images/Alpha-guidelines.png"
 							text="Alpha Sportwear Brand Guidelines"
-							label="Branding"
+							label="Graphic Design"
 							path="/alpha-guidelines"
 						/>
 						<CardItem
 							src="images/Urgo-social.png"
 							text="Urgo Medical Social Posts"
-							label="Branding"
+							label="Graphic Design"
 							path="/urgo-social-posts"
 						/>
 						<CardItem
 							src="images/UrgoStart.png"
 							text="UrgoStart Medical Catalog"
-							label="Branding"
+							label="Graphic Design"
 							path="/urgostart"
 						/>
 					</ul>
@@ -83,7 +83,7 @@ function Cards() {
 						<CardItem
 							src="images/penguin.png"
 							text="Penguin Studio Logo Motion"
-							label="Branding"
+							label="Motion Design"
 							path="/penguin-logo"
 						/>
 					</ul>
