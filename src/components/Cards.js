@@ -39,6 +39,27 @@ function Cards() {
 							path="/epicon-landing-page"
 						/>
 					</ul>
+					<h2>Graphic Design</h2>
+					<ul className='cards__items'>
+						<CardItem
+							src="images/Alpha-guidelines.png"
+							text="Alpha Sportwear Brand Guidelines"
+							label="Branding"
+							path="/alpha-guidelines"
+						/>
+						<CardItem
+							src="images/Urgo-social.png"
+							text="Urgo Medical Social Posts"
+							label="Branding"
+							path="/urgo-social-posts"
+						/>
+						<CardItem
+							src="images/UrgoStart.png"
+							text="UrgoStart Medical Catalog"
+							label="Branding"
+							path="/urgostart"
+						/>
+					</ul>
 					<h2>Motion Design</h2>
 					<ul className='cards__items'>
 						<CardItem
@@ -59,26 +80,11 @@ function Cards() {
 							label="Motion Design"
 							path="/kinetic-typography"
 						/>
-					</ul>
-					<h2>Graphic Design</h2>
-					<ul className='cards__items'>
-						<CardItem
-							src="images/Alpha-guidelines.png"
-							text="Alpha Sportwear Brand Guidelines"
-							label="Branding"
-							path="/alpha-guidelines"
-						/>
 						<CardItem
 							src="images/penguin.png"
 							text="Penguin Studio Logo Motion"
 							label="Branding"
 							path="/penguin-logo"
-						/>
-						<CardItem
-							src="images/UrgoStart.png"
-							text="UrgoStart Medical Catalog"
-							label="Branding"
-							path="/urgostart"
 						/>
 					</ul>
 				</div>

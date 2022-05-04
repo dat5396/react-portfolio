@@ -15,6 +15,7 @@ import PenguinLogo from './components/pages/project-pages/PenguinLogo'
 import UrgoStart from './components/pages/project-pages/UrgoStart'
 import Contact from './components/pages/Contact';
 import Epicon from './components/pages/project-pages/Epicon';
+import UrgoSocial from './components/pages/project-pages/UrgoSocial';
 
 function App() {
 	return (
@@ -35,6 +36,7 @@ function App() {
 						<Route path='/alpha-guidelines' element={<AlphaGuidelines />} />
 						<Route path='/penguin-logo' element={<PenguinLogo />} />
 						<Route path='/urgostart' element={<UrgoStart />} />
+						<Route path='/urgo-social-posts' element={<UrgoSocial />} />
 					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</Router>
