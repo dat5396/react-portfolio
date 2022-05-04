@@ -16,13 +16,13 @@ function Cards() {
 							src="images/Xcape.png"
 							text="Xscape Renting App"
 							label="UX/UI Case Study"
-							path="/xscape-rentals"
+							path="/projects/xscape-rentals"
 						/>
 						<CardItem
 							src="images/Pizzaville-website.png"
 							text="Pizzaville Redesigned Website"
 							label="UX/UI Case Study"
-							path="/pizzaville-website"
+							path="/projects/pizzaville-website"
 						/>
 					</ul>
 					<ul className='cards__items'>	
@@ -30,13 +30,13 @@ function Cards() {
 							src="images/Alpha-website.png"
 							text="Alpha Sportwear Website"
 							label="UX/UI"
-							path="/alpha-website"
+							path="/projects/alpha-website"
 						/>
 						<CardItem
 							src="images/Epicon.png"
 							text="Epicon Interactive Concert Landing Page"
 							label="UX/UI"
-							path="/epicon-landing-page"
+							path="/projects/epicon-landing-page"
 						/>
 					</ul>
 					<h2>Motion Design</h2>
@@ -45,19 +45,19 @@ function Cards() {
 							src="images/alpha-bottle.png"
 							text="Alpha Bottle 3D Ads"
 							label="Motion Design"
-							path="/alpha-bottle"
+							path="/projects/alpha-bottle"
 						/>
 						<CardItem
 							src="images/Louis-vuitton.png"
 							text="Louis Vuitton Motion Package"
 							label="Motion Design"
-							path="/louis-vuitton"
+							path="/projects/louis-vuitton"
 						/>
 						<CardItem
 							src="images/flower-animation.png"
 							text="Infinite Flower Animation"
 							label="Motion Design"
-							path="/kinetic-typography"
+							path="/projects/kinetic-typography"
 						/>
 					</ul>
 					<h2>Graphic Design</h2>
@@ -66,19 +66,19 @@ function Cards() {
 							src="images/Alpha-guidelines.png"
 							text="Alpha Sportwear Brand Guidelines"
 							label="Branding"
-							path="/alpha-guidelines"
+							path="/projects/alpha-guidelines"
 						/>
 						<CardItem
 							src="images/penguin.png"
 							text="Penguin Studio Logo Motion"
 							label="Branding"
-							path="/penguin-logo"
+							path="/projects/penguin-logo"
 						/>
 						<CardItem
 							src="images/UrgoStart.png"
 							text="UrgoStart Medical Catalog"
 							label="Branding"
-							path="/urgostart"
+							path="/projects/urgostart"
 						/>
 					</ul>
 				</div>

@@ -25,16 +25,16 @@ function App() {
 					<Route path='/' element={<Home />} />
 					<Route path='/about' element={<About />} />
 					<Route path='/projects' element={<Projects />} />
-						<Route path='/xscape-rentals' element={<XscapeRentals />} />
-						<Route path='/alpha-website' element={<AlphaWebsite />} />
-						<Route path='/pizzaville-website' element={<Pizzaville />} />
-						<Route path='/epicon-landing-page' element={<Epicon />} />
-						<Route path='/alpha-bottle' element={<AlphaBottle />} />
-						<Route path='/louis-vuitton' element={<LouisVuitton />} />
-						<Route path='/kinetic-typography' element={<KineticTypography />} />
-						<Route path='/alpha-guidelines' element={<AlphaGuidelines />} />
-						<Route path='/penguin-logo' element={<PenguinLogo />} />
-						<Route path='/urgostart' element={<UrgoStart />} />
+						<Route path='/projects/xscape-rentals' element={<XscapeRentals />} />
+						<Route path='/projects/alpha-website' element={<AlphaWebsite />} />
+						<Route path='/projects/pizzaville-website' element={<Pizzaville />} />
+						<Route path='/projects/epicon-landing-page' element={<Epicon />} />
+						<Route path='/projects/alpha-bottle' element={<AlphaBottle />} />
+						<Route path='/projects/louis-vuitton' element={<LouisVuitton />} />
+						<Route path='/projects/kinetic-typography' element={<KineticTypography />} />
+						<Route path='/projects/alpha-guidelines' element={<AlphaGuidelines />} />
+						<Route path='/projects/penguin-logo' element={<PenguinLogo />} />
+						<Route path='/projects/urgostart' element={<UrgoStart />} />
 					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</Router>
