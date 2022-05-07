@@ -13,6 +13,7 @@ function AlphaWebsite() {
 				<img src='images/project images/Alpha website-05.png' ></img>
 				<img src='images/project images/Alpha website-06.png' ></img>
 				<img src='images/project images/Alpha website-07.png' ></img>
+				<img src='images/project images/Alpha website-08.png' ></img>
 			</div>
 		</div>
 	)
