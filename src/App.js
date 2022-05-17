@@ -15,6 +15,7 @@ import PenguinLogo from './components/pages/project-pages/PenguinLogo'
 import UrgoStart from './components/pages/project-pages/UrgoStart'
 import Contact from './components/pages/Contact';
 import Epicon from './components/pages/project-pages/Epicon';
+import Pyra from './components/pages/project-pages/Pyra';
 import UrgoSocial from './components/pages/project-pages/UrgoSocial';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
 						<Route path='/pizzaville-website' element={<Pizzaville />} />
+						<Route path='/pyra-crypto-exchange' element={<Pyra />} />
 						<Route path='/epicon-landing-page' element={<Epicon />} />
 						<Route path='/alpha-bottle' element={<AlphaBottle />} />
 						<Route path='/louis-vuitton' element={<LouisVuitton />} />

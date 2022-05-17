@@ -26,17 +26,17 @@ function Cards() {
 						/>
 					</ul>
 					<ul className='cards__items'>	
+					<CardItem
+							src="images/Pyra.png"
+							text="Pyra Crypto Exchange Mobile App"
+							label="UX/UI"
+							path="/pyra-crypto-exchange"
+						/>
 						<CardItem
 							src="images/Alpha-website.png"
 							text="Alpha Sportwear Website"
 							label="UX/UI"
 							path="/alpha-website"
-						/>
-						<CardItem
-							src="images/Epicon.png"
-							text="Epicon Interactive Concert Landing Page"
-							label="UX/UI"
-							path="/epicon-landing-page"
 						/>
 					</ul>
 					<h2>Graphic Design</h2>
@@ -80,12 +80,12 @@ function Cards() {
 							label="Motion Design"
 							path="/kinetic-typography"
 						/>
-						<CardItem
+						{/* <CardItem
 							src="images/penguin.png"
 							text="Penguin Studio Logo Motion"
 							label="Motion Design"
 							path="/penguin-logo"
-						/>
+						/> */}
 					</ul>
 				</div>
 			</div>
