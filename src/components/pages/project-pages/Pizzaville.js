@@ -33,7 +33,11 @@ function Pizzaville() {
 				<img src='images/project images/Pizzaville-22.png' ></img>
 				<img src='images/project images/Pizzaville-23.png' ></img>
 				<img src='images/project images/Pizzaville-24.png' ></img>
-				<a href='https://xd.adobe.com/view/23ab0ea1-b4a5-445a-b1ff-900935c0c6b8-76f8/' target='_blank'><p className='prototype__link'>Experience Prototype Here</p></a>
+				<img src='images/project images/Pizzaville-25.png' ></img>
+				<img src='images/project images/Pizzaville-26.png' ></img>
+				<img src='images/project images/Pizzaville-27.png' ></img>
+				<img src='images/project images/Pizzaville-28.png' ></img>
+				<a href='https://xd.adobe.com/view/7364a865-ee46-42ca-a761-d939bede6939-2637/' target='_blank'><p className='prototype__link'>Experience Prototype Here</p></a>
 			</div>
 		</div>
 	)
