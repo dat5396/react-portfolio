@@ -2,6 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import CardItem from './Carditem';
 import './Cards.css';
+import Fade from 'react-reveal/Fade';
 
 function Cards() {
 	return (
@@ -10,6 +11,7 @@ function Cards() {
 		<div>
 			<div className='cards__container'>
 				<div className='cards__wrapper'>
+					<Fade bottom>
 					<h2>UX/UI Design</h2>
 					<ul className='cards__items'>
 						<CardItem
@@ -39,6 +41,8 @@ function Cards() {
 							path="/alpha-website"
 						/>
 					</ul>
+					</Fade>
+					<Fade bottom>
 					<h2>Graphic Design</h2>
 					<ul className='cards__items'>
 						<CardItem
@@ -60,6 +64,8 @@ function Cards() {
 							path="/urgostart"
 						/>
 					</ul>
+					</Fade>
+					<Fade bottom>
 					<h2>Motion Design</h2>
 					<ul className='cards__items'>
 						<CardItem
@@ -87,6 +93,7 @@ function Cards() {
 							path="/penguin-logo"
 						/> */}
 					</ul>
+					</Fade>
 				</div>
 			</div>
 		</div>
