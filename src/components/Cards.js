@@ -28,7 +28,7 @@ function Cards() {
 					<ul className='cards__items'>	
 					<CardItem
 							src="images/Pyra.png"
-							text="Pyra Crypto Exchange Mobile App"
+							text="Pyra Crypto Exchange App"
 							label="UX/UI"
 							path="/pyra-crypto-exchange"
 						/>
