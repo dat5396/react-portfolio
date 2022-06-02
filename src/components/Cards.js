@@ -3,7 +3,7 @@ import React from 'react';
 import CardItem from './Carditem';
 import './Cards.css';
 import { Fade } from "react-awesome-reveal";
-import Tilt from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 
 function Cards() {
 	return (

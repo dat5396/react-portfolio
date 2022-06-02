@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Tilt from 'react-tilt';
+import Tilt from 'react-parallax-tilt';
 
 function CardItem(props) {
 	return (
