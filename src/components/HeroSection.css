@@ -20,14 +20,14 @@ video {
 	/* background-image: url('../../public/images/hero-poster.png'); */
 }
 
-.hero-container > h1 {
+.hero-container h1 {
 	color: #fff;
 	font-size: 40px;
 	padding: 0 20px;
 	text-align: center;
 }
 
-.hero-container > p {
+.hero-container p {
 	color: #fff;
 	font-size: 20px;
 	padding: 0 20px;
@@ -42,11 +42,11 @@ video {
 
 /* Desktop styling */
 @media only screen and (min-width: 650px) {
-	.hero-container > h1 {
+	.hero-container h1 {
 		font-size: 100px;
 	}
 
-	.hero-container > p {
+	.hero-container p {
 		font-size: 32px;
 	}
 }

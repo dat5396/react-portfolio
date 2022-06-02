@@ -3,7 +3,7 @@ import '../../App.css';
 import './About.css';
 import { Button } from '.././Button';
 import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 export default function About() {
 	return (

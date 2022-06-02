@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import './Contact.css';
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 export default function Contact() {
 	return (
