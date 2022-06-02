@@ -50,8 +50,9 @@ body {
 }
 
 .cards__item__link:hover {
-  box-shadow: 0 0px 10px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0px 12px 1px rgba(255, 255, 255, 0.8);
 }
+
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;

@@ -15,7 +15,7 @@ function Cards() {
 					<Fade bottom>
 						<h2>UX/UI Design</h2>
 						<ul className='cards__items'>
-							<Tilt options={{ scale: 0.9 }}>
+							
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/Xcape.png"
@@ -24,8 +24,8 @@ function Cards() {
 									path="/xscape-rentals"
 								/>
 								</div>
-							</Tilt>
-							<Tilt options={{ scale: 0.9 }}>
+							
+							
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pizzaville-website.png"
@@ -34,10 +34,9 @@ function Cards() {
 									path="/pizzaville-website"
 								/>
 								</div>
-							</Tilt>
 						</ul>
 						<ul className='cards__items'>	
-							<Tilt options={{ scale: 0.9 }}>
+							
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pyra.png"
@@ -46,8 +45,7 @@ function Cards() {
 									path="/pyra-crypto-exchange"
 								/>
 								</div>
-							</Tilt>	
-							<Tilt options={{ scale: 0.9 }}>	
+							
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Alpha-website.png"
@@ -56,13 +54,13 @@ function Cards() {
 									path="/alpha-website"
 								/>
 								</div>
-							</Tilt>
+
 						</ul>
 					</Fade>
 					<Fade bottom>
 						<h2>Graphic Design</h2>
 						<ul className='cards__items'>
-							<Tilt options={{ scale: 0.9 }}>
+							
 								<div className='three__in__one'>
 								<CardItem
 									src="images/Alpha-guidelines.png"
@@ -71,8 +69,7 @@ function Cards() {
 									path="/alpha-guidelines"
 								/>
 								</div>
-							</Tilt>	
-							<Tilt options={{ scale: 0.9 }}>
+							
 								<div className='three__in__one'>
 								<CardItem
 									src="images/Urgo-social.png"
@@ -81,8 +78,7 @@ function Cards() {
 									path="/urgo-social-posts"
 								/>
 								</div>
-							</Tilt>	
-							<Tilt options={{ scale: 0.9 }}>
+							
 								<div className='three__in__one'>
 								<CardItem
 									src="images/UrgoStart.png"
@@ -91,13 +87,13 @@ function Cards() {
 									path="/urgostart"
 								/>
 								</div>
-							</Tilt>	
+							
 						</ul>
 					</Fade>
 					<Fade bottom>
 						<h2>Motion Design</h2>
 						<ul className='cards__items'>
-						<Tilt options={{ scale: 0.9 }}>
+						
 								<div className='three__in__one'>
 								<CardItem
 									src="images/alpha-bottle.png"
@@ -106,8 +102,7 @@ function Cards() {
 									path="/alpha-bottle"
 								/>
 								</div>
-						</Tilt>		
-						<Tilt options={{ scale: 0.9 }}>
+						
 								<div className='three__in__one'>
 								<CardItem
 									src="images/Louis-vuitton.png"
@@ -116,8 +111,7 @@ function Cards() {
 									path="/louis-vuitton"
 								/>
 								</div>
-						</Tilt>			
-						<Tilt options={{ scale: 0.9 }}>
+						
 								<div className='three__in__one'>
 								<CardItem
 									src="images/flower-animation.png"
@@ -126,7 +120,7 @@ function Cards() {
 									path="/kinetic-typography"
 								/>
 								</div>
-						</Tilt>		
+							
 
 							{/* <CardItem
 								src="images/penguin.png"
