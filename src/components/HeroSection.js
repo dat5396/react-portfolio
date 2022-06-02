@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video playsInline webkit-playsinline autoPlay loop muted src="/videos/hero-copy.mp4"/>
-      <Fade bottom>
+      <Fade bottom >
         <h1>Hi, I'm Dat Tran</h1>
         <p>Welcome to my portfolio</p>
         <div className="hero-btns">

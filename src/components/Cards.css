@@ -114,8 +114,16 @@ body {
   .cards__items {
     margin-bottom: 4rem;
     display: flex;
+    /* justify-content: space-around ; */
   }
-  
+  .two__in__one {
+    width: 30vw;
+  }
+
+  .three__in__one {
+    width: 20vw;
+  }
+
   .cards__item {
     display: flex;
     flex: 1;
