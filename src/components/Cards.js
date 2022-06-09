@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 function Cards() {
 	return (
 	<div>
-		<video playsInline webkit-playsinline autoPlay loop muted className='projectpage__video' src="/videos/projectpage_2.mp4"/>
+		<video playsInline webkit-playsinline autoPlay loop muted className='projectpage__video' src="/videos/projectpage_1.mp4"/>
 		<div>
 			<div className='cards__container'>
 				<div className='cards__wrapper'>
