@@ -3,12 +3,12 @@ import React from 'react';
 import CardItem from './Carditem';
 import './Cards.css';
 import { Fade } from "react-awesome-reveal";
-import Tilt from 'react-parallax-tilt';
+// import Tilt from 'react-parallax-tilt';
 
 function Cards() {
 	return (
 	<div>
-		<video playsInline webkit-playsinline autoPlay loop muted className='projectpage__video' src="/videos/projectpage.mp4"/>
+		<video playsInline webkit-playsinline autoPlay loop muted className='projectpage__video' src="/videos/projectpage_2.mp4"/>
 		<div>
 			<div className='cards__container'>
 				<div className='cards__wrapper'>
