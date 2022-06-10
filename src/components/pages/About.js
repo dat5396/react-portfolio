@@ -31,7 +31,7 @@ export default function About() {
 							<div className='skill__details'>
 								<img src='/images/frontend-icon.png' alt=''/>
 								<h3>Front-End Development</h3>
-								<p>Brought the designs to life with different coding methods such as hand coding, Bootstrap, CSS precompiler, React</p>
+								<p>Brought the designs to life with different coding methods such as hand coding, Bootstrap, CSS preprocessor, React JS</p>
 							</div>
 						</div>	
 					</Fade>
