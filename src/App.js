@@ -18,6 +18,7 @@ import Contact from './components/pages/Contact';
 import Epicon from './components/pages/project-pages/Epicon';
 import Pyra from './components/pages/project-pages/Pyra';
 import UrgoSocial from './components/pages/project-pages/UrgoSocial';
+import Icons from './components/pages/project-pages/Icons';
 
 function App() {
 	return (
@@ -41,6 +42,7 @@ function App() {
 						<Route path='/penguin-logo' element={<PenguinLogo />} />
 						<Route path='/urgostart' element={<UrgoStart />} />
 						<Route path='/urgo-social-posts' element={<UrgoSocial />} />
+						<Route path='/icons' element={<Icons />} />
 					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</Router>

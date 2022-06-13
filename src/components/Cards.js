@@ -25,7 +25,6 @@ function Cards() {
 								/>
 								</div>
 							
-							
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pizzaville-website.png"
@@ -34,6 +33,7 @@ function Cards() {
 									path="/pizzaville-website"
 								/>
 								</div>
+
 						</ul>
 						<ul className='cards__items'>	
 							
@@ -55,6 +55,28 @@ function Cards() {
 								/>
 								</div>
 
+						</ul>
+
+						<ul className='cards__items'>	
+							
+								<div className='two__in__one'>
+								<CardItem
+									src="images/3D Icon web.png"
+									text="3D Icons For UI"
+									label="UI"
+									path="/icons"
+								/>
+								</div>
+							
+								<div className='two__in__one hide'>
+								<CardItem
+									src="images/Alpha-website.png"
+									text="Alpha Sportwear Website"
+									label="UX/UI"
+									path="/alpha-website"
+								/>
+								</div>
+								
 						</ul>
 					</Fade>
 					<Fade bottom>
