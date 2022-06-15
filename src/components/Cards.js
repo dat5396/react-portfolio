@@ -87,7 +87,7 @@ function Cards() {
 								<CardItem
 									src="images/Alpha-guidelines.png"
 									text="Alpha Sportwear Brand Guidelines"
-									label="Graphic Design"
+									label="Branding"
 									path="/alpha-guidelines"
 								/>
 								</div>
@@ -96,7 +96,7 @@ function Cards() {
 								<CardItem
 									src="images/Urgo-social.png"
 									text="Urgo Medical Social Posts"
-									label="Graphic Design"
+									label="Social Graphic"
 									path="/urgo-social-posts"
 								/>
 								</div>
@@ -105,7 +105,7 @@ function Cards() {
 								<CardItem
 									src="images/UrgoStart.png"
 									text="UrgoStart Medical Catalog"
-									label="Graphic Design"
+									label="Print"
 									path="/urgostart"
 								/>
 								</div>
