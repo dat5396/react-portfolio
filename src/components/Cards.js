@@ -120,7 +120,7 @@ function Cards() {
 								<CardItem
 									src="images/alpha-bottle.png"
 									text="Alpha Bottle 3D Advertisement"
-									label="Motion Design"
+									label="Advertisement"
 									path="/alpha-bottle"
 								/>
 								</div>
@@ -129,7 +129,7 @@ function Cards() {
 								<CardItem
 									src="images/Louis-vuitton.png"
 									text="Louis Vuitton Motion Package"
-									label="Motion Design"
+									label="Motion Package"
 									path="/louis-vuitton"
 								/>
 								</div>
@@ -138,7 +138,7 @@ function Cards() {
 								<CardItem
 									src="images/flower-animation.png"
 									text="Infinite Flower Animation"
-									label="Motion Design"
+									label="Animation"
 									path="/kinetic-typography"
 								/>
 								</div>
