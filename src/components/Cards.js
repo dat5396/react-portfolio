@@ -104,7 +104,7 @@ function Cards() {
 								<div className='three__in__one'>
 								<CardItem
 									src="images/UrgoStart.png"
-									text="UrgoStart Catalog"
+									text="UrgoStart Medical Catalog"
 									label="Print"
 									path="/urgostart"
 								/>
