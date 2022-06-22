@@ -87,7 +87,7 @@ function Cards() {
 								<CardItem
 									src="images/Alpha-guidelines.png"
 									text="Alpha Sportwear Brand Guidelines"
-									label="Branding"
+									label="Brand Guidelines"
 									path="/alpha-guidelines"
 								/>
 								</div>
