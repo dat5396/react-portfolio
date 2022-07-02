@@ -21,7 +21,7 @@ export default function About() {
 							<div className='skill__details'>
 								<img src='/images/uxui-icon.png' alt=''/>
 								<h3>UX/UI Design</h3>
-								<p>Creating user-centered designs by conducting user researchs, competitive analysis, user flows, personas, wireframes, prototypes, and testing</p>
+								<p>Creating user-centered designs by conducting user researchs, competitive analysis, user flows, personas, design systems, wireframes, prototypes, and testing</p>
 							</div>
 							<div className='skill__details'>
 								<img src='/images/visual-icon.png' alt=''/>
