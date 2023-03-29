@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
+import illuminDesignSystem from './components/pages/project-pages/illuminDesignSystem';
 import XscapeRentals from './components/pages/project-pages/XscapeRentals';
 import AlphaWebsite from './components/pages/project-pages/AlphaWebsite';
 import Pizzaville from './components/pages/project-pages/Pizzaville'
@@ -30,6 +31,7 @@ function App() {
 					<Route path='/' element={<Home />} />
 					<Route path='/about' element={<About />} />
 					<Route path='/projects' element={<Projects />} />
+						<Route path='/illumin-design-system' element={<illuminDesignSystem />} />
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
 						<Route path='/pizzaville-website' element={<Pizzaville />} />
