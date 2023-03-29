@@ -35,4 +35,4 @@ function illuminDesignSystem() {
 	)
 }
 
-export default XscapeRentals;
+export default illuminDesignSystem;
