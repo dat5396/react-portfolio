@@ -5,7 +5,7 @@ import '../../../App.css';
 function XscapeRentals() {
 	return (
 		<div className="project__container" >
-			<div>
+			<div className="white__container">
 				<img src='images/project images/NXR Portfolio-01.png' ></img>
 				<img src='images/project images/NXR Portfolio-02.png' ></img>
 				<img src='images/project images/NXR Portfolio-03.png' ></img>
@@ -29,7 +29,7 @@ function XscapeRentals() {
 				<img src='images/project images/NXR Portfolio-21.png' ></img>
 				<img src='images/project images/NXR Portfolio-22.png' ></img>
 				<img src='images/project images/NXR Portfolio-23.png' ></img>
-				<a className='prototype__link' href='https://xd.adobe.com/view/e4d46030-861d-4421-9129-1e409a1ef98e-b187/' target='_blank'>Experience Prototype Here</a>
+				<a href='https://xd.adobe.com/view/e4d46030-861d-4421-9129-1e409a1ef98e-b187/' target='_blank' rel="noreferrer"><p className='prototype__link'>Experience Prototype Here</p></a>
 			</div>
 		</div>
 	)

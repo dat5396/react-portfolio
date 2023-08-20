@@ -4,7 +4,7 @@ import '../../../App.css';
 
 function UrgoStart () {
 	return (
-		<div className="project__container" >
+		<div className="project__container black__container" >
 			<div>
 				<img src='images/project images/Urgostart-01.png' ></img>
                 <img src='images/project images/Urgostart-02.png' ></img>

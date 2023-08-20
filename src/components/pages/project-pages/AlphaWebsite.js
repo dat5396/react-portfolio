@@ -4,7 +4,7 @@ import '../../../App.css';
 
 function AlphaWebsite() {
 	return (
-		<div className="project__container" >
+		<div className="project__container black__container" >
 			<div>
 				<img src='images/project images/Alpha website-01.png' ></img>
 				<img src='images/project images/Alpha website-02.png' ></img>

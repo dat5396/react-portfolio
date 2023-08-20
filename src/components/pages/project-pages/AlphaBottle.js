@@ -4,7 +4,7 @@ import '../../../App.css';
 
 function AlphaBottle() {
 	return (
-		<div className="project__container" >
+		<div className="project__container black__container" >
 			<div>
 				<video src='videos/AlphaBottle.mp4' className="project__video" controls/>
 			</div>

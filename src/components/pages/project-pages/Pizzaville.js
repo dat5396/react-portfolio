@@ -5,10 +5,7 @@ import '../../../App.css';
 function Pizzaville() {
 	return (
 		<div className="project__container" >
-			<div>
-				<div>
-					{/* <video src="videos/Home record.mp4" autoPlay loop muted /> */}
-				</div>	
+			<div className="white__container">
 				<img src='images/project images/Pizzaville-01.png' ></img>
 				<img src='images/project images/Pizzaville-02.png' ></img>
 				<img src='images/project images/Pizzaville-03.png' ></img>
@@ -37,7 +34,7 @@ function Pizzaville() {
 				<img src='images/project images/Pizzaville-26.png' ></img>
 				<img src='images/project images/Pizzaville-27.png' ></img>
 				<img src='images/project images/Pizzaville-28.png' ></img>
-				<a href='https://xd.adobe.com/view/7364a865-ee46-42ca-a761-d939bede6939-2637/' target='_blank'><p className='prototype__link'>Experience Prototype Here</p></a>
+				<a href='https://xd.adobe.com/view/7364a865-ee46-42ca-a761-d939bede6939-2637/' target='_blank' rel="noreferrer"><p className='prototype__link'>Experience Prototype Here</p></a>
 			</div>
 		</div>
 	)

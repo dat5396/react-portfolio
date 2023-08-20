@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
@@ -11,11 +12,12 @@ export const Button = ({
 	onClick,
 	buttonStyle,
 	buttonSize,
+	to,
 }) => {
 	const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 	const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 	return (
-		<Link to='/projects' className='btn-mobile'>
+		<Link to={to} className='btn-mobile'>
 			<button
 				className={`btn ${checkButtonStyle} ${checkButtonSize}`}
 				onClick={onClick}

@@ -4,7 +4,7 @@ import '../../../App.css';
 
 function Pyra() {
 	return (
-		<div className="project__container" >
+		<div className="project__container black__container" >
 			<div>
 				<img src='images/project images/Pyra-01.png' ></img>
 				<img src='images/project images/Pyra-02.png' ></img>

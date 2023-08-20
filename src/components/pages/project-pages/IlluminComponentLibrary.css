@@ -1,0 +1,76 @@
+.menu__page {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.menu__page h2 {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.detail__page {
+    text-align: center;
+}
+
+.detail__page h1 {
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+.detail__page h2 {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.detail__page h3 {
+    font-size: 20px;
+    padding: 20px 0;
+    color: #000;
+}
+
+/* .detail__page img {
+    padding-top: 80px;
+} */
+
+.menu__image {
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;     */
+    padding-top: 20px;
+}
+
+.clickable__image {
+    flex: 1;
+    max-width: calc(20% - 0.5rem);
+    height: auto;
+    margin-right: 10px
+}
+
+.clickable__image:last-child {
+    margin-right: 0px
+}
+
+/* #color, #typo, #button, #elevation, #focus-ring, #select, #input, #form, #checkbox, #radio, #search-bar, #date-picker, #toggle {
+    padding-top: 80px;
+} */
+
+.detail__image img {
+    padding-top: 80px;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .detail__page {
+        padding: 0 12rem 10rem 12rem;
+    }
+    
+    .clickable__image {
+        flex: 1;
+        max-width: calc(20% - 0.5rem); /* Distribute images evenly with 10px gap */
+        height: auto;
+        justify-content: center;
+    }
+
+}

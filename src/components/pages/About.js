@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unknown-property */
+
 import React from 'react';
 import '../../App.css';
 import './About.css';
@@ -13,7 +15,7 @@ export default function About() {
 				<div className='skill__container'>
 					<Fade bottom>
 						<h2>What I Believe</h2>
-						<p className='bio'>"Hi, I am Dat Tran. I believe everything in this world is designed. Thus, a designer plays a significant role in building a beautiful world. To do that, the responsibility of a designer is to create great products that are not only aesthetic but also able to improve many aspects of people’s lives. Each creation should be an integration of profound knowledge of art and a deep understanding of users. It requires an iterative exploration of human behavior and psychology and applying insightful findings to designs."</p>
+						<p className='bio'>Hi, I am Dat Tran. I believe everything in this world is designed. Thus, a designer plays a significant role in building a beautiful world. To do that, the responsibility of a designer is to create great products that are not only aesthetic but also able to improve many aspects of people’s lives. Each creation should be an integration of profound knowledge of art and a deep understanding of users. It requires an iterative exploration of human behavior and psychology and applying insightful findings to designs.</p>
 					</Fade>
 					<Fade bottom>
 						<h2>My Relevant Skills</h2>
@@ -39,7 +41,7 @@ export default function About() {
 			<Fade bottom>
 				<div className="about-cta">
 					<div className="about-btns">
-						<Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+						<Button to='/projects' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
 						Explore My Projects
 						</Button>
 					</div>

@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins";
-  color: #fff;
+  /* color: #fff; */
 }
 
 img {
@@ -12,35 +12,40 @@ img {
 
 a:visited {
   /* text-decoration: none; */
-  color: #fff;
+  color: #ffffff;
 }
-
-/* .copyright {
-  position: fixed;
-  bottom: 0;
-}
-
-.copyright p {
-  font-size: 10px;
-  font-weight: 100;
-  padding-bottom: 10px;
-  text-align: center;
-} */
 
 /* project styling */
+.black__container {
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.white__container {
+  background-color: #ffffff;
+  color: #000000;
+  padding-bottom: 80px;
+  /* display: flex;
+  flex-direction: column; */
+}
 
 .project__container div {
   display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
-	align-items: center;
+	align-items: left;
   font-size: 0;
+}
+
+.white__container h2 {
+  color: #000000;
 }
 
 .prototype__link {
   padding: 50px;
-  color: #fff;
+  color: #000000;
   font-size: 20px;
+  text-align: center;
 }
 
 /* .prototype__link a {
@@ -62,52 +67,42 @@ a:visited {
   opacity: 1;
 }
 
-/* Carousel */
-/* .slide img {
-  width: 20rem;
-  margin: 0 auto;
+.form {
+  background-color: #ffffff15;
+  border: 1px solid #393939;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px 2px #ffffff25;
+  width: auto;
+  margin: 5rem 1rem;
+  padding: 2rem;
+  color: #ffffff;
+  text-align: center;
 }
 
-.slide {
-  transform: scale(0.2);
-  transition: transform 300ms;
-  opacity: 0.5;
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem auto;
 }
 
-.activeSlide {
-  transform: scale(1.1);
-  opacity: 1;
+.form input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin: 2rem;
+  border: 1px solid #ffffff;
+  border-radius: 0.25rem;
+  background-color: #00000000;
+  color: #ffffff;
 }
-
-.arrow {
-  background-color: #fff;
-  position: absolute;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.arrow svg {
-  transition: color 300ms;
-}
-
-.arrow svg:hover {
-  color: #68edff;
-}
-
-.next {
-  right: 0%;
-  top: 50%;
-}
-
-.prev {
-  left: 0%;
-  top: 50%;
-} */
-
-
-
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 720px) {
   .project__container {
     padding: 0 10vw 20vh 10vw;
+  }
+
+  .form {
+    width: 40vw;
+    margin: 5rem auto;
+    padding: 2rem 4rem;
   }
 }

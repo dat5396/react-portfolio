@@ -6,6 +6,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+    color: #ffffff;
 }
 
 .contact video {
@@ -33,6 +34,7 @@
 .social__links a {
     text-decoration: none;
     margin: 5px;
+    color:#ffffff;
 }
 
 /* Desktop styling */

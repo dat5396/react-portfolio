@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unknown-property */
+
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import CardItem from './Carditem';
@@ -14,13 +16,36 @@ function Cards() {
 				<div className='cards__wrapper'>
 					<Fade bottom>
 						<h2>UX/UI Design</h2>
+
+						<ul className='cards__items'>
+							
+								<div className='two__in__one'>
+								<CardItem 
+									src="images/illumin-component-library.png"
+									text="illumin Component Library"
+									label="Professional Project"
+									path="/protected-illumin-component-library"
+								/>
+								</div>
+							
+								<div className='two__in__one'>
+								<CardItem
+									src="images/FI_cover.jpg"
+									text="Facebook & Instagram Integration"
+									label="Professional Project"
+									path="/protected-facebook-instagram-integration"
+								/>
+								</div>
+
+						</ul>
+
 						<ul className='cards__items'>
 							
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/Xcape.png"
-									text="Xscape Renting App"
-									label="UX/UI Case Study"
+									text="Xscape Renting Mobile App"
+									label="Academic Project"
 									path="/xscape-rentals"
 								/>
 								</div>
@@ -29,19 +54,20 @@ function Cards() {
 								<CardItem
 									src="images/Pizzaville-website.png"
 									text="Pizzaville Website Redesign"
-									label="UX/UI Case Study"
+									label="Academic Project"
 									path="/pizzaville-website"
 								/>
 								</div>
 
 						</ul>
+						
 						<ul className='cards__items'>	
 							
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pyra.png"
 									text="Pyra Crypto Exchange App"
-									label="UX/UI"
+									label="Academic Project"
 									path="/pyra-crypto-exchange"
 								/>
 								</div>
@@ -50,107 +76,60 @@ function Cards() {
 								<CardItem
 									src="images/Alpha-website.png"
 									text="Alpha Sportwear Website"
-									label="UX/UI"
+									label="Academic Project"
 									path="/alpha-website"
 								/>
 								</div>
 
 						</ul>
 
-						<ul className='cards__items'>	
+					</Fade>
+					<Fade bottom>
+						<h2>Graphic & Motion Design</h2>
+						<ul className='cards__items'>
 							
 								<div className='two__in__one'>
 								<CardItem
-									src="images/3D Icon web.png"
-									text="3D Icons For UI"
-									label="UI"
-									path="/icons"
-								/>
-								</div>
-							
-								<div className='two__in__one hide'>
-								<CardItem
-									src="images/Alpha-website.png"
-									text="Alpha Sportwear Website"
-									label="UX/UI"
-									path="/alpha-website"
-								/>
-								</div>
-								
-						</ul>
-					</Fade>
-					<Fade bottom>
-						<h2>Graphic Design</h2>
-						<ul className='cards__items'>
-							
-								<div className='three__in__one'>
-								<CardItem
-									src="images/Alpha-guidelines.png"
-									text="Alpha Sportwear Brand Guidelines"
-									label="Brand Guidelines"
-									path="/alpha-guidelines"
-								/>
-								</div>
-							
-								<div className='three__in__one'>
-								<CardItem
 									src="images/Urgo-social.png"
 									text="Urgo Medical Social Posts"
-									label="Social Graphic"
+									label="Professional Project"
 									path="/urgo-social-posts"
 								/>
 								</div>
 							
-								<div className='three__in__one'>
+								<div className='two__in__one'>
 								<CardItem
 									src="images/UrgoStart.png"
 									text="UrgoStart Medical Catalog"
-									label="Print"
+									label="Professional Project"
 									path="/urgostart"
 								/>
 								</div>
 							
 						</ul>
-					</Fade>
-					<Fade bottom>
-						<h2>Motion Design</h2>
+
 						<ul className='cards__items'>
 						
-								<div className='three__in__one'>
+								<div className='two__in__one'>
+								<CardItem
+									src="images/Alpha-guidelines.png"
+									text="Alpha Sportwear Brand Guidelines"
+									label="Academic Project"
+									path="/alpha-guidelines"
+								/>
+								</div>
+
+								<div className='two__in__one'>
 								<CardItem
 									src="images/alpha-bottle.png"
 									text="Alpha Bottle 3D Advertisement"
-									label="Advertisement"
+									label="Academic Project"
 									path="/alpha-bottle"
 								/>
 								</div>
 						
-								<div className='three__in__one'>
-								<CardItem
-									src="images/Louis-vuitton.png"
-									text="Louis Vuitton Motion Package"
-									label="Motion Package"
-									path="/louis-vuitton"
-								/>
-								</div>
-						
-								<div className='three__in__one'>
-								<CardItem
-									src="images/flower-animation.png"
-									text="Infinite Flower Animation"
-									label="Animation"
-									path="/kinetic-typography"
-								/>
-								</div>
-							
-
-							{/* <CardItem
-								src="images/penguin.png"
-								text="Penguin Studio Logo Motion"
-								label="Motion Design"
-								path="/penguin-logo"
-							/> */}
 						</ul>
+						
 					</Fade>
 				</div>
 			</div>
