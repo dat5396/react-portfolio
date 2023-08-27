@@ -12,27 +12,28 @@ function FI() {
             
             <div>
                 <div className='section__name'>
-                    <h2>PROJECT OVERVIEW</h2>
+                    <h2>1. PROJECT OVERVIEW</h2>
                 </div>
                 <h3>Context</h3>
-                <p>{`illumin is a journey advertising platform that seamlessly integrates media planning and buying within an interactive and intuitive interface. Prior to this project, illumin solely facilitated running ads on websites. This undertaking represents the platform's pioneering foray into social media integration, marking a significant milestone in the company's history. Thus, it stands as one of the most substantial projects undertaken by the company during that period.`}</p>
+                <p>{`illumin is a journey advertising platform that seamlessly integrates media planning and buying within an interactive and intuitive interface. Prior to this project, illumin solely facilitated running ads on websites. This effort signified the platform's initial venture into social media integration, marking a significant milestone in the company's history. Thus, it standed as one of the most substantial projects undertaken by the company during that period.`}</p>
                 <h3>Project objective</h3>
                 <p>The goal of this project was to develop a robust set of features that empower users to seamlessly create and efficiently manage their Facebook and Instagram advertisements directly within the illumin platform.</p>
                 <h3>Project duration</h3>
+                <img src='images/project images/FI-0.png'className='medium__image__noshadow'></img>
                 <h3>Table of content</h3>
-                <ul>
+                <ol>
                     <li>Project Overview</li>
                     <li>Research & Analysis</li>
                     <li>Ideation & Concept Development</li>
                     <li>User Testing & Iteration</li>
                     <li>Final Design</li>
                     <li>Outcome & Impact</li>
-                </ul>
+                </ol>
             </div>
             
             <div>
                 <div className='section__name'>
-                    <h2>RESEARCH & ANALYSIS</h2>
+                    <h2>2. RESEARCH & ANALYSIS</h2>
                 </div>
                 <h3>Ad Hierarchy</h3>
                 <p>Because our aim was to assist users in running Facebook and Instagram ads within the product, I initiated the project by conducting comprehensive research on the ad structure of Facebook.</p>
@@ -53,7 +54,7 @@ function FI() {
 
             <div>
                 <div className='section__name'>
-                    <h2>IDEATION & CONCEPT DEVELOPMENT</h2>
+                    <h2>3. IDEATION & CONCEPT DEVELOPMENT</h2>
                 </div>
                 
                 <h3>User flow</h3>
@@ -129,31 +130,32 @@ function FI() {
             
             <div>
                 <div className='section__name'>
-                    <h2>USER TESTING & ITERATION</h2>
+                    <h2>4. USER TESTING & ITERATION</h2>
                 </div>
-                
-                <p>I collaborated with a UX Researcher to conduct rapid testing sessions to get feedback from users. The users here are campaign managers in our company who use product daily to run campaigns.</p>
-                <p>Positive feedback: They like that they can do the authorization process in many places. They can do it in the journey canvas where they work on a daily basis. The right drawer layout is familiar with them because they used Facebook Ads Manager before. They don't need to learn how to use it.</p>
+                <p className='space'>A</p>
+                <p>I partnered with a UX Researcher to facilitate some rapid testing sessions, aimed at gathering user feedback. The participants consisted of campaign managers from our company, individuals who utilize the product daily to execute campaigns.</p>
+                <p>Positive feedback: They appreciated the flexibility of being able to complete the authorization process from multiple locations, notably within the journey canvas where they operate daily. The familiarity of the right drawer layout resonated with them, as they had prior experience with Facebook Ads Manager. This eliminated the need for them to learn a new system.</p>
                 <p>Need to improve:</p>
                 <ul>
-                    <li>The identification of Meta logo</li>
-                    <li>The interaction of canvas element</li>
+                    <li>The identification of the Meta logo</li>
+                    <li>The interaction of the canvas element</li>
                 </ul>
-                <h3>The identification of Meta logo</h3>
-                <p>{`After getting some stakeholders’ feedbacks, they said Facebook and Instagram logos were more identified than Meta one. Users are more familiar with Facebook and Instagram logos. Therefore, the Product Manager decided that we would change Meta logo to Facebook and Instagram logo. Therefore, I made some design changes to adapt this decision.`}</p>
+                <h3>The identification of the Meta logo</h3>
+                <p>{`After receiving feedback from stakeholders, it was noted that the Facebook and Instagram logos were more recognizable compared to the Meta logo. Given users' familiarity with the Facebook and Instagram logos, the Product Manager determined that transitioning from the Meta logo to the Facebook and Instagram logos would be more appropriate. Consequently, I introduced design adjustments to align with this decision.`}</p>
                 <img src='images/project images/FI-C2.png' className='large__image'></img>
-                <h3>The interaction of canvas element</h3>
-                <p>I made the canvas element more interactive by directing the user to different places in the right drawer depending on where the user click</p>
+                <h3>The interaction of the canvas element</h3>
+                <p>I enhanced the interactivity of the canvas element by guiding users to distinct sections within the right drawer based on their click location.</p>
+                <img src='images/project images/FI-C3.png' className='medium__image'></img>
             </div>
             
             <div>
                 <div className='section__name'>
-                    <h2>FINAL DESIGN</h2>
+                    <h2>5. FINAL DESIGN</h2>
                 </div>
-                
-                <p>{`After some iterations based on users’ and stakeholders’ feedbacks, I finished all flows in this project. There were more than 20 flows in total. However, to save time of readers, I only show major flows in this portfolio. All other flows will be shown briefly at the end of this section.`}</p>
-                <p>This is the table of content in the Figma file of this project. I will show major flows in each part.</p>
+                <p className='space'>A</p>
+                <p>{`After iterating on the design based on user and stakeholder feedback, I completed all the flows within this project. In total, there were over 20 flows. However, for the convenience of readers, I will present only the key flows in each part in this portfolio.`}</p>
                 <img src='images/project images/FI-D1.png' className='small__image'></img>
+                <img src='images/project images/FI-D9.png' className='medium__image'></img>
                 <h3>Part A: Connecting and Disconnect illumin to Meta</h3>
                 <img src='images/project images/FI-D2.png' className='large__image'></img>
                 <h3>Part B: Setting up a journey having Facebook & Instagram campaigns</h3>
@@ -164,8 +166,10 @@ function FI() {
             
             <div>
                 <div className='section__name'>
-                    <h2>OUTCOME & IMPACT</h2>
+                    <h2>6. OUTCOME & IMPACT</h2>
                 </div>
+                <p className='space'>A</p>
+                <p>The project marked a milestone in the history of illumin, as it enabled users to create and manage their first-ever social media ads on Facebook and Instagram through the platform. Being the initial version of Facebook and Instagram integration, our primary focus was on implementing core features. Additional functionalities aimed at optimizing ads would be introduced in subsequent phases.</p>
             
             </div>
 		</div>

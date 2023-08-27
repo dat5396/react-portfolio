@@ -49,7 +49,7 @@ export default function About() {
 						{/* <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
 						<Link to="/files/Dat Tran - Resume.pdf" target="_blank" download>Download My Resume</Link>
 						</Button> */}
-						<Link to="/files/Dat Tran - Product Designer - Resume.pdf" target="_blank" download>Download My Resume</Link>
+						<Link to="/files/2023 - Dat Tran - Product Designer - Resume.pdf" target="_blank" download>Download My Resume</Link>
 					</div>
 					{/* <div className='copyright'>
 						<p>Developed by Dat Tran. All Rights Reserved</p>

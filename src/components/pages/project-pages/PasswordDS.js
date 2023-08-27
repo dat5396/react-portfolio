@@ -8,7 +8,7 @@ function PasswordDS() {
   const [authenticated, setAuthenticated] = useState(false);
 
   const navigate = useNavigate();
-  const correctPassword = '123'; // Replace with your actual password
+  const correctPassword = 'passion'; // Replace with your actual password
 
   const handleSubmit = (e) => {
     e.preventDefault();
