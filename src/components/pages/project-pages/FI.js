@@ -20,6 +20,7 @@ function FI() {
                 <p>The goal of this project was to develop a robust set of features that empower users to seamlessly create and efficiently manage their Facebook and Instagram advertisements directly within the illumin platform.</p>
                 <h3>Project duration</h3>
                 <img src='images/project images/FI-0.png'className='medium__image__noshadow'></img>
+                <p>My role was Product Designer. What I show in this portfolio was my contribution to the project.</p>
                 <h3>Table of content</h3>
                 <ol>
                     <li>Project Overview</li>

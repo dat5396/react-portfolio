@@ -4,8 +4,20 @@
 }
 
 .menu__page h2 {
-    font-size: 30px;
+    font-size: 2rem;
     padding-top: 40px;
+}
+
+.menu__page h3 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    color: #fff;
+}
+
+.menu__page p {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    color: #fff;
 }
 
 .detail__page {

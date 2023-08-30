@@ -12,6 +12,16 @@ function IlluminComponentLibrary() {
 				</div>
 
 				<div >
+					<h2>Project Overview</h2>
+					<h3>Objective</h3>
+					<p>Building a component library aims to ensure design consistency across projects by offering a standardized collection of UI elements and patterns. It accelerates design and development processes, fosters collaboration, and maintains a cohesive user experience. With reusable components, it streamlines efficiency, scales design efforts, and upholds brand identity.</p>
+					<h3>Duration</h3>
+					<p>4 months</p>
+					<h3>My role</h3>
+					<p>UI Designer. The only designer in this project</p>
+				</div>
+
+				<div >
 					<h2 path="/illumin-component-library-part-A"> Part A. General </h2>
 					<a href="/illumin-component-library-part-A">
 						<img src='images/project images/DS-Menu-PartA.png'></img>
