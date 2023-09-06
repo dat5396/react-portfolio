@@ -27,7 +27,7 @@ function PasswordFI() {
   return (
     <div className='form'>
       <h3>Password is required to access this project.</h3>
-      <h3>It can be found in the resume I submitted to you.</h3>
+      <h3>It can be found in my resume.</h3>
       <form onSubmit={handleSubmit}>
         <input
           type="password"

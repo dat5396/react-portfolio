@@ -45,15 +45,9 @@ export default function About() {
 						Explore My Projects
 						</Button>
 					</div>
-					<div className="about-btns">
-						{/* <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-						<Link to="/files/Dat Tran - Resume.pdf" target="_blank" download>Download My Resume</Link>
-						</Button> */}
+					{/* <div className="about-btns">
 						<Link to="/files/2023 - Dat Tran - Product Designer - Resume.pdf" target="_blank" download>Download My Resume</Link>
-					</div>
-					{/* <div className='copyright'>
-						<p>Developed by Dat Tran. All Rights Reserved</p>
-					</div>   */}
+					</div> */}
 				</div>
 			</Fade>
 		</div>
