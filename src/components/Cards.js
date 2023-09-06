@@ -41,20 +41,29 @@ function Cards() {
 
 						<ul className='cards__items'>
 							
+								{/* <div className='two__in__one'>
+								<CardItem 
+									src="images/Xcape.png"
+									text="First Party Audience Onboarding"
+									label="Professional Project"
+									path="/first-party-audience-onboarding"
+								/>
+								</div> */}
+							
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/Xcape.png"
 									text="Xscape Renting Mobile App"
-									label="Academic Project"
+									label="Personal Project"
 									path="/xscape-rentals"
 								/>
 								</div>
-							
+
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pizzaville-website.png"
 									text="Pizzaville Website Redesign"
-									label="Academic Project"
+									label="Personal Project"
 									path="/pizzaville-website"
 								/>
 								</div>
@@ -63,11 +72,20 @@ function Cards() {
 						
 						<ul className='cards__items'>	
 							
+								{/* <div className='two__in__one'>
+								<CardItem
+									src="images/Pizzaville-website.png"
+									text="Pizzaville Website Redesign"
+									label="Personal Project"
+									path="/pizzaville-website"
+								/>
+								</div> */}
+
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pyra.png"
 									text="Pyra Crypto Exchange App"
-									label="Academic Project"
+									label="Personal Project"
 									path="/pyra-crypto-exchange"
 								/>
 								</div>
@@ -76,7 +94,7 @@ function Cards() {
 								<CardItem
 									src="images/Alpha-website.png"
 									text="Alpha Sportwear Website"
-									label="Academic Project"
+									label="Personal Project"
 									path="/alpha-website"
 								/>
 								</div>
@@ -114,7 +132,7 @@ function Cards() {
 								<CardItem
 									src="images/Alpha-guidelines.png"
 									text="Alpha Sportwear Brand Guidelines"
-									label="Academic Project"
+									label="Personal Project"
 									path="/alpha-guidelines"
 								/>
 								</div>
@@ -123,7 +141,7 @@ function Cards() {
 								<CardItem
 									src="images/alpha-bottle.png"
 									text="Alpha Bottle 3D Advertisement"
-									label="Academic Project"
+									label="Personal Project"
 									path="/alpha-bottle"
 								/>
 								</div>

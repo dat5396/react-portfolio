@@ -14,8 +14,8 @@ export default function About() {
 			<h1>About Me</h1>
 				<div className='skill__container'>
 					<Fade bottom>
-						<h2>What I Believe</h2>
-						<p className='bio'>Hi, I am Dat Tran. I believe everything in this world is designed. Thus, a designer plays a significant role in building a beautiful world. To do that, the responsibility of a designer is to create great products that are not only aesthetic but also able to improve many aspects of people’s lives. Each creation should be an integration of profound knowledge of art and a deep understanding of users. It requires an iterative exploration of human behavior and psychology and applying insightful findings to designs.</p>
+						<h2></h2>
+						<p className='bio'>Results-driven Product Designer with experience and a deep passion for designing user-centered digital products. Proven expertise in interaction design, visual design, and design research. Adept at distilling intricate user needs into intuitive and visually appealing interfaces that foster user engagement and drive business growth.</p>
 					</Fade>
 					<Fade bottom>
 						<h2>My Relevant Skills</h2>
