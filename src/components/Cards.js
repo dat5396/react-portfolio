@@ -41,14 +41,14 @@ function Cards() {
 
 						<ul className='cards__items'>
 							
-								{/* <div className='two__in__one'>
+								<div className='two__in__one'>
 								<CardItem 
-									src="images/Xcape.png"
-									text="First Party Audience Onboarding"
+									src="images/FPA.jpg"
+									text="First-Party Audience Onboarding"
 									label="Professional Project"
-									path="/first-party-audience-onboarding"
+									path="/protected-first-party-audience-onboarding"
 								/>
-								</div> */}
+								</div>
 							
 								<div className='two__in__one'>
 								<CardItem 
@@ -59,19 +59,6 @@ function Cards() {
 								/>
 								</div>
 
-								<div className='two__in__one'>
-								<CardItem
-									src="images/Pizzaville-website.png"
-									text="Pizzaville Website Redesign"
-									label="Personal Project"
-									path="/pizzaville-website"
-								/>
-								</div>
-
-						</ul>
-						
-						<ul className='cards__items'>	
-							
 								{/* <div className='two__in__one'>
 								<CardItem
 									src="images/Pizzaville-website.png"
@@ -80,6 +67,19 @@ function Cards() {
 									path="/pizzaville-website"
 								/>
 								</div> */}
+
+						</ul>
+						
+						<ul className='cards__items'>	
+							
+								<div className='two__in__one'>
+								<CardItem
+									src="images/Pizzaville-website.png"
+									text="Pizzaville Website Redesign"
+									label="Personal Project"
+									path="/pizzaville-website"
+								/>
+								</div>
 
 								<div className='two__in__one'>
 								<CardItem
@@ -90,14 +90,14 @@ function Cards() {
 								/>
 								</div>
 							
-								<div className='two__in__one'>
+								{/* <div className='two__in__one'>
 								<CardItem
 									src="images/Alpha-website.png"
 									text="Alpha Sportwear Website"
 									label="Personal Project"
 									path="/alpha-website"
 								/>
-								</div>
+								</div> */}
 
 						</ul>
 

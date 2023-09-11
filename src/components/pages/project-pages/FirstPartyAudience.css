@@ -27,6 +27,11 @@
     padding: 0.5rem 2rem 0rem;
 }
 
+.first__party__audience ul {
+    font-size: 1rem;
+    padding: 0.5rem 2rem 0rem;
+}
+
 .first__party__audience li {
     padding: 0rem 0rem 0.5rem;
 }
@@ -112,6 +117,10 @@
         padding: 0.5rem 13.5rem 0rem;
     }
     
+    .first__party__audience ul {
+        padding: 0.5rem 13.5rem 0rem;
+    }
+
     .first__party__audience li {
         padding: 0rem 0rem 0.5rem;
     }
