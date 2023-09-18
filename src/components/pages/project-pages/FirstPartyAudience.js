@@ -59,15 +59,19 @@ function FirstPartyAudience() {
                 </ul>
                 <h3>3.1. Uploading and Post-Uploading flow</h3>
                 <h3>Uploading</h3>
+                <p>I started building this flow by creating a user flow.</p>
+                <img src='images/project images/FPA-C-Userflow1.png'className='large__image'></img>
                 <p>Alongside uploading basic form fields such as Name and Upload Area, there was an additional requirement in this flow: recommending users to generate a suggested audience based on their data. This feature aimed to increase the company's revenue by providing third-party audiences for users. I devised two concepts on how to prompt users to generate audience suggestions:</p>
                 <ul>
                     <li>Recommend suggested audiences in the uploading step</li>
                     <li>Recommend suggested audiences after the uploading step</li>
                 </ul>
                 <h4>Concept 1: Recommend suggested audiences in the uploading step</h4>
+                <img src='images/project images/FPA-C-Userflow2.png'className='large__image'></img>
                 <p>I placed the 'Suggest Audience' toggle at the bottom of the uploading page. (Screen No. 4 & 5)</p>
                 <img src='images/project images/FPA-C1.png'className='large__image'></img>
                 <h4>Concept 2: Recommend suggested audiences after the uploading step</h4>
+                <img src='images/project images/FPA-C-Userflow3.png'className='large__image'></img>
                 <p>I placed the 'Suggest Audience' modal after the user completes the uploading step. (Screen No. 9)</p>
                 <img src='images/project images/FPA-C2.png'className='large__image'></img>
                 <p>I conducted rapid testing sessions to evaluate two concepts and determine which one offered a better user experience. The testing results will be presented in the subsequent sections.</p>
