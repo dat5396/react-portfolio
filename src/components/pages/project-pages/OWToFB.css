@@ -1,0 +1,168 @@
+.first__party__audience h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 2rem 0rem 0rem;
+}
+
+.first__party__audience h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 2rem 1rem 0rem;
+}
+
+.first__party__audience h4 {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: bold;
+    padding: 2rem 1rem 0rem;
+}
+
+.first__party__audience p {
+    font-size: 1rem;
+    padding: 0.5rem 1rem 0rem;
+}
+
+.first__party__audience ol {
+    font-size: 1rem;
+    padding: 0.5rem 2rem 0rem;
+}
+
+.first__party__audience ul {
+    font-size: 1rem;
+    padding: 0.5rem 2rem 0rem;
+}
+
+.first__party__audience li {
+    padding: 0rem 0rem 0.5rem;
+}
+
+.first__party__audience {
+    text-align: left;
+    color: #000000;
+    background-color: #fbfbfd;
+}
+
+.extra__small__image {
+    width: 40%;
+    margin: 2rem auto;
+    border-radius: 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.small__image {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.medium__image {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.medium__image__noshadow {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
+}
+
+
+.large__image {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.section__name {
+    margin: 0rem 1rem 0rem 1rem;
+    border-bottom: 2px solid #000000;
+}
+
+.space {
+    opacity: 0%;
+}
+/* .group__image {
+    margin: 2rem 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+} */
+
+
+
+@media only screen and (min-width: 1080px) {
+    .project__container {
+        padding: 0 10vw 20vh 10vw;
+    }
+
+    .first__party__audience h2 {
+        padding: 2rem 0rem 0rem;
+    }
+    
+    .first__party__audience h3 {
+        padding: 2rem 12.5rem 0rem;
+    }
+    
+    .first__party__audience h4 {
+        padding: 2rem 12.5rem 0rem;
+    }
+    
+    .first__party__audience p {
+        padding: 0.5rem 12.5rem 0rem;
+    }
+    
+    .first__party__audience ol {
+        padding: 0.5rem 13.5rem 0rem;
+    }
+    
+    .first__party__audience ul {
+        padding: 0.5rem 13.5rem 0rem;
+    }
+
+    .first__party__audience li {
+        padding: 0rem 0rem 0.5rem;
+    }
+
+    .extra__small__image {
+        width: 25%;
+        margin: 2rem auto;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+
+    }
+    
+    .small__image {
+        width: auto;
+        margin: 2rem 25rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+    
+    .medium__image {
+        width: auto;
+        margin: 2rem 12.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .medium__image__noshadow {
+        width: auto;
+        margin: 2rem 12.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .large__image {
+        width: 100%;
+        margin: 2rem auto;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .section__name {
+        margin: 0rem 12.5rem 0rem 12.5rem;
+    }
+
+}
+  

@@ -18,7 +18,6 @@ function Cards() {
 						<h2>UX/UI Design</h2>
 
 						<ul className='cards__items'>
-							
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/illumin-component-library.png"
@@ -36,11 +35,9 @@ function Cards() {
 									path="/protected-facebook-instagram-integration"
 								/>
 								</div>
-
 						</ul>
 
 						<ul className='cards__items'>
-							
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/FPA.jpg"
@@ -52,6 +49,17 @@ function Cards() {
 							
 								<div className='two__in__one'>
 								<CardItem 
+									src="images/OWFB_Cover.jpg"
+									text="Open Web To Facebook Connection"
+									label="Professional Project"
+									path="/protected-open-web-to-facebook-instagram-connection"
+								/>
+								</div>
+						</ul>
+						
+						<ul className='cards__items'>	
+								<div className='two__in__one'>
+								<CardItem 
 									src="images/Xcape.png"
 									text="Xscape Renting Mobile App"
 									label="Personal Project"
@@ -59,19 +67,6 @@ function Cards() {
 								/>
 								</div>
 
-								{/* <div className='two__in__one'>
-								<CardItem
-									src="images/Pizzaville-website.png"
-									text="Pizzaville Website Redesign"
-									label="Personal Project"
-									path="/pizzaville-website"
-								/>
-								</div> */}
-
-						</ul>
-						
-						<ul className='cards__items'>	
-							
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pizzaville-website.png"
@@ -80,7 +75,9 @@ function Cards() {
 									path="/pizzaville-website"
 								/>
 								</div>
+						</ul>
 
+						<ul className='cards__items'>				
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pyra.png"
@@ -90,15 +87,14 @@ function Cards() {
 								/>
 								</div>
 							
-								{/* <div className='two__in__one'>
+								<div className='two__in__one'>
 								<CardItem
 									src="images/Alpha-website.png"
 									text="Alpha Sportwear Website"
 									label="Personal Project"
 									path="/alpha-website"
 								/>
-								</div> */}
-
+								</div>
 						</ul>
 
 					</Fade>
