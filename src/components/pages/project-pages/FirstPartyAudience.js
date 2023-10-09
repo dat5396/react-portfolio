@@ -124,11 +124,12 @@ function FirstPartyAudience() {
                 <p>We gathered some possitive feedback:</p>
                 <ul>
                     <li>The uploading flow was straightforward and consistent with other audience creation processes, making it intuitive for users.</li>
-                    <li>Most testers preferred the suggestion of audiences being integrated into the uploading step rather than placing it at the end, as it could be easily overlooked by users.</li>
                     <li>The updating flow received positive feedback, with testers finding the illustrations helpful in making appropriate choices.</li>
+                    <li>Most people preferred the suggestion of audiences being integrated into the uploading step rather than placing it at the end, as it could be easily overlooked by users.</li>
                 </ul>
-                <p>Additionally, there were some areas that required improvement. Testers mentioned hesitating to update the audience because they were unsure if it remained active during the update process. Consequently, I included a sentence in the design to clarify that the audience remains active and can be added to journeys while being updated.</p>
                 <img src='images/project images/FPA-D1.png'className='medium__image'></img>
+                <p>Additionally, there were some areas that required improvement. Testers mentioned hesitating to update the audience because they were unsure if it remained active during the update process. Consequently, I included a sentence in the design to clarify that the audience remains active and can be added to journeys while being updated.</p>
+                <img src='images/project images/FPA-D2.png'className='medium__image'></img>
             </div>
 
             <div>

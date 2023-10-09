@@ -23,7 +23,7 @@ function Cards() {
 									src="images/illumin-component-library.png"
 									text="illumin Component Library"
 									label="Professional Project"
-									path="/protected-illumin-component-library"
+									path="/protected-icl"
 								/>
 								</div>
 							
@@ -32,7 +32,7 @@ function Cards() {
 									src="images/FI_cover.jpg"
 									text="Facebook & Instagram Integration"
 									label="Professional Project"
-									path="/protected-facebook-instagram-integration"
+									path="/protected-fii"
 								/>
 								</div>
 						</ul>
@@ -43,7 +43,7 @@ function Cards() {
 									src="images/FPA.jpg"
 									text="First-Party Audience Onboarding"
 									label="Professional Project"
-									path="/protected-first-party-audience-onboarding"
+									path="/protected-fpao"
 								/>
 								</div>
 							
@@ -52,7 +52,7 @@ function Cards() {
 									src="images/OWFB_Cover.jpg"
 									text="Open Web To Facebook Connection"
 									label="Professional Project"
-									path="/protected-open-web-to-facebook-instagram-connection"
+									path="/protected-owtfic"
 								/>
 								</div>
 						</ul>

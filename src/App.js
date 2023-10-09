@@ -44,13 +44,13 @@ function App() {
 						<Route path='/illumin-component-library-part-B' element={<IlluminComponentPartB />} />
 						<Route path='/illumin-component-library-part-C' element={<IlluminComponentPartC />} />
 						<Route path='/illumin-component-library-part-D' element={<IlluminComponentPartD />} />
-						<Route path='/protected-illumin-component-library' element={<PasswordDS />} />
+						<Route path='/protected-icl' element={<PasswordDS />} />
 						<Route path='/facebook-instagram-integration' element={<FI />} />
-						<Route path='/protected-facebook-instagram-integration' element={<PasswordFI />} />
+						<Route path='/protected-fii' element={<PasswordFI />} />
 						<Route path='/first-party-audience-onboarding' element={<FirstPartyAudience />} />
-						<Route path='/protected-first-party-audience-onboarding' element={<PasswordFPA />} />
+						<Route path='/protected-fpao' element={<PasswordFPA />} />
 						<Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} />
-						<Route path='/protected-open-web-to-facebook-instagram-connection' element={<PasswordOWToFB />} />
+						<Route path='/protected-owtfic' element={<PasswordOWToFB />} />
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
 						<Route path='/pizzaville-website' element={<Pizzaville />} />

@@ -21,15 +21,14 @@ function PasswordOWToFB() {
   };
 
   if (authenticated) {
-    navigate('/first-party-audience-onboarding');
+    navigate('/open-web-to-facebook-instagram-connection');
   }
 
   return (
     <div className='form'>
-      <h3>This project is being updated.</h3>
-      <h3>Please come back later.</h3>
-      
-      {/* <form onSubmit={handleSubmit}>
+      <h3>Password is required to access this project.</h3>
+      <h3>It can be found in my resume.</h3>
+      <form onSubmit={handleSubmit}>
         <input
           type="password"
           value={password}
@@ -39,7 +38,7 @@ function PasswordOWToFB() {
         <button type="submit" className='btn btn--primary btn--medium'>
           Access
         </button>
-      </form> */}
+      </form>
     </div>
   );
 }
