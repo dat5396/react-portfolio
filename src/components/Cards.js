@@ -29,7 +29,7 @@ function Cards() {
 							
 								<div className='two__in__one'>
 								<CardItem
-									src="images/FI_cover.jpg"
+									src="images/FI_cover.png"
 									text="Facebook & Instagram Integration"
 									label="Professional Project"
 									path="/protected-fii"
