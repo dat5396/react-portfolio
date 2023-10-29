@@ -19,20 +19,20 @@ function Cards() {
 
 						<ul className='cards__items'>
 								<div className='two__in__one'>
-								<CardItem 
-									src="images/illumin-component-library.png"
-									text="illumin Component Library"
-									label="Professional Project"
-									path="/protected-icl"
-								/>
-								</div>
-							
-								<div className='two__in__one'>
 								<CardItem
 									src="images/FI_cover.png"
 									text="Facebook & Instagram Integration"
 									label="Professional Project"
-									path="/protected-fii"
+									path="/facebook-instagram-integration"
+								/>
+								</div>
+
+								<div className='two__in__one'>
+								<CardItem 
+									src="images/OWFB_Cover.jpg"
+									text="Open Web To Facebook Connection"
+									label="Professional Project"
+									path="/open-web-to-facebook-instagram-connection"
 								/>
 								</div>
 						</ul>
@@ -40,19 +40,20 @@ function Cards() {
 						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/FPA.jpg"
+									src="images/FPA.jpeg"
 									text="First-Party Audience Onboarding"
 									label="Professional Project"
-									path="/protected-fpao"
+									path="/first-party-audience-onboarding"
 								/>
 								</div>
 							
+								
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/OWFB_Cover.jpg"
-									text="Open Web To Facebook Connection"
+									src="images/illumin-component-library.png"
+									text="illumin Component Library"
 									label="Professional Project"
-									path="/protected-owtfic"
+									path="/protected-icl"
 								/>
 								</div>
 						</ul>
