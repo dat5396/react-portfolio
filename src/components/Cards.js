@@ -15,7 +15,7 @@ function Cards() {
 			<div className='cards__container'>
 				<div className='cards__wrapper'>
 					<Fade bottom>
-						<h2>UX/UI Design</h2>
+						<h2>Projects</h2>
 
 						<ul className='cards__items'>
 								<div className='two__in__one'>
@@ -99,7 +99,7 @@ function Cards() {
 						</ul>
 
 					</Fade>
-					<Fade bottom>
+					{/* <Fade bottom>
 						<h2>Graphic & Motion Design</h2>
 						<ul className='cards__items'>
 							
@@ -145,7 +145,7 @@ function Cards() {
 						
 						</ul>
 						
-					</Fade>
+					</Fade> */}
 				</div>
 			</div>
 		</div>
