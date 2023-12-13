@@ -31,11 +31,11 @@ function Navbar() {
 									Projects
 								</NavLink>
 							</li>
-							<li className='nav-item'>
+							{/* <li className='nav-item'>
 								<NavLink to='/contact' className='nav-links'>
 									Contact
 								</NavLink>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 					<div className='menu-icon' onClick={handleClick}>
@@ -57,11 +57,11 @@ function Navbar() {
 								Projects
 							</NavLink>
 						</li>
-						<li className='nav-item'>
+						{/* <li className='nav-item'>
 							<NavLink to='/contact' className='nav-links' onClick={closeMobileMenu}>
 								Contact
 							</NavLink>
-						</li>
+						</li> */}
 					</ul>
 				</div>
 			</nav>
