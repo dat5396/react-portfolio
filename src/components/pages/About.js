@@ -16,8 +16,10 @@ export default function About() {
 					<Fade bottom>
 						<h2>About me</h2>
 						<div className='panel'>
-							<h3>Dat Tran</h3>
-							<p className='bio'>I am a results-driven Product Designer with experience and a deep passion for designing user-centered digital products. Proven expertise in interaction design, visual design, and design research. Adept at distilling intricate user needs into intuitive and visually appealing interfaces that foster user engagement and drive business growth.</p>
+							<div className='bio'>
+								<h3>Dat Tran</h3>
+								<p>I am a results-driven Product Designer with experience and a deep passion for designing user-centered digital products. Proven expertise in interaction design, visual design, and design research. Adept at distilling intricate user needs into intuitive and visually appealing interfaces that foster user engagement and drive business growth.</p>
+							</div>
 							<div className='box-group'>
 								<div className='box'>
 									<img src='/images/mail.svg' alt=''/>
@@ -47,7 +49,7 @@ export default function About() {
 							<div className='skill__details'>
 								{/* <img src='/images/visual-icon.png' alt=''/> */}
 								<h3>Prototyping</h3>
-								<p>Transforming design concepts into engaging, interactive prototypes for streamlined user testing and effective design iteration.</p>
+								<p>Transforming design concepts into engaging, interactive prototypes for streamlined user testing and effective design iteration</p>
 								<img src='/images/prototyping.png' alt=''/>
 							</div>
 							<div className='skill__details'>

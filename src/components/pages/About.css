@@ -55,11 +55,12 @@
 
 .bio {
     /* font-style: italic; */
-    margin-bottom: 1.5rem;
+    padding: 0rem 0.75rem 1.5rem 0.75rem;
+    /* margin-bottom: 1.5rem; */
 }
 
 .skill__container {
-    width: 84vw;
+    width: 90vw;
 }
 
 .group__skill{
@@ -71,7 +72,7 @@
 }
 
 .skill__details {
-    width: 84vw;
+    width: 90vw;
     text-align: left;
     margin-bottom: 2rem;
     background-color: #1d1d1d;
@@ -86,7 +87,7 @@
 
 .panel {
     background-color: #1d1d1d;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 1rem;
     
 }
