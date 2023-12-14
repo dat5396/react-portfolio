@@ -1,11 +1,10 @@
 /* eslint-disable react/no-unknown-property */
 
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import CardItem from './Carditem';
 import './Cards.css';
 import { Fade } from "react-awesome-reveal";
-// import Tilt from 'react-parallax-tilt';
+import { Button } from './Button';
 
 function Cards() {
 	return (
@@ -97,55 +96,14 @@ function Cards() {
 								/>
 								</div>
 						</ul>
-
+						
+						<div className="project-contact">
+							<h3>Create value. Improve experience. Grow business.</h3>
+							<Button to='/about' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+							Contact Me
+							</Button>
+						</div>
 					</Fade>
-					{/* <Fade bottom>
-						<h2>Graphic & Motion Design</h2>
-						<ul className='cards__items'>
-							
-								<div className='two__in__one'>
-								<CardItem
-									src="images/Urgo-social.png"
-									text="Urgo Medical Social Posts"
-									label="Professional Project"
-									path="/urgo-social-posts"
-								/>
-								</div>
-							
-								<div className='two__in__one'>
-								<CardItem
-									src="images/UrgoStart.png"
-									text="UrgoStart Medical Catalog"
-									label="Professional Project"
-									path="/urgostart"
-								/>
-								</div>
-							
-						</ul>
-
-						<ul className='cards__items'>
-						
-								<div className='two__in__one'>
-								<CardItem
-									src="images/Alpha-guidelines.png"
-									text="Alpha Sportwear Brand Guidelines"
-									label="Personal Project"
-									path="/alpha-guidelines"
-								/>
-								</div>
-
-								<div className='two__in__one'>
-								<CardItem
-									src="images/alpha-bottle.png"
-									text="Alpha Bottle 3D Advertisement"
-									label="Personal Project"
-									path="/alpha-bottle"
-								/>
-								</div>
-						
-						</ul>
-						
-					</Fade> */}
 				</div>
 			</div>
 		</div>

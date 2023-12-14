@@ -13,7 +13,7 @@ body {
   align-items: center;
   max-width: 1120px;
   width: 84vw;
-  margin: 0px auto;
+  margin: 0px auto 5rem;
   color: #fff;
   /* background-color: #000; */
 }
@@ -22,6 +22,12 @@ body {
   text-align: center;
   padding: 2.5rem 0;
   font-size: 2.5rem;
+}
+
+.cards__container h3 {
+  text-align: center;
+  padding: 2rem 0 3rem 0;
+  font-size: 1.5rem;
 }
 
 .cards__wrapper {
@@ -71,7 +77,7 @@ body {
   font-size: 0.75rem;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #7369ff;
   box-sizing: border-box;
   border-radius: 0.375rem 0.375rem 0 0;
 }
@@ -106,6 +112,18 @@ body {
   line-height: 1.5rem;
 }
 
+.project-contact {
+  width: 100%;
+  text-align: center;
+  /* margin: 5rem 0 0; */
+  padding: 3rem;
+  background-color: #1d1d1d;
+  border-radius: 1rem;
+  background-image: url('/public/images/project-contact.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
 .hide {
   display: none;
 }
@@ -133,6 +151,11 @@ body {
     display: flex;
     flex: 1;
     margin: 0 1rem 1rem 1rem;
+  }
+
+  .project-contact {
+    margin: 0 1rem 0 1rem;
+    width: calc((100%) - 2rem);
   }
 }
 

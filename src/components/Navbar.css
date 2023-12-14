@@ -1,8 +1,6 @@
 /* Mobile styling */
 .navbar {
-  background: rgba(0, 0, 0, 0.66);
-  backdrop-filter: blur(30px);
-  /* background: #000; */
+  background: rgba(0, 0, 0, 1);
   height: 5rem;
   display: flex;
   justify-content: left;
@@ -94,10 +92,13 @@
 
 /* Desktop styling */
 @media only screen and (min-width: 650px) {
+    .navbar {
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(30px);
+    }
 
     .navbar-container {
       margin: 0 auto;
-      /* background: rgba(0, 0, 0, 0.6); */
     }
 
     .desktop-menu {
