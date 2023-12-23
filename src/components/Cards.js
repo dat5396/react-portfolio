@@ -98,7 +98,11 @@ function Cards() {
 						</ul>
 						
 						<div className="project-contact">
-							<h3>Create value. Improve experience. Grow business.</h3>
+							<div className="project-value">
+								<h3>Create value.</h3>
+								<h3>Improve experience.</h3>
+								<h3>Grow business.</h3>
+							</div>
 							<Button to='/about' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
 							Contact Me
 							</Button>
