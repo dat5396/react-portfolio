@@ -9,7 +9,7 @@ import { Fade } from "react-awesome-reveal";
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video playsInline webkit-playsinline autoPlay loop muted src="/videos/home-short.mp4"/>
+      <video playsInline webkit-playsinline autoPlay loop muted src="/videos/home-final.mp4"/>
       <Fade >
         <h1>{`Hi, I'm Dat Tran`}</h1>
         <p>Welcome to my portfolio</p>
