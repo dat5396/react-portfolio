@@ -19,7 +19,7 @@ function Cards() {
 						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem
-									src="images/FI_cover.png"
+									src="images/FI_cover.jpeg"
 									text="Facebook & Instagram Integration"
 									label="Professional Project"
 									path="/facebook-instagram-integration"
@@ -49,7 +49,7 @@ function Cards() {
 								
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/illumin-component-library.png"
+									src="images/illumin-component-library.jpeg"
 									text="illumin Component Library"
 									label="Professional Project"
 									path="/protected-icl"
