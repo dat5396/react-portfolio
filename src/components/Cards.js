@@ -77,22 +77,22 @@ function Cards() {
 								</div>
 						</ul>
 
-						<ul className='cards__items'>				
+						<ul className='cards__items'>	
+								<div className='two__in__one'>
+								<CardItem
+									src="images/cropty-cover.jpeg"
+									text="Cryptocurrency Exchange Dashboard"
+									label="Personal Project"
+									path="/cropty-cryptocurrency-exchange-dashboard"
+								/>
+								</div>			
+								
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pyra.png"
 									text="Pyra Crypto Exchange App"
 									label="Personal Project"
 									path="/pyra-crypto-exchange"
-								/>
-								</div>
-							
-								<div className='two__in__one'>
-								<CardItem
-									src="images/Alpha-website.png"
-									text="Alpha Sportwear Website"
-									label="Personal Project"
-									path="/alpha-website"
 								/>
 								</div>
 						</ul>

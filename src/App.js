@@ -27,6 +27,7 @@ import UrgoStart from './components/pages/project-pages/UrgoStart'
 import Contact from './components/pages/Contact';
 import Pyra from './components/pages/project-pages/Pyra';
 import UrgoSocial from './components/pages/project-pages/UrgoSocial';
+import Cropty from './components/pages/project-pages/Cropty';
 
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
 						<Route path='/alpha-guidelines' element={<AlphaGuidelines />} />
 						<Route path='/urgostart' element={<UrgoStart />} />
 						<Route path='/urgo-social-posts' element={<UrgoSocial />} />
+						<Route path='/cropty-cryptocurrency-exchange-dashboard' element={<Cropty />} />
 					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</Router>
