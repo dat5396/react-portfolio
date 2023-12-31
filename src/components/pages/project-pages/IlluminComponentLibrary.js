@@ -8,7 +8,7 @@ function IlluminComponentLibrary() {
 		<div className="project__container black__container menu__page" >
 
 				<div>
-					<img src='images/illumin-component-library.png' alt='test'></img>
+					<img src='images/project images/illumin-component-library.png' alt='test'></img>
 				</div>
 
 				<div >
