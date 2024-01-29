@@ -48,8 +48,8 @@ export default function About() {
 							</div>
 							<div className='skill__details'>
 								{/* <img src='/images/visual-icon.png' alt=''/> */}
-								<h3>Prototyping</h3>
-								<p>Transforming design concepts into engaging, interactive prototypes for streamlined user testing and effective design iteration</p>
+								<h3>Design Software</h3>
+								<p>Proficiency in Figma, Adobe XD, Illustrator, Photoshop, After Effects, creating impactful UX/UI designs for an enhanced user experience.</p>
 								<img src='/images/prototyping.png' alt=''/>
 							</div>
 							<div className='skill__details'>
