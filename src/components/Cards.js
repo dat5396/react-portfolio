@@ -60,8 +60,8 @@ function Cards() {
 						<ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/Xcape.png"
-									text="Xscape Renting Mobile App"
+									src="images/X-scape cover w.png"
+									text="Jet Ski & Sport Boat Rental App"
 									label="Personal Project"
 									path="/xscape-rentals"
 								/>
