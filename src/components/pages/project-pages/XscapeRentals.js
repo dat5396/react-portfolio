@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../../App.css';
-
+import './XscapeRentals.css';
 
 function XscapeRentals() {
 	return (
-		<div className="project__container" >
-			<div className="white__container">
+		<div className="project__container xscape_rentals" >
+			<div>
+				<img src='images/project images/NXR Portfolio_Cover.png' ></img>
 				<img src='images/project images/NXR Portfolio_01.png' ></img>
 				<img src='images/project images/NXR Portfolio_02.png' ></img>
 				<img src='images/project images/NXR Portfolio_03.png' ></img>
