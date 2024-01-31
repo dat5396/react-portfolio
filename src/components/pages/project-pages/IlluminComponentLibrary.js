@@ -5,7 +5,7 @@ import './IlluminComponentLibrary.css';
 
 function IlluminComponentLibrary() {
 	return (
-		<div className="project__container black__container menu__page" >
+		<div className="project__container white__container menu__page" >
 
 				<div>
 					<img src='images/project images/illumin-component-library.png' alt='test'></img>
@@ -14,11 +14,12 @@ function IlluminComponentLibrary() {
 				<div >
 					<h2>Project Overview</h2>
 					<h3>Objective</h3>
-					<p>Building a component library aims to ensure design consistency across projects by offering a standardized collection of UI elements and patterns. It accelerates design and development processes, fosters collaboration, and maintains a cohesive user experience. With reusable components, it streamlines efficiency, scales design efforts, and upholds brand identity.</p>
+					<p>Building a component library aims to ensure design consistency across projects by offering a standardized collection of UI elements.</p>
+					<p>It accelerates design and development processes, fosters collaboration, and maintains a cohesive user experience. With reusable components, it streamlines efficiency, scales design efforts, and upholds brand identity.</p>
 					<h3>Duration</h3>
 					<p>4 months</p>
 					<h3>My role</h3>
-					<p>UI Designer. The only designer in this project</p>
+					<p>UI Designer</p>
 				</div>
 
 				<div >

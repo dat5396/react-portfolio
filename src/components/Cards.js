@@ -52,7 +52,7 @@ function Cards() {
 									src="images/illumin-component-library.jpeg"
 									text="illumin Component Library"
 									label="Professional Project"
-									path="/protected-icl"
+									path="/illumin-component-library"
 								/>
 								</div>
 						</ul>
