@@ -8,7 +8,7 @@ function IlluminComponentLibrary() {
 		<div className="project__container white__container menu__page" >
 
 				<div>
-					<img src='images/project images/illumin-component-library.png' alt='test'></img>
+					<img src='images/project images/DS/illumin-component-library.png' alt='test'></img>
 				</div>
 
 				<div >
@@ -25,28 +25,28 @@ function IlluminComponentLibrary() {
 				<div >
 					<h2 path="/illumin-component-library-part-A"> Part A. General </h2>
 					<a href="/illumin-component-library-part-A">
-						<img src='images/project images/DS-Menu-PartA.png'></img>
+						<img src='images/project images/DS/DS-Menu-PartA.png'></img>
 					</a>
 				</div>
 				
 				<div className="menu" >
 					<h2> Part B. Data Input </h2>
 					<a href="/illumin-component-library-part-B">
-						<img src='images/project images/DS-Menu-PartB.png'></img>
+						<img src='images/project images/DS/DS-Menu-PartB.png'></img>
 					</a>
 				</div>
 
 				<div className="menu" >
 					<h2> Part C. Data Display </h2>
 					<a href="/illumin-component-library-part-C">
-						<img src='images/project images/DS-Menu-PartC.png'></img>
+						<img src='images/project images/DS/DS-Menu-PartC.png'></img>
 					</a>
 				</div>
 
 				<div className="menu" >
 					<h2> Part D. Feedback </h2>
 					<a href="/illumin-component-library-part-D">
-						<img src='images/project images/DS-Menu-PartD.png'></img>
+						<img src='images/project images/DS/DS-Menu-PartD.png'></img>
 					</a>
 				</div>
 		</div>

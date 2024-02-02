@@ -7,7 +7,7 @@ function FirstPartyAudience() {
 	return (
 		<div className="project__container black__container first__party__audience" >
             <div>
-                <img src='images/project images/FPA-A1.jpg' ></img>
+                <img src='images/project images/FPA/FPA-A1.jpg' ></img>
             </div>
 
             <div>
@@ -40,9 +40,9 @@ function FirstPartyAudience() {
                 <h3>How LiveRamp works</h3>
                 <p>In regard to first-party data, we did not store it directly within Illumin. Instead, we leveraged LiveRamp, a professional data storage and distribution service with a wide range of pre-existing features, including data storage, updates, and distribution to various destinations such as Facebook, TikTok, Google Ads, MailChimp, and more. Thus, I needed to conduct research to understand how LiveRamp operates.</p>
                 <p>After uploading data to LiveRamp, the user had to wait for LiveRamp to process their data. The processing time varied from a few minutes to a few days.</p>
-                <img src='images/project images/FPA-B1.png'className='small__image'></img>
+                <img src='images/project images/FPA/FPA-B1.png'className='small__image'></img>
                 <p>LiveRamp provided users with important information, including Date Transferred, Total Rows, and Unique Records. Notably, LiveRamp was planning to charge users based on their average RUMs.</p>
-                <img src='images/project images/FPA-B2.png'className='medium__image'></img>
+                <img src='images/project images/FPA/FPA-B2.png'className='medium__image'></img>
             </div>
 
             <div>
@@ -60,20 +60,20 @@ function FirstPartyAudience() {
                 <h3>3.1. Uploading and Post-Uploading flow</h3>
                 <h3>Uploading</h3>
                 <p>I started building this flow by creating a user flow.</p>
-                <img src='images/project images/FPA-C-Userflow1.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C-Userflow1.png'className='large__image'></img>
                 <p>Alongside uploading basic form fields such as Name and Upload Area, there was an additional requirement in this flow: recommending users to generate a suggested audience based on their data. This feature aimed to increase the company's revenue by providing third-party audiences for users. I devised two concepts on how to prompt users to generate audience suggestions:</p>
                 <ul>
                     <li>Recommend suggested audiences in the uploading step</li>
                     <li>Recommend suggested audiences after the uploading step</li>
                 </ul>
                 <h4>Concept 1: Recommend suggested audiences in the uploading step</h4>
-                <img src='images/project images/FPA-C-Userflow2.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C-Userflow2.png'className='large__image'></img>
                 <p>I placed the 'Suggest Audience' toggle at the bottom of the uploading page. (Screen No. 4 & 5)</p>
-                <img src='images/project images/FPA-C1.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C1.png'className='large__image'></img>
                 <h4>Concept 2: Recommend suggested audiences after the uploading step</h4>
-                <img src='images/project images/FPA-C-Userflow3.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C-Userflow3.png'className='large__image'></img>
                 <p>I placed the 'Suggest Audience' modal after the user completes the uploading step. (Screen No. 9)</p>
-                <img src='images/project images/FPA-C2.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C2.png'className='large__image'></img>
                 <p>I conducted rapid testing sessions to evaluate two concepts and determine which one offered a better user experience. The testing results will be presented in the subsequent sections.</p>
                 <p>There were several patterns available for the uploading flow, including modal, drawer, and separate page. I opted for navigating to another page because we had already employed this pattern in other audience creation flows. Consequently, reusing the page pattern helped maintain product consistency.</p>
                 
@@ -85,11 +85,11 @@ function FirstPartyAudience() {
                     <li>If LiveRamp rejected the file</li>
                 </ul>
                 <h4>Case 1: If the user chose to generate Suggested audiences</h4>
-                <img src='images/project images/FPA-C3.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C3.png'className='large__image'></img>
                 <h4>Case 2: If the user didn't choose to generate Suggested audiences</h4>
-                <img src='images/project images/FPA-C4.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C4.png'className='large__image'></img>
                 <h4>Case 3: If LiveRamp rejected the file</h4>
-                <img src='images/project images/FPA-C5.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C5.png'className='large__image'></img>
 
 
                 <h3>3.2 Managing flow</h3>
@@ -100,19 +100,19 @@ function FirstPartyAudience() {
                     <li>The audience is rejected by LiveRamp and the user can retry upload</li>
                 </ul>
                 <h4>Case 1: The audience is successfully uploaded and can be used like regular audiences</h4>
-                <img src='images/project images/FPA-C6.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C6.png'className='large__image'></img>
                 <h4>Case 2: The audience is being processed</h4>
-                <img src='images/project images/FPA-C7.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C7.png'className='large__image'></img>
                 <h4>Case 3: The audience is rejected by LiveRamp and the user can retry upload</h4>
-                <img src='images/project images/FPA-C8.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C8.png'className='large__image'></img>
 
                 <h3>3.3 Updating flow</h3>
                 <p>We decided to support two types of updates: incremental and full refresh. The challenge here was assisting users in selecting the correct option. In addition to providing explanatory text for each type, I designed two illustrations to aid users in making the right choice.</p>
-                <img src='images/project images/FPA-C9.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C9.png'className='large__image'></img>
                 
                 <h3>3.4 Deleting flow</h3>
                 <p>To delete a first-party audience, it must not be included in any published journeys. This prevents users from disrupting ongoing journeys. Therefore, when the user wanted to delete a first-party audience, the user needed to delete it in the ongoing journeys first. </p>
-                <img src='images/project images/FPA-C10.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-C10.png'className='large__image'></img>
             </div>
 
             <div>
@@ -127,9 +127,9 @@ function FirstPartyAudience() {
                     <li>The updating flow received positive feedback, with testers finding the illustrations helpful in making appropriate choices.</li>
                     <li>Most people preferred the suggestion of audiences being integrated into the uploading step rather than placing it at the end, as it could be easily overlooked by users.</li>
                 </ul>
-                <img src='images/project images/FPA-D1.png'className='medium__image'></img>
+                <img src='images/project images/FPA/FPA-D1.png'className='medium__image'></img>
                 <p>Additionally, there were some areas that required improvement. Testers mentioned hesitating to update the audience because they were unsure if it remained active during the update process. Consequently, I included a sentence in the design to clarify that the audience remains active and can be added to journeys while being updated.</p>
-                <img src='images/project images/FPA-D2.png'className='medium__image'></img>
+                <img src='images/project images/FPA/FPA-D2.png'className='medium__image'></img>
             </div>
 
             <div>
@@ -138,29 +138,29 @@ function FirstPartyAudience() {
                 </div>
                 <h3>5.1 Uploading and Post-Uploading flow</h3>
                 <h3>Uploading</h3>
-                <img src='images/project images/FPA-E1.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E1.png'className='large__image'></img>
 
                 <h3>Post-Uploading</h3>
                 <h4>Case 1: If the user chose to generate Suggested audiences</h4>
-                <img src='images/project images/FPA-E2.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E2.png'className='large__image'></img>
                 <h4>Case 2: If the user didn't choose to generate Suggested audiences</h4>
-                <img src='images/project images/FPA-E3.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E3.png'className='large__image'></img>
                 <h4>Case 3: If LiveRamp rejected the file</h4>
-                <img src='images/project images/FPA-E4.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E4.png'className='large__image'></img>
 
                 <h3>5.2 Managing flow</h3>
                 <h4>Case 1: The audience is successfully uploaded and can be used like regular audiences</h4>
-                <img src='images/project images/FPA-E5.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E5.png'className='large__image'></img>
                 <h4>Case 2: The audience is being processed</h4>
-                <img src='images/project images/FPA-E6.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E6.png'className='large__image'></img>
                 <h4>Case 3: The audience is rejected by LiveRamp and the user can retry upload</h4>
-                <img src='images/project images/FPA-E7.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E7.png'className='large__image'></img>
 
                 <h3>5.3 Updating flow</h3>
-                <img src='images/project images/FPA-E8.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E8.png'className='large__image'></img>
 
                 <h3>5.4 Deleting flow</h3>
-                <img src='images/project images/FPA-E9.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-E9.png'className='large__image'></img>
 
             </div>
 
