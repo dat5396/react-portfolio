@@ -80,21 +80,21 @@ function Cards() {
 						<ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem
-									src="images/cropty-cover.jpeg"
-									text="Cryptocurrency Exchange Dashboard"
-									label="Personal Project"
-									path="/cropty-cryptocurrency-exchange-dashboard"
-								/>
-								</div>			
-								
-								<div className='two__in__one'>
-								<CardItem
-									src="images/Pyra.png"
+									src="images/Pyra cover.png"
 									text="Pyra Crypto Exchange App"
 									label="Personal Project"
 									path="/pyra-crypto-exchange"
 								/>
 								</div>
+
+								<div className='two__in__one'>
+								<CardItem
+									src="images/cropty-cover.jpeg"
+									text="Cryptocurrency Exchange Dashboard"
+									label="Personal Project"
+									path="/cropty-cryptocurrency-exchange-dashboard"
+								/>
+								</div>		
 						</ul>
 						
 						<div className="project-contact">
