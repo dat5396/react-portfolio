@@ -13,6 +13,7 @@ function Cropty() {
                 <img src='images/project images/Cropty/cropty-5.jpg' ></img>
                 <img src='images/project images/Cropty/cropty-6.jpg' ></img>
                 <img src='images/project images/Cropty/cropty-7.jpg' ></img>
+				<img src='images/project images/Cropty/cropty-8.jpg' ></img>
 			</div>
 		</div>
 	)
