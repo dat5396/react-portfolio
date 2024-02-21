@@ -28,31 +28,31 @@ function Cards() {
 
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/OWFB_Cover.jpg"
-									text="Open Web To Facebook Connection"
-									label="Professional Project"
-									path="/open-web-to-facebook-instagram-connection"
-								/>
-								</div>
-						</ul>
-
-						<ul className='cards__items'>
-								<div className='two__in__one'>
-								<CardItem 
 									src="images/FPA.jpeg"
 									text="First-Party Audience Onboarding"
 									label="Professional Project"
 									path="/first-party-audience-onboarding"
 								/>
 								</div>
-							
 								
+						</ul>
+
+						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/illumin-component-library.jpeg"
 									text="illumin Component Library"
 									label="Professional Project"
 									path="/illumin-component-library"
+								/>
+								</div>
+
+								<div className='two__in__one'>
+								<CardItem 
+									src="images/OWFB_Cover.jpg"
+									text="Open Web To Facebook Connection"
+									label="Professional Project"
+									path="/open-web-to-facebook-instagram-connection"
 								/>
 								</div>
 						</ul>
