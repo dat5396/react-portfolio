@@ -49,10 +49,10 @@ function Cards() {
 
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/OWFB_Cover.jpg"
-									text="Open Web To Facebook Connection"
+									src="images/POI.jpg"
+									text="Point of Interest Targeting"
 									label="Professional Project"
-									path="/open-web-to-facebook-instagram-connection"
+									path="/protected-POI"
 								/>
 								</div>
 						</ul>
