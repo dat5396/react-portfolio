@@ -18,6 +18,7 @@ import FirstPartyAudience from './components/pages/project-pages/FirstPartyAudie
 import PasswordFPA from './components/pages/project-pages/PasswordFPA';
 import OWToFB from './components/pages/project-pages/OWToFB';
 import PasswordPOI from './components/pages/project-pages/PasswordPOI';
+import GeoPOITargeting from './components/pages/project-pages/GeoPOITargeting';
 import XscapeRentals from './components/pages/project-pages/XscapeRentals';
 import AlphaWebsite from './components/pages/project-pages/AlphaWebsite';
 import Pizzaville from './components/pages/project-pages/Pizzaville'
@@ -52,6 +53,7 @@ function App() {
 						<Route path='/protected-fpao' element={<PasswordFPA />} />
 						<Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} />
 						<Route path='/protected-POI' element={<PasswordPOI />} />
+						<Route path='/geo-poi-targeting' element={<GeoPOITargeting />} />
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
 						<Route path='/pizzaville-website' element={<Pizzaville />} />

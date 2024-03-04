@@ -21,7 +21,7 @@ function PasswordPOI() {
   };
 
   if (authenticated) {
-    navigate('/open-web-to-facebook-instagram-connection');
+    navigate('/geo-poi-targeting');
   }
 
   return (

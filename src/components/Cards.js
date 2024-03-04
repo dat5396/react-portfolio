@@ -40,6 +40,15 @@ function Cards() {
 						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem 
+									src="images/POI.jpg"
+									text="Point of Interest Targeting"
+									label="Professional Project"
+									path="/geo-poi-targeting"
+								/>
+								</div>
+
+								<div className='two__in__one'>
+								<CardItem 
 									src="images/illumin-component-library.jpeg"
 									text="illumin Component Library"
 									label="Professional Project"
@@ -47,14 +56,6 @@ function Cards() {
 								/>
 								</div>
 
-								<div className='two__in__one'>
-								<CardItem 
-									src="images/POI.jpg"
-									text="Point of Interest Targeting"
-									label="Professional Project"
-									path="/protected-POI"
-								/>
-								</div>
 						</ul>
 						
 						<ul className='cards__items'>	
