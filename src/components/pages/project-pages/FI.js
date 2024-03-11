@@ -68,7 +68,7 @@ function FI() {
                 <h3>Project duration</h3>
                 <img src='images/project images/FI/FI-0.png'className='medium__image__noshadow'></img>
                 <p>My role was Product Designer. What I show in this portfolio was my contribution to the project.</p>
-                <h3>Table of content</h3>
+                {/* <h3>Table of content</h3>
                 <ol>
                     <li>Project Overview</li>
                     <li>Research & Analysis</li>
@@ -76,7 +76,7 @@ function FI() {
                     <li>User Testing & Iteration</li>
                     <li>Final Design</li>
                     <li>Outcome & Impact</li>
-                </ol>
+                </ol> */}
             </div>
             
             <div id="section2">

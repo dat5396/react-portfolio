@@ -67,14 +67,14 @@ function GeoPOITargeting() {
                 <h3>Project duration</h3>
                 <p>The design phase for this project lasted for 2-3 weeks.</p>
                 <p>My role was Product Designer. What I show in this portfolio was my contribution to the project.</p>
-                <h3>Table of content</h3>
+                {/* <h3>Table of content</h3>
                 <ol>
                     <li>Project Overview</li>
                     <li>Requirement Analysis</li>
                     <li>Ideation & Concept Development</li>
                     <li>Final Design</li>
                     <li>Outcome & Impact</li>
-                </ol>
+                </ol> */}
             </div>
 
             <div id='section2'>
