@@ -53,9 +53,6 @@ function GeoPOITargeting() {
             <div>
                 <img src='images/project images/POI/POI-0.png'></img>
             </div>
-            <div>
-                <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
-            </div>
             <div id='section1'>
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
@@ -139,7 +136,9 @@ function GeoPOITargeting() {
                 <p>This feature enhanced the user experience on the platform. With point of interest targeting, users could granularly target individuals at specific geographic locations by allowing or blocking any points of interest or category. Additionally, thanks to the visualization on the map, geographic targeting became intuitive and was no longer abstract.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
-
+            <div>
+                <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
+            </div>
 		</div>
 	)
 }

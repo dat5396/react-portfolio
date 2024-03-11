@@ -54,9 +54,9 @@ function FI() {
 			<div>
                 <img src='images/project images/FI/FI-hero.jpg' ></img>
             </div>
-            <div>
+            {/* <div>
                 <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
-            </div>
+            </div> */}
             <div id="section1">
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
@@ -219,6 +219,9 @@ function FI() {
                 <p className='space'>A</p>
                 <p>The project marked a milestone in the history of illumin, as it enabled users to create and manage their first-ever social media ads on Facebook and Instagram through the platform. This feature unlocked over $1 million in potential revenue within the first year. Being the initial version of Facebook and Instagram integration, our primary focus was on implementing core features. Additional functionalities aimed at optimizing ads would be introduced in subsequent phases.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
+            </div>
+            <div>
+                <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
             </div>
 		</div>
 	)
