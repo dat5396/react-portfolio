@@ -1,16 +1,63 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../../App.css';
 import './FI.css';
+import Sidebar from '../../Sidebar';
 
 
 function FI() {
+    const [activeSection, setActiveSection] = useState(null);
+
+  const sections = [
+    { id: 'section1', title: '1. Project Overview' },
+    { id: 'section2', title: '2. Research & Analysis' },
+    { id: 'section3', title: '3. Ideation & Concept Development' },
+    { id: 'section4', title: '4. User Testing & Iteration' },
+    { id: 'section5', title: '5. Final Design' },
+    { id: 'section6', title: '6. Outcome & Impact' },
+  ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 100; // Add a buffer for better UX
+      let foundSection = null;
+
+      sections.forEach(section => {
+        const element = document.getElementById(section.id);
+        if (element) {
+          const top = element.offsetTop;
+          const height = element.offsetHeight;
+          if (scrollPosition >= top && scrollPosition < top + height) {
+            foundSection = section.id;
+          }
+        }
+      });
+
+      setActiveSection(foundSection);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Call handleScroll initially to set the active section
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [sections]);
+
+  const handleLinkClick = (event, sectionId) => {
+    event.preventDefault();
+    setActiveSection(sectionId);
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView();
+    }
+  };
+
 	return (
 		<div className="project__container white__container FI" >
 			<div>
                 <img src='images/project images/FI/FI-hero.jpg' ></img>
             </div>
-            
             <div>
+                <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
+            </div>
+            <div id="section1">
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
@@ -32,7 +79,7 @@ function FI() {
                 </ol>
             </div>
             
-            <div>
+            <div id="section2">
                 <div className='section__name'>
                     <h2>2. RESEARCH & ANALYSIS</h2>
                 </div>
@@ -53,7 +100,7 @@ function FI() {
                 <p>Based on this analysis, I believed that implementing a 3-section layout in the right drawer, where users input information for Facebook and Instagram ads, would pave the way for future reusability across other channels.</p>
             </div>
 
-            <div>
+            <div id="section3">
                 <div className='section__name'>
                     <h2>3. IDEATION & CONCEPT DEVELOPMENT</h2>
                 </div>
@@ -129,7 +176,7 @@ function FI() {
                 <img src='images/project images/FI/FI-B19.png' className='medium__image'></img>
             </div>
             
-            <div>
+            <div id="section4">
                 <div className='section__name'>
                     <h2>4. USER TESTING & ITERATION</h2>
                 </div>
@@ -149,7 +196,7 @@ function FI() {
                 <img src='images/project images/FI/FI-C3.png' className='medium__image'></img>
             </div>
             
-            <div>
+            <div id="section5">
                 <div className='section__name'>
                     <h2>5. FINAL DESIGN</h2>
                 </div>
@@ -165,13 +212,13 @@ function FI() {
                 <img src='images/project images/FI/FI-D4.png' className='large__image'></img>
             </div>
             
-            <div>
+            <div id="section6">
                 <div className='section__name'>
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
                 <p>The project marked a milestone in the history of illumin, as it enabled users to create and manage their first-ever social media ads on Facebook and Instagram through the platform. Being the initial version of Facebook and Instagram integration, our primary focus was on implementing core features. Additional functionalities aimed at optimizing ads would be introduced in subsequent phases.</p>
-            
+                <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
 		</div>
 	)
