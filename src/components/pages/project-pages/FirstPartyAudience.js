@@ -55,9 +55,7 @@ function FirstPartyAudience() {
             <div>
                 <img src='images/project images/FPA/FPA-A1.jpg' ></img>
             </div>
-            <div>
-                <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
-            </div>
+            
             <div id="section1">
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
@@ -229,7 +227,9 @@ function FirstPartyAudience() {
                 <p>As a result of this project, we successfully implemented a feature that not only empowers users to independently upload and utilize first-party data but also streamlines operations, reducing the manual workload for the client success team. This enhancement notably enhances user autonomy and platform efficiency. Within just 2 months of its launch, over 1,200,000 first-party data entries were uploaded, showcasing its rapid adoption and impact.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
-
+            <div>
+                <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
+            </div>
 		</div>
 	)
 }
