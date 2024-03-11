@@ -7,7 +7,7 @@ function Sidebar({ activeSection, sections, handleLinkClick }) {
       <p> In this project </p>
       <ul>
         {sections.map((section, index) => (
-          <li key={index} className={activeSection === section.id ? 'active' : ''}>
+          <li key={index} className={ activeSection === section.id ? 'active' : ''}>
             <a href={`#${section.id}`} onClick={(e) => handleLinkClick(e, section.id)}>{section.title}</a>
           </li>
         ))}

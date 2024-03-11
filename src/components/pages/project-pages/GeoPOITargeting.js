@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../../App.css';
-import './OWToFB.css';
+import './GeoPOITargeting.css';
 import Sidebar from '../../Sidebar';
 
 function GeoPOITargeting() {

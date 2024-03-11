@@ -2,7 +2,7 @@
     visibility: hidden;
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1079px) {
 .sidebar {
     visibility: visible;
     position: fixed;
@@ -17,13 +17,13 @@
   }
   
   .sidebar p {
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 0rem !important; 
     font-size: 1rem;
   }
 
   .sidebar ul {
     list-style: none;
-    padding: 0;
+    padding: 0 !important;
   }
   
   .sidebar li {

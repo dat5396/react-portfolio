@@ -1,9 +1,7 @@
-// import React from 'react';
 import React, { useState, useEffect } from 'react';
 import '../../../App.css';
 import './FirstPartyAudience.css';
 import Sidebar from '../../Sidebar';
-import ScrollHighlightNabbar from '../../Sidebar';
 
 
 function FirstPartyAudience() {
