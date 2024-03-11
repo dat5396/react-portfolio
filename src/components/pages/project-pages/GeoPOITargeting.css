@@ -1,42 +1,42 @@
-.first__party__audience h2 {
+.poi__targeting h2 {
     font-size: 2rem;
     text-align: left;
     padding: 2rem 0rem 0rem;
 }
 
-.first__party__audience h3 {
+.poi__targeting h3 {
     font-size: 1.5rem;
     text-align: left;
     padding: 2rem 1rem 0rem;
 }
 
-.first__party__audience h4 {
+.poi__targeting h4 {
     font-size: 1rem;
     text-align: left;
     font-weight: bold;
     padding: 2rem 1rem 0rem;
 }
 
-.first__party__audience p {
+.poi__targeting p {
     font-size: 1rem;
     padding: 0.5rem 1rem 0rem;
 }
 
-.first__party__audience ol {
+.poi__targeting ol {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.first__party__audience ul {
+.poi__targeting ul {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.first__party__audience li {
+.poi__targeting li {
     padding: 0rem 0rem 0.5rem;
 }
 
-.first__party__audience {
+.poi__targeting {
     text-align: left;
     color: #000000;
     background-color: #fbfbfd;
@@ -97,31 +97,31 @@
         padding: 0 10vw 20vh 10vw;
     }
 
-    .first__party__audience h2 {
+    .poi__targeting h2 {
         padding: 2rem 0rem 0rem;
     }
     
-    .first__party__audience h3 {
+    .poi__targeting h3 {
         padding: 2rem 12.5rem 0rem;
     }
     
-    .first__party__audience h4 {
+    .poi__targeting h4 {
         padding: 2rem 12.5rem 0rem;
     }
     
-    .first__party__audience p {
+    .poi__targeting p {
         padding: 0.5rem 12.5rem 0rem;
     }
     
-    .first__party__audience ol {
+    .poi__targeting ol {
         padding: 0.5rem 13.5rem 0rem;
     }
     
-    .first__party__audience ul {
+    .poi__targeting ul {
         padding: 0.5rem 13.5rem 0rem;
     }
 
-    .first__party__audience li {
+    .poi__targeting li {
         padding: 0rem 0rem 0.5rem;
     }
 
@@ -160,8 +160,13 @@
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
 
+    .logo {
+        margin: 9rem auto 12rem;
+        height: 80px;
+    }
+
     .section__name {
-        margin: 0rem 12.5rem 0rem 12.5rem;
+        margin: 5rem 12.5rem 0rem 12.5rem;
     }
 
 }

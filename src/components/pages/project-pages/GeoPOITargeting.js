@@ -49,7 +49,7 @@ function GeoPOITargeting() {
   };
 
 	return (
-		<div className="project__container black__container first__party__audience" >
+		<div className="project__container black__container poi__targeting" >
             <div>
                 <img src='images/project images/POI/POI-0.png'></img>
             </div>

@@ -1,42 +1,42 @@
-.first__party__audience h2 {
+.ow__to__fb h2 {
     font-size: 2rem;
     text-align: left;
     padding: 2rem 0rem 0rem;
 }
 
-.first__party__audience h3 {
+.ow__to__fb h3 {
     font-size: 1.5rem;
     text-align: left;
     padding: 2rem 1rem 0rem;
 }
 
-.first__party__audience h4 {
+.ow__to__fb h4 {
     font-size: 1rem;
     text-align: left;
     font-weight: bold;
     padding: 2rem 1rem 0rem;
 }
 
-.first__party__audience p {
+.ow__to__fb p {
     font-size: 1rem;
     padding: 0.5rem 1rem 0rem;
 }
 
-.first__party__audience ol {
+.ow__to__fb ol {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.first__party__audience ul {
+.ow__to__fb ul {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.first__party__audience li {
+.ow__to__fb li {
     padding: 0rem 0rem 0.5rem;
 }
 
-.first__party__audience {
+.ow__to__fb {
     text-align: left;
     color: #000000;
     background-color: #fbfbfd;
@@ -97,31 +97,31 @@
         padding: 0 10vw 20vh 10vw;
     }
 
-    .first__party__audience h2 {
+    .ow__to__fb h2 {
         padding: 2rem 0rem 0rem;
     }
     
-    .first__party__audience h3 {
+    .ow__to__fb h3 {
         padding: 2rem 12.5rem 0rem;
     }
     
-    .first__party__audience h4 {
+    .ow__to__fb h4 {
         padding: 2rem 12.5rem 0rem;
     }
     
-    .first__party__audience p {
+    .ow__to__fb p {
         padding: 0.5rem 12.5rem 0rem;
     }
     
-    .first__party__audience ol {
+    .ow__to__fb ol {
         padding: 0.5rem 13.5rem 0rem;
     }
     
-    .first__party__audience ul {
+    .ow__to__fb ul {
         padding: 0.5rem 13.5rem 0rem;
     }
 
-    .first__party__audience li {
+    .ow__to__fb li {
         padding: 0rem 0rem 0.5rem;
     }
 
@@ -161,7 +161,7 @@
     }
 
     .section__name {
-        margin: 0rem 12.5rem 0rem 12.5rem;
+        margin: 5rem 12.5rem 0rem 12.5rem;
     }
 
 }

@@ -5,7 +5,7 @@ import './OWToFB.css';
 
 function OWToFB() {
 	return (
-		<div className="project__container black__container first__party__audience" >
+		<div className="project__container black__container ow__to__fb" >
             <div>
                 <img src='images/project images/OWFB/OWFB-A1.png' ></img>
             </div>
