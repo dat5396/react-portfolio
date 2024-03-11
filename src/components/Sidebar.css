@@ -1,0 +1,58 @@
+.sidebar {
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 1080px) {
+.sidebar {
+    visibility: visible;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    z-index: 1;
+    width: 15vw; /* Adjust width as needed */
+    /* height: 100vh; */
+    /* background-color: #f2f2f2;  */
+    padding: 1rem;
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+  }
+  
+  .sidebar p {
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
+  }
+
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 0.25rem 0rem;
+    border-left: 2px solid rgb(196, 196, 196);
+  }
+
+  .sidebar li:hover {
+    border-left: 2px solid rgb(150, 150, 150);
+  }
+
+  .sidebar li.active {
+    border-left: 2px solid rgb(0, 0, 0);
+  }
+  
+  .sidebar li a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: rgb(150, 150, 150); /* Link color */
+    display: block;
+    padding: 0 0 0 0.5rem;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .sidebar li a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .sidebar li.active a {
+    color: rgb(0, 0, 0);
+  }
+}

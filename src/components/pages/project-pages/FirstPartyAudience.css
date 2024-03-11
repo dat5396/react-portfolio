@@ -154,15 +154,23 @@
     }
     
     .large__image {
-        width: 100%;
+        width: 70vw;
         margin: 2rem auto;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
+    .logo {
+        margin: 9rem auto;
+        height: 80px;
+    }
 
     .section__name {
-        margin: 0rem 12.5rem 0rem 12.5rem;
+        margin: 5rem 12.5rem 0rem 12.5rem;
     }
+
+    /* #section6{
+        padding: 0 0 20rem 0;
+    } */
 
 }
   

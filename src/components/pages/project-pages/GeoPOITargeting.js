@@ -1,16 +1,62 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../../App.css';
 import './OWToFB.css';
-
+import Sidebar from '../../Sidebar';
 
 function GeoPOITargeting() {
+
+    const [activeSection, setActiveSection] = useState(null);
+
+  const sections = [
+    { id: 'section1', title: '1. Project Overview' },
+    { id: 'section2', title: '2. Requirement Analysis' },
+    { id: 'section3', title: '3. Ideation & Concept Development' },
+    { id: 'section4', title: '4. Final Design' },
+    { id: 'section5', title: '5. Outcome & Impact' },
+  ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 100; // Add a buffer for better UX
+      let foundSection = null;
+
+      sections.forEach(section => {
+        const element = document.getElementById(section.id);
+        if (element) {
+          const top = element.offsetTop;
+          const height = element.offsetHeight;
+          if (scrollPosition >= top && scrollPosition < top + height) {
+            foundSection = section.id;
+          }
+        }
+      });
+
+      setActiveSection(foundSection);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Call handleScroll initially to set the active section
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [sections]);
+
+  const handleLinkClick = (event, sectionId) => {
+    event.preventDefault();
+    setActiveSection(sectionId);
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView();
+    }
+  };
+
 	return (
 		<div className="project__container black__container first__party__audience" >
             <div>
                 <img src='images/project images/POI/POI-0.png'></img>
             </div>
-
             <div>
+                <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
+            </div>
+            <div id='section1'>
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
@@ -25,12 +71,13 @@ function GeoPOITargeting() {
                 <ol>
                     <li>Project Overview</li>
                     <li>Requirement Analysis</li>
-                    <li>Design Phase</li>
+                    <li>Ideation & Concept Development</li>
+                    <li>Final Design</li>
                     <li>Outcome & Impact</li>
                 </ol>
             </div>
 
-            <div>
+            <div id='section2'>
                 <div className='section__name'>
                     <h2>2. REQUIREMENT ANALYSIS</h2>
                 </div>
@@ -41,9 +88,9 @@ function GeoPOITargeting() {
                 <p>Furthermore, prior to targeting any points of interest, users must designate at least one allowed location. These allowed locations could not be specified by latitude and longitude coordinates.</p>
             </div>
 
-            <div>
+            <div id='section3'>
                 <div className='section__name'>
-                    <h2>3. IDEATION & CONCEPT DEVELOPMENT</h2>
+                    <h2>3. IDEATION & DESIGN</h2>
                 </div>
                 <p className='space'>A</p>
                 <p>After analyzing the product requirements, I started this phase by building the user flows.</p>
@@ -67,7 +114,7 @@ function GeoPOITargeting() {
                 <img src='images/project images/POI/POI-C7.png' className='medium__image'></img>
             </div>
 
-            <div>
+            <div id='section4'>
                 <div className='section__name'>
                     <h2>4. FINAL DESIGN</h2>
                 </div>
@@ -84,12 +131,13 @@ function GeoPOITargeting() {
                 <img src='images/project images/POI/POI-D4.png' className='medium__image'></img>
             </div>
 
-            <div>
+            <div id='section5'>
                 <div className='section__name'>
-                    <h2>4. OUTCOME & IMPACT</h2>
+                    <h2>5. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
                 <p>This feature enhanced the user experience on the platform. With point of interest targeting, users could granularly target individuals at specific geographic locations by allowing or blocking any points of interest or category. Additionally, thanks to the visualization on the map, geographic targeting became intuitive and was no longer abstract.</p>
+                <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
 
 		</div>
