@@ -43,6 +43,13 @@
 /* .detail__page img {
     padding-top: 80px;
 } */
+.detail__page ul {
+    text-align: left;
+}
+
+.detail__page p {
+    text-align: left;
+}
 
 .menu__image {
     width: 100%;
