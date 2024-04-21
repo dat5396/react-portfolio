@@ -28,12 +28,11 @@ export default function About() {
 								<div className='box'>
 									<img src='/images/linkedin.svg' alt=''/>
 									<a href="https://www.linkedin.com/in/dattran6868/" target="_blank" rel="noreferrer"><p>Linkedin</p></a>
-									
 								</div>
-								{/* <div className='box'>
+								<div className='box'>
 									<img src='/images/behance.svg' alt=''/>
 									<a href="https://www.behance.net/dattientran" target="_blank" rel="noreferrer"><p>Behance</p></a>
-								</div> */}
+								</div>
 							</div>
 						</div>
 					</Fade>
@@ -41,21 +40,21 @@ export default function About() {
 						<h2>My skills</h2>
 						<div className='group__skill'>	
 							<div className='skill__details'>
-								<h3>UX UI Design</h3>
-								<p>Crafting user-centric designs with expertise in UX analysis, information architecture, user flows, design systems and wireframing</p>
+								<h3>User Experience & Interface Design</h3>
+								<p>Crafting user-centric designs with expertise in UX analysis, information architecture, user flows, design systems, wireframing and prototyping</p>
 								<img src='/images/ux-ui-design.png' alt=''/>
 
 							</div>
 							<div className='skill__details'>
 								{/* <img src='/images/visual-icon.png' alt=''/> */}
-								<h3>Design Software</h3>
-								<p>Proficiency in Figma, Adobe XD, Illustrator, Photoshop, After Effects, creating impactful UX/UI designs for an enhanced user experience.</p>
+								<h3>Strategic Problem Solving</h3>
+								<p>Strategic thinking about the product’s direction involves balancing long-term vision with immediate needs to implement appropriate solutions.</p>
 								<img src='/images/prototyping.png' alt=''/>
 							</div>
 							<div className='skill__details'>
 								{/* <img src='/images/frontend-icon.png' alt=''/> */}
-								<h3>Media Design</h3>
-								<p>Expertise in using layouts, colors, typographies, symbols, images to communicate ideas in graphics, animations and videos</p>
+								<h3>Collaboration & Communication</h3>
+								<p>Effective collaboration and communication with cross-functional teams to align decisions with user needs and business objectives.</p>
 								<img src='/images/media-design.png' alt=''/>
 							</div>
 						</div>	

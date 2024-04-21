@@ -139,7 +139,7 @@
 
         .box {
             /* flex-grow: 1; */
-            width: 49%;
+            width: 100%;
             /* flex-wrap: wrap;     */
         }
 
@@ -166,7 +166,7 @@
             }
 
             .box {
-                width: 49%;
+                width: 32%;
             }
 
             .skill__details {
