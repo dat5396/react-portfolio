@@ -61,7 +61,7 @@ function Cards() {
 						<ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/X-scape cover w.png"
+									src="images/X-scape cover.jpeg"
 									text="Jet Ski & Sport Boat Rental App"
 									label="Personal Project"
 									path="/xscape-rentals"
@@ -70,8 +70,8 @@ function Cards() {
 
 								<div className='two__in__one'>
 								<CardItem
-									src="images/Pizzaville-website.png"
-									text="Pizzaville Website Redesign"
+									src="images/Pizzaville-website.jpeg"
+									text="Pizzaville Website Design"
 									label="Personal Project"
 									path="/pizzaville-website"
 								/>
