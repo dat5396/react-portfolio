@@ -34,6 +34,7 @@ function Pizzaville() {
 				<img src='images/project images/Pizzaville/Pizzaville-26.png' ></img>
 				<img src='images/project images/Pizzaville/Pizzaville-27.png' ></img>
 				<img src='images/project images/Pizzaville/Pizzaville-28.png' ></img>
+				<img src='images/project images/Pizzaville/Pizzaville-29.png' ></img>
 				<a href='https://xd.adobe.com/view/7364a865-ee46-42ca-a761-d939bede6939-2637/' target='_blank' rel="noreferrer"><p className='prototype__link'>Experience Prototype Here</p></a>
 			</div>
 		</div>
