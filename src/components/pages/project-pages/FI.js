@@ -109,19 +109,27 @@ function FI() {
                 <p>I initiated this phase by crafting the primary user flow, centered around the creation and execution of Facebook and Instagram ads within the journey canvas. The flow within the canvas was pivotal, as it enabled users to vividly conceptualize their advertising journey, which stood as the cornerstone feature of illumin.</p>
                 <img src='images/project images/FI/FI-B1.png' className='large__image'></img>
                 <p>Guided by the user flow, I identified specific areas that required ideation:</p>
+                <div className='list'>
                 <ul>
                     <li>The authorization process</li>
                     <li>The canvas element of Meta</li>
                     <li>The right drawer facilitating users to view and edit Facebook & Instagram ads</li>
                 </ul>
+                </div>
                 
                 <h3>Authorization process</h3>
+                <h4>Authorization process from Licensee Settings</h4>
                 <p>In order to create and manage Facebook & Instagram ads, users were required to undergo an authorization process to establish a connection between illumin and Facebook. Beginning with a basic concept, I thought that users should initiate the authorization process within the Licensee settings page.</p>
                 <img src='images/project images/FI/FI-B2.png' className='large__image'></img>
+                <h4>Authorization process from Canvas</h4>
                 <p>To provide users with greater flexibility, I extended the functionality to allow them to initiate the authorization process from multiple points, such as the journey canvas and settings.</p>
-                <img src='images/project images/FI/FI-B3.png' className='large__image'></img>
                 <p>Moreover, enabling users to perform the authorization process directly within the Journey canvas and Journey settings—frequently accessed areas—served the dual purpose of increasing awareness regarding the availability of Facebook & Instagram integration without necessitating explicit communication from our company.</p>
-                
+                <h4>Direction 1: Disable the toolbox element until authorization is completed</h4>
+                <img src='images/project images/FI/FI-B3.png' className='large__image'></img>
+                <h4>Direction 2: Keep the toolbox element enabled at all times</h4>
+                <img src='images/project images/FI/FI-B32.png' className='large__image'></img>
+                <p>After creating 2 directions for the authorization step in Canvas, I decided to test them with users to gather feedback. The results of the testing session are mentioned in the User Testing and Iteration phase.</p>
+
                 <h3>Canvas element</h3>
                 <p>As illumin provides users with a canvas to visualize their journey advertising, the canvas element for Facebook & Instagram holds significant importance.</p>
                 <p>I began by establishing the ad hierarchy, which served as the foundation for further exploration. I explored various directions to ascertain the optimal and most fitting solution.</p>
@@ -159,11 +167,13 @@ function FI() {
                 <p>After opting for direction 5, I proceeded to craft a high-fidelity design for the user flow within the right drawer. Collaborating closely with the Product Manager and the Engineering team, we collectively determined the forms and features to be supported in the initial release.</p>
                 <img src='images/project images/FI/FI-B13.png' className='large__image'></img>
                 <p>When users encounter errors, there are 3 locations that indicate these issues:</p>
+                <div className='list'>
                 <ul>
                     <li>Error icons on the tree selector, pointing out the specific areas of errors</li>
                     <li>An error panel on the right side, providing detailed information about the errors</li>
                     <li>Error status displayed on the footer</li>
                 </ul>
+                </div>
                 <img src='images/project images/FI/FI-B14.png' className='large__image'></img>
                 
                 <h3>Journey header</h3>
@@ -182,12 +192,21 @@ function FI() {
                 </div>
                 <p className='space'>A</p>
                 <p>I partnered with a UX Researcher to facilitate some rapid testing sessions, aimed at gathering user feedback. The participants consisted of campaign managers from our company, individuals who utilize the product daily to execute campaigns.</p>
+                <p>We ran many testing sessions to get feedbacks from 2 main flows:</p>
+                <div className='list'>
+                <ul>
+                    <li>Authorization in canvas</li>
+                    <li>Creating and managing Facebook & Instagram ads</li>
+                </ul>
+                </div>
                 <p>Positive feedback: They appreciated the flexibility of being able to complete the authorization process from multiple locations, notably within the journey canvas where they operate daily. The familiarity of the right drawer layout resonated with them, as they had prior experience with Facebook Ads Manager. This eliminated the need for them to learn a new system.</p>
                 <p>Need to improve:</p>
+                <div className='list'>
                 <ul>
                     <li>The identification of the Meta logo</li>
                     <li>The interaction of the canvas element</li>
                 </ul>
+                </div>
                 <h3>The identification of the Meta logo</h3>
                 <p>{`After receiving feedback from stakeholders, it was noted that the Facebook and Instagram logos were more recognizable compared to the Meta logo. Given users' familiarity with the Facebook and Instagram logos, the Product Manager determined that transitioning from the Meta logo to the Facebook and Instagram logos would be more appropriate. Consequently, I introduced design adjustments to align with this decision.`}</p>
                 <img src='images/project images/FI/FI-C2.png' className='large__image'></img>
