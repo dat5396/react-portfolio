@@ -113,7 +113,7 @@ function FI() {
                 <ul>
                     <li>The authorization process</li>
                     <li>The canvas element of Meta</li>
-                    <li>The right drawer facilitating users to view and edit Facebook & Instagram ads</li>
+                    <li>The right drawer facilitating users to configure Facebook & Instagram ads</li>
                 </ul>
                 </div>
                 
@@ -195,24 +195,29 @@ function FI() {
                 <p>We ran many testing sessions to get feedbacks from 2 main flows:</p>
                 <div className='list'>
                 <ul>
-                    <li>Authorization in canvas</li>
-                    <li>Creating and managing Facebook & Instagram ads</li>
+                    <li>Authorize (Especially the flows in canvas)</li>
+                    <li>Configure Facebook & Instagram ads</li>
                 </ul>
                 </div>
-                <p>Positive feedback: They appreciated the flexibility of being able to complete the authorization process from multiple locations, notably within the journey canvas where they operate daily. The familiarity of the right drawer layout resonated with them, as they had prior experience with Facebook Ads Manager. This eliminated the need for them to learn a new system.</p>
-                <p>Need to improve:</p>
-                <div className='list'>
+                <h3>Testing results</h3>
+                <h4>Authorization flow</h4>
+                <p>Users appreciated the flexibility of being able to complete the authorization process from multiple locations, notably within the journey canvas where they operate daily. In terms of the authorization flow in the canvas, users preferred direction 2 as it was more intuitive.</p>
+                <img src='images/project images/FI/FI-C1.png' className='large__image'></img>
+                <h4>Configuration flow</h4>
+                <p>The familiarity of the configuration flow in the right drawer resonated with them, as they had prior experience with Facebook Ads Manager. This eliminated the need for them to learn a new system.</p>
+                <p>However, the canvas interaction should be improved</p>
+                {/* <div className='list'>
                 <ul>
                     <li>The identification of the Meta logo</li>
                     <li>The interaction of the canvas element</li>
                 </ul>
-                </div>
-                <h3>The identification of the Meta logo</h3>
-                <p>{`After receiving feedback from stakeholders, it was noted that the Facebook and Instagram logos were more recognizable compared to the Meta logo. Given users' familiarity with the Facebook and Instagram logos, the Product Manager determined that transitioning from the Meta logo to the Facebook and Instagram logos would be more appropriate. Consequently, I introduced design adjustments to align with this decision.`}</p>
-                <img src='images/project images/FI/FI-C2.png' className='large__image'></img>
-                <h3>The interaction of the canvas element</h3>
+                </div> */}
+                {/* <h4>The identification of the Meta logo</h4> */}
+                {/* <h4>The interaction of the canvas element</h4> */}
                 <p>I enhanced the interactivity of the canvas element by guiding users to distinct sections within the right drawer based on their click location.</p>
                 <img src='images/project images/FI/FI-C3.png' className='medium__image'></img>
+                <p>{`After receiving feedback from stakeholders, it was noted that the Facebook and Instagram logos were more recognizable compared to the Meta logo. Given users' familiarity with the Facebook and Instagram logos, the Product Manager determined that transitioning from the Meta logo to the Facebook and Instagram logos would be more appropriate. Consequently, I introduced design adjustments to align with this decision.`}</p>
+                <img src='images/project images/FI/FI-C2.png' className='large__image'></img>
             </div>
             
             <div id="section5">
@@ -223,11 +228,11 @@ function FI() {
                 <p>{`After iterating on the design based on user and stakeholder feedback, I completed all the flows within this project. In total, there were over 20 flows. However, for the convenience of readers, I will present only the key flows in each part in this portfolio.`}</p>
                 <img src='images/project images/FI/FI-D1.png' className='small__image'></img>
                 <img src='images/project images/FI/FI-D9.png' className='medium__image'></img>
-                <h3>Part A: Connecting and Disconnect illumin to Meta</h3>
+                <h3>Part A: Authorization (Connecting illumin to Facebook)</h3>
                 <img src='images/project images/FI/FI-D2.png' className='large__image'></img>
                 <h3>Part B: Setting up a journey having Facebook & Instagram campaigns</h3>
                 <img src='images/project images/FI/FI-D3.png' className='large__image'></img>
-                <h3>Part C: Creating and managing Facebook & Instagram ads</h3>
+                <h3>Part C: Configuring Facebook & Instagram ads</h3>
                 <img src='images/project images/FI/FI-D4.png' className='large__image'></img>
             </div>
             
