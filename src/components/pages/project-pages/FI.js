@@ -180,10 +180,10 @@ function FI() {
                 <p>Additionally, I needed to design the journey header to display information related to the aggregated budget and flight range of the entire journey, as well as the budget and flight range specific to each channel.</p>
                 <h4>Direction 1: Active channels icons</h4>
                 <p>In addition to displaying the aggregated budget and flight range, users can hover over icons representing active channels to view the budget and flight range of each.</p>
-                <img src='images/project images/FI/FI-B18.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-B15.png' className='medium__image'></img>
                 <h4>Direction 2: Small panels of active channels</h4>
                 <p>In addition to displaying the aggregated budget and flight range, small panels show the budget and flight range of each active channel.</p>
-                <img src='images/project images/FI/FI-B19.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-B16.png' className='medium__image'></img>
             </div>
             
             <div id="section4">

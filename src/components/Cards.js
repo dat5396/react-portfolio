@@ -40,7 +40,7 @@ function Cards() {
 						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/POI.jpg"
+									src="images/POI.jpeg"
 									text="Point of Interest Targeting"
 									label="Professional Project"
 									path="/geo-poi-targeting"
