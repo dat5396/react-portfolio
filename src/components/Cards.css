@@ -68,6 +68,7 @@ body {
 }
 
 .cards__item__pic-wrap::after {
+  display: none;
   content: attr(data-category);
   position: absolute;
   bottom: 0;
