@@ -6,7 +6,7 @@ import Tilt from 'react-parallax-tilt';
 function CardItem(props) {
 	return (
 		<>
-			<Tilt scale={1.01} tiltMaxAngleX={6} tiltMaxAngleY={6}  >
+			<Tilt scale={1.0} tiltMaxAngleX={3} tiltMaxAngleY={3}  >
 			<li className="cards__item">
 				
 				<Link className="cards__item__link" to={props.path}>
