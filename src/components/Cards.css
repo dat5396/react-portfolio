@@ -47,7 +47,7 @@ body {
   display: flex;
   flex-flow: column;
   width: 84vw;
-  box-shadow: 0 0px 5px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0px 6px rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 0.5rem;
@@ -57,7 +57,7 @@ body {
 }
 
 .cards__item__link:hover {
-  box-shadow: 0 0 0.75rem 0 rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0.75rem 0 rgba(255, 255, 255, 0.6);
 }
 
 .cards__item__pic-wrap {
@@ -176,7 +176,7 @@ body {
     }
 
     .two__in__one {
-      width: 36vw;
+      width: 40.5vw;
     }
 
     .project-value {

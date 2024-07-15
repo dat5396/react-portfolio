@@ -71,7 +71,7 @@ function Cards() {
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pizzaville-website.jpeg"
-									text="Pizzaville Website Design"
+									text="Pizzaville Responsive Website Design"
 									label="Personal Project"
 									path="/pizzaville-website"
 								/>
