@@ -176,14 +176,14 @@ function FI() {
                 </div>
                 <img src='images/project images/FI/FI-B14.png' className='large__image'></img>
                 
-                <h3>Journey header</h3>
+                {/* <h3>Journey header</h3>
                 <p>Additionally, I needed to design the journey header to display information related to the aggregated budget and flight range of the entire journey, as well as the budget and flight range specific to each channel.</p>
                 <h4>Direction 1: Active channels icons</h4>
                 <p>In addition to displaying the aggregated budget and flight range, users can hover over icons representing active channels to view the budget and flight range of each.</p>
                 <img src='images/project images/FI/FI-B15.png' className='medium__image'></img>
                 <h4>Direction 2: Small panels of active channels</h4>
                 <p>In addition to displaying the aggregated budget and flight range, small panels show the budget and flight range of each active channel.</p>
-                <img src='images/project images/FI/FI-B16.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-B16.png' className='medium__image'></img> */}
             </div>
             
             <div id="section4">
@@ -226,13 +226,13 @@ function FI() {
                 </div>
                 <p className='space'>A</p>
                 <p>{`After iterating on the design based on user and stakeholder feedback, I completed all the flows within this project. In total, there were over 20 flows. However, for the convenience of readers, I will present only the key flows in each part in this portfolio.`}</p>
-                <img src='images/project images/FI/FI-D1.png' className='small__image'></img>
+                {/* <img src='images/project images/FI/FI-D1.png' className='small__image'></img> */}
                 <img src='images/project images/FI/FI-D9.png' className='medium__image'></img>
-                <h3>Part A: Authorization (Connecting illumin to Facebook)</h3>
+                <h3>Authorize (Connect illumin to Facebook) in licensee settings</h3>
                 <img src='images/project images/FI/FI-D2.png' className='large__image'></img>
-                <h3>Part B: Setting up a journey having Facebook & Instagram campaigns</h3>
+                <h3>Authorize (Connect illumin to Facebook) in journey settings</h3>
                 <img src='images/project images/FI/FI-D3.png' className='large__image'></img>
-                <h3>Part C: Configuring Facebook & Instagram ads</h3>
+                <h3>Configure Facebook & Instagram ads</h3>
                 <img src='images/project images/FI/FI-D4.png' className='large__image'></img>
             </div>
             

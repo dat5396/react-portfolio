@@ -28,7 +28,7 @@ function Cards() {
 
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/FPA.jpg"
+									src="images/FPA.jpeg"
 									text="First-Party Audience Onboarding"
 									label="Professional Project"
 									path="/first-party-audience-onboarding"
