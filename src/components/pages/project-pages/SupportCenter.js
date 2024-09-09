@@ -50,7 +50,7 @@ function SupportCenter() {
 	return (
 		<div className="project__container black__container poi__targeting" >
             <div>
-                <img src='images/project images/POI/POI-0.png'></img>
+                <img src='images/project images/SC/SC-0.png'></img>
             </div>
             <div id='section1'>
                 <div className='section__name'>
