@@ -17,6 +17,7 @@ import FI from './components/pages/project-pages/FI';
 import FirstPartyAudience from './components/pages/project-pages/FirstPartyAudience';
 import OWToFB from './components/pages/project-pages/OWToFB';
 import GeoPOITargeting from './components/pages/project-pages/GeoPOITargeting';
+import SupportCenter from './components/pages/project-pages/SupportCenter';
 import XscapeRentals from './components/pages/project-pages/XscapeRentals';
 import AlphaWebsite from './components/pages/project-pages/AlphaWebsite';
 import Pizzaville from './components/pages/project-pages/Pizzaville'
@@ -46,6 +47,7 @@ function App() {
 						<Route path='/first-party-audience-onboarding' element={<FirstPartyAudience />} />
 						<Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} />
 						<Route path='/geo-poi-targeting' element={<GeoPOITargeting />} />
+						<Route path='/support-center' element={<SupportCenter />} />
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
 						<Route path='/pizzaville-website' element={<Pizzaville />} />

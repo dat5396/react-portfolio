@@ -47,6 +47,18 @@ function Cards() {
 								/>
 								</div>
 
+					
+								<div className='two__in__one'>
+								<CardItem 
+									src="images/SC.jpeg"
+									text="Support Center Responsive Design"
+									label="Professional Project"
+									path="/support-center"
+								/>
+								</div>
+						</ul>
+
+						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/illumin-component-library.jpeg"
@@ -56,6 +68,14 @@ function Cards() {
 								/>
 								</div>
 
+								{/* <div className='two__in__one'>
+								<CardItem 
+									src="images/illumin-component-library.jpeg"
+									text="illumin Component Library"
+									label="Professional Project"
+									path="/illumin-component-library"
+								/>
+								</div> */}
 						</ul>
 						
 						<ul className='cards__items'>	
