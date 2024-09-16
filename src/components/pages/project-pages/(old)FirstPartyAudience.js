@@ -11,7 +11,7 @@ function FirstPartyAudience() {
     { id: 'section1', title: '1. Project Overview' },
     { id: 'section2', title: '2. Research & Analysis' },
     { id: 'section3', title: '3. Ideation & Concept Development' },
-    { id: 'section4', title: '4. User Testing, Gathering feedbacks & Iterations' },
+    { id: 'section4', title: '4. User Testing & Iterations' },
     { id: 'section5', title: '5. Final Design' },
     { id: 'section6', title: '6. Outcome & Impact' },
   ];
@@ -96,75 +96,96 @@ function FirstPartyAudience() {
                     <h2>3. IDEATION & CONCEPT DEVELOPMENT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>After gaining a thorough understanding of how LiveRamp worked, I initiated this phase by creating the user flows. According to the product requirement document for this project, there were 3 main flows within this feature:</p>
+                <p>After gaining a thorough understanding of how LiveRamp worked, I initiated this phase by creating the user flows. According to the product requirement document for this project, there were 4 distinct flows within this feature:</p>
                 <ul>
-                    <li>Upload</li>
-                    <li>Update or Edit</li>
+                    <li>Upload (Major flow)</li>
+                    <li>Update or Edit (Major flow)</li>
+                    <li>Post-Upload or Post-Update</li>
                     <li>Delete</li>
                 </ul>
-                {/* <p>Among these 4 flows, I concentrated on two primary ones during this phase: the Upload flow and the Update flow.</p> */}
-                <h3>3.1. Upload flow</h3>
+                <p>Among these 4 flows, I concentrated on two primary ones during this phase: the Upload flow and the Update flow.</p>
+                <h3>3.1. Uploading flow</h3>
+                {/* <h3>Uploading</h3> */}
                 <p>I started building this flow by creating a user flow.</p>
                 <img src='images/project images/FPA/FPA-C-Userflow1.png'className='large__image'></img>
-                <h3>Upload</h3>
-                <p>This was the main flow for uploading audience files. It began in the Audience Library, where users could create and manage their audiences.</p>
+                <p>Alongside uploading basic form fields such as Name and Upload Area, there was an additional requirement in this flow: recommending users to generate a suggested audience based on their data. This feature aimed to increase the company's revenue by providing third-party audiences for users. I devised two concepts on how to prompt users to generate audience suggestions:</p>
+                <ul>
+                    <li>Recommend suggested audiences in the uploading step</li>
+                    <li>Recommend suggested audiences after the uploading step</li>
+                </ul>
+                <h4>Concept 1: Recommend suggested audiences in the uploading step</h4>
+                <img src='images/project images/FPA/FPA-C-Userflow2.png'className='large__image'></img>
+                <p>I placed the 'Suggest Audience' toggle at the bottom of the uploading page. (Screen No. 4 & 5)</p>
                 <img src='images/project images/FPA/FPA-C1.png'className='large__image'></img>
-                <h3>Retry upload when the file is rejected</h3>
-                <p>If the audience file was rejected, the user could upload a new file and try again.</p>
+                <h4>Concept 2: Recommend suggested audiences after the uploading step</h4>
+                <img src='images/project images/FPA/FPA-C-Userflow3.png'className='large__image'></img>
+                <p>I placed the 'Suggest Audience' modal after the user completes the uploading step. (Screen No. 9)</p>
                 <img src='images/project images/FPA/FPA-C2.png'className='large__image'></img>
-                
-
-                <h3>3.2 Update flow</h3>
-                <p>In addition to the uploading flow, the updating process was crucial due to the dynamic nature of the data, which continuously changed to meet users' needs.</p>
+                <p>I conducted rapid testing sessions to evaluate two concepts and determine which one offered a better user experience. The testing results will be presented in the subsequent sections.</p>
+                <p>There were several patterns available for the uploading flow, including modal, drawer, and separate page. I opted for navigating to another page because we had already employed this pattern in other audience creation flows. Consequently, reusing the page pattern helped maintain product consistency.</p>
+{/*                 
+                <h3>Post-uploading</h3>
+                <p>After the upload step, I utilized badges and notifications to inform the user about the statuses of the audience file. There were 3 cases after the uploading step:</p>
+                <ul>
+                    <li>If the user chose to generate Suggested audiences</li>
+                    <li>If the user didn't choose to generate Suggested audiences</li>
+                    <li>If LiveRamp rejected the file</li>
+                </ul>
+                <h4>Case 1: If the user chose to generate Suggested audiences</h4>
                 <img src='images/project images/FPA/FPA-C3.png'className='large__image'></img>
-
-                <h3>3.3 Delete flow</h3>
-                <p>To delete a first-party audience, it must not be included in any published journeys. This prevents users from disrupting ongoing journeys. Therefore, when the user wanted to delete a first-party audience, the user needed to delete it in the ongoing journeys first. </p>
+                <h4>Case 2: If the user didn't choose to generate Suggested audiences</h4>
                 <img src='images/project images/FPA/FPA-C4.png'className='large__image'></img>
+                <h4>Case 3: If LiveRamp rejected the file, the user could retry uploading another file</h4>
+                <img src='images/project images/FPA/FPA-C5.png'className='large__image'></img> */}
+
+
+                {/* <h3>3.2 Managing flow</h3>
+                <p>In terms of managing first-party audiences, there were 3 statuses that need to be managed: </p>
+                <ul>
+                    <li>The audience is successfully uploaded and can be used like regular audiences</li>
+                    <li>The audience is being processed</li>
+                    <li>The audience is rejected by LiveRamp and the user can retry upload</li>
+                </ul>
+                <h4>Case 1: The audience is successfully uploaded and can be used like regular audiences</h4>
+                <img src='images/project images/FPA/FPA-C6.png'className='large__image'></img>
+                <h4>Case 2: The audience is being processed</h4>
+                <img src='images/project images/FPA/FPA-C7.png'className='large__image'></img>
+                <h4>Case 3: The audience is rejected by LiveRamp and the user can retry upload</h4>
+                <img src='images/project images/FPA/FPA-C8.png'className='large__image'></img> */}
+
+                <h3>3.2 Updating flow</h3>
+                <p>In addition to the uploading flow, the updating process was crucial due to the dynamic nature of the data, which continuously changed to meet users' evolving needs. Consequently, we chose to support two updating methods: incremental and full refresh.</p>
+                {/* <p>We decided to support two types of updates: incremental and full refresh. The challenge here was assisting users in selecting the correct option. In addition to providing explanatory text for each type, I designed two illustrations to aid users in making the right choice.</p> */}
+                <img src='images/project images/FPA/FPA-C-Userflow4.png'className='large__image'></img>
+                <h4>Concept 1: Radio buttons with sub-labels explain how each type of updating method works.</h4>
+                <img src='images/project images/FPA/FPA-C6.png'className='medium__image'></img>
+                <h4>Concept 2: Tabs with text explain how each type of updating method works.</h4>
+                <img src='images/project images/FPA/FPA-C7.png'className='medium__image'></img>
+                <h4>Concept 3: Tiles with illustrations and text explain how each type of updating method works</h4>
+                <img src='images/project images/FPA/FPA-C8.png'className='medium__image'></img>
+                <p>I chose option 3 because the combination of illustrations and text helps users make the right choice. After ideating the updating modal, I integrated it into the user flow.</p>
+                <img src='images/project images/FPA/FPA-C9.png'className='large__image'></img>
+                
+                {/* <h3>3.4 Deleting flow</h3>
+                <p>To delete a first-party audience, it must not be included in any published journeys. This prevents users from disrupting ongoing journeys. Therefore, when the user wanted to delete a first-party audience, the user needed to delete it in the ongoing journeys first. </p>
+                <img src='images/project images/FPA/FPA-C10.png'className='large__image'></img> */}
             </div>
 
             <div id="section4">
                 <div className='section__name'>
-                    <h2>4. USER TESTING, GATHERING FEEDBACKS & ITERATIONS</h2>
+                    <h2>4. USER TESTING & ITERATIONS</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>I collaborated with a UX researcher to conduct rapid testing sessions to gather user feedback. We held sessions with the Customer Success Team, which supports self-serve customers, and the Managed Team, which runs campaigns for managed clients.</p>
-                <p>Additionally, I presented the design and collected feedback from other members of the Product team and the Engineering team.</p>
-                <p className='space'>A</p>
-                <p>Some insights and feedback I gathered for the 1st iteration:</p>
+                <p>I partnered with a UX researcher to conduct rapid testing sessions to gather user feedback. We conducted two sessions: one with the Customer Success Team, who worked with self-serve customers, and another with the Managed Team, responsible for running campaigns for managed clients.</p>
+                <p>We gathered some possitive feedback:</p>
                 <ul>
-                    <li>People understood the purpose of this feature based on the description in the audience type selection tile.</li>
-                    <li>People understood the various user flows, such as upload, retry upload, update, and delete.</li>
-                    <li>Since the upload and update processes didn’t require any information from the table, using a drawer on top of the table might not have been the ideal solution.</li>
+                    <li>The uploading flow was straightforward and consistent with other audience creation processes, making it intuitive for users.</li>
+                    <li>The updating flow received positive feedback, with testers finding the illustrations helpful in making appropriate choices.</li>
+                    <li>Most people preferred the suggestion of audiences being integrated into the uploading step rather than placing it at the end, as it could be easily overlooked by users.</li>
                 </ul>
-                <h3>The 1st iteration</h3>
-                <p>There was an additional requirement in the first iteration: recommending users to generate a suggested audience based on their data. This feature aimed to increase the company's revenue by providing third-party audiences for users. Therefore, I had to add a step in the upload flow.</p>
-                <img src='images/project images/FPA/FPA-D-Userflow1.png'className='large__image'></img>
-                <p>The upload flow was moved from a drawer interface to a full-page view, allowing users to fully focus on the process.</p>
-                <img src='images/project images/FPA/FPA-D1.png'className='large__image'></img>
-                <p className='space'>A</p>
-                <p>Users could retry upload the rejected audience file in the full page.</p>
-                <img src='images/project images/FPA/FPA-D2.png'className='large__image'></img>
-                <p className='space'>A</p>
-                <p>Users could edit or update the audience file in the full page.</p>
-                <img src='images/project images/FPA/FPA-D3.png'className='large__image'></img>
-                <p className='space'>A</p>
-                <p>Some insights and feedback I gathered for the 2nd iteration:</p>
-                <ul>
-                    <li>Using a full-page view for the upload and update processes helped users concentrate better on their tasks.</li>
-                    <li>Stakeholders wanted users to read and at least scan through the Terms and Conditions due to its importance for data privacy. I needed to find an alternative to using the Terms and Conditions checkbox.</li>
-                    <li>People found it hard to understand the two update methods because they were complicated. Therefore, I needed to find a way to help users make the choice more easily.</li>
-                </ul>
-                <h3>The 2nd iteration</h3>
-                <p>Based on feedback that users were easily skipping the Suggesting Audience modal, I integrated the suggesting audience step into the same section as file upload and form completion to ensure it wouldn’t be missed.</p>
-                <img src='images/project images/FPA/FPA-D-Userflow2.png'className='large__image'></img>
-                <p className='space'>A</p>
-                <p>I placed the Suggesting Audience toggle on the upload page, ensuring users wouldn't overlook it and had time to consider the option.</p>
-                <p>Additionally, the Terms and Conditions were displayed in a modal when users uploaded their audience file, requiring them to read or scan and explicitly accept the terms.</p>
-                <img src='images/project images/FPA/FPA-D4.png'className='large__image'></img>
-                <p className='space'>A</p>
-                <p>Based on feedback that the update methods were difficult to understand due to lengthy, complex text, I incorporated illustrations to help users make the right update method.</p>
-                <img src='images/project images/FPA/FPA-D5.png'className='large__image'></img>
+                <img src='images/project images/FPA/FPA-D1.png'className='medium__image'></img>
+                <p>Additionally, there were some areas that required improvement. Testers mentioned hesitating to update the audience because they were unsure if it remained active during the update process. Consequently, I included a sentence in the design to clarify that the audience remains active and can be added to journeys while being updated.</p>
+                <img src='images/project images/FPA/FPA-D2.png'className='medium__image'></img>
             </div>
 
             <div id="section5">
@@ -172,20 +193,20 @@ function FirstPartyAudience() {
                     <h2>5. FINAL DESIGN</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>After many design iterations, I organized the designs for all flows, including both major and minor ones.</p>
+                <p>After designing and testing major flows, I presented designs for all flows, including both major and minor ones.</p>
                 <ul>
                     <li>Upload</li>
                     <li>Update or Edit</li>
                     <li>Post-Upload or Post-Update</li>
                     <li>Delete</li>
                 </ul>
-                <h3>5.1 Upload flow</h3>
+                <h3>5.1 Uploading flow</h3>
                 <img src='images/project images/FPA/FPA-E1.png'className='large__image'></img>
 
-                <h3>5.2 Update (Edit) flow </h3>
+                <h3>5.2 Updating (Editing) flow </h3>
                 <img src='images/project images/FPA/FPA-E5.png'className='large__image'></img>
                 
-                <h3>5.3 Post-Upload or Post-Update flow</h3>
+                <h3>5.3 Post-Uploading or Post-Updating flow</h3>
                 <h4>Case 1: If the user chose to generate Suggested audiences</h4>
                 <img src='images/project images/FPA/FPA-E2.png'className='large__image'></img>
                 <h4>Case 2: If the user didn't choose to generate Suggested audiences</h4>
@@ -193,7 +214,7 @@ function FirstPartyAudience() {
                 <h4>Case 3: If LiveRamp rejected the file, the user could retry uploading another file</h4>
                 <img src='images/project images/FPA/FPA-E4.png'className='large__image'></img>
 
-                <h3>5.4 Delete flow</h3>
+                <h3>5.4 Deleting flow</h3>
                 <img src='images/project images/FPA/FPA-E6.png'className='large__image'></img>
                 
             </div>
