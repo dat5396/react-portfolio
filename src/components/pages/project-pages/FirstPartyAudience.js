@@ -66,7 +66,7 @@ function FirstPartyAudience() {
                 <p>The goal of this project was to develop a feature that allows users to self-serve upload first-party data and then use this data to run ads in illumin.</p>
                 <h3>Project duration</h3>
                 {/* <img src='images/project images/FI-0.png'className='medium__image__noshadow'></img> */}
-                <p>The design phase for this project lasted for 4 weeks.</p>
+                <p>The design phase for this project lasted for 6 weeks.</p>
                 <p>My role was Product Designer. What I show in this portfolio was my contribution to the project.</p>
                 {/* <h3>Table of content</h3>
                 <ol>
