@@ -105,7 +105,8 @@ function SupportCenter() {
                 <p className='space'>A</p>
                 <p>Based on the three main functions of the support center, I began this phase by creating the sitemap for the page.</p>
                 <img src='images/project images/SC/SC-C1.png' className='medium__image'></img>
-                <p>I designed each page in three sizes to ensure responsive functionality.</p>
+                <h3>Grid system</h3>
+                <img src='images/project images/SC/SC-C1B.png' className='large__image'></img>
                 <h3>Home page</h3>
                 <p>On the homepage, users get a quick overview of what the support center offers and can easily explore different topics within the knowledge base.</p>
                 <img src='images/project images/SC/SC-C2.png' className='large__image'></img>
