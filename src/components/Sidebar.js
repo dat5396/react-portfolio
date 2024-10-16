@@ -4,7 +4,7 @@ import './Sidebar.css';
 function Sidebar({ activeSection, sections, handleLinkClick }) {
   return (
     <div className="sidebar">
-      <p> In this project </p>
+      <p>On this page</p>
       <ul>
         {sections.map((section, index) => (
           <li key={index} className={ activeSection === section.id ? 'active' : ''}>

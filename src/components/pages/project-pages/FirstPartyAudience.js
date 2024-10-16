@@ -131,14 +131,14 @@ function FirstPartyAudience() {
                 <p>I collaborated with a UX researcher to conduct rapid testing sessions to gather user feedback. We held sessions with the Customer Success Team, which supports self-serve customers, and the Managed Team, which runs campaigns for managed clients.</p>
                 <p>Additionally, I presented the design and collected feedback from other members of the Product team and the Engineering team.</p>
                 <p className='space'>A</p>
-                <p>Some insights and feedback I gathered for the 1st iteration:</p>
+                <p>Some insights and feedback I gathered after the 1st iteration:</p>
                 <ul>
                     <li>People understood the purpose of this feature based on the description in the audience type selection tile.</li>
                     <li>People understood the various user flows, such as upload, retry upload, update, and delete.</li>
                     <li>Since the upload and update processes didn’t require any information from the table, using a drawer on top of the table might not have been the ideal solution.</li>
                 </ul>
-                <h3>The 1st iteration</h3>
-                <p>There was an additional requirement in the first iteration: recommending users to generate a suggested audience based on their data. This feature aimed to increase the company's revenue by providing third-party audiences for users. Therefore, I had to add a step in the upload flow.</p>
+                <h3>The 2nd iteration</h3>
+                <p>There was an additional requirement in the second iteration: recommending users to generate a suggested audience based on their data. This feature aimed to increase the company's revenue by providing third-party audiences for users. Therefore, I had to add a step in the upload flow.</p>
                 <img src='images/project images/FPA/FPA-D-Userflow1.png'className='large__image'></img>
                 <p>The upload flow was moved from a drawer interface to a full-page view, allowing users to fully focus on the process.</p>
                 <img src='images/project images/FPA/FPA-D1.png'className='large__image'></img>
@@ -155,7 +155,7 @@ function FirstPartyAudience() {
                     <li>Stakeholders wanted users to read and at least scan through the Terms and Conditions due to its importance for data privacy. I needed to find an alternative to using the Terms and Conditions checkbox.</li>
                     <li>People found it hard to understand the two update methods because they were complicated. Therefore, I needed to find a way to help users make the choice more easily.</li>
                 </ul>
-                <h3>The 2nd iteration</h3>
+                <h3>The 3rd iteration</h3>
                 <p>Based on feedback that users were easily skipping the Suggesting Audience modal, I integrated the suggesting audience step into the same section as file upload and form completion to ensure it wouldn’t be missed.</p>
                 <img src='images/project images/FPA/FPA-D-Userflow2.png'className='large__image'></img>
                 <p className='space'>A</p>

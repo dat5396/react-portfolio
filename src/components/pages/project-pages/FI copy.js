@@ -11,7 +11,7 @@ function FI() {
     { id: 'section1', title: '1. Project Overview' },
     { id: 'section2', title: '2. Research & Analysis' },
     { id: 'section3', title: '3. Ideation & Concept Development' },
-    { id: 'section4', title: '4. User Testing, Gathering feedbacks & Iterations' },
+    { id: 'section4', title: '4. User Testing & Iteration' },
     { id: 'section5', title: '5. Final Design' },
     { id: 'section6', title: '6. Outcome & Impact' },
   ];
@@ -108,7 +108,8 @@ function FI() {
                 </ul>
                 </div>
                 
-                <h3>Authorization process from Licensee Settings</h3>
+                <h3>Authorization process</h3>
+                <h4>Authorization process from Licensee Settings</h4>
                 <p>In order to create and manage Facebook & Instagram ads, users were required to undergo an authorization process to establish a connection between illumin and Facebook. Beginning with a basic concept, I thought that users should initiate the authorization process within the Licensee settings page.</p>
                 <img src='images/project images/FI/FI-B2.png' className='large__image'></img>
                 {/* <h4>Authorization process from Canvas</h4>
@@ -122,11 +123,11 @@ function FI() {
 
                 <h3>Canvas element</h3>
                 <p>As illumin provides users with a canvas to visualize their journey advertising, the canvas element for Facebook & Instagram holds significant importance.</p>
-                <p>Since a Campaign comprises multiple Ad Sets, I started with an idea that the canvas element presenting information for each Ad Set, including its name and the quantity of Ads it contained.</p>
-                <img src='images/project images/FI/FI-B3.png' className='medium__image'></img>
-                <p>I selected option 3 and created high-fidelity elements—one for a single ad set and another for multiple ad sets.</p>
+                <p>I began by establishing the ad hierarchy, which served as the foundation for further exploration. I explored various directions to ascertain the optimal and most fitting solution.</p>
+                <h4>Direction 1: Focus on Ad set</h4>
+                <p>Since a Campaign comprises multiple Ad Sets, this approach is centered around presenting detailed information for each Ad Set, including its name and the quantity of Ads it contains.</p>
                 <img src='images/project images/FI/FI-B4.png' className='medium__image'></img>
-
+                
                 {/* <h4>Direction 2: Focus on the quantity of Ad Sets and Ads</h4>
                 <p>This approach provides high-level information about a Campaign, such as the number of Ad Sets and Ads</p>
                 <img src='images/project images/FI/FI-B5.png' className='medium__image'></img>
@@ -138,26 +139,34 @@ function FI() {
                 <img src='images/project images/FI/FI-B7.png' className='medium__image'></img> */}
 
                 <h3>Right drawer</h3>
-                <p>To view and edit information of a Facebook & Instagram campaign, users needed to access a right drawer. (Why a right drawer? Because this was the original interaction in the journey canvas)</p>
+                <p>To view and edit information of a Facebook & Instagram campaign, users need to access a right drawer. (Why a right drawer? Because this is the original interaction in the journey canvas)</p>
                 <p>Although I conducted research on the interfaces of Facebook Ads Manager, I actively explored various solutions to ensure the optimal decision.</p>
-                {/* <h4>Direction 1: Breadcrumbs</h4>
+                <h4>Direction 1: Breadcrumbs</h4>
                 <p>To access level 3 (Ad), users are required to first select level 2 (Ad Set).</p >
-                <img src='images/project images/FI/FI-B8.png' className='large__image'></img> */}
-                <h4>Direction 1: Breadcrumbs combine with selects</h4>
-                <p>The breadcrumbs displayed the hierarchy of campaign, ad set, and ad. To access level 3 (Ad), users must first select level 2 (Ad Set).</p >
-                <img src='images/project images/FI/FI-B5.png' className='large__image'></img>
-                {/* <h4>Direction 3: Putting the navigation bar into the left side</h4>
+                <img src='images/project images/FI/FI-B8.png' className='large__image'></img>
+                <h4>Direction 2: Breadcrumbs combine with selects</h4>
+                <p>Similar to direction 1, in order to access level 3 (Ad), users must first select level 2 (Ad Set). However, this solution assists users in selecting a level 2 (Ad Set) without having to navigate to that tab.</p >
+                <img src='images/project images/FI/FI-B9.png' className='large__image'></img>
+                <h4>Direction 3: Putting the navigation bar into the left side</h4>
                 <p>This operates similarly to direction 1, but placing the navigation section in the left column enhances its intuitiveness.</p >
                 <img src='images/project images/FI/FI-B10.png' className='large__image'></img>
                 <h4>Direction 4: Columns</h4>
                 <p>This solution visually represents campaign levels using columns.</p >
-                <img src='images/project images/FI/FI-B11.png' className='large__image'></img> */}
-                <h4>Direction 2: Tree selector</h4>
-                <p>I considered this to be the most optimal solution, as it allowed users to navigate directly from level 1 to level 3 without the need to access level 2. Additionally, this approach aligned with the user experience offered by Facebook Ads Manager.</p >
-                <img src='images/project images/FI/FI-B6.png' className='large__image'></img>
-                <p>After choosing direction 2, I created a high-fidelity design for the user flow, integrating the canvas element with the right drawer. Collaborating closely with the Product Manager and Engineering team, we finalized the forms and features to be included in the initial release.</p>
-                <img src='images/project images/FI/FI-B7.png' className='large__image'></img>
-                
+                <img src='images/project images/FI/FI-B11.png' className='large__image'></img>
+                <h4>Direction 5: Tree selector</h4>
+                <p>I considered this to be the most optimal solution, as it allows users to navigate directly from level 1 to level 3 without the need to access level 2. Additionally, this approach aligns with the user experience offered by Facebook Ads Manager.</p >
+                <img src='images/project images/FI/FI-B12.png' className='large__image'></img>
+                <p>After opting for direction 5, I proceeded to craft a high-fidelity design for the user flow within the right drawer. Collaborating closely with the Product Manager and the Engineering team, we collectively determined the forms and features to be supported in the initial release.</p>
+                <img src='images/project images/FI/FI-B13.png' className='large__image'></img>
+                <p>When users encounter errors, there are 3 locations that indicate these issues:</p>
+                <div className='list'>
+                <ul>
+                    <li>Error icons on the tree selector, pointing out the specific areas of errors</li>
+                    <li>An error panel on the right side, providing detailed information about the errors</li>
+                    <li>Error status displayed on the footer</li>
+                </ul>
+                </div>
+                <img src='images/project images/FI/FI-B14.png' className='large__image'></img>
                 
                 {/* <h3>Journey header</h3>
                 <p>Additionally, I needed to design the journey header to display information related to the aggregated budget and flight range of the entire journey, as well as the budget and flight range specific to each channel.</p>
@@ -175,79 +184,32 @@ function FI() {
                 </div>
                 <p className='space'>A</p>
                 <p>I partnered with a UX Researcher to facilitate some rapid testing sessions, aimed at gathering user feedback. The participants consisted of campaign managers from our company, individuals who utilize the product daily to execute campaigns.</p>
-                <p>Additionally, I presented the design and collected feedback from other members of the Product team and the Engineering team.</p>
-                
-                <p>Some insights and feedback I gathered after the 1st iteration:</p>
+                <p>We ran many testing sessions to get feedbacks from 2 main flows:</p>
                 <div className='list'>
                 <ul>
-                    <li>The authorization process from the Licensee Settings was effective. However, we needed to provide users with an easier touchpoint for authorization.</li>
-                    <li>The canvas element was visually appealing but lacked key campaign information, such as the number of Ad sets and Ads.</li>
-                    <li>Configuration was a complex task involving multiple smaller steps, so it should be placed in a larger space for better usability.</li>
+                    <li>Authorize (Especially the flows in canvas)</li>
+                    <li>Configure Facebook & Instagram ads</li>
                 </ul>
                 </div>
-                <p className='space'>A</p>
-                <h3>The 2nd iteration</h3>
-                <h3>Authorization process from Canvas</h3>
-                <p>Based on feedback and insights from testing sessions, I extended the authorization process to different places like the Journey canvas and settings. Allowing users to authorize directly within these frequently accessed areas not only streamlined the process but also raised awareness of the Facebook and Instagram integration without needing direct communication from our company.</p>
-                <img src='images/project images/FI/FI-C11.png' className='large__image'></img>
-                <h3>Canvas element</h3>
-                <p>The new canvas element provided detailed information about each Ad Set, while also offering high-level insights about the overall Campaign, such as the number of Ad Sets and Ads. This enabled users to quickly access key information at a glance.</p>
-                <img src='images/project images/FI/FI-C12.png' className='medium__image'></img>
-                <p>I selected option 3 and created high-fidelity elements—one for a single ad set and another for multiple ad sets.</p>
-                <img src='images/project images/FI/FI-C13.png' className='medium__image'></img>
-                <h3>Right drawer</h3>
-                <p>Based on feedback from users and stakeholders, setting up campaigns was identified as a complex task. To address this, the drawer should be larger, allowing users to better focus and configure their campaigns. I drafted some ideas featuring a larger drawer for improved usability.</p>
-                <h4>Direction 1: Putting the navigation bar into the left side</h4>
-                <p>This operated similarly to direction 1, but placing the navigation section in the left column enhances its intuitiveness.</p>
-                <img src='images/project images/FI/FI-C14.png' className='large__image'></img>
-                <h4>Direction 2: Columns</h4>
-                <p>This solution visually represented campaign levels using columns.</p>
-                <img src='images/project images/FI/FI-C15.png' className='large__image'></img>
-                <h4>Direction 3: Tree selector</h4>
-                <p>I still viewed this as the most suitable solution, because it enabled users to navigate quickly from level 1 to level 3 without going through level 2.</p>
-                <img src='images/project images/FI/FI-C16.png' className='large__image'></img>
-                <p>I then created a high-fidelity design flow that combined the new canvas element with the redesigned drawer..</p>
-                <img src='images/project images/FI/FI-C17.png' className='large__image'></img>
-                <p>Some insights and feedback I gathered after the 2nd iteration:</p>
-                <div className='list'>
+                <h3>Testing results</h3>
+                <h4>Authorization flow</h4>
+                <p>Users appreciated the flexibility of being able to complete the authorization process from multiple locations, notably within the journey canvas where they operate daily. In terms of the authorization flow in the canvas, users preferred direction 2 as it was more intuitive.</p>
+                <img src='images/project images/FI/FI-C1.png' className='large__image'></img>
+                <h4>Configuration flow</h4>
+                <p>The familiarity of the configuration flow in the right drawer resonated with them, as they had prior experience with Facebook Ads Manager. This eliminated the need for them to learn a new system.</p>
+                <p>However, the canvas interaction should be improved</p>
+                {/* <div className='list'>
                 <ul>
-                    <li>The Meta logo was less recognizable compared to the Facebook and Instagram logos. Using the Meta logo might hinder the recognition of this new social channel integration.</li>
-                    <li>The authorization process from the canvas was not intuitive, as hovering over a disabled element and navigating to Journey settings for authorization was not a common pattern.</li>
-                    <li>The updated canvas element was good, as it contained key information while maintaining visual appeal.</li>
-                    <li>Users and stakeholders preferred large drawers for the configuration flow, as they helped users stay focused on their setups.</li>
+                    <li>The identification of the Meta logo</li>
+                    <li>The interaction of the canvas element</li>
                 </ul>
-                </div>
-                <p className='space'>A</p>
-                <h3>The 3rd iteration</h3>
-                <h3>Changing Meta logo to Facebook and Instagram logos</h3>
-                <p>I began this iteration by replacing the Meta logo with the Facebook and Instagram logos to improve the recognition of the new social channel integrations.</p>
-                <img src='images/project images/FI/FI-C21.png' className='large__image'></img>
-                <h3>Authorization process from Canvas</h3>
-                <p>I tried a new approach that allowed users to drag and drop the toolbox element, enabling them to complete the authorization directly from there.</p>
-                <img src='images/project images/FI/FI-C22.png' className='large__image'></img>
-                <h3>Canvas element</h3>
-                <p>After receiving positive feedback on the canvas element, I created various design variants to cover all possible use cases.</p>
-                <img src='images/project images/FI/FI-C23.png' className='large__image'></img>
-                <p>I also enhanced the interactivity of the canvas element by navigating users to different sections within the right drawer based on their click location.</p>
-                <img src='images/project images/FI/FI-C24.png' className='medium__image'></img>
-                <h3>Right drawer</h3>
-                <p>After deciding to proceed with the large drawer version, I designed the error flow for the configuration in this iteration.</p>
-                <p>When users encountered errors, there were 3 locations that indicate these issues:</p>
-                <div className='list'>
-                <ul>
-                    <li>Error icons on the tree selector, pointing out the specific areas of errors</li>
-                    <li>An error panel on the right side, providing detailed information about the errors</li>
-                    <li>Error status displayed on the footer</li>
-                </ul>
-                </div>
-                <img src='images/project images/FI/FI-C25.png' className='large__image'></img>
-                <p>Some insights and feedback I gathered after the 2nd iteration:</p>
-                <div className='list'>
-                <ul>
-                    <li>Users and stakeholders provided positive feedback on the new authorization process from the canvas, finding it more intuitive than the previous version.</li>
-                    <li>The canvas elements and right drawers also received good feedback and were finalized.</li>
-                </ul>
-                </div>
+                </div> */}
+                {/* <h4>The identification of the Meta logo</h4> */}
+                {/* <h4>The interaction of the canvas element</h4> */}
+                <p>I enhanced the interactivity of the canvas element by guiding users to distinct sections within the right drawer based on their click location.</p>
+                <img src='images/project images/FI/FI-C3.png' className='medium__image'></img>
+                <p>{`After receiving feedback from stakeholders, it was noted that the Facebook and Instagram logos were more recognizable compared to the Meta logo. Given users' familiarity with the Facebook and Instagram logos, the Product Manager determined that transitioning from the Meta logo to the Facebook and Instagram logos would be more appropriate. Consequently, I introduced design adjustments to align with this decision.`}</p>
+                <img src='images/project images/FI/FI-C2.png' className='large__image'></img>
             </div>
             
             <div id="section5">
