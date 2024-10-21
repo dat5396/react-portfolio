@@ -98,77 +98,75 @@
 
 
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1080px) {    
     .project__container {
         padding: 0 10vw 20vh 10vw;
     }
 
     .poi__targeting h2 {
-        padding: 2rem 0rem 0rem;
+        padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
     .poi__targeting h3 {
-        padding: 2rem 12.5rem 0rem;
+        padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
     .poi__targeting h4 {
-        padding: 2rem 12.5rem 0rem;
+        padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
     .poi__targeting p {
-        padding: 0.5rem 12.5rem 0rem;
+        padding: 0.5rem 18rem 0rem 0.5rem;
     }
     
     .poi__targeting ol {
-        padding: 0.5rem 13.5rem 0rem;
+        padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
     
     .poi__targeting ul {
-        padding: 0.5rem 13.5rem 0rem;
+        padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
 
     .poi__targeting li {
-        padding: 0rem 0rem 0.5rem;
+        margin: 0rem 0rem 0rem 0rem;
     }
 
-    .extra__small__image {
+    .poi__targeting .extra__small__image {
         width: 25%;
-        margin: 2rem auto;
+        margin: 2rem 0rem 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+    
+    .poi__targeting .small__image {
+        width: auto;
+        margin: 2rem 50rem 2rem 0.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+    
+    .poi__targeting .medium__image {
+        width: auto;
+        margin: 2rem 18rem 2rem 0.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
 
-    }
-    
-    .small__image {
+    .poi__targeting .medium__image__noshadow {
         width: auto;
-        margin: 2rem 25rem;
-        border-radius: 0.5rem;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    }
-    
-    .medium__image {
-        width: auto;
-        margin: 2rem 12.5rem;
-        border-radius: 0.5rem;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    }
-
-    .medium__image__noshadow {
-        width: auto;
-        margin: 2rem 12.5rem;
+        margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 0.5rem;
     }
     
-    .large__image {
+    .poi__targeting .large__image {
         width: 70vw;
-        margin: 2rem auto;
+        margin: 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
 
-    .section__name {
-        margin: 5rem 12.5rem 0rem 12.5rem;
+    .poi__targeting .section__name {
+        margin: 5rem 12.5rem 0rem 0rem;
     }
-
 }
   

@@ -1,42 +1,42 @@
-.first__party__audience h2 {
+.support__center h2 {
     font-size: 2rem;
     text-align: left;
     padding: 2rem 0rem 0rem;
 }
 
-.first__party__audience h3 {
+.support__center h3 {
     font-size: 1.5rem;
     text-align: left;
     padding: 2rem 1rem 0rem;
 }
 
-.first__party__audience h4 {
+.support__center h4 {
     font-size: 1rem;
     text-align: left;
     font-weight: bold;
     padding: 2rem 1rem 0rem;
 }
 
-.first__party__audience p {
+.support__center p {
     font-size: 1rem;
     padding: 0.5rem 1rem 0rem;
 }
 
-.first__party__audience ol {
+.support__center ol {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.first__party__audience ul {
+.support__center ul {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.first__party__audience li {
+.support__center li {
     padding: 0rem 0rem 0.5rem;
 }
 
-.first__party__audience {
+.support__center {
     text-align: left;
     color: #000000;
     background-color: #fbfbfd;
@@ -90,8 +90,6 @@
 .space {
     opacity: 0%;
 }
-
-
 /* .group__image {
     margin: 2rem 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -100,81 +98,75 @@
 
 
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1080px) {    
     .project__container {
         padding: 0 10vw 20vh 10vw;
     }
 
-    .first__party__audience h2 {
+    .support__center h2 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
-    .first__party__audience h3 {
+    .support__center h3 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
-    .first__party__audience h4 {
+    .support__center h4 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
-    .first__party__audience p {
+    .support__center p {
         padding: 0.5rem 18rem 0rem 0.5rem;
     }
     
-    .first__party__audience ol {
+    .support__center ol {
         padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
     
-    .first__party__audience ul {
+    .support__center ul {
         padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
 
-    .first__party__audience li {
+    .support__center li {
         margin: 0rem 0rem 0rem 0rem;
     }
 
-    .first__party__audience .extra__small__image {
+    .support__center .extra__small__image {
         width: 25%;
         margin: 2rem 0rem 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-
     }
     
-    .first__party__audience .small__image {
+    .support__center .small__image {
         width: auto;
         margin: 2rem 50rem 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
     
-    .first__party__audience .medium__image {
+    .support__center .medium__image {
         width: auto;
         margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
 
-    .first__party__audience .medium__image__noshadow {
+    .support__center .medium__image__noshadow {
         width: auto;
         margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 0.5rem;
     }
     
-    .first__party__audience .large__image {
+    .support__center .large__image {
         width: 70vw;
         margin: 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
 
-    .first__party__audience .section__name {
+    .support__center .section__name {
         margin: 5rem 12.5rem 0rem 0rem;
     }
-
-    /* #section6{
-        padding: 0 0 20rem 0;
-    } */
-
 }
   

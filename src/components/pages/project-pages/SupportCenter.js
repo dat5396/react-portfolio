@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../../App.css';
-import './GeoPOITargeting.css';
+import './SupportCenter.css';
 import Sidebar from '../../Sidebar';
 
 function SupportCenter() {
@@ -48,7 +48,7 @@ function SupportCenter() {
   };
 
 	return (
-		<div className="project__container black__container poi__targeting" >
+		<div className="project__container black__container support__center" >
             <div>
                 <img src='images/project images/SC/SC-0.png'></img>
             </div>

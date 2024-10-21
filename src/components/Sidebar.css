@@ -6,8 +6,8 @@
 .sidebar {
     visibility: visible;
     position: fixed;
-    top: 80px;
-    right: 0;
+    top: 5rem;
+    right: 3rem;
     z-index: 1;
     width: 15vw; /* Adjust width as needed */
     /* height: 100vh; */

@@ -97,78 +97,78 @@
 
 @media only screen and (min-width: 1080px) {
     .project__container {
-        padding: 0 10vw 20vh 10vw;
+        padding: 0 0vw 20vh 0vw;
     }
 
     .FI h2 {
-        padding: 2rem 0rem 0rem;
+        padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
     .FI h3 {
-        padding: 2rem 12.5rem 0rem;
+        padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
     .FI h4 {
-        padding: 2rem 12.5rem 0rem;
+        padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
     .FI p {
-        padding: 0.5rem 12.5rem 0rem;
+        padding: 0.5rem 18rem 0rem 0.5rem;
     }
     
     .FI ol {
-        padding: 0.5rem 13.5rem 0rem;
+        padding: 0.5rem 12.5rem 0rem 1.5rem;
     }
     
-    .Fi ul {
-        padding: 0rem 12.5rem 0.5rem 12.5rem;
+    .FI ul {
+        padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
     .FI li {
         margin: 0rem 0rem 0rem 0rem;
     }
 
-    .list {
-        margin: 0rem 13.5rem 0rem 13.5rem;
+    /* .FI .list {
+        margin: 0rem 13.5rem 0rem 0rem;
         padding: 0.5rem 0rem;
-    }
+    } */
 
-    .extra__small__image {
+    .FI .extra__small__image {
         width: 25%;
-        margin: 2rem auto;
+        margin: 2rem 0rem 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 
     }
     
-    .small__image {
+    .FI .small__image {
         width: auto;
-        margin: 2rem 25rem;
+        margin: 2rem 25rem 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
     
-    .medium__image {
+    .FI .medium__image {
         width: auto;
-        margin: 2rem 12.5rem;
+        margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
 
-    .medium__image__noshadow {
+    .FI .medium__image__noshadow {
         width: auto;
-        margin: 2rem 12.5rem;
+        margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 0.5rem;
     }
     
-    .large__image {
+    .FI .large__image {
         width: 70vw;
-        margin: 2rem auto;
+        margin: 2rem 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     }
 
-    .section__name {
-        margin: 0rem 12.5rem 0rem 12.5rem;
+    .FI .section__name {
+        margin: 5rem 12.5rem 0rem 0rem;
     }
 
 }
