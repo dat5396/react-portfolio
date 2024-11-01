@@ -9,7 +9,7 @@ function FirstPartyAudience() {
 
   const sections = [
     { id: 'section1', title: '1. Project Overview' },
-    { id: 'section2', title: '2. Research & Analysis' },
+    { id: 'section2', title: '2. Discovery & Analysis' },
     { id: 'section3', title: '3. Ideation & Concept Development' },
     { id: 'section4', title: '4. User Testing, Gathering feedbacks & Iterations' },
     { id: 'section5', title: '5. Final Design' },
@@ -81,7 +81,7 @@ function FirstPartyAudience() {
 
             <div id="section2">
                 <div className='section__name'>
-                    <h2>2. RESEARCH & ANALYSIS</h2>
+                    <h2>2. DISCOVERY & ANALYSIS</h2>
                 </div>
                 <h3>How LiveRamp works</h3>
                 <p>In regard to first-party data, we did not store it directly within Illumin. Instead, we leveraged LiveRamp, a professional data storage and distribution service with a wide range of pre-existing features, including data storage, updates, and distribution to various destinations such as Facebook, TikTok, Google Ads, MailChimp, and more. Thus, I needed to conduct research to understand how LiveRamp operates.</p>

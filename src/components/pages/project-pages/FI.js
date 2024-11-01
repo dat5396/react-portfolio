@@ -9,7 +9,7 @@ function FI() {
 
   const sections = [
     { id: 'section1', title: '1. Project Overview' },
-    { id: 'section2', title: '2. Research & Analysis' },
+    { id: 'section2', title: '2. Discovery & Analysis' },
     { id: 'section3', title: '3. Ideation & Concept Development' },
     { id: 'section4', title: '4. User Testing, Gathering feedbacks & Iterations' },
     { id: 'section5', title: '5. Final Design' },
@@ -72,7 +72,7 @@ function FI() {
             
             <div id="section2">
                 <div className='section__name'>
-                    <h2>2. RESEARCH & ANALYSIS</h2>
+                    <h2>2. DISCOVERY & ANALYSIS</h2>
                 </div>
                 <h3>Ad Hierarchy</h3>
                 <p>Because our aim was to assist users in running Facebook and Instagram ads within the product, I initiated the project by conducting comprehensive research on the ad structure of Facebook.</p>

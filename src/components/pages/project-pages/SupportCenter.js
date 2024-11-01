@@ -9,7 +9,7 @@ function SupportCenter() {
 
   const sections = [
     { id: 'section1', title: '1. Project Overview' },
-    { id: 'section2', title: '2. Research & Analysis' },
+    { id: 'section2', title: '2. Discovery & Analysis' },
     { id: 'section3', title: '3. Design Process' },
     { id: 'section4', title: '4. Outcome & Impact' },
   ];
@@ -82,7 +82,7 @@ function SupportCenter() {
 
             <div id='section2'>
                 <div className='section__name'>
-                    <h2>2. RESEARCH & ANALYSIS</h2>
+                    <h2>2. DISCOVERY & ANALYSIS</h2>
                 </div>
                 <p>I conducted a competitive analysis to explore how other platforms structured their support centers, focusing on key design patterns and best practices to improve usability and functionality.</p>
                 <img src='images/project images/SC/SC-B1.png' className='large__image'></img>
