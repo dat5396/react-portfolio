@@ -166,6 +166,19 @@ function SupportCenter() {
                 <div className='section__name'>
                     <h2>5. FINAL DESIGN</h2>
                 </div>    
+                <h3>Flow 1: Searching for and reading a tutorial</h3>
+                <img src='images/project images/SC/SC-F01.png' className='large__image'></img>
+                <p>Users could search for any issues, with keywords highlighted in each search result for easier identification.</p>
+                <img src='images/project images/SC/SC-F02.png' className='large__image'></img>
+                <p>Users could easily navigate to all sections and search for articles using the navigation bar.</p>
+                <img src='images/project images/SC/SC-F03.png' className='small__image'></img>
+                <h3>Flow 2: Searching for and reading an announcement or product update</h3>
+                <img src='images/project images/SC/SC-F04.png' className='large__image'></img>
+                <h3>Flow 3: Opening and following up on a support case</h3>
+                <img src='images/project images/SC/SC-F05.png' className='large__image'></img>
+                <p>Users could view the details and track the progress of the cases they had submitted.</p>
+                <img src='images/project images/SC/SC-F06.png' className='large__image'></img>
+                <h3>Responsive design of all pages</h3>
                 <h3>Home page</h3>
                 <img src='images/project images/SC/SC-E01.png' className='large__image'></img>
                 <h3>Navigation</h3>
@@ -195,7 +208,7 @@ function SupportCenter() {
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>The new support center significantly enhanced the overall user experience. Users can now easily find and read tutorials, learn about new features and product improvements, and independently submit cases for additional support.</p>
+                <p>The new Support Center significantly enhanced the overall user experience. Users can now easily find and read tutorials, stay informed about new features and product improvements, and submit cases independently for additional support. With over 7,300 total impressions across all articles within just a few weeks of launch, the Support Center demonstrated a strong adoption rate.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>
