@@ -171,7 +171,7 @@ function FI() {
             
             <div id="section4">
                 <div className='section__name'>
-                    <h2>4. USER TESTING & ITERATION</h2>
+                    <h2>4. USER TESTING, GATHERING FEEDBACKS & ITERATION</h2>
                 </div>
                 <p className='space'>A</p>
                 <p>I partnered with a UX Researcher to facilitate some rapid testing sessions, aimed at gathering user feedback. The participants consisted of campaign managers from our company, individuals who utilize the product daily to execute campaigns.</p>

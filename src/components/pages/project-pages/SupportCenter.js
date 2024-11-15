@@ -10,8 +10,10 @@ function SupportCenter() {
   const sections = [
     { id: 'section1', title: '1. Project Overview' },
     { id: 'section2', title: '2. Discovery & Analysis' },
-    { id: 'section3', title: '3. Design Process' },
-    { id: 'section4', title: '4. Outcome & Impact' },
+    { id: 'section3', title: '3. Ideation & Concept Development' },
+    { id: 'section4', title: '4. User Testing, Gathering feedbacks & Iterations' },
+    { id: 'section5', title: '5. Final Design' },
+    { id: 'section6', title: '6. Outcome & Impact' },
   ];
 
   useEffect(() => {
@@ -100,51 +102,97 @@ function SupportCenter() {
 
             <div id='section3'>
                 <div className='section__name'>
-                    <h2>3. DESIGN PROCESS</h2>
+                    <h2>3. IDEATION & CONCEPT DEVELOPMENT</h2>
                 </div>
-                <p className='space'>A</p>
-                <p>Based on the three main functions of the support center, I began this phase by creating the sitemap for the page.</p>
+                <h3>User flows</h3>
+                <p>Based on the functions of the support center, there were 3 major user flows:</p>
+                <ul>
+                    <li>Searching for and reading a tutorial</li>
+                    <li>Searching for and reading an announcement or product update</li>
+                    <li>Opening and following up on a support case</li>
+                </ul>
+                <h3>Sitemap</h3>
                 <img src='images/project images/SC/SC-C1.png' className='medium__image'></img>
                 <h3>Grid system</h3>
+                <p>To ensure a seamless experience across different devices, I designed for 4 different screen sizes.</p>
                 <img src='images/project images/SC/SC-C1B.png' className='large__image'></img>
-                <h3>Home page</h3>
-                <p>On the homepage, users get a quick overview of what the support center offers and can easily explore different topics within the knowledge base.</p>
-                <img src='images/project images/SC/SC-C2.png' className='large__image'></img>
-                <h3>Navigation</h3>
-                <p>Users can easily navigate to all sections and search for any articles using the navigation bar.</p>
-                <img src='images/project images/SC/SC-C3.png' className='large__image'></img>
-                <h3>Topic page</h3>
-                <p>Articles related to a specific topic are displayed on the topic page.</p>
-                <img src='images/project images/SC/SC-C4.png' className='large__image'></img>
-                <h3>Article page</h3>
-                <p>Keywords in an article are highlighted for easy scanning. On the desktop version, the 'On this page' feature helps users quickly scroll to specific sections. Related articles are displayed at the bottom for further reading.</p>
-                <img src='images/project images/SC/SC-C5.png' className='large__image'></img>
-                <h3>Search result page</h3>
-                <p>When users search for issues, the keywords are highlighted in each search result.</p>
-                <img src='images/project images/SC/SC-C6.png' className='large__image'></img>
-                <h3>Announcements page</h3>
-                <p>All monthly product updates are displayed on the announcements page.</p>
-                <img src='images/project images/SC/SC-C7.png' className='large__image'></img>
-                <h3>Monthly product updates page</h3>
-                <p>Users can view detailed information about all new features and improvements in each monthly release.</p>
-                <img src='images/project images/SC/SC-C8.png' className='large__image'></img>
-                <h3>Support page</h3>
-                <p>Users can open new cases and track all ongoing cases on this page.</p>
-                <img src='images/project images/SC/SC-C9.png' className='large__image'></img>
-                <h3>Choose the type of support page</h3>
-                <p>Users can select the type of support they need.</p>
-                <img src='images/project images/SC/SC-C10.png' className='large__image'></img>
-                <h3>Open a case page</h3>
-                <p>To submit a case, users fill out form fields to provide information for the CSM team to assist them.</p>
-                <img src='images/project images/SC/SC-C11.png' className='large__image'></img>
-                <h3>Case detail page</h3>
-                <p>Users can view the details and progress of the cases they have submitted.</p>
-                <img src='images/project images/SC/SC-C12.png' className='large__image'></img>
+                <p>Because all Illumin users were desktop users, I presented the desktop version to users and stakeholders to gather feedback throughout the design process.</p>
+                <h3>Flow 1: Searching for and reading a tutorial</h3>
+                <p>On the homepage, users got a quick overview of what the support center offered and could easily explore various topics within the knowledge base. Keywords in articles were highlighted for easy scanning. In the desktop version, the 'On this page' feature allowed users to quickly navigate to specific sections. Related articles were displayed at the bottom for further reading.</p>
+                <img src='images/project images/SC/SC-C02.png' className='large__image'></img>
+                <p>Users could search for any issues, with keywords highlighted in each search result for easier identification.</p>
+                <img src='images/project images/SC/SC-C04.png' className='large__image'></img>
+                <p>Users could easily navigate to all sections and search for articles using the navigation bar.</p>
+                <img src='images/project images/SC/SC-C03.png' className='small__image'></img>
+                <h3>Flow 2: Searching for and reading an announcement or product update</h3>
+                <p>All monthly product updates were displayed on the announcements page, where users could view detailed information about new features and improvements in each release.</p>
+                <img src='images/project images/SC/SC-C05.png' className='large__image'></img>
+                <h3>Flow 3: Opening and following up on a support case</h3>
+                <p>To submit a case, users needed to log in and fill out form fields, providing the necessary information for the CSM team to assist them.</p>
+                <img src='images/project images/SC/SC-C06.png' className='large__image'></img>
+                <p>Users could view the details and track the progress of the cases they had submitted.</p>
+                <img src='images/project images/SC/SC-C07.png' className='large__image'></img>
             </div>
 
             <div id='section4'>
                 <div className='section__name'>
-                    <h2>4. OUTCOME & IMPACT</h2>
+                    <h2>4. USER TESTING, GATHERING FEEDBACKS & ITERATIONS</h2>
+                </div>
+                <p>To gather feedback, the designs were presented to company stakeholders, covering all three major user flows within the Support Center.</p>
+                <img src='images/project images/SC/SC-D01.png' className='large__image'></img>
+                <p>Some insights and feedback I gathered after the 1st iteration:</p>
+                <div className='list'>
+                <ul>
+                    <li>Stakeholders were satisfied with all flows, noting that the homepage and navigation clearly guided users on what they could do in the Support Center. </li>
+                    <li>They liked the mega menu, which allowed users to quickly navigate to different topic pages.</li>
+                    <li>It was suggested that the text color on the tutorial and product updates pages should be darker for improved readability.</li>
+                    <li>Due to the vendor's technical limitations, the design required an extra page for users to select the type of support case before filling out the form to open a case.</li>
+                </ul>
+                </div>
+                <p className='space'>A</p>
+                <h3>The 2rd iteration</h3>
+                <h4>Improve the reading experience</h4>
+                <p>Since reading tutorials was the primary task users did in the Support Center, the first priority in the 2nd iteration was enhancing the reading experience. Based on user feedback, I applied a darker color to the text on the tutorial and product updates pages. Additionally, I changed the navigation color to white to minimize visual distractions while users were reading.</p>
+                <img src='images/project images/SC/SC-D02.png' className='large__image'></img>
+                <h4>Improve the homepage interface</h4>
+                <p>I added light grey backgrounds to certain sections on the homepage to improve scanability.</p>
+                <img src='images/project images/SC/SC-D03.png' className='large__image'></img>
+                <h4>Add a select support type page to accommodate technical limitations.</h4>
+                <p>An extra page for users to select the type of support case before filling out the form to open a case.</p>
+                <img src='images/project images/SC/SC-D04.png' className='large__image'></img>
+            </div>
+
+            <div id='section5'>
+                <div className='section__name'>
+                    <h2>5. FINAL DESIGN</h2>
+                </div>    
+                <h3>Home page</h3>
+                <img src='images/project images/SC/SC-E01.png' className='large__image'></img>
+                <h3>Navigation</h3>
+                <img src='images/project images/SC/SC-E02.png' className='large__image'></img>
+                <h3>Topic page</h3>
+                <img src='images/project images/SC/SC-E03.png' className='large__image'></img>
+                <h3>Article page</h3>
+                <img src='images/project images/SC/SC-E04.png' className='large__image'></img>
+                <h3>Search result page</h3>
+                <img src='images/project images/SC/SC-E05.png' className='large__image'></img>
+                <h3>Announcements page</h3>
+                <img src='images/project images/SC/SC-E06.png' className='large__image'></img>
+                <h3>Monthly product updates page</h3>
+                <img src='images/project images/SC/SC-E07.png' className='large__image'></img>
+                <h3>Support page</h3>
+                <img src='images/project images/SC/SC-E08.png' className='large__image'></img>
+                <h3>Choose the type of support page</h3>
+                <img src='images/project images/SC/SC-E09.png' className='large__image'></img>
+                <h3>Open a support case page</h3>
+                <img src='images/project images/SC/SC-E10.png' className='large__image'></img>
+                <h3>Case detail page</h3>
+                <img src='images/project images/SC/SC-E11.png' className='large__image'></img>
+            </div>
+
+            <div id='section6'>
+                <div className='section__name'>
+                    <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
                 <p>The new support center significantly enhanced the overall user experience. Users can now easily find and read tutorials, learn about new features and product improvements, and independently submit cases for additional support.</p>
