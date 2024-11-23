@@ -19,7 +19,7 @@ function IlluminComponentLibrary() {
 					<h3>Duration</h3>
 					<p>4 months</p>
 					<h3>My role</h3>
-					<p>UI Designer</p>
+					<p>Product Designer</p>
 				</div>
 
 				<div >

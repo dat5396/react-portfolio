@@ -11,13 +11,13 @@
 .menu__page h3 {
     font-size: 1.5rem;
     padding-top: 2rem;
-    color: rgb(0, 0, 0);
+    color: #1D1D1F;
 }
 
 .menu__page p {
     font-size: 1rem;
     padding-top: 0.5rem;
-    color: #000;
+    color: #1D1D1F;
 }
 
 .detail__page {
@@ -37,7 +37,7 @@
 .detail__page h3 {
     font-size: 20px;
     padding: 20px 0;
-    color: #000;
+    color: #1D1D1F;
 }
 
 /* .detail__page img {
