@@ -133,7 +133,7 @@ function Cards() {
 								<h3>Grow business.</h3>
 							</div>
 							<Button to='/about' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-							Contact Me
+							Contact me
 							</Button>
 						</div>
 					</Fade>

@@ -15,7 +15,7 @@ function HeroSection() {
         <p>Welcome to my portfolio</p>
         <div className="hero-btns">
           <Button to='/projects' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-            Explore My Projects
+            Explore my projects
           </Button>
         </div>
       </Fade>
