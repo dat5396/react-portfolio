@@ -67,14 +67,14 @@ function Cards() {
 						</ul>
 
 						<ul className='cards__items'>
-								{/* <div className='two__in__one'>
+								<div className='two__in__one'>
 								<CardItem 
-									src="images/illumin-component-library.jpeg"
-									text="illumin Component Library"
+									src="images/FM.jpeg"
+									text="Adsquare Footfall Measurement"
 									label="Professional Project"
-									path="/illumin-component-library"
+									path="/footfall-measurement"
 								/>
-								</div> */}
+								</div>
 
 								{/* <div className='two__in__one'>
 								<CardItem 

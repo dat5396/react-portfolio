@@ -172,9 +172,10 @@
         margin: 5rem 12.5rem 0rem 0rem;
     }
 
-    /* #section6{
-        padding: 0 0 20rem 0;
-    } */
+    .first__party__audience .logo {
+        width: auto;
+        margin: 10rem 18rem 10rem 0.5rem;
+    }
 
 }
   

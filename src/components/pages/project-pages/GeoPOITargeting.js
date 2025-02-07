@@ -133,7 +133,7 @@ function GeoPOITargeting() {
                     <h2>5. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>This feature enhanced the user experience on the platform. With point of interest targeting, users could granularly target individuals at specific geographic locations by allowing or blocking any points of interest or category. Additionally, thanks to the visualization on the map, geographic targeting became intuitive and was no longer abstract.</p>
+                <p>The feature introduced a new opportunity in retail media, allowing users to measure the impact of their ads on specific locations. With detailed data such as store visitors, store trips, and time-to-visit metrics, users gained valuable insights to improve their marketing campaigns.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>

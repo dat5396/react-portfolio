@@ -171,5 +171,12 @@
         margin: 5rem 12.5rem 0rem 0rem;
     }
 
+    .FI .logo {
+        /* width: 70vw; */
+        width: auto;
+        margin: 10rem 18rem 10rem 0.5rem;
+        /* margin: 10rem 0rem; */
+    }
+
 }
   

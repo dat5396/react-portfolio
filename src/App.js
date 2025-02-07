@@ -16,6 +16,7 @@ import PasswordDS from './components/pages/project-pages/PasswordDS';
 import FI from './components/pages/project-pages/FI';
 import FirstPartyAudience from './components/pages/project-pages/FirstPartyAudience';
 import OWToFB from './components/pages/project-pages/OWToFB';
+import FootfallMeasurement from './components/pages/project-pages/FootfallMeasurement';
 import GeoPOITargeting from './components/pages/project-pages/GeoPOITargeting';
 import SupportCenter from './components/pages/project-pages/SupportCenter';
 import XscapeRentals from './components/pages/project-pages/XscapeRentals';
@@ -46,6 +47,7 @@ function App() {
 						<Route path='/facebook-instagram-integration' element={<FI />} />
 						<Route path='/first-party-audience-onboarding' element={<FirstPartyAudience />} />
 						<Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} />
+						<Route path='/footfall-measurement' element={<FootfallMeasurement />} />
 						<Route path='/geo-poi-targeting' element={<GeoPOITargeting />} />
 						<Route path='/support-center' element={<SupportCenter />} />
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
