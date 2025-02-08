@@ -112,7 +112,7 @@ function SupportCenter() {
                     <li>Opening and following up on a support case</li>
                 </ul>
                 <h3>Sitemap</h3>
-                <img src='images/project images/SC/SC-C1.png' className='medium__image'></img>
+                <img src='images/project images/SC/SC-C1.png' className='large__image'></img>
                 <h3>Grid system</h3>
                 <p>To ensure a seamless experience across different devices, I designed for 4 different screen sizes.</p>
                 <img src='images/project images/SC/SC-C1B.png' className='large__image'></img>

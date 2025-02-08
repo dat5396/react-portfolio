@@ -73,9 +73,9 @@ function FootfallMeasurement() {
                 </div>
                 <h3>How Footfall measurement works</h3>
                 <p>Adsquare offers a Footfall Measurement solution that allows advertisers to measure and optimise the offline impact of their advertising campaigns. The results can be made available in real time across all media and channels – so mobile, desktop.</p>
-                <img src='images/project images/FM/FM-B01.png' className='medium__image'></img>
+                <img src='images/project images/FM/FM-B01.png' className='large__image'></img>
                 <p>Users could select multiple locations and define a radius around each location to measure the impact of their ads.</p>
-                <img src='images/project images/FM/FM-B02.png' className='medium__image'></img>
+                <img src='images/project images/FM/FM-B02.png' className='large__image'></img>
             </div>
 
             <div id='section3'>

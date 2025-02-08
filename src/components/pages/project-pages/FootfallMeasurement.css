@@ -39,28 +39,28 @@
 .footfall__measurement {
     text-align: left;
     color: #1D1D1F;
-    background-color: #fbfbfd;
+    background-color: #ffffff;
 }
 
 .extra__small__image {
     width: 40%;
     margin: 2rem auto;
     border-radius: 0rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
 }
 
 .small__image {
     width: auto;
     margin: 2rem 1rem;
     border-radius: 0rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
 }
 
 .medium__image {
     width: auto;
     margin: 2rem 1rem;
     border-radius: 0rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
 }
 
 .medium__image__noshadow {
@@ -74,7 +74,13 @@
     width: auto;
     margin: 2rem 1rem;
     border-radius: 0rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 25);
+}
+
+.large__image__noshadow {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
 }
 
 .logo {
@@ -97,8 +103,8 @@
 
 /* .group__image {
     margin: 2rem 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 1rem;
 } */
 
 
@@ -139,36 +145,36 @@
     .footfall__measurement .extra__small__image {
         width: 25%;
         margin: 2rem 0rem 2rem 0.5rem;
-        border-radius: 0.5rem;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 1rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
 
     }
     
     .footfall__measurement .small__image {
         width: auto;
         margin: 2rem 50rem 2rem 0.5rem;
-        border-radius: 0.5rem;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 1rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
     
     .footfall__measurement .medium__image {
         width: auto;
         margin: 2rem 18rem 2rem 0.5rem;
-        border-radius: 0.5rem;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 1rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
 
     .footfall__measurement .medium__image__noshadow {
         width: auto;
         margin: 2rem 18rem 2rem 0.5rem;
-        border-radius: 0.5rem;
+        border-radius: 1rem;
     }
     
     .footfall__measurement .large__image {
         width: 70vw;
         margin: 2rem 0.5rem;
-        border-radius: 0.5rem;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 1rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
 
     .footfall__measurement .section__name {

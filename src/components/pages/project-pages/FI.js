@@ -52,7 +52,7 @@ function FI() {
 	return (
 		<div className="project__container white__container FI" >
 			<div>
-                <img src='images/project images/FI/FI-hero.jpg' ></img>
+                <img src='images/project images/FI/FI-0.png' ></img>
             </div>
             {/* <div>
                 <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
@@ -78,7 +78,7 @@ function FI() {
                 <p>Because our aim was to assist users in running Facebook and Instagram ads within the product, I initiated the project by conducting comprehensive research on the ad structure of Facebook.</p>
                 <img src='images/project images/FI/FI-A1.png' className='extra__small__image'></img>
                 <p>Furthermore, considering our plans to integrate additional Social and Search channels in the future, comprehending the ad hierarchies of those platforms was imperative. This understanding equipped me with the knowledge needed to construct scalable solutions.</p>
-                <img src='images/project images/FI/FI-A2.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-A2.png' className='large__image'></img>
                 <p>In general, despite these platforms employing varying names for their ad structures, they adhere to a consistent 3-level hierarchy. Consequently, I held the belief that any component of this project showcasing the 3 levels of ads could be reused in future.</p>
                 
                 <h3>UX/UI Reference</h3>
@@ -87,7 +87,7 @@ function FI() {
                 <p>In terms of navigation, Facebook, Google Ads, and Snapchat offer users the flexibility to transition between different levels seamlessly thanks to the Auto Save feature. On the other hand, TikTok, LinkedIn, and Bing require users to follow a step-by-step progression, disallowing any advancement in case of errors.</p>
                 <p>Engaging in discussions with the Product Manager and the Engineering team, we collectively decided to implement support for Auto Save. This strategic choice was driven by the conviction that it would significantly enhance the user experience.</p>
                 <p>Shifting focus to UI considerations, a notable pattern emerged across these platforms, excluding Bing. Specifically, they all employed a 3-pane UI design: comprising left, middle, and right panes, each serving a distinct purpose.</p>
-                <img src='images/project images/FI/FI-A4.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-A4.png' className='large__image'></img>
                 <p>Based on this analysis, I believed that implementing a 3-section layout in the right drawer, where users input information for Facebook and Instagram ads, would pave the way for future reusability across other channels.</p>
             </div>
 
@@ -123,9 +123,9 @@ function FI() {
                 <h3>Canvas element</h3>
                 <p>As illumin provides users with a canvas to visualize their journey advertising, the canvas element for Facebook & Instagram holds significant importance.</p>
                 <p>Since a Campaign comprises multiple Ad Sets, I started with an idea that the canvas element presenting information for each Ad Set, including its name and the quantity of Ads it contained.</p>
-                <img src='images/project images/FI/FI-B3.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-B3.png' className='large__image'></img>
                 <p>I selected option 3 and created high-fidelity elements—one for a single ad set and another for multiple ad sets.</p>
-                <img src='images/project images/FI/FI-B4.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-B4.png' className='large__image'></img>
 
                 {/* <h4>Direction 2: Focus on the quantity of Ad Sets and Ads</h4>
                 <p>This approach provides high-level information about a Campaign, such as the number of Ad Sets and Ads</p>
@@ -192,9 +192,9 @@ function FI() {
                 <img src='images/project images/FI/FI-C11.png' className='large__image'></img>
                 <h3>Canvas element</h3>
                 <p>The new canvas element provided detailed information about each Ad Set, while also offering high-level insights about the overall Campaign, such as the number of Ad Sets and Ads. This enabled users to quickly access key information at a glance.</p>
-                <img src='images/project images/FI/FI-C12.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-C12.png' className='large__image'></img>
                 <p>I selected option 3 and created high-fidelity elements—one for a single ad set and another for multiple ad sets.</p>
-                <img src='images/project images/FI/FI-C13.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-C13.png' className='large__image'></img>
                 <h3>Right drawer</h3>
                 <p>Based on feedback from users and stakeholders, setting up campaigns was identified as a complex task. To address this, the drawer should be larger, allowing users to better focus and configure their campaigns. I drafted some ideas featuring a larger drawer for improved usability.</p>
                 <h4>Direction 1: Putting the navigation bar into the left side</h4>
@@ -229,7 +229,7 @@ function FI() {
                 <p>After receiving positive feedback on the canvas element, I created various design variants to cover all possible use cases.</p>
                 <img src='images/project images/FI/FI-C23.png' className='large__image'></img>
                 <p>I also enhanced the interactivity of the canvas element by navigating users to different sections within the right drawer based on their click location.</p>
-                <img src='images/project images/FI/FI-C24.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-C24.png' className='large__image'></img>
                 <h3>Right drawer</h3>
                 <p>After deciding to proceed with the large drawer version, I designed the error flow for the configuration in this iteration.</p>
                 <p>When users encountered errors, there were 3 locations that indicate these issues:</p>
@@ -257,7 +257,7 @@ function FI() {
                 <p className='space'>A</p>
                 <p>{`After iterating on the design based on user and stakeholder feedback, I completed all the flows within this project. In total, there were over 20 flows. However, for the convenience of readers, I will present only the key flows in each part in this portfolio.`}</p>
                 {/* <img src='images/project images/FI/FI-D1.png' className='small__image'></img> */}
-                <img src='images/project images/FI/FI-D9.png' className='medium__image'></img>
+                <img src='images/project images/FI/FI-D9.png' className='large__image'></img>
                 <h3>Authorize (Connect illumin to Facebook) in licensee settings</h3>
                 <img src='images/project images/FI/FI-D2.png' className='large__image'></img>
                 <h3>Authorize (Connect illumin to Facebook) in journey settings</h3>
