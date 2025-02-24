@@ -53,7 +53,7 @@ function FirstPartyAudience() {
 	return (
 		<div className="project__container black__container first__party__audience" >
             <div>
-                <img src='images/project images/FPA/FPA-A1.jpg' ></img>
+                <img src='images/project images/FPA/FPA-A1.jpg'></img>
             </div>
             
             <div id="section1">
@@ -202,7 +202,7 @@ function FirstPartyAudience() {
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>As a result of this project, we successfully implemented a feature that not only empowers users to independently upload and utilize first-party data but also streamlines operations, reducing the manual workload for the client success team. This enhancement notably enhances user autonomy and platform efficiency. Within just 2 months of its launch, over 1,200,000 first-party data entries were uploaded, showcasing its rapid adoption and impact.</p>
+                <p>As a result of this project, we successfully implemented a feature that not only empowers users to independently upload and utilize first-party data but also streamlines operations, reducing the manual workload for the client success team. The success metric for this feature was to manage 15,000,000 first-party data entries monthly by the end of the first year. Remarkably, we achieved this milestone in under 11 months.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>

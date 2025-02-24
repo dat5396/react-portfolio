@@ -46,7 +46,14 @@ function Cards() {
 									path="/geo-poi-targeting"
 								/>
 								</div> */}
-
+								<div className='two__in__one'>
+								<CardItem 
+									src="images/FM.jpeg"
+									text="Adsquare Footfall Measurement"
+									label="Professional Project"
+									path="/footfall-measurement"
+								/>
+								</div>
 					
 								<div className='two__in__one'>
 								<CardItem 
@@ -56,23 +63,16 @@ function Cards() {
 									path="/support-center"
 								/>
 								</div>
+								
+						</ul>
+
+						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/illumin-component-library.jpeg"
 									text="illumin Component Library"
 									label="Professional Project"
 									path="/illumin-component-library"
-								/>
-								</div>
-						</ul>
-
-						<ul className='cards__items'>
-								<div className='two__in__one'>
-								<CardItem 
-									src="images/FM.jpeg"
-									text="Adsquare Footfall Measurement"
-									label="Professional Project"
-									path="/footfall-measurement"
 								/>
 								</div>
 
