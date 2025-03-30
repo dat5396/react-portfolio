@@ -202,7 +202,7 @@ function FirstPartyAudience() {
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>As a result of this project, we successfully implemented a feature that not only empowers users to independently upload and utilize first-party data but also streamlines operations, reducing the manual workload for the client success team. The success metric for this feature was to manage 15,000,000 first-party data entries monthly by the end of the first year. Remarkably, we achieved this milestone in under 11 months.</p>
+                <p>As a result of this project, we successfully implemented a feature that not only empowers users to independently upload and utilize first-party data but also streamlines operations, reducing the manual workload for the client success team. In terms of business outcomes, we successfully met our goal for this feature by managing 15,000,000 first-party data entries per month by the end of the first year.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>

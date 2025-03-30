@@ -71,7 +71,7 @@ function FootfallMeasurement() {
                 <div className='section__name'>
                     <h2>2. DISCOVERY & ANALYSIS</h2>
                 </div>
-                <h3>How Footfall measurement works</h3>
+                <h4>How Footfall measurement works</h4>
                 <p>Adsquare offers a Footfall Measurement solution that allows advertisers to measure and optimise the offline impact of their advertising campaigns. The results can be made available in real time across all media and channels – so mobile, desktop.</p>
                 <img src='images/project images/FM/FM-B01.png' className='large__image'></img>
                 <p>Users could select multiple locations and define a radius around each location to measure the impact of their ads.</p>
@@ -83,14 +83,14 @@ function FootfallMeasurement() {
                     <h2>3. IDEATION & CONCEPT DEVELOPMENT</h2>
                 </div>
                 {/* <p className='space'>A</p> */}
-                <h3>User flow</h3>
+                <h4>User flow</h4>
                 <p>After gaining a thorough understanding of how Footfall measurement worked, I initiated this phase by creating the main user flow.</p>
                 <img src='images/project images/FM/FM-C01.png'className='large__image'></img>
-                <h3>Lo-fi wireframes</h3>
-                <p>I created low-fidelity wireframes to outline the basic design of this feature.</p>
+                <h4>Lo-fi wireframes</h4>
+                {/* <p>I created low-fidelity wireframes to outline the basic design of this feature.</p> */}
                 <img src='images/project images/FM/FM-C02.png'className='large__image'></img>
-                <h3>Hi-fi wireframes</h3>
-                <p>After that, I created high-fidelity wireframes to refine the feature's design.</p>
+                <h4>Hi-fi wireframes</h4>
+                {/* <p>After that, I created high-fidelity wireframes to refine the feature's design.</p> */}
                 <img src='images/project images/FM/FM-C03.png'className='large__image'></img>
             </div>
 
@@ -106,27 +106,54 @@ function FootfallMeasurement() {
                     <li>The configuration process had too many steps and needed a larger space instead of a modal.</li>
                     <li>The map was placed at the top of the modal, forcing users to scroll down to view and select locations.</li>
                 </ul>
-                <h3>The 2nd iteration</h3>
+                <h3>The 1st iteration</h3>
                 <p>Based on feedback from stakeholders, I changed the configuration interface from a modal to a full-screen drawer in the second iteration.</p>
-                <h3>Ideate configuration drawer layout</h3>
-                <img src='images/project images/FM/FM-D00.png'className='large__image'></img>
-                <h3>Lo-fi wireframes</h3>
+                <h4>Ideate configuration drawer layout</h4>
                 <img src='images/project images/FM/FM-D01.png'className='large__image'></img>
-                <h3>Hi-fi wireframes</h3>
+                <p>I placed the vertical map on the right side of the location list so users could view both the list and the map without scrolling.</p>
+                <h4>Lo-fi wireframes with the new layout</h4>
                 <img src='images/project images/FM/FM-D02.png'className='large__image'></img>
-                <p>After the second iteration, I shared the design with stakeholders and users to gather feedback. Key insights included:</p>
+                <h4>Hi-fi wireframes of the main flow: Users enabled and set up Footfall Measurement</h4>
+                <img src='images/project images/FM/FM-D03.png'className='large__image'></img>
+                <h4>Edge case: Users were notified if they hadn't completed the setup</h4>
+                <img src='images/project images/FM/FM-D04.png'className='large__image'></img>
+                <p>After the first iteration, I shared the design with stakeholders and users to gather feedback. Key insights included:</p>
                 <ul>
                     <li>The full-screen drawer provided more space, making it easier for users to view information and interact.</li>
                     <li>The empty state of the drawer should inform users that uploaded locations would be saved at the advertiser level.</li>
-                    <li>In the "validate new locations" step, users should be able to see which locations are invalid.</li>
                     <li>In the "validate new locations" step, users should be able to edit and remove locations.</li>
+                    <li>In the "validate new locations" step, users should be able to see which locations are invalid.</li>
                 </ul>
-                <h3>The 3rd iteration</h3>
+                <h3>The 2nd iteration</h3>
                 <p>Based on feedback from stakeholders, I updated the user flow to allow users to edit and remove locations during the validation step.</p>
-                <h3>Updated user flow</h3>
-                <img src='images/project images/FM/FM-D03.png'className='large__image'></img>
-                <h3>Hi-fi wireframes</h3>
-                <img src='images/project images/FM/FM-D04.png'className='large__image'></img>
+                <h4>Updated user flow</h4>
+                <img src='images/project images/FM/FM-D05.png'className='large__image'></img>
+                <h4>Users could edit or delete locations during the location upload process</h4>
+                <img src='images/project images/FM/FM-D07.png'className='large__image'></img>
+                <h4>When users uploaded invalid locations, they could edit them and search for valid addresses</h4>
+                <img src='images/project images/FM/FM-D08.png'className='large__image'></img>
+                <h4>Users could edit or delete multiple locations at once</h4>
+                <img src='images/project images/FM/FM-D09.png'className='large__image'></img>
+                <h4>The hover state for selected locations</h4>
+                <p>I added a hover state for selected locations to improve visibility and interaction.</p>
+                <img src='images/project images/FM/FM-D06.png'className='large__image'></img>
+                <p>After the second iteration, I shared the design with stakeholders and users to gather feedback. Key insights included:</p>
+                <ul>
+                    <li>Allowing users to edit and correct invalid locations during the upload process made the experience more convenient.</li>
+                    <li>The new hover state for selected locations improved the UI's cleanliness and made interactions more intuitive.</li>
+                </ul>
+                <p>In the second iteration, we tested the feature and discovered that some addresses didn’t lead to the correct locations, especially when the stores were inside a mall.</p>
+                <img src='images/project images/FM/FM-D10.png'className='large__image'></img>
+                <p>In the example above, the address of the McDonald's store didn’t pinpoint the store’s accurate location. Therefore, we needed to address this issue in the next iteration.</p>
+                <h3>The 3rd iteration</h3>
+                <p>To solve the issue of inaccurate store locations, we explored several solutions. We allowed users to upload and edit locations using latitude and longitude, ensuring precise location tracking down to specific points.</p>
+                <h4>When users uploaded locations, they could edit the latitude, longitude, or addresses to specify highly accurate locations</h4>
+                <img src='images/project images/FM/FM-D11.png'className='large__image'></img>
+                <p>Additionally, we explored a feature that allowed users to drag and drop a pin to their desired location, making it more intuitive for users to pinpoint store locations.</p>
+                <h4>Users could use the map to intuitively edit a location by dragging the pin to the desired spot</h4>
+                <img src='images/project images/FM/FM-D12.png'className='large__image'></img>
+                <h4>Users could delete any unused locations</h4>
+                <img src='images/project images/FM/FM-D13.png'className='large__image'></img>
             </div>
 
             <div id='section5'>
@@ -134,7 +161,16 @@ function FootfallMeasurement() {
                     <h2>5. FINAL DESIGN</h2>
                 </div>
                 <div>
+                    <h4>The main flow: Users enabled and set up Footfall Measurement</h4>
                     <img src='images/project images/FM/FM-E01.png'className='large__image'></img>
+                    <h4>Users could intuitively edit a location with the map or form fields</h4>
+                    <img src='images/project images/FM/FM-E02.png'className='large__image'></img>
+                    <h4>Users could delete any unused locations</h4>
+                    <img src='images/project images/FM/FM-E03.png'className='large__image'></img>
+                    <h4>Users could edit or delete multiple locations at once</h4>
+                    <img src='images/project images/FM/FM-E04.png'className='large__image'></img>
+                    <h4>Edge case: Users were notified if they hadn't completed the setup</h4>
+                    <img src='images/project images/FM/FM-E05.png'className='large__image'></img>
                 </div>
             </div>
 
