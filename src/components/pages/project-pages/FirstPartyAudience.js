@@ -8,12 +8,12 @@ function FirstPartyAudience() {
     const [activeSection, setActiveSection] = useState(null);
 
   const sections = [
-    { id: 'section1', title: '1. Project Overview' },
-    { id: 'section2', title: '2. Discovery & Analysis' },
-    { id: 'section3', title: '3. Ideation & Concept Development' },
-    { id: 'section4', title: '4. User Testing, Gathering feedbacks & Iterations' },
-    { id: 'section5', title: '5. Final Design' },
-    { id: 'section6', title: '6. Outcome & Impact' },
+    { id: 'section1', title: '1. Project overview' },
+    { id: 'section2', title: '2. Discovery & analysis' },
+    { id: 'section3', title: '3. Ideation & concept development' },
+    { id: 'section4', title: '4. User testing, gathering feedbacks & iterations' },
+    { id: 'section5', title: '5. Final design' },
+    { id: 'section6', title: '6. Outcome & impact' },
   ];
 
   useEffect(() => {
