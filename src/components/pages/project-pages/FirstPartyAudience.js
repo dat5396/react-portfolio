@@ -129,6 +129,7 @@ function FirstPartyAudience() {
                 <p className='space'>A</p>
                 <p>I collaborated with a UX researcher to conduct rapid testing sessions to gather user feedback. We held sessions with the Customer Success Team, which supports self-serve customers, and the Managed Team, which runs campaigns for managed clients.</p>
                 <p>Additionally, I presented the design and collected feedback from other members of the Product team and the Engineering team.</p>
+                <img src='images/project images/FPA/FPA-user-testing.png'className='large__image'></img>
                 <p className='space'>A</p>
                 <p>Some insights and feedback I gathered after the 1st iteration:</p>
                 <ul>
@@ -202,7 +203,7 @@ function FirstPartyAudience() {
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>As a result of this project, we successfully implemented a feature that not only empowers users to independently upload and utilize first-party data but also streamlines operations, reducing the manual workload for the client success team. In terms of business outcomes, we successfully met our goal for this feature by managing 15,000,000 first-party data entries per month by the end of the first year.</p>
+                <p>As a result of this project, we successfully implemented a feature that not only empowers users to independently upload and utilize first-party data but also streamlines operations, reducing the manual workload for the client success team. In terms of business outcomes, we successfully met the success metric for this feature by managing 15,000,000 first-party data entries per month by the end of the first year.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>
