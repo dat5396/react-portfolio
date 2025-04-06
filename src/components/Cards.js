@@ -19,7 +19,7 @@ function Cards() {
 						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem
-									src="images/FI_cover.jpeg"
+									src="images/FI_cover.jpg"
 									text="Facebook & Instagram Integration"
 									label="Professional Project"
 									path="/facebook-instagram-integration"

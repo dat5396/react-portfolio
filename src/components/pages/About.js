@@ -53,7 +53,7 @@ export default function About() {
 							</div>
 							<div className='skill__details'>
 								{/* <img src='/images/frontend-icon.png' alt=''/> */}
-								<h3>Collaboration & Communication</h3>
+								<h3>Collaboration & Teamwork</h3>
 								<p>Effective collaboration and communication with cross-functional teams to align decisions with user needs and business objectives.</p>
 								<img src='/images/media-design.png' alt=''/>
 							</div>

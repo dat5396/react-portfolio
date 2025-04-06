@@ -257,7 +257,7 @@ function FI() {
                 <p className='space'>A</p>
                 <p>{`After iterating on the design based on user and stakeholder feedback, I completed all the flows within this project. In total, there were over 20 flows. However, for the convenience of readers, I will present only the key flows in each part in this portfolio.`}</p>
                 {/* <img src='images/project images/FI/FI-D1.png' className='small__image'></img> */}
-                <img src='images/project images/FI/FI-D9.png' className='large__image'></img>
+                {/* <img src='images/project images/FI/FI-D9.png' className='large__image'></img> */}
                 <h3>Authorize (Connect illumin to Facebook) in licensee settings</h3>
                 <img src='images/project images/FI/FI-D2.png' className='large__image'></img>
                 <h3>Authorize (Connect illumin to Facebook) in journey settings</h3>
