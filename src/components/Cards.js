@@ -76,14 +76,14 @@ function Cards() {
 								/>
 								</div>
 
-								{/* <div className='two__in__one'>
+								<div className='two__in__one'>
 								<CardItem 
-									src="images/illumin-component-library.jpeg"
-									text="illumin Component Library"
+									src="images/IM.jpg"
+									text="(Comming soon) illumin Inventory Marketplace"
 									label="Professional Project"
-									path="/illumin-component-library"
+									// path="/"
 								/>
-								</div> */}
+								</div>
 						</ul>
 						
 						<ul className='cards__items'>	
