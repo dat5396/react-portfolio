@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import '../../../App.css';
-import './FirstPartyAudience.css';
+import './InventoryMarketplace.css';
 import Sidebar from '../../Sidebar';
 
 
-function FirstPartyAudience() {
+function InventoryMarketplace() {
     const [activeSection, setActiveSection] = useState(null);
 
   const sections = [
@@ -61,21 +61,13 @@ function FirstPartyAudience() {
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
                 <h3>Context</h3>
-                <p>illumin was a platform that empowered marketers to create meaningful cross-channel advertising campaigns. Prior to this project, illumin did not support self-serve uploading of first-party data, such as email addresses and phone numbers. To use first-party data, users had to provide this information to the customer success team, who would manually process and upload it for users to utilize.</p>
+                <p>illumin was a platform that empowered marketers to create meaningful cross-channel advertising campaigns. Prior to this project, Illumin did not support self-serve uploading of first-party data, such as email addresses and phone numbers. To use first-party data, users had to provide this information to the customer success team, who would manually process and upload it for users to utilize.</p>
                 <h3>Project objective</h3>
                 <p>The goal of this project was to develop a feature that allows users to self-serve upload first-party data and then use this data to run ads in illumin.</p>
                 <h3>Project duration</h3>
                 <p>The design phase for this project lasted for 6 weeks.</p>
                 <p>My role was Product Designer. What I show in this portfolio was my contribution to the project.</p>
-                {/* <h3>Table of content</h3>
-                <ol>
-                    <li>Project Overview</li>
-                    <li>Research & Analysis</li>
-                    <li>Ideation & Concept Development</li>
-                    <li>User Testing & Iteration</li>
-                    <li>Final Design</li>
-                    <li>Outcome & Impact</li>
-                </ol> */}
+                
             </div>
 
             <div id="section2">
@@ -213,4 +205,4 @@ function FirstPartyAudience() {
 	)
 }
 
-export default FirstPartyAudience;
+export default InventoryMarketplace;
