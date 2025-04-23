@@ -179,7 +179,7 @@ function FootfallMeasurement() {
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>With Adsquare's footfall measurement, businesses gained the ability to track and optimize the offline impact of their advertising campaigns. This capability unlocked a significant revenue stream for the company, as an increasing number of businesses began prioritizing the influence of their ads on foot traffic to physical stores.</p>
+                <p>With Adsquare's footfall measurement, users gained the ability to track and optimize the offline impact of their advertising campaigns. From a business perspective, we paid $11,000 per month for Adsquare, with revenue sharing beyond that threshold. Within two months of launch, the feature generated over $17,000 in monthly revenue—becoming profitable in just 2 months.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>
