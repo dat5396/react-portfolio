@@ -106,7 +106,7 @@ function FootfallMeasurement() {
                     <li>The configuration process had too many steps and needed a larger space instead of a modal.</li>
                     <li>The map was placed at the top of the modal, forcing users to scroll down to view and select locations.</li>
                 </ul>
-                <h3>The 1st iteration</h3>
+                <h3>The 2nd iteration</h3>
                 <p>Based on feedback from stakeholders, I changed the configuration interface from a modal to a full-screen drawer in the second iteration.</p>
                 <h4>Ideate configuration drawer layout</h4>
                 <img src='images/project images/FM/FM-D01.png'className='large__image'></img>
@@ -124,7 +124,7 @@ function FootfallMeasurement() {
                     <li>In the "validate new locations" step, users should be able to edit and remove locations.</li>
                     <li>In the "validate new locations" step, users should be able to see which locations are invalid.</li>
                 </ul>
-                <h3>The 2nd iteration</h3>
+                <h3>The 3rd iteration</h3>
                 <p>Based on feedback from stakeholders, I updated the user flow to allow users to edit and remove locations during the validation step.</p>
                 <h4>Updated user flow</h4>
                 <img src='images/project images/FM/FM-D05.png'className='large__image'></img>
@@ -145,7 +145,7 @@ function FootfallMeasurement() {
                 <p>In the second iteration, we tested the feature and discovered that some addresses didn’t lead to the correct locations, especially when the stores were inside a mall.</p>
                 <img src='images/project images/FM/FM-D10.png'className='large__image'></img>
                 <p>In the example above, the address of the McDonald's store didn’t pinpoint the store’s accurate location. Therefore, we needed to address this issue in the next iteration.</p>
-                <h3>The 3rd iteration</h3>
+                <h3>The 4th iteration</h3>
                 <p>To solve the issue of inaccurate store locations, we explored several solutions. We allowed users to upload and edit locations using latitude and longitude, ensuring precise location tracking down to specific points.</p>
                 <h4>When users uploaded locations, they could edit the latitude, longitude, or addresses to specify highly accurate locations</h4>
                 <img src='images/project images/FM/FM-D11.png'className='large__image'></img>
