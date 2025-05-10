@@ -18,6 +18,14 @@ function Cards() {
 
 						<ul className='cards__items'>
 								<div className='two__in__one'>
+								<CardItem 
+									src="images/IM.jpg"
+									text="(Comming soon) illumin Inventory Marketplace"
+									label="Professional Project"
+									path="/inventory-marketplace"
+								/>
+								</div>
+								<div className='two__in__one'>
 								<CardItem
 									src="images/FI_cover.jpg"
 									text="Facebook & Instagram Integration"
@@ -25,16 +33,6 @@ function Cards() {
 									path="/facebook-instagram-integration"
 								/>
 								</div>
-
-								<div className='two__in__one'>
-								<CardItem 
-									src="images/FPA.jpeg"
-									text="First-Party Audience Onboarding"
-									label="Professional Project"
-									path="/first-party-audience-onboarding"
-								/>
-								</div>
-								
 						</ul>
 
 						<ul className='cards__items'>
@@ -48,6 +46,14 @@ function Cards() {
 								</div> */}
 								<div className='two__in__one'>
 								<CardItem 
+									src="images/FPA.jpeg"
+									text="First-Party Audience Onboarding"
+									label="Professional Project"
+									path="/first-party-audience-onboarding"
+								/>
+								</div>
+								<div className='two__in__one'>
+								<CardItem 
 									src="images/FM.jpeg"
 									text="Adsquare Footfall Measurement"
 									label="Professional Project"
@@ -55,7 +61,12 @@ function Cards() {
 								/>
 								</div>
 					
-								<div className='two__in__one'>
+								
+								
+						</ul>
+
+						<ul className='cards__items'>
+						<div className='two__in__one'>
 								<CardItem 
 									src="images/SC.jpeg"
 									text="Support Center Responsive Design"
@@ -63,10 +74,6 @@ function Cards() {
 									path="/support-center"
 								/>
 								</div>
-								
-						</ul>
-
-						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/illumin-component-library.jpeg"
@@ -76,14 +83,14 @@ function Cards() {
 								/>
 								</div>
 
-								<div className='two__in__one'>
+								{/* <div className='two__in__one'>
 								<CardItem 
 									src="images/IM.jpg"
 									text="(Comming soon) illumin Inventory Marketplace"
 									label="Professional Project"
-									// path="/"
+									path="/inventory-marketplace"
 								/>
-								</div>
+								</div> */}
 						</ul>
 						
 						<ul className='cards__items'>	

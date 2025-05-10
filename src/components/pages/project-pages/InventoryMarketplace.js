@@ -105,6 +105,7 @@ function InventoryMarketplace() {
                 <h3>The 3rd Iteration</h3>
                 <img src='images/project images/IM/IM-D04.png'className='large__image'></img>
                 <img src='images/project images/IM/IM-D05.png'className='large__image'></img>
+                <img src='images/project images/IM/IM-Action-flow.png'className='large__image'></img>
                 <img src='images/project images/IM/IM-D06.png'className='large__image'></img>
                 <img src='images/project images/IM/IM-D07.png'className='large__image'></img>
                 <h3>The 4th Iteration</h3>

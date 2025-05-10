@@ -19,6 +19,7 @@ import OWToFB from './components/pages/project-pages/OWToFB';
 import FootfallMeasurement from './components/pages/project-pages/FootfallMeasurement';
 import GeoPOITargeting from './components/pages/project-pages/GeoPOITargeting';
 import InventoryMarketplace from './components/pages/project-pages/InventoryMarketplace';
+import InventoryMarketplaceCS from './components/pages/project-pages/InventoryMarketplaceCS';
 import SupportCenter from './components/pages/project-pages/SupportCenter';
 import XscapeRentals from './components/pages/project-pages/XscapeRentals';
 import AlphaWebsite from './components/pages/project-pages/AlphaWebsite';
@@ -51,6 +52,7 @@ function App() {
 						<Route path='/footfall-measurement' element={<FootfallMeasurement />} />
 						<Route path='/geo-poi-targeting' element={<GeoPOITargeting />} />
 						<Route path='/im' element={<InventoryMarketplace />} />
+						<Route path='/inventory-marketplace' element={<InventoryMarketplaceCS/>} />
 						<Route path='/support-center' element={<SupportCenter />} />
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
