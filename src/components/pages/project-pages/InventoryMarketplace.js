@@ -61,12 +61,13 @@ function InventoryMarketplace() {
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
                 <h3>Context</h3>
-                {/* <p>illumin was a platform that empowered marketers to create meaningful cross-channel advertising campaigns. Prior to this project, Illumin did not support self-serve uploading of first-party data, such as email addresses and phone numbers. To use first-party data, users had to provide this information to the customer success team, who would manually process and upload it for users to utilize.</p> */}
+                <p>Before this project, the experience of browsing and selecting deals was poor. Users had to search through a small modal with limited filters and not enough information to make informed decisions.</p>
+                <img src='images/project images/IM/IM-A02.png'className='large__image'></img>
                 <h3>Project objective</h3>
-                {/* <p>The goal of this project was to develop a feature that allows users to self-serve upload first-party data and then use this data to run ads in illumin.</p> */}
+                <p>The objective of this project was designing an inventory marketplace where users could easily browse deals, view details, and add them to a journey to run their ad campaigns.</p>
                 <h3>Project duration</h3>
                 <p>The dicovery and design phases for this project lasted for 16 weeks.</p>
-                <p>My role was Product Designer, the only designer for this project. What I show in this portfolio was my contribution to the project.</p>
+                <p>My role was Product Designer, the only product designer for this project. What I show in this portfolio was my contribution to the project.</p>
                 
             </div>
 
@@ -75,8 +76,11 @@ function InventoryMarketplace() {
                     <h2>2. DISCOVERY & ANALYSIS</h2>
                 </div>
                 <h3>Competitve analysis</h3>
+                <p> I start the phase by collaborating with the Product Manager and User Researcher to analyze the inventory marketplace of competing platforms, identifying key strengths and uncovering opportunities for improvement to inform our design strategy. </p>
                 <img src='images/project images/IM/IM-B01.png'className='large__image'></img>
-            
+                <h3>User Story Mapping</h3>
+                <p>Then I partnered with the Product Manager and User Researcher to conduct in-depth interviews with diverse user types, gaining a deep understanding of their needs, pain points, and behaviors to inform feature design.</p>
+                <img src='images/project images/IM/IM-B02.png'className='large__image'></img>
             </div>
 
             <div id="section3">
@@ -85,6 +89,7 @@ function InventoryMarketplace() {
                 </div>
                 <p className='space'>A</p>
                 <h3>User flow</h3>
+                <p>Initiated this phase by creating user flows based on insights from competitive analysis and user story mapping</p>
                 <img src='images/project images/IM/IM-C01.png'className='large__image'></img>
                 <h3>Sketching idea</h3>
                 <img src='images/project images/IM/IM-C02.png'className='large__image'></img>
@@ -98,19 +103,55 @@ function InventoryMarketplace() {
                 <div className='section__name'>
                     <h2>4. USER TESTING, GATHERING FEEDBACKS & ITERATIONS</h2>
                 </div>
+                <p className='space'>A</p>
+                <p>To gather feedback on the 1st iteration, the designs were shared with company stakeholders and users.</p>
+                <img src='images/project images/IM/IM-D00.png'className='medium__image'></img>
+                <p>Key feedback from the testing sessions:</p>
+                <ul>
+                    <li>The main flow—from browsing deals to viewing details and adding them to a journey—felt easy and intuitive.</li>
+                    <li>Stakeholders liked how we grouped deals into sections like premium publishers, event calendar, and seasonal highlights.</li>
+                    <li>Users found the deal detail drawer helpful for making decisions.</li>
+                    <li>Some users suggested new ways to organize deals on the homepage.</li>
+                    <li>Users recommended adding a "Clear filter" button for each filter.</li>
+                </ul>
                 <h3>The 2nd Iteration</h3>
-                <img src='images/project images/IM/IM-D01.png'className='medium__image'></img>
+                <p>I designed different widgets to cover all the ways deals could be grouped on the homepage.</p>
+                <img src='images/project images/IM/IM-D01.png'className='large__image'></img>
+                <p>I made UI updates based on feedback from the product team and other stakeholders.</p>
                 <img src='images/project images/IM/IM-D02.png'className='large__image'></img>
+                <p>I also updated the empty state of the right column to make it more user-friendly and visually appealing.</p>
                 <img src='images/project images/IM/IM-D03.png'className='large__image'></img>
+                <p>At the end of the 2nd iteration, we shared the design with users and company stakeholders to gather feedback. Key feedback:</p>
+                <ul>
+                    <li>Users wanted to see the expected bid price range, since bids are often higher than the floor price in real situations.</li>
+                    <li>Some stakeholders suggested showing publisher logos in the deal detail drawer for better clarity and trust.</li>
+                </ul>
                 <h3>The 3rd Iteration</h3>
+                <p>Based on feedback from user testing sessions, I added an 'Expected Bid Price' section to the right column so users could see the typical price range for their selected deals.</p>
                 <img src='images/project images/IM/IM-D04.png'className='large__image'></img>
+                <p>The publisher's logo was important for building user trust, so I added it to the deal detail drawer.</p>
                 <img src='images/project images/IM/IM-D05.png'className='large__image'></img>
+                <h3>Action drawer</h3>
+                <p>In earlier iterations, we decided that after selecting deals, users could either add them to a journey or save them to My Deals using a side drawer. Once the main flow and design were mostly finalized, I focused on designing the form fields users needed to fill out to complete their tasks.</p>
+                <h4>User flows in Action drawer</h4>
                 <img src='images/project images/IM/IM-Action-flow.png'className='large__image'></img>
+                <h4>Add deals to My deals</h4>
+                <p>Users could save deals to "My Deals" so they could easily find and use them later without searching again.</p>
                 <img src='images/project images/IM/IM-D06.png'className='large__image'></img>
+                <h4>Add deals to a journey</h4>
+                <p>Users could add deals to a new or existing journey to run their advertising campaign.</p>
                 <img src='images/project images/IM/IM-D07.png'className='large__image'></img>
+                <p>To gather feedback on the 3rd iteration, we shared the designs with users and company stakeholders. Key feedback:</p>
+                <ul>
+                    <li>The flows in the action drawer were clear and helped guide users step by step to complete their tasks.</li>
+                    <li>The language in the action drawer didn’t feel user-friendly. It should sound more like a conversation between the platform and the user.</li>
+                </ul>
                 <h3>The 4th Iteration</h3>
+                <p>I improved the language in the 'Add to My Deals' drawer to make it clearer and more user-friendly.</p>
                 <img src='images/project images/IM/IM-D08.png'className='large__image'></img>
+                <p>I also updated the language in the ‘Add deals to journey’ drawer.</p>
                 <img src='images/project images/IM/IM-D09.png'className='large__image'></img>
+                <p>I added an animation to the deal detail drawer so that the publisher's logo and deal name always stayed visible.</p>
                 <img src='images/project images/IM/IM-D10.png'className='large__image'></img>
             </div>
 
@@ -129,6 +170,7 @@ function InventoryMarketplace() {
                 </div>
                 <p className='space'>A</p>
                 {/* <p>As a result of this project, we successfully implemented a feature that not only empowers users to independently upload and utilize first-party data but also streamlines operations, reducing the manual workload for the client success team. In terms of business outcomes, we successfully met the success metric for this feature by managing 15,000,000 first-party data entries per month by the end of the first year.</p> */}
+                <p>The new inventory marketplace significantly improved the user experience of browsing and selecting deals. Users could now easily explore deals, view key details like expected bid price, and organize them into journeys to plan ad campaigns more efficiently. Feedback from users and stakeholders was positive, highlighting the intuitive flow, improved visual design, and helpful deal packaging. These changes led to increased engagement and greater confidence in selecting the right deals.</p>
                 <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>
