@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
+import Playground from './components/pages/Playground';
 import IlluminComponentLibrary from './components/pages/project-pages/IlluminComponentLibrary';
 import IlluminComponentPartA from './components/pages/project-pages/IlluminComponentPartA';
 import IlluminComponentPartB from './components/pages/project-pages/IlluminComponentPartB';
@@ -52,6 +53,7 @@ function App() {
 						<Route path='/geo-poi-targeting' element={<GeoPOITargeting />} />
 						<Route path='/inventory-marketplace' element={<InventoryMarketplace/>} />
 						<Route path='/support-center' element={<SupportCenter />} />
+					<Route path='/Playground' element={<Playground />} />	
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
 						<Route path='/pizzaville-website' element={<Pizzaville />} />

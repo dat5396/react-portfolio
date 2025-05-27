@@ -82,18 +82,9 @@ function Cards() {
 									path="/illumin-component-library"
 								/>
 								</div>
-
-								{/* <div className='two__in__one'>
-								<CardItem 
-									src="images/IM.jpg"
-									text="(Comming soon) illumin Inventory Marketplace"
-									label="Professional Project"
-									path="/inventory-marketplace"
-								/>
-								</div> */}
 						</ul>
 						
-						<ul className='cards__items'>	
+						{/* <ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/X-scape cover.jpeg"
@@ -131,9 +122,9 @@ function Cards() {
 									path="/cropty-cryptocurrency-exchange-dashboard"
 								/>
 								</div>		
-						</ul>
+						</ul> */}
 						
-						<div className="project-contact">
+						{/* <div className="project-contact">
 							<div className="project-value">
 								<h3>Create value.</h3>
 								<h3>Improve experience.</h3>
@@ -142,7 +133,7 @@ function Cards() {
 							<Button to='/about' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
 							Contact me
 							</Button>
-						</div>
+						</div> */}
 					</Fade>
 				</div>
 			</div>
