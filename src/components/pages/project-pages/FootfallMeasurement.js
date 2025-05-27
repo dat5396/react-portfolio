@@ -100,7 +100,7 @@ function FootfallMeasurement() {
                 </div>
                 <p className='space'>A</p>
                 <p>To gather feedback on the 1st iteration, the designs were shared with company stakeholders and users.</p>
-                <img src='images/project images/FM/FM-D00-testing.png'className='large__image'></img>
+                <img src='images/project images/FM/FM-D00.png'className='large__image'></img>
                 <p>Key insights from the testing sessions:</p>
                 <ul>
                     <li>The configuration process had too many steps and needed a larger space instead of a modal.</li>
