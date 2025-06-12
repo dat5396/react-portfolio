@@ -92,11 +92,20 @@ function InventoryMarketplace() {
                 <p>Initiated this phase by creating user flows based on insights from competitive analysis and user story mapping</p>
                 <img src='images/project images/IM/IM-C01.png'className='large__image'></img>
                 <h3>Sketching idea</h3>
+                <h4>Concept 1: No navigation bar</h4>
                 <img src='images/project images/IM/IM-C02.png'className='large__image'></img>
-                <h3>Lo-fi wireframes</h3>
+                <h4>Concept 2: Left-side navigation bar</h4>
                 <img src='images/project images/IM/IM-C03.png'className='large__image'></img>
-                <h3>Hi-fi wireframes</h3>
+                <h3>Lo-fi wireframes</h3>
+                <h4>Concept 1: No navigation bar</h4>
                 <img src='images/project images/IM/IM-C04.png'className='large__image'></img>
+                <h4>Concept 2: Left-side navigation bar</h4>
+                <img src='images/project images/IM/IM-C05.png'className='large__image'></img>
+                <h3>Hi-fi wireframes</h3>
+                <h4>Concept 1: No navigation bar</h4>
+                <img src='images/project images/IM/IM-C06.png'className='large__image'></img>
+                <h4>Concept 2: Left-side navigation bar</h4>
+                <img src='images/project images/IM/IM-C07.png'className='large__image'></img>
             </div>
 
             <div id="section4">
@@ -108,6 +117,7 @@ function InventoryMarketplace() {
                 <img src='images/project images/IM/IM-D00.png'className='medium__image'></img>
                 <p>Key feedback from the testing sessions:</p>
                 <ul>
+                    <li>Stakeholders found Concept 1 (no navigation bar) more suitable, as the inventory marketplace wasn't complex enough to require a dedicated navigation bar.</li>
                     <li>The main flow—from browsing deals to viewing details and adding them to a journey—felt easy and intuitive.</li>
                     <li>Stakeholders liked how we grouped deals into sections like premium publishers, event calendar, and seasonal highlights.</li>
                     <li>Users found the deal detail drawer helpful for making decisions.</li>
