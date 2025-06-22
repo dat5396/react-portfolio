@@ -20,7 +20,7 @@ function Cards() {
 								<div className='two__in__one'>
 								<CardItem 
 									src="images/IM.jpg"
-									text="illumin Inventory Marketplace"
+									text="illumin Deal Marketplace"
 									label="Professional Project"
 									path="/inventory-marketplace"
 								/>
