@@ -78,9 +78,10 @@ function InventoryMarketplace() {
                 <h3>Competitve analysis</h3>
                 <p> I start the phase by collaborating with the Product Manager and User Researcher to analyze the inventory marketplace of competing platforms, identifying key strengths and uncovering opportunities for improvement to inform our design strategy. </p>
                 <img src='images/project images/IM/IM-B01.png'className='large__image'></img>
+                <img src='images/project images/IM/IM-B02.png'className='large__image'></img>
                 <h3>User Story Mapping</h3>
                 <p>Then I partnered with the Product Manager and User Researcher to conduct in-depth interviews with diverse user types, gaining a deep understanding of their needs, pain points, and behaviors to inform feature design.</p>
-                <img src='images/project images/IM/IM-B02.png'className='large__image'></img>
+                <img src='images/project images/IM/IM-B03.png'className='large__image'></img>
             </div>
 
             <div id="section3">
@@ -151,18 +152,24 @@ function InventoryMarketplace() {
                 <h4>Add deals to a journey</h4>
                 <p>Users could add deals to a new or existing journey to run their advertising campaign.</p>
                 <img src='images/project images/IM/IM-D07.png'className='large__image'></img>
+                <img src='images/project images/IM/IM-D08.png'className='large__image'></img>
                 <p>To gather feedback on the 3rd iteration, we shared the designs with users and company stakeholders. Key feedback:</p>
                 <ul>
                     <li>The flows in the action drawer were clear and helped guide users step by step to complete their tasks.</li>
                     <li>The language in the action drawer didn’t feel user-friendly. It should sound more like a conversation between the platform and the user.</li>
                 </ul>
                 <h3>The 4th Iteration</h3>
-                <p>I improved the language in the 'Add to My Deals' drawer to make it clearer and more user-friendly.</p>
-                <img src='images/project images/IM/IM-D08.png'className='large__image'></img>
-                <p>I also updated the language in the ‘Add deals to journey’ drawer.</p>
+                <p>The updated drawer provided more working space, allowing users to add multiple tactics without needing to scroll too much.</p>
                 <img src='images/project images/IM/IM-D09.png'className='large__image'></img>
                 <p>I added an animation to the deal detail drawer so that the publisher's logo and deal name always stayed visible.</p>
                 <img src='images/project images/IM/IM-D10.png'className='large__image'></img>
+                <p>Cost guidance</p>
+                <img src='images/project images/IM/IM-D11.png'className='large__image'></img>
+                <h3>The 5th Iteration</h3>
+                <p>Cost guidance</p>
+                <img src='images/project images/IM/IM-D12.png'className='large__image'></img>
+                <p>Cost guidance</p>
+                <img src='images/project images/IM/IM-D13.png'className='large__image'></img>
             </div>
 
             <div id="section5">
