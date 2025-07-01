@@ -163,12 +163,13 @@ function InventoryMarketplace() {
                 <img src='images/project images/IM/IM-D09.png'className='large__image'></img>
                 <p>I added an animation to the deal detail drawer so that the publisher's logo and deal name always stayed visible.</p>
                 <img src='images/project images/IM/IM-D10.png'className='large__image'></img>
-                <p>Cost guidance</p>
+                <p>I explored different types of graphs to present cost guidance in a clear and useful way.</p>
                 <img src='images/project images/IM/IM-D11.png'className='large__image'></img>
+
                 <h3>The 5th Iteration</h3>
-                <p>Cost guidance</p>
+                <p>Cost guidance with win rate</p>
                 <img src='images/project images/IM/IM-D12.png'className='large__image'></img>
-                <p>Cost guidance</p>
+                <p>Cost guidance with custom CPM</p>
                 <img src='images/project images/IM/IM-D13.png'className='large__image'></img>
             </div>
 
