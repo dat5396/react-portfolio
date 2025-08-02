@@ -171,6 +171,9 @@ function FootfallMeasurement() {
                     <img src='images/project images/FM/FM-E04.png'className='large__image'></img>
                     <h4>Edge case: Users were notified if they hadn't completed the setup</h4>
                     <img src='images/project images/FM/FM-E05.png'className='large__image'></img>
+                    <h4>Interactive prototype</h4>
+                    <p>Please select 'Fit width and height' for the best experience.</p>
+                    <a href="https://www.figma.com/proto/TLOedEQNzvR8tGp3n3U6ly/FF-Measurement?node-id=420-57102&t=dRkbbka9wgFMn8k0-1&scaling=min-zoom&content-scaling=fixed&page-id=1%3A6&starting-point-node-id=420%3A57102" target="_blank" rel="noreferrer"><p>Figma link</p></a>
                 </div>
             </div>
 

@@ -181,6 +181,7 @@ function InventoryMarketplace() {
                 <h3>Inventory marketplace</h3>
                 <img src='images/project images/IM/IM-E01.png'className='large__image'></img>
                 <h3>Interactive prototype</h3>
+                <p>Please select 'Fit width and height' for the best experience.</p>
                 <a href="https://www.figma.com/proto/HetloERgiGwVNDaOTZl3Hu/Inventory-marketplace?node-id=321-72072&t=oy2Ea9HeXj9Sp0PF-1&scaling=min-zoom&content-scaling=fixed&page-id=50%3A7466&starting-point-node-id=321%3A72072" target="_blank" rel="noreferrer"><p>Figma link</p></a>
             </div>
 
