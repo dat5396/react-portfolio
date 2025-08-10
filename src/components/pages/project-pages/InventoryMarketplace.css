@@ -91,7 +91,7 @@
     opacity: 0%;
 }
 
-a:visited {
+.inventory__marketplace a:visited {
     color: #000;
 }
 /* .group__image {
