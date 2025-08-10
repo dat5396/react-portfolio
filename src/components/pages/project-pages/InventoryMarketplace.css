@@ -1,42 +1,42 @@
-.first__party__audience h2 {
+.inventory__marketplace h2 {
     font-size: 2rem;
     text-align: left;
     padding: 2rem 0rem 0rem;
 }
 
-.first__party__audience h3 {
+.inventory__marketplace h3 {
     font-size: 1.5rem;
     text-align: left;
     padding: 2rem 1rem 0rem;
 }
 
-.first__party__audience h4 {
+.inventory__marketplace h4 {
     font-size: 1rem;
     text-align: left;
     font-weight: bold;
     padding: 2rem 1rem 0rem;
 }
 
-.first__party__audience p {
+.inventory__marketplace p {
     font-size: 1rem;
     padding: 0.5rem 1rem 0rem;
 }
 
-.first__party__audience ol {
+.inventory__marketplace ol {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.first__party__audience ul {
+.inventory__marketplace ul {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.first__party__audience li {
+.inventory__marketplace li {
     padding: 0rem 0rem 0.5rem;
 }
 
-.first__party__audience {
+.inventory__marketplace {
     text-align: left;
     color: #1D1D1F;
     background-color: #ffffff;
@@ -91,7 +91,9 @@
     opacity: 0%;
 }
 
-
+a:visited {
+    color: #000;
+}
 /* .group__image {
     margin: 2rem 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
@@ -105,35 +107,35 @@
         padding: 0 10vw 20vh 10vw;
     }
 
-    .first__party__audience h2 {
+    .inventory__marketplace h2 {
         padding: 2rem 0rem 0rem 0.5rem;
     }
     
-    .first__party__audience h3 {
+    .inventory__marketplace h3 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
-    .first__party__audience h4 {
+    .inventory__marketplace h4 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
-    .first__party__audience p {
+    .inventory__marketplace p {
         padding: 0.5rem 18rem 0rem 0.5rem;
     }
     
-    .first__party__audience ol {
+    .inventory__marketplace ol {
         padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
     
-    .first__party__audience ul {
+    .inventory__marketplace ul {
         padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
 
-    .first__party__audience li {
+    .inventory__marketplace li {
         margin: 0rem 0rem 0rem 0rem;
     }
 
-    .first__party__audience .extra__small__image {
+    .inventory__marketplace .extra__small__image {
         width: 25%;
         margin: 2rem 0rem 2rem 0.5rem;
         border-radius: 1rem;;
@@ -141,38 +143,38 @@
 
     }
     
-    .first__party__audience .small__image {
+    .inventory__marketplace .small__image {
         width: auto;
         margin: 2rem 50rem 2rem 0.5rem;
         border-radius: 1rem;;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
     
-    .first__party__audience .medium__image {
+    .inventory__marketplace .medium__image {
         width: auto;
         margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 1rem;;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
 
-    .first__party__audience .medium__image__noshadow {
+    .inventory__marketplace .medium__image__noshadow {
         width: auto;
         margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 1rem;;
     }
     
-    .first__party__audience .large__image {
+    .inventory__marketplace .large__image {
         width: 70vw;
         margin: 2rem 0.5rem;
         border-radius: 1rem;;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
 
-    .first__party__audience .section__name {
+    .inventory__marketplace .section__name {
         margin: 5rem 12.5rem 0rem 0rem;
     }
 
-    .first__party__audience .logo {
+    .inventory__marketplace .logo {
         width: auto;
         margin: 10rem 18rem 10rem 0.5rem;
     }

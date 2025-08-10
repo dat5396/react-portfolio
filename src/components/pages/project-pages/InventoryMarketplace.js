@@ -51,7 +51,7 @@ function InventoryMarketplace() {
 
 
 	return (
-		<div className="project__container black__container first__party__audience" >
+		<div className="project__container black__container inventory__marketplace" >
             <div>
                 <img src='images/project images/IM/IM-00.png'className='large__image'></img>
             </div>
