@@ -26,11 +26,11 @@ function Cards() {
 								/>
 								</div>
 								<div className='two__in__one'>
-								<CardItem
-									src="images/FI_cover.jpg"
-									text="Facebook & Instagram Integration"
+								<CardItem 
+									src="images/FM.jpeg"
+									text="Adsquare Footfall Measurement"
 									label="Professional Project"
-									path="/facebook-instagram-integration"
+									path="/footfall-measurement"
 								/>
 								</div>
 						</ul>
@@ -45,6 +45,14 @@ function Cards() {
 								/>
 								</div> */}
 								<div className='two__in__one'>
+								<CardItem
+									src="images/FI_cover.jpg"
+									text="Facebook & Instagram Integration"
+									label="Professional Project"
+									path="/facebook-instagram-integration"
+								/>
+								</div>
+								<div className='two__in__one'>
 								<CardItem 
 									src="images/FPA.jpeg"
 									text="First-Party Audience Onboarding"
@@ -52,14 +60,7 @@ function Cards() {
 									path="/first-party-audience-onboarding"
 								/>
 								</div>
-								<div className='two__in__one'>
-								<CardItem 
-									src="images/FM.jpeg"
-									text="Adsquare Footfall Measurement"
-									label="Professional Project"
-									path="/footfall-measurement"
-								/>
-								</div>
+								
 					
 								
 								
