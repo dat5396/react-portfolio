@@ -21,11 +21,11 @@ function Navbar() {
 									Home
 								</NavLink>
 							</li>
-							<li className='nav-item'>
+							{/* <li className='nav-item'>
 								<NavLink to='/projects' className='nav-links'>
 									Projects
 								</NavLink>
-							</li>
+							</li> */}
 							<li className='nav-item'>
 								<NavLink to='/playground' className='nav-links'>
 									Playground
