@@ -63,7 +63,7 @@ export default function About() {
 			<Fade bottom>
 				<div className="about-cta">
 					<div className="about-btns">
-						<Button to='/projects' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+						<Button to='/1368/projects' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
 						Explore my projects
 						</Button>
 					</div>

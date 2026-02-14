@@ -69,9 +69,9 @@ a:visited {
 
 .form {
   background-color: #ffffff15;
-  border: 1px solid #393939;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 6px 2px #ffffff25;
+  /* border: 1px solid #393939; */
+  border-radius: 2rem;
+  /* box-shadow: 0 2px 6px 2px #ffffff25; */
   width: auto;
   margin: 5rem 1rem;
   padding: 2rem;

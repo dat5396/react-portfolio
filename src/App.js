@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+
 import './App.css';
 import React  from 'react';
 import Analytics from './components/Analytics';
@@ -13,7 +15,7 @@ import IlluminComponentPartA from './components/pages/project-pages/IlluminCompo
 import IlluminComponentPartB from './components/pages/project-pages/IlluminComponentPartB';
 import IlluminComponentPartC from './components/pages/project-pages/IlluminComponentPartC';
 import IlluminComponentPartD from './components/pages/project-pages/IlluminComponentPartD';
-import PasswordDS from './components/pages/project-pages/PasswordDS';
+import Password from './components/pages/project-pages/Password';
 import FI from './components/pages/project-pages/FI';
 import FirstPartyAudience from './components/pages/project-pages/FirstPartyAudience';
 import OWToFB from './components/pages/project-pages/OWToFB';
@@ -29,41 +31,50 @@ import Pyra from './components/pages/project-pages/Pyra';
 import Cropty from './components/pages/project-pages/Cropty';
 
 
-function App() {
+function AppContent() {
+  const location = useLocation();
+  const hideNavbar = location.pathname === '/';
 	return (
-		<div>
-			<Router>
-			<Analytics />
-			<ScrollToTop/>
-				<Navbar />
+    <>
+      {!hideNavbar && <Navbar />}
 				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/about' element={<About />} />
-					<Route path='/projects' element={<Projects />} />
-						<Route path='/illumin-component-library' element={<IlluminComponentLibrary />} />
+					<Route path='/' element={<Password />} />
+					<Route path='/1368' element={<Home />} />
+					<Route path='/1368/about' element={<About />} />
+					<Route path='/1368/projects' element={<Projects />} />
+						<Route path='/llmncmpnntlbrr' element={<IlluminComponentLibrary />} />
 						<Route path='/illumin-component-library-part-A' element={<IlluminComponentPartA />} />
 						<Route path='/illumin-component-library-part-B' element={<IlluminComponentPartB />} />
 						<Route path='/illumin-component-library-part-C' element={<IlluminComponentPartC />} />
 						<Route path='/illumin-component-library-part-D' element={<IlluminComponentPartD />} />
-						<Route path='/protected-icl' element={<PasswordDS />} />
-						<Route path='/facebook-instagram-integration' element={<FI />} />
-						<Route path='/first-party-audience-onboarding' element={<FirstPartyAudience />} />
+						{/* <Route path='/password' element={<Password />} /> */}
+						<Route path='/fcbknstgrmntgrtn' element={<FI />} />
+						<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
 						<Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} />
-						<Route path='/footfall-measurement' element={<FootfallMeasurement />} />
+						<Route path='/ftfllmsrmnt' element={<FootfallMeasurement />} />
 						<Route path='/geo-poi-targeting' element={<GeoPOITargeting />} />
-						<Route path='/inventory-marketplace' element={<InventoryMarketplace/>} />
-						<Route path='/support-center' element={<SupportCenter />} />
-					<Route path='/Playground' element={<Playground />} />	
+						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
+						<Route path='/spprtcntr' element={<SupportCenter />} />
+					<Route path='/1368/playground' element={<Playground />} />	
 						<Route path='/xscape-rentals' element={<XscapeRentals />} />
 						<Route path='/alpha-website' element={<AlphaWebsite />} />
 						<Route path='/pizzaville-website' element={<Pizzaville />} />
 						<Route path='/pyra-crypto-exchange' element={<Pyra />} />
 						<Route path='/cropty-cryptocurrency-exchange-dashboard' element={<Cropty />} />
-					<Route path='/contact' element={<Contact />} />
+					<Route path='/1368/contact' element={<Contact />} />
 				</Routes>
-			</Router>
-		</div>
+		</>
 	);
+}
+
+function App() {
+  return (
+    <Router>
+      <Analytics />
+      <ScrollToTop />
+      <AppContent />
+    </Router>
+  );
 }
 
 export default App;

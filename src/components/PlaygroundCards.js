@@ -18,7 +18,7 @@ function PlaygroundCards() {
 						<ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem 
-									src="images/X-scape cover.jpeg"
+									src="/images/X-scape cover.jpeg"
 									text="Jet Ski & Sport Boat Rental App"
 									label="Personal Project"
 									path="/xscape-rentals"
@@ -27,7 +27,7 @@ function PlaygroundCards() {
 
 								<div className='two__in__one'>
 								<CardItem
-									src="images/Pizzaville-website.jpeg"
+									src="/images/Pizzaville-website.jpeg"
 									text="Pizzaville Responsive Website Design"
 									label="Personal Project"
 									path="/pizzaville-website"
@@ -38,7 +38,7 @@ function PlaygroundCards() {
 						<ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem
-									src="images/Pyra cover.png"
+									src="/images/Pyra cover.png"
 									text="Pyra Crypto Exchange App"
 									label="Personal Project"
 									path="/pyra-crypto-exchange"
@@ -47,7 +47,7 @@ function PlaygroundCards() {
 
 								<div className='two__in__one'>
 								<CardItem
-									src="images/cropty-cover.jpeg"
+									src="/images/cropty-cover.jpeg"
 									text="Cryptocurrency Exchange Dashboard"
 									label="Personal Project"
 									path="/cropty-cryptocurrency-exchange-dashboard"

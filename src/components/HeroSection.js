@@ -14,7 +14,7 @@ function HeroSection() {
         <h1>{`Hi, I'm Dat Tran`}</h1>
         <p>Welcome to my portfolio</p>
         <div className="hero-btns">
-          <Button to='/projects' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+          <Button to='/1368/projects' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
             Explore my projects
           </Button>
         </div>

@@ -3,31 +3,28 @@ import { useNavigate } from 'react-router-dom';
 import '../../../App.css';
 import '../../Button.css';
 
-function PasswordDS() {
+function Password() {
   const [password, setPassword] = useState('');
-  const [authenticated, setAuthenticated] = useState(false);
+  // const [authenticated, setAuthenticated] = useState(false);
 
   const navigate = useNavigate();
-  const correctPassword = 'passion'; // Replace with your actual password
+  const correctPassword = '1368'; // Replace with your actual password
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    if (password === correctPassword) {
-    console.log('Correct password entered.');
-      setAuthenticated(true);
-    } else {
-      alert('Incorrect password. Please try again.');
-    }
-  };
+  e.preventDefault();
 
-  if (authenticated) {
-    navigate('/illumin-component-library');
+  if (password === correctPassword) {
+    console.log('Correct password entered.');
+    navigate('/1368');
+  } else {
+    alert('Incorrect password. Please try again.');
   }
+};
+
 
   return (
     <div className='form'>
-      <h3>Password is required to access this project.</h3>
-      <h3>It can be found in my resume.</h3>
+      <h3>Password is required to access this page.</h3>
       <form onSubmit={handleSubmit}>
         <input
           type="password"
@@ -43,4 +40,4 @@ function PasswordDS() {
   );
 }
 
-export default PasswordDS;
+export default Password;
