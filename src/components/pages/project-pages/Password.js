@@ -24,13 +24,13 @@ function Password() {
 
   return (
     <div className='form'>
-      <h3>Password is required to access this page.</h3>
+      <h3>Please enter password to access this page.</h3>
       <form onSubmit={handleSubmit}>
         <input
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          placeholder="Enter Password"
+          placeholder="Enter password"
         />
         <button type="submit" className='btn btn--primary btn--medium'>
           Access

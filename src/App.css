@@ -68,7 +68,7 @@ a:visited {
 }
 
 .form {
-  background-color: #ffffff15;
+  background-color: #ffffff10;
   /* border: 1px solid #393939; */
   border-radius: 2rem;
   /* box-shadow: 0 2px 6px 2px #ffffff25; */
@@ -90,10 +90,11 @@ a:visited {
   width: 100%;
   padding: 0.8rem 1rem;
   margin: 2rem;
-  border: 1px solid #ffffff;
-  border-radius: 0.25rem;
-  background-color: #00000000;
+  border: 1px solid #383838;
+  border-radius: 0.5rem;
+  background-color: #ffffff16;
   color: #ffffff;
+  font-size: 1rem;
 }
 @media only screen and (min-width: 720px) {
   /* .project__container {
