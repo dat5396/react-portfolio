@@ -30,6 +30,14 @@ import Contact from './components/pages/Contact';
 import Pyra from './components/pages/project-pages/Pyra';
 import Cropty from './components/pages/project-pages/Cropty';
 
+import { Navigate } from 'react-router-dom';
+
+function ProtectedRoute({ children }) {
+  const isAuthenticated = sessionStorage.getItem('auth') === 'true';
+
+  return isAuthenticated ? children : <Navigate to="/" replace />;
+}
+
 
 function AppContent() {
   const location = useLocation();
@@ -39,29 +47,29 @@ function AppContent() {
       {!hideNavbar && <Navbar />}
 				<Routes>
 					<Route path='/' element={<Password />} />
-					<Route path='/1368' element={<Home />} />
-					<Route path='/1368/about' element={<About />} />
-					<Route path='/1368/projects' element={<Projects />} />
-						<Route path='/llmncmpnntlbrr' element={<IlluminComponentLibrary />} />
-						<Route path='/illumin-component-library-part-A' element={<IlluminComponentPartA />} />
-						<Route path='/illumin-component-library-part-B' element={<IlluminComponentPartB />} />
-						<Route path='/illumin-component-library-part-C' element={<IlluminComponentPartC />} />
-						<Route path='/illumin-component-library-part-D' element={<IlluminComponentPartD />} />
-						{/* <Route path='/password' element={<Password />} /> */}
-						<Route path='/fcbknstgrmntgrtn' element={<FI />} />
-						<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
-						<Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} />
-						<Route path='/ftfllmsrmnt' element={<FootfallMeasurement />} />
-						<Route path='/geo-poi-targeting' element={<GeoPOITargeting />} />
-						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
-						<Route path='/spprtcntr' element={<SupportCenter />} />
-					<Route path='/1368/playground' element={<Playground />} />	
-						<Route path='/xscape-rentals' element={<XscapeRentals />} />
-						<Route path='/alpha-website' element={<AlphaWebsite />} />
-						<Route path='/pizzaville-website' element={<Pizzaville />} />
-						<Route path='/pyra-crypto-exchange' element={<Pyra />} />
-						<Route path='/cropty-cryptocurrency-exchange-dashboard' element={<Cropty />} />
-					<Route path='/1368/contact' element={<Contact />} />
+					<Route path='/1368' element={ <ProtectedRoute> <Home /> </ProtectedRoute>} />
+					<Route path='/1368/about' element={ <ProtectedRoute> <About /> </ProtectedRoute>} />
+					<Route path='/1368/projects' element={ <ProtectedRoute> <Projects /> </ProtectedRoute>} />
+						<Route path='/1368/llmncmpnntlbrr' element={<IlluminComponentLibrary />} />
+						<Route path='/1368/llmncmpnntlbrrA' element={<IlluminComponentPartA />} />
+						<Route path='/1368/llmncmpnntlbrrB' element={<IlluminComponentPartB />} />
+						<Route path='/1368/llmncmpnntlbrrC' element={<IlluminComponentPartC />} />
+						<Route path='/1368/llmncmpnntlbrrD' element={<IlluminComponentPartD />} />
+						<Route path='/1368/fcbknstgrmntgrtn' element={<FI />} />
+						<Route path='/1368/frstprtdncnbrdng' element={<FirstPartyAudience />} />
+						{/* <Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} /> */}
+						<Route path='/1368/ftfllmsrmnt' element={<FootfallMeasurement />} />
+						{/* <Route path='/geo-poi-targeting' element={<GeoPOITargeting />} /> */}
+						<Route path='/1368/nvntrmrktplc' element={<InventoryMarketplace/>} />
+						<Route path='/1368/spprtcntr' element={<SupportCenter />} />
+					<Route path='/1368/playground' element={ <ProtectedRoute> <Playground /> </ProtectedRoute>} />
+						<Route path='/1368/xscprtls' element={<XscapeRentals />} />
+						<Route path='/1368/lphwbst' element={<AlphaWebsite />} />
+						<Route path='/1368/pzzvllwbst' element={<Pizzaville />} />
+						<Route path='/1368/prcrptxchng' element={<Pyra />} />
+						<Route path='/1368/crptycrptcrrncxchngdshbrd' element={<Cropty />} />
+					<Route path="*" element={<Navigate to="/" replace />} />
+
 				</Routes>
 		</>
 	);

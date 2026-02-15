@@ -13,13 +13,14 @@ function Password() {
   const handleSubmit = (e) => {
   e.preventDefault();
 
-  if (password === correctPassword) {
-    console.log('Correct password entered.');
+  if (password === '1368') {
+    sessionStorage.setItem('auth', 'true');
     navigate('/1368');
   } else {
-    alert('Incorrect password. Please try again.');
+    alert('Incorrect password.');
   }
 };
+
 
 
   return (
