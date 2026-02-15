@@ -21,7 +21,7 @@ function PlaygroundCards() {
 									src="/images/X-scape cover.jpeg"
 									text="Jet Ski & Sport Boat Rental App"
 									label="Personal Project"
-									path="/xscape-rentals"
+									path="/xscprtls"
 								/>
 								</div>
 
@@ -30,7 +30,7 @@ function PlaygroundCards() {
 									src="/images/Pizzaville-website.jpeg"
 									text="Pizzaville Responsive Website Design"
 									label="Personal Project"
-									path="/pizzaville-website"
+									path="/pzzvllwbst"
 								/>
 								</div>
 						</ul>
@@ -41,7 +41,7 @@ function PlaygroundCards() {
 									src="/images/Pyra cover.png"
 									text="Pyra Crypto Exchange App"
 									label="Personal Project"
-									path="/pyra-crypto-exchange"
+									path="/prcrptxchng"
 								/>
 								</div>
 
@@ -50,7 +50,7 @@ function PlaygroundCards() {
 									src="/images/cropty-cover.jpeg"
 									text="Cryptocurrency Exchange Dashboard"
 									label="Personal Project"
-									path="/cropty-cryptocurrency-exchange-dashboard"
+									path="/crptycrptcrrncxchngdshbrd"
 								/>
 								</div>		
 						</ul>

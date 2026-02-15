@@ -50,24 +50,24 @@ function AppContent() {
 					<Route path='/1368' element={ <ProtectedRoute> <Home /> </ProtectedRoute>} />
 					<Route path='/1368/about' element={ <ProtectedRoute> <About /> </ProtectedRoute>} />
 					<Route path='/1368/projects' element={ <ProtectedRoute> <Projects /> </ProtectedRoute>} />
-						<Route path='/1368/llmncmpnntlbrr' element={<IlluminComponentLibrary />} />
-						<Route path='/1368/llmncmpnntlbrrA' element={<IlluminComponentPartA />} />
-						<Route path='/1368/llmncmpnntlbrrB' element={<IlluminComponentPartB />} />
-						<Route path='/1368/llmncmpnntlbrrC' element={<IlluminComponentPartC />} />
-						<Route path='/1368/llmncmpnntlbrrD' element={<IlluminComponentPartD />} />
-						<Route path='/1368/fcbknstgrmntgrtn' element={<FI />} />
-						<Route path='/1368/frstprtdncnbrdng' element={<FirstPartyAudience />} />
+						<Route path='/llmncmpnntlbrr' element={<IlluminComponentLibrary />} />
+						<Route path='/llmncmpnntlbrrA' element={<IlluminComponentPartA />} />
+						<Route path='/llmncmpnntlbrrB' element={<IlluminComponentPartB />} />
+						<Route path='/llmncmpnntlbrrC' element={<IlluminComponentPartC />} />
+						<Route path='/llmncmpnntlbrrD' element={<IlluminComponentPartD />} />
+						<Route path='/fcbknstgrmntgrtn' element={<FI />} />
+						<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
 						{/* <Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} /> */}
-						<Route path='/1368/ftfllmsrmnt' element={<FootfallMeasurement />} />
+						<Route path='/ftfllmsrmnt' element={<FootfallMeasurement />} />
 						{/* <Route path='/geo-poi-targeting' element={<GeoPOITargeting />} /> */}
-						<Route path='/1368/nvntrmrktplc' element={<InventoryMarketplace/>} />
-						<Route path='/1368/spprtcntr' element={<SupportCenter />} />
+						{/* <Route path='/1368/nvntrmrktplc' element={ <ProtectedRoute> <InventoryMarketplace /> </ProtectedRoute>} /> */}
+						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
+						<Route path='/spprtcntr' element={<SupportCenter />} />
 					<Route path='/1368/playground' element={ <ProtectedRoute> <Playground /> </ProtectedRoute>} />
-						<Route path='/1368/xscprtls' element={<XscapeRentals />} />
-						<Route path='/1368/lphwbst' element={<AlphaWebsite />} />
-						<Route path='/1368/pzzvllwbst' element={<Pizzaville />} />
-						<Route path='/1368/prcrptxchng' element={<Pyra />} />
-						<Route path='/1368/crptycrptcrrncxchngdshbrd' element={<Cropty />} />
+						<Route path='/xscprtls' element={<XscapeRentals />} />
+						<Route path='/pzzvllwbst' element={<Pizzaville />} />
+						<Route path='/prcrptxchng' element={<Pyra />} />
+						<Route path='/crptycrptcrrncxchngdshbrd' element={<Cropty />} />
 					<Route path="*" element={<Navigate to="/" replace />} />
 
 				</Routes>
