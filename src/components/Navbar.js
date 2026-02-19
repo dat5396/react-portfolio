@@ -53,8 +53,8 @@ function Navbar() {
 							</NavLink>
 						</li>
 						<li className='nav-item'>
-							<NavLink to='/1368/about' className='nav-links' onClick={closeMobileMenu}>
-								About
+							<NavLink to='/1368/projects' className='nav-links' onClick={closeMobileMenu}>
+								Projects
 							</NavLink>
 						</li>
 						<li className='nav-item'>
@@ -63,8 +63,8 @@ function Navbar() {
 							</NavLink>
 						</li>
 						<li className='nav-item'>
-							<NavLink to='/1368/projects' className='nav-links' onClick={closeMobileMenu}>
-								Projects
+							<NavLink to='/1368/about' className='nav-links' onClick={closeMobileMenu}>
+								About
 							</NavLink>
 						</li>
 						{/* <li className='nav-item'>
