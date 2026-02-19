@@ -47,9 +47,12 @@ function AppContent() {
       {!hideNavbar && <Navbar />}
 				<Routes>
 					<Route path='/' element={<Password />} />
-					<Route path='/1368' element={ <ProtectedRoute> <Home /> </ProtectedRoute>} />
+					<Route path='/1368' element={<Home />} />
+					<Route path='/1368/about' element={<About/>}/>
+					<Route path='/1368/projects' element={<Projects />} />
+					{/* <Route path='/1368' element={ <ProtectedRoute> <Home /> </ProtectedRoute>} />
 					<Route path='/1368/about' element={ <ProtectedRoute> <About /> </ProtectedRoute>} />
-					<Route path='/1368/projects' element={ <ProtectedRoute> <Projects /> </ProtectedRoute>} />
+					<Route path='/1368/projects' element={ <ProtectedRoute> <Projects /> </ProtectedRoute>} /> */}
 						<Route path='/llmncmpnntlbrr' element={<IlluminComponentLibrary />} />
 						<Route path='/llmncmpnntlbrrA' element={<IlluminComponentPartA />} />
 						<Route path='/llmncmpnntlbrrB' element={<IlluminComponentPartB />} />
@@ -57,13 +60,10 @@ function AppContent() {
 						<Route path='/llmncmpnntlbrrD' element={<IlluminComponentPartD />} />
 						<Route path='/fcbknstgrmntgrtn' element={<FI />} />
 						<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
-						{/* <Route path='/open-web-to-facebook-instagram-connection' element={<OWToFB />} /> */}
 						<Route path='/ftfllmsrmnt' element={<FootfallMeasurement />} />
-						{/* <Route path='/geo-poi-targeting' element={<GeoPOITargeting />} /> */}
-						{/* <Route path='/1368/nvntrmrktplc' element={ <ProtectedRoute> <InventoryMarketplace /> </ProtectedRoute>} /> */}
 						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
 						<Route path='/spprtcntr' element={<SupportCenter />} />
-					<Route path='/1368/playground' element={ <ProtectedRoute> <Playground /> </ProtectedRoute>} />
+					<Route path='/1368/playground' element={<Playground />} />
 						<Route path='/xscprtls' element={<XscapeRentals />} />
 						<Route path='/pzzvllwbst' element={<Pizzaville />} />
 						<Route path='/prcrptxchng' element={<Pyra />} />
