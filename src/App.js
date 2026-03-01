@@ -22,6 +22,7 @@ import OWToFB from './components/pages/project-pages/OWToFB';
 import FootfallMeasurement from './components/pages/project-pages/FootfallMeasurement';
 import GeoPOITargeting from './components/pages/project-pages/GeoPOITargeting';
 import InventoryMarketplace from './components/pages/project-pages/InventoryMarketplace';
+import AudienceRecommendation from './components/pages/project-pages/AudienceRecommendation';
 import SupportCenter from './components/pages/project-pages/SupportCenter';
 import XscapeRentals from './components/pages/project-pages/XscapeRentals';
 import AlphaWebsite from './components/pages/project-pages/AlphaWebsite';
@@ -29,6 +30,7 @@ import Pizzaville from './components/pages/project-pages/Pizzaville'
 import Contact from './components/pages/Contact';
 import Pyra from './components/pages/project-pages/Pyra';
 import Cropty from './components/pages/project-pages/Cropty';
+
 
 import { Navigate } from 'react-router-dom';
 
@@ -62,6 +64,7 @@ function AppContent() {
 						<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
 						<Route path='/ftfllmsrmnt' element={<FootfallMeasurement />} />
 						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
+						<Route path='/dncrcmmndtn' element={<AudienceRecommendation/>} />
 						<Route path='/spprtcntr' element={<SupportCenter />} />
 					<Route path='/1368/playground' element={<Playground />} />
 						<Route path='/xscprtls' element={<XscapeRentals />} />

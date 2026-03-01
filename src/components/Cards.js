@@ -27,23 +27,15 @@ function Cards() {
 								</div>
 								<div className='two__in__one'>
 								<CardItem 
-									src="/images/FM.jpeg"
-									text="Adsquare Footfall Measurement"
+									src="/images/AR.jpg"
+									text="AI-powered Audience Recommendation"
 									label="Professional Project"
-									path="/ftfllmsrmnt"
+									path="/dncrcmmndtn"
 								/>
 								</div>
 						</ul>
 
 						<ul className='cards__items'>
-								{/* <div className='two__in__one'>
-								<CardItem 
-									src="images/POI.jpeg"
-									text="Point of Interest Targeting"
-									label="Professional Project"
-									path="/geo-poi-targeting"
-								/>
-								</div> */}
 								<div className='two__in__one'>
 								<CardItem
 									src="/images/FI_cover.jpg"
@@ -54,19 +46,23 @@ function Cards() {
 								</div>
 								<div className='two__in__one'>
 								<CardItem 
+									src="/images/FM.jpeg"
+									text="Adsquare Footfall Measurement"
+									label="Professional Project"
+									path="/ftfllmsrmnt"
+								/>
+								</div>
+						</ul>
+
+						<ul className='cards__items'>
+							<div className='two__in__one'>
+								<CardItem 
 									src="/images/FPA.jpeg"
 									text="First-Party Audience Onboarding"
 									label="Professional Project"
 									path="/frstprtdncnbrdng"
 								/>
 								</div>
-								
-					
-								
-								
-						</ul>
-
-						<ul className='cards__items'>
 						<div className='two__in__one'>
 								<CardItem 
 									src="/images/SC.jpeg"
@@ -75,6 +71,9 @@ function Cards() {
 									path="/spprtcntr"
 								/>
 								</div>
+						</ul>
+						
+						<ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem 
 									src="/images/illumin-component-library.jpeg"
@@ -83,29 +82,18 @@ function Cards() {
 									path="/llmncmpnntlbrr"
 								/>
 								</div>
-						</ul>
-						
-						{/* <ul className='cards__items'>	
-								<div className='two__in__one'>
-								<CardItem 
-									src="images/X-scape cover.jpeg"
-									text="Jet Ski & Sport Boat Rental App"
-									label="Personal Project"
-									path="/xscape-rentals"
-								/>
-								</div>
 
-								<div className='two__in__one'>
+								{/* <div className='two__in__one'>
 								<CardItem
 									src="images/Pizzaville-website.jpeg"
 									text="Pizzaville Responsive Website Design"
 									label="Personal Project"
 									path="/pizzaville-website"
 								/>
-								</div>
+								</div> */}
 						</ul>
 
-						<ul className='cards__items'>	
+						{/* <ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem
 									src="images/Pyra cover.png"
