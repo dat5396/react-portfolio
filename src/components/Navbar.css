@@ -21,7 +21,7 @@
 }
 
 .navbar-logo {
-  margin-left: 8vw;       /* keep your left margin */
+  margin-left: 1.5rem;      
   cursor: pointer;
   display: flex;
   align-items: center;    /* vertical center */
@@ -37,11 +37,10 @@
 }
 
 .menu-icon {
-  display: block;
   position: absolute;
-  top: 0;
   right: 3vw;
-  transform: translate(-100%, 60%);
+  top: 50%; /* center relative to navbar */
+  transform: translateY(-50%); /* adjust exactly to middle */
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -52,7 +51,7 @@
   width: 100%;
   height: 90vh;
   position: absolute;
-  top: 5rem;
+  top: 3.8rem;
   left: -100%;
   opacity: 1;
   transition: all 0.5s ease;
