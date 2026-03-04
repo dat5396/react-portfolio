@@ -63,7 +63,7 @@ function AppContent() {
 						<Route path='/fcbknstgrmntgrtn' element={<ProtectedRoute><FI /></ProtectedRoute>} />
 						<Route path='/frstprtdncnbrdng' element={<ProtectedRoute><FirstPartyAudience /></ProtectedRoute>} />
 						<Route path='/ftfllmsrmnt' element={<ProtectedRoute><FootfallMeasurement /></ProtectedRoute>} />
-						<Route path='/test' element={<InventoryMarketplace/>} />
+						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
 						<Route path='/dncrcmmndtn' element={<ProtectedRoute><AudienceRecommendation/></ProtectedRoute>} />
 						<Route path='/spprtcntr' element={<ProtectedRoute><SupportCenter /></ProtectedRoute>} />
 					<Route path='/1368/playground' element={<Playground />} />
