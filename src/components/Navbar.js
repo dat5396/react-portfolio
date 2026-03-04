@@ -12,7 +12,7 @@ function Navbar() {
 			<nav className='navbar'>
 				<div className='navbar-container'>
 					<NavLink to='/1368' className='navbar-logo' onClick={closeMobileMenu}>
-						<img src='images/logo.png' alt='logo' />
+						<img src='/images/logo.png' alt='logo' />
 					</NavLink>
 					<div>
 						<ul className='desktop-menu'>

@@ -60,12 +60,12 @@ function AppContent() {
 						<Route path='/llmncmpnntlbrrB' element={<IlluminComponentPartB />} />
 						<Route path='/llmncmpnntlbrrC' element={<IlluminComponentPartC />} />
 						<Route path='/llmncmpnntlbrrD' element={<IlluminComponentPartD />} />
-						<Route path='/fcbknstgrmntgrtn' element={<FI />} />
-						<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
-						<Route path='/ftfllmsrmnt' element={<FootfallMeasurement />} />
-						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
-						<Route path='/dncrcmmndtn' element={<AudienceRecommendation/>} />
-						<Route path='/spprtcntr' element={<SupportCenter />} />
+						<Route path='/fcbknstgrmntgrtn' element={<ProtectedRoute><FI /></ProtectedRoute>} />
+						<Route path='/frstprtdncnbrdng' element={<ProtectedRoute><FirstPartyAudience /></ProtectedRoute>} />
+						<Route path='/ftfllmsrmnt' element={<ProtectedRoute><FootfallMeasurement /></ProtectedRoute>} />
+						<Route path='/nvntrmrktplc' element={<ProtectedRoute><InventoryMarketplace/></ProtectedRoute>} />
+						<Route path='/dncrcmmndtn' element={<ProtectedRoute><AudienceRecommendation/></ProtectedRoute>} />
+						<Route path='/spprtcntr' element={<ProtectedRoute><SupportCenter /></ProtectedRoute>} />
 					<Route path='/1368/playground' element={<Playground />} />
 						<Route path='/xscprtls' element={<XscapeRentals />} />
 						<Route path='/pzzvllwbst' element={<Pizzaville />} />

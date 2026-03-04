@@ -1,6 +1,7 @@
 /* Mobile styling */
 body {
   background-color: #000;
+
 }
 
 .projectpage__video {
@@ -22,6 +23,7 @@ body {
   text-align: center;
   padding: 2.5rem 0;
   font-size: 2.5rem;
+  color: #fff;
 }
 
 .cards__container h3 {
@@ -37,10 +39,12 @@ body {
 .cards__items {
   display: block;
   list-style: none;
+  
 }
 
 .cards__item {
   margin-bottom: 2rem;
+  
 }
 
 .cards__item__link {
@@ -97,6 +101,7 @@ body {
   max-height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  
 }
 
 .cards__item__img:hover {
