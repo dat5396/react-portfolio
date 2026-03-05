@@ -37,7 +37,7 @@ import { Navigate } from 'react-router-dom';
 function ProtectedRoute({ children }) {
   const isAuthenticated = sessionStorage.getItem('auth') === 'true';
 
-  return isAuthenticated ? children : <Navigate to="/" replace />;
+  return isAuthenticated ? children : <Navigate to="/portfolio" replace />;
 }
 
 

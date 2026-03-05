@@ -15,7 +15,7 @@ function Password() {
 
   if (password === '1368') {
     sessionStorage.setItem('auth', 'true');
-    navigate('/1368');
+    navigate('/portfolio');
   } else {
     alert('Incorrect password.');
   }

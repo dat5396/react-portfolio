@@ -11,28 +11,28 @@ function Navbar() {
 		<>
 			<nav className='navbar'>
 				<div className='navbar-container'>
-					<NavLink to='/1368' className='navbar-logo' onClick={closeMobileMenu}>
+					<NavLink to='/portfolio' className='navbar-logo' onClick={closeMobileMenu}>
 						<img src='/images/logo.png' alt='logo' />
 					</NavLink>
 					<div>
 						<ul className='desktop-menu'>
 							<li className='nav-item'>
-								<NavLink to='/1368' className='nav-links'>
+								<NavLink to='/portfolio' className='nav-links'>
 									Home
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink to='/1368/projects' className='nav-links'>
+								<NavLink to='/portfolio/projects' className='nav-links'>
 									Projects
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink to='/1368/playground' className='nav-links'>
+								<NavLink to='/portfolio/playground' className='nav-links'>
 									Playground
 								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<NavLink to='/1368/about' className='nav-links'>
+								<NavLink to='/portfolio/about' className='nav-links'>
 									About
 								</NavLink>
 							</li>
@@ -48,22 +48,22 @@ function Navbar() {
 					</div>
 					<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 						<li className='nav-item'>
-							<NavLink to='/1368' className='nav-links' onClick={closeMobileMenu}>
+							<NavLink to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
 								Home
 							</NavLink>
 						</li>
 						<li className='nav-item'>
-							<NavLink to='/1368/projects' className='nav-links' onClick={closeMobileMenu}>
+							<NavLink to='/portfolio/projects' className='nav-links' onClick={closeMobileMenu}>
 								Projects
 							</NavLink>
 						</li>
 						<li className='nav-item'>
-							<NavLink to='/1368/playground' className='nav-links' onClick={closeMobileMenu}>
+							<NavLink to='/portfolio/playground' className='nav-links' onClick={closeMobileMenu}>
 								Playground
 							</NavLink>
 						</li>
 						<li className='nav-item'>
-							<NavLink to='/1368/about' className='nav-links' onClick={closeMobileMenu}>
+							<NavLink to='/portfolio/about' className='nav-links' onClick={closeMobileMenu}>
 								About
 							</NavLink>
 						</li>
