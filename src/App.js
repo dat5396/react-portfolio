@@ -49,24 +49,22 @@ function AppContent() {
       {!hideNavbar && <Navbar />}
 				<Routes>
 					<Route path='/' element={<Password />} />
-					<Route path='/1368' element={<Home />} />
-					<Route path='/1368/about' element={<About/>}/>
-					<Route path='/1368/projects' element={<Projects />} />
-					{/* <Route path='/1368' element={ <ProtectedRoute> <Home /> </ProtectedRoute>} />
-					<Route path='/1368/about' element={ <ProtectedRoute> <About /> </ProtectedRoute>} />
-					<Route path='/1368/projects' element={ <ProtectedRoute> <Projects /> </ProtectedRoute>} /> */}
+					<Route path='/portfolio' element={<Home />} />
+					<Route path='/portfolio/about' element={<About/>}/>
+					<Route path='/portfolio/projects' element={<Projects />} />
+					{/* <Route path='/1368' element={ <ProtectedRoute> <Home /> </ProtectedRoute>} /> */}
 						<Route path='/llmncmpnntlbrr' element={<IlluminComponentLibrary />} />
 						<Route path='/llmncmpnntlbrrA' element={<IlluminComponentPartA />} />
 						<Route path='/llmncmpnntlbrrB' element={<IlluminComponentPartB />} />
 						<Route path='/llmncmpnntlbrrC' element={<IlluminComponentPartC />} />
 						<Route path='/llmncmpnntlbrrD' element={<IlluminComponentPartD />} />
-						<Route path='/fcbknstgrmntgrtn' element={<ProtectedRoute><FI /></ProtectedRoute>} />
-						<Route path='/frstprtdncnbrdng' element={<ProtectedRoute><FirstPartyAudience /></ProtectedRoute>} />
-						<Route path='/ftfllmsrmnt' element={<ProtectedRoute><FootfallMeasurement /></ProtectedRoute>} />
-						<Route path='/nvntrmrktplc' element={<ProtectedRoute><InventoryMarketplace/></ProtectedRoute>} />
-						<Route path='/dncrcmmndtn' element={<ProtectedRoute><AudienceRecommendation/></ProtectedRoute>} />
-						<Route path='/spprtcntr' element={<ProtectedRoute><SupportCenter /></ProtectedRoute>} />
-					<Route path='/1368/playground' element={<Playground />} />
+						<Route path='/fcbknstgrmntgrtn' element={<FI />} />
+						<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
+						<Route path='/ftfllmsrmnt' element={<FootfallMeasurement />} />
+						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
+						<Route path='/dncrcmmndtn' element={<AudienceRecommendation/>} />
+						<Route path='/spprtcntr' element={<SupportCenter />} />
+					<Route path='/portfolio/playground' element={<Playground />} />
 						<Route path='/xscprtls' element={<XscapeRentals />} />
 						<Route path='/pzzvllwbst' element={<Pizzaville />} />
 						<Route path='/prcrptxchng' element={<Pyra />} />
