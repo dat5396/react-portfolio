@@ -23,29 +23,29 @@ function IlluminComponentLibrary() {
 				</div>
 
 				<div >
-					<h2 path="/illumin-component-library-part-A"> Part A. General </h2>
-					<a href="/illumin-component-library-part-A">
+					<h2 path="/llmncmpnntlbrrA"> Part A. General </h2>
+					<a href="/llmncmpnntlbrrA">
 						<img src='images/project images/DS/DS-Menu-PartA.png'></img>
 					</a>
 				</div>
 				
 				<div className="menu" >
 					<h2> Part B. Data Input </h2>
-					<a href="/illumin-component-library-part-B">
+					<a href="/llmncmpnntlbrrB">
 						<img src='images/project images/DS/DS-Menu-PartB.png'></img>
 					</a>
 				</div>
 
 				<div className="menu" >
 					<h2> Part C. Data Display </h2>
-					<a href="/illumin-component-library-part-C">
+					<a href="/llmncmpnntlbrrC">
 						<img src='images/project images/DS/DS-Menu-PartC.png'></img>
 					</a>
 				</div>
 
 				<div className="menu" >
 					<h2> Part D. Feedback </h2>
-					<a href="/illumin-component-library-part-D">
+					<a href="/llmncmpnntlbrrD">
 						<img src='images/project images/DS/DS-Menu-PartD.png'></img>
 					</a>
 				</div>
