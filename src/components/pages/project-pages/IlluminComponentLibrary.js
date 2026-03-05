@@ -23,7 +23,7 @@ function IlluminComponentLibrary() {
 				</div>
 
 				<div >
-					<h2 path="/llmncmpnntlbrrA"> Part A. General </h2>
+					<h2> Part A. General </h2>
 					<a href="/llmncmpnntlbrrA">
 						<img src='images/project images/DS/DS-Menu-PartA.png'></img>
 					</a>
