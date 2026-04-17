@@ -175,7 +175,8 @@ function ProductPage() {
                 <img src='images/project images/PP/PP-E04.png'className='large__image'></img>
                 <h3>Responsive drawer design</h3>
                 <img src='images/project images/PP/PP-E05.png'className='large__image'></img>
-                
+                <h3>Interactive prototype</h3>
+                <a href="https://www.figma.com/make/zdJVZNe0Aus5CvLM7jxJqj/Product-Selection-Page-Design?fullscreen=1&t=0MSBlQyFW7h7ezyy-1" target="_blank" rel="noreferrer"><p>Figma Make link</p></a>
             </div>
 
             <div id="section6">
