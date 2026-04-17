@@ -149,7 +149,7 @@
     }
     
     .product__page .medium__image {
-    width: 100%; /* Ensures image fills available width */
+    width: auto; /* Ensures image fills available width */
     height: auto; /* Maintains aspect ratio */
     margin: 2rem 18rem 2rem 0.5rem;
     border-radius: 1rem;
