@@ -104,9 +104,9 @@ function ProductPage() {
                 <h4>Added selection feedback and view options</h4>
                 <p>I added a progress indicator to show how many products users had selected. I also explored both tile and table views to support different browsing needs.</p>
                 <img src='images/project images/PP/PP-C05.png'className='medium__image'></img>
-                <h4>Narrowed down to the strongest concepts which were option 1 and 3</h4>
+                <h4>Narrowed down to the strongest concepts which were option 1 and 3 and applied the Criteo UI style</h4>
                 <p>I removed the option 2 because its vertical layout required too much scrolling, which made exploration harder.</p>
-                <p>I continued refining the remaining concepts and expanded the filter options to better support product discovery.</p>
+                <p>I instructed the AI to follow the Criteo Design System and continued refining the remaining concepts, expanding the filter options to enhance product discovery.</p>
                 <img src='images/project images/PP/PP-C06.png'className='medium__image'></img>
                 <img src='images/project images/PP/PP-C07.png'className='medium__image'></img>
                 <h4>Moved forward with option 1</h4>
