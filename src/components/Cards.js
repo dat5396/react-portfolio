@@ -19,13 +19,24 @@ function Cards() {
 						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem 
+									src="/images/PP.jpg"
+									text="Product Selection Page"
+									label="Professional Project"
+									path="/prdctpg"
+								/>
+								</div>
+								<div className='two__in__one'>
+								<CardItem 
 									src="/images/IM.jpg"
 									text="illumin Deal Marketplace"
 									label="Professional Project"
 									path="/nvntrmrktplc"
 								/>
 								</div>
-								<div className='two__in__one'>
+						</ul>
+
+						<ul className='cards__items'>
+							<div className='two__in__one'>
 								<CardItem 
 									src="/images/AR.jpg"
 									text="AI-powered Audience Recommendation"
@@ -33,9 +44,6 @@ function Cards() {
 									path="/dncrcmmndtn"
 								/>
 								</div>
-						</ul>
-
-						<ul className='cards__items'>
 								<div className='two__in__one'>
 								<CardItem
 									src="/images/FI_cover.jpg"
@@ -44,7 +52,11 @@ function Cards() {
 									path="/fcbknstgrmntgrtn"
 								/>
 								</div>
-								<div className='two__in__one'>
+								
+						</ul>
+
+						<ul className='cards__items'>
+							<div className='two__in__one'>
 								<CardItem 
 									src="/images/FM.jpeg"
 									text="Adsquare Footfall Measurement"
@@ -52,9 +64,6 @@ function Cards() {
 									path="/ftfllmsrmnt"
 								/>
 								</div>
-						</ul>
-
-						<ul className='cards__items'>
 							<div className='two__in__one'>
 								<CardItem 
 									src="/images/FPA.jpeg"
@@ -63,7 +72,11 @@ function Cards() {
 									path="/frstprtdncnbrdng"
 								/>
 								</div>
-						<div className='two__in__one'>
+						
+						</ul>
+						
+						<ul className='cards__items'>	
+								<div className='two__in__one'>
 								<CardItem 
 									src="/images/SC.jpeg"
 									text="Support Center Responsive Design"
@@ -71,9 +84,6 @@ function Cards() {
 									path="/spprtcntr"
 								/>
 								</div>
-						</ul>
-						
-						<ul className='cards__items'>	
 								<div className='two__in__one'>
 								<CardItem 
 									src="/images/illumin-component-library.jpeg"
@@ -82,47 +92,8 @@ function Cards() {
 									path="/llmncmpnntlbrr"
 								/>
 								</div>
-
-								{/* <div className='two__in__one'>
-								<CardItem
-									src="images/Pizzaville-website.jpeg"
-									text="Pizzaville Responsive Website Design"
-									label="Personal Project"
-									path="/pizzaville-website"
-								/>
-								</div> */}
 						</ul>
 
-						{/* <ul className='cards__items'>	
-								<div className='two__in__one'>
-								<CardItem
-									src="images/Pyra cover.png"
-									text="Pyra Crypto Exchange App"
-									label="Personal Project"
-									path="/pyra-crypto-exchange"
-								/>
-								</div>
-
-								<div className='two__in__one'>
-								<CardItem
-									src="images/cropty-cover.jpeg"
-									text="Cryptocurrency Exchange Dashboard"
-									label="Personal Project"
-									path="/cropty-cryptocurrency-exchange-dashboard"
-								/>
-								</div>		
-						</ul> */}
-						
-						{/* <div className="project-contact">
-							<div className="project-value">
-								<h3>Create value.</h3>
-								<h3>Improve experience.</h3>
-								<h3>Grow business.</h3>
-							</div>
-							<Button to='/about' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-							Contact me
-							</Button>
-						</div> */}
 					</Fade>
 				</div>
 			</div>

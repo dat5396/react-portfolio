@@ -51,7 +51,7 @@ function AudienceRecommendation() {
 
 
 	return (
-		<div className="project__container black__container first__party__audience" >
+		<div className="project__container black__container audience__recommendation" >
             <div>
                 <img src='images/project images/AR/AR-00.png' className='large__image'></img>
             </div>

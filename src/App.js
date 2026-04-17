@@ -23,6 +23,7 @@ import FootfallMeasurement from './components/pages/project-pages/FootfallMeasur
 import GeoPOITargeting from './components/pages/project-pages/GeoPOITargeting';
 import InventoryMarketplace from './components/pages/project-pages/InventoryMarketplace';
 import AudienceRecommendation from './components/pages/project-pages/AudienceRecommendation';
+import ProductPage from './components/pages/project-pages/ProductPage';
 import SupportCenter from './components/pages/project-pages/SupportCenter';
 import XscapeRentals from './components/pages/project-pages/XscapeRentals';
 import AlphaWebsite from './components/pages/project-pages/AlphaWebsite';
@@ -64,6 +65,7 @@ function AppContent() {
 						<Route path='/nvntrmrktplc' element={<InventoryMarketplace/>} />
 						<Route path='/dncrcmmndtn' element={<AudienceRecommendation/>} />
 						<Route path='/spprtcntr' element={<SupportCenter />} />
+						<Route path='/prdctpg' element={<ProductPage />} />
 					<Route path='/portfolio/playground' element={<Playground />} />
 						<Route path='/xscprtls' element={<XscapeRentals />} />
 						<Route path='/pzzvllwbst' element={<Pizzaville />} />

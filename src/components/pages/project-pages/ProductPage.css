@@ -1,42 +1,42 @@
-.audience__recommendation h2 {
+.product__page h2 {
     font-size: 2rem;
     text-align: left;
     padding: 2rem 0rem 0rem;
 }
 
-.audience__recommendation h3 {
+.product__page h3 {
     font-size: 1.5rem;
     text-align: left;
     padding: 2rem 1rem 0rem;
 }
 
-.audience__recommendation h4 {
+.product__page h4 {
     font-size: 1rem;
     text-align: left;
     font-weight: bold;
     padding: 2rem 1rem 0rem;
 }
 
-.audience__recommendation p {
+.product__page p {
     font-size: 1rem;
     padding: 0.5rem 1rem 0rem;
 }
 
-.audience__recommendation ol {
+.product__page ol {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.audience__recommendation ul {
+.product__page ul {
     font-size: 1rem;
     padding: 0.5rem 2rem 0rem;
 }
 
-.audience__recommendation li {
+.product__page li {
     padding: 0rem 0rem 0.5rem;
 }
 
-.audience__recommendation {
+.product__page {
     text-align: left;
     color: #344054;
     background-color: #ffffff;
@@ -105,35 +105,35 @@
         padding: 0 10vw 20vh 10vw;
     }
 
-    .audience__recommendation h2 {
+    .product__page h2 {
         padding: 2rem 0rem 0rem 0.5rem;
     }
     
-    .audience__recommendation h3 {
+    .product__page h3 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
-    .audience__recommendation h4 {
+    .product__page h4 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
     
-    .audience__recommendation p {
+    .product__page p {
         padding: 0.5rem 18rem 0rem 0.5rem;
     }
     
-    .audience__recommendation ol {
+    .product__page ol {
         padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
     
-    .audience__recommendation ul {
+    .product__page ul {
         padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
 
-    .audience__recommendation li {
+    .product__page li {
         margin: 0rem 0rem 0rem 0rem;
     }
 
-    .audience__recommendation .extra__small__image {
+    .product__page .extra__small__image {
         width: 25%;
         margin: 2rem 0rem 2rem 0.5rem;
         border-radius: 1rem;;
@@ -141,38 +141,38 @@
 
     }
     
-    .audience__recommendation .small__image {
+    .product__page .small__image {
         width: auto;
         margin: 2rem 50rem 2rem 0.5rem;
         border-radius: 1rem;;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
     
-    .audience__recommendation .medium__image {
+    .product__page .medium__image {
         width: auto;
         margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 1rem;;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
 
-    .audience__recommendation .medium__image__noshadow {
+    .product__page .medium__image__noshadow {
         width: auto;
         margin: 2rem 18rem 2rem 0.5rem;
         border-radius: 1rem;;
     }
     
-    .audience__recommendation .large__image {
+    .product__page .large__image {
         width: 70vw;
         margin: 2rem 0.5rem;
         border-radius: 1rem;;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
 
-    .audience__recommendation .section__name {
+    .product__page .section__name {
         margin: 5rem 12.5rem 0rem 0rem;
     }
 
-    .audience__recommendation .logo {
+    .product__page .logo {
         width: auto;
         margin: 10rem 18rem 10rem 0.5rem;
     }
