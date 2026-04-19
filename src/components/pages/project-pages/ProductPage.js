@@ -122,9 +122,12 @@ function ProductPage() {
                 <div className='section__name'>
                     <h2>4. USER TESTING, GATHERING FEEDBACKS & ITERATIONS</h2>
                 </div>
-                <p className='space'>A</p>
+                <h3>Task-based usability testing</h3>
                 <p>With an interactive Figma prototype, I conducted task-based usability testing. I gave participants access to the prototype and asked them to complete key tasks, focusing on how easily they could discover and select products.</p>
-                <img src='images/project images/PP/PP-D01.png'className='large__image'></img>
+                <h4>Research plan</h4>
+                <img src='images/project images/PP/PP-D00.png'className='medium__image__shadow'></img>
+                <h4>Testing sessions</h4>
+                <img src='images/project images/PP/PP-D01.png'className='medium__image__shadow'></img>
                 <p className='space'>A</p>
                 <p>Some insights and feedback I gathered after the testing sessions:</p>
                 <ul>
@@ -176,7 +179,7 @@ function ProductPage() {
                 <h3>Responsive drawer design</h3>
                 <img src='images/project images/PP/PP-E05.png'className='large__image'></img>
                 <h3>Interactive prototype</h3>
-                <a href="https://www.figma.com/make/zdJVZNe0Aus5CvLM7jxJqj/Product-Selection-Page-Design?fullscreen=1&t=0MSBlQyFW7h7ezyy-1" target="_blank" rel="noreferrer"><p>Figma Make link</p></a>
+                <a href="https://www.figma.com/make/zdJVZNe0Aus5CvLM7jxJqj/Product-Selection-Page-Redesign?p=f&fullscreen=1" target="_blank" rel="noreferrer"><p>Figma Make link</p></a>
             </div>
 
             <div id="section6">

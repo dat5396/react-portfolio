@@ -160,10 +160,12 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
 }
 
-    .product__page .medium__image__noshadow {
-        width: auto;
-        margin: 2rem 18rem 2rem 0.5rem;
-        border-radius: 1rem;;
+    .product__page .medium__image__shadow {
+    width: auto; /* Ensures image fills available width */
+    height: auto; /* Maintains aspect ratio */
+    margin: 2rem 18rem 2rem 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
     }
     
     .product__page .large__image {
