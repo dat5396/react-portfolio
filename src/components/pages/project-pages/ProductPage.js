@@ -109,7 +109,7 @@ function ProductPage() {
                 <p>I instructed the AI to follow the Criteo Design System and continued refining the remaining concepts, expanding the filter options to enhance product discovery.</p>
                 <img src='images/project images/PP/PP-C06.png'className='medium__image'></img>
                 <img src='images/project images/PP/PP-C07.png'className='medium__image'></img>
-                <h4>Moved forward with option 1</h4>
+                <h4>Moved forward with option 1 and placed it in the drawer</h4>
                 <p>I moved forward with the option 1 where filters were always visible. This allowed users to quickly explore and adjust their selection without losing context.</p>
                 <img src='images/project images/PP/PP-C08.png'className='medium__image'></img>
                 <h4>Defined the end-to-end flow</h4>
