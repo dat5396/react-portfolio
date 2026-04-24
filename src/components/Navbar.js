@@ -26,11 +26,11 @@ function Navbar() {
 									Projects
 								</NavLink>
 							</li>
-							<li className='nav-item'>
+							{/* <li className='nav-item'>
 								<NavLink to='/portfolio/playground' className='nav-links'>
 									Playground
 								</NavLink>
-							</li>
+							</li> */}
 							<li className='nav-item'>
 								<NavLink to='/portfolio/about' className='nav-links'>
 									About
@@ -57,11 +57,11 @@ function Navbar() {
 								Projects
 							</NavLink>
 						</li>
-						<li className='nav-item'>
+						{/* <li className='nav-item'>
 							<NavLink to='/portfolio/playground' className='nav-links' onClick={closeMobileMenu}>
 								Playground
 							</NavLink>
-						</li>
+						</li> */}
 						<li className='nav-item'>
 							<NavLink to='/portfolio/about' className='nav-links' onClick={closeMobileMenu}>
 								About
