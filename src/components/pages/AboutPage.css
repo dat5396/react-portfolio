@@ -1,0 +1,27 @@
+.copy {
+    padding: 3rem;
+    background: (--bg-white);
+    height: 100%;
+    align-content: center;
+    font-size: (--font-size-2rem);
+    font-style: italic;
+}
+
+.contact-content {
+    text-align: center;
+    height: 100%;
+}
+
+.contact-content img {
+    padding: (--space-4) 0 0 0;
+    height: auto;
+    width: 86%;
+}
+
+.contact-content p {
+    margin-top: -4rem;
+}
+
+.contact-content a:visited {
+    color: (--color-text-grey);
+}

@@ -1,0 +1,239 @@
+
+import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
+import { useLazyVideo } from "../useLazyVideo";
+import { BentoGrid } from "../Grid";
+import { BentoRow } from "../Grid";
+import { BentoCell } from "../Grid";
+import './HomePage.css';
+import ReactCompareImage from "react-compare-image";
+import Modal from "../Modal";
+
+
+
+export default function HomePage() {
+  const [chartModalOpen, setChartModalOpen] = useState(false);
+  const [breathingModalOpen, setBreathingModalOpen] = useState(false);
+  const [logoModalOpen, setlogoModalOpen] = useState(false);
+  const [lightDarkModeModalOpen, setlightDarkModeModalOpen] = useState(false);
+  const chartVideoRef = useLazyVideo();
+  const breathingVideoRef = useLazyVideo();
+  const logoVideoRef = useLazyVideo();
+  const navigate = useNavigate();
+
+  return (
+    <div className="Home-page">
+      <BentoGrid>
+
+        {/* Row 1 – Type full */}
+        <BentoRow type="full">
+          <BentoCell>
+            <div className="hero-cell">
+              <video
+                playsInline
+                autoPlay
+                loop
+                muted
+                src="/images/home images/gradient3.webm"
+              />
+              <div className="hero-content">
+                <h1>Hi, I'm Dat Tran,</h1>
+                <h1>A product designer & builder</h1>
+                <p>Welcome to my portfolio</p>
+              </div>
+            </div>
+          </BentoCell>
+        </BentoRow>
+
+        {/* Row 2 – Type full */}
+        <BentoRow type="full">
+          <BentoCell hoverable label="Inventory marketplace" href="/nvntrmrktplc">
+            <img src='/images/home images/i-im.webp' loading="lazy" alt='' />
+          </BentoCell>
+        </BentoRow>
+
+        {/* Row 3 – Type 1: two equal halves */}
+        <BentoRow type="halves">
+          <BentoCell hoverable label="Product selection page" href="/prdctpg">
+            <img src='/images/home images/c-pp.webp' loading="lazy" alt='' />
+          </BentoCell>
+          <BentoCell
+            hoverable
+            label="FreeMind iOS app"
+            href="/frmnd"
+          >
+            <div className="square-video-full">
+              <video ref={breathingVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-br.mp4" />
+            </div>
+          </BentoCell>
+        </BentoRow>
+
+        {/* Row 4 – Type 2: three equal squares */}
+        <BentoRow type="thirds">
+          <BentoCell span={1} hoverable showButton={false}>
+            <div className="square-video-full" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
+              <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-im-c2.webm" />
+            </div>
+          </BentoCell>
+
+          <BentoCell span={1} hoverable showButton={false}>
+            <div className="square-video-full" onClick={() => setlogoModalOpen(true)} style={{ cursor: "pointer" }}>
+              <video ref={logoVideoRef} playsInline autoPlay loop muted data-src="/images/home images/d-lg6.webm" />
+            </div>
+          </BentoCell>
+
+          {/* <BentoCell span={1} hoverable showButton={false} className="bento-cell--no-scale">
+            <div className="square-video">
+              <div style={{ width: "100%", height: "100%" }}>
+                <ReactCompareImage
+                  leftImage="/images/home images/f-lm.webp"
+                  rightImage="/images/home images/f-dm.webp"
+                />
+              </div>
+            </div>
+          </BentoCell> */}
+          <BentoCell
+            span={1}
+            hoverable
+            className="bento-cell--no-scale"
+            label="Light and dark mode"
+            onView={() => setlightDarkModeModalOpen(true)}
+          >
+            <div style={{ cursor: "pointer", width: "100%", height: "100%" }}>
+              <ReactCompareImage
+                leftImage="/images/home images/f-lm.webp"
+                rightImage="/images/home images/f-dm.webp"
+              />
+            </div>
+          </BentoCell>
+        </BentoRow>
+
+        {/* Row 5 – Type 1: two equal halves */}
+        <BentoRow type="halves">
+          <BentoCell hoverable label="Audience insights" href="/dncrcmmndtn">
+            <img src='/images/home images/i-ai.webp' loading="lazy" alt='' />
+          </BentoCell>
+          <BentoCell hoverable label="Footfall measurement" href="/ftfllmsrmnt">
+            <img src='/images/home images/i-fm.webp' loading="lazy" alt='' />
+          </BentoCell>
+        </BentoRow>
+
+        {/* Row 5 – Type 1: two equal halves */}
+        <BentoRow type="halves">
+          <BentoCell hoverable label="Support center" href="/spprtcntr">
+            <img src='/images/home images/i-sc.webp' loading="lazy" alt='' />
+          </BentoCell>
+          <BentoCell hoverable label="First party audience onboarding" href="/frstprtdncnbrdng">
+            <img src='/images/home images/i-fpa.webp' loading="lazy" alt='' />
+          </BentoCell>
+        </BentoRow>
+
+        {/* Row 6 – Type 2: three equal squares */}
+        {/* <BentoRow type="thirds">
+          <BentoCell span={1} hoverable label="Footfall measurement" >
+            <img src='/images/home images/Illumin-footfall-card.png' loading="lazy" alt='' />
+          </BentoCell>
+          <BentoCell span={1} hoverable label="View Project">
+            <video
+              playsInline
+              autoPlay
+              loop
+              muted
+              src="/images/home images/f-lg.webm"
+            />
+          </BentoCell>
+          <BentoCell span={1}>
+
+          </BentoCell>
+        </BentoRow> */}
+
+        {/* Row 7 – Type 2: three equal squares */}
+        <BentoRow type="thirds">
+          <BentoCell span={1}>
+            <div className="contact-content">
+              <img src='/images/home images/contact-text.webp' loading="lazy" alt='' />
+            </div>
+          </BentoCell>
+
+          <BentoCell
+            span={1}
+            hoverable
+            label="View my LinkedIn"
+            onView={() => window.open('https://www.linkedin.com/in/dattran6868/', '_blank')}
+          >
+            <div className="contact-content">
+              <img src='/images/home images/linkedin.webp' loading="lazy" alt='' />
+              <p>LinkedIn</p>
+            </div>
+          </BentoCell>
+          <BentoCell
+            span={1}
+            hoverable
+            label="Copy email address"
+            onView={() => navigator.clipboard.writeText('dattientran6868@gmail.com')}
+          >
+            <div className="contact-content">
+              <img src='/images/home images/mail.webp' loading="lazy" alt='' />
+              <p>dattientran6868@gmail.com</p>
+            </div>
+          </BentoCell>
+        </BentoRow>
+      </BentoGrid>
+
+      {/* Modals — outside BentoRow */}
+      <Modal
+        isOpen={chartModalOpen}
+        onClose={() => setChartModalOpen(false)}
+        size="md"
+        buttonLabel="View Inventory marketplace"
+        onButtonClick={() => navigate('/nvntrmrktplc')}
+      >
+        <div>
+          <video playsInline autoPlay loop muted src="/images/home images/i-im-c2.webm" />
+        </div>
+        <p>The cost guidance chart showed users how bid price affected win rate in the Inventory Marketplace.</p>
+      </Modal>
+
+      {/* <Modal
+        isOpen={breathingModalOpen}
+        onClose={() => setBreathingModalOpen(false)}
+        size="md"
+        buttonLabel="View FreeMind iOS app"
+        onButtonClick={() => navigate('/freemind')}
+      >
+        <div>
+          <video playsInline autoPlay loop muted src="/images/home images/f-br.webm" />
+        </div>
+        <p>More details about this project...</p>
+      </Modal> */}
+
+      <Modal
+        isOpen={logoModalOpen}
+        onClose={() => setlogoModalOpen(false)}
+        size="md"
+        onButtonClick={() => navigate('/freemind')}
+      >
+        <div>
+          <video playsInline autoPlay loop muted src="/images/home images/d-lg6.webm" />
+        </div>
+        <p>3D metallic version of my logo</p>
+      </Modal>
+
+      <Modal
+        isOpen={lightDarkModeModalOpen}
+        onClose={() => setlightDarkModeModalOpen(false)}
+        size="md"
+        buttonLabel="View FreeMind app"
+        onButtonClick={() => navigate('/frmnd')}
+      >
+        <div style={{ margin: "0" }}>  {/* adjust -24px to match your modal's padding */}
+          <ReactCompareImage
+            leftImage="/images/home images/f-lm.webp"
+            rightImage="/images/home images/f-dm.webp"
+          />
+        </div>
+        <p>Light and dark modes for the Reflect view in the FreeMind app.</p>
+      </Modal>
+    </div>
+  );
+}

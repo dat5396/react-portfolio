@@ -108,23 +108,23 @@
     .audience__recommendation h2 {
         padding: 2rem 0rem 0rem 0.5rem;
     }
-    
+
     .audience__recommendation h3 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
-    
+
     .audience__recommendation h4 {
         padding: 2rem 12.5rem 0rem 0.5rem;
     }
-    
+
     .audience__recommendation p {
         padding: 0.5rem 18rem 0rem 0.5rem;
     }
-    
+
     .audience__recommendation ol {
         padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
-    
+
     .audience__recommendation ul {
         padding: 0.5rem 12.5rem 0.5rem 1.5rem;
     }
@@ -136,35 +136,40 @@
     .audience__recommendation .extra__small__image {
         width: 25%;
         margin: 2rem 0rem 2rem 0.5rem;
-        border-radius: 1rem;;
+        border-radius: 1rem;
+        ;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
 
     }
-    
+
     .audience__recommendation .small__image {
-        width: auto;
+        width: 40%;
         margin: 2rem 50rem 2rem 0.5rem;
-        border-radius: 1rem;;
+        border-radius: 1rem;
+        ;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
-    
+
     .audience__recommendation .medium__image {
-        width: auto;
+        width: 80%;
         margin: 2rem 18rem 2rem 0.5rem;
-        border-radius: 1rem;;
+        border-radius: 1rem;
+        ;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
 
     .audience__recommendation .medium__image__noshadow {
-        width: auto;
+        width: 80%;
         margin: 2rem 18rem 2rem 0.5rem;
-        border-radius: 1rem;;
+        border-radius: 1rem;
+        ;
     }
-    
+
     .audience__recommendation .large__image {
         width: 70vw;
         margin: 2rem 0.5rem;
-        border-radius: 1rem;;
+        border-radius: 1rem;
+        ;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
     }
 
@@ -178,4 +183,3 @@
     }
 
 }
-  

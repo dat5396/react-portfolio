@@ -1,0 +1,172 @@
+/* BentoGrid.css
+   ─────────────────────────────────────────────────────────────────────────────
+   Drop-in styles for the BentoGrid component system.
+   All values use CSS custom properties so you can theme it from a parent.
+   ─────────────────────────────────────────────────────────────────────────────
+
+   CUSTOM PROPERTIES (override in :root or a wrapper selector):
+
+   --bento-gap            Gap between cells and rows          (default 16px)
+   --bento-radius         Border radius of each cell           (default 20px)
+   --bento-bg             Cell background color                (default #f2f2f2)
+   --bento-border         Cell border                          (default 1px solid #e4e4e4)
+   --bento-aspect-halves  Aspect ratio for "halves" cells      (default 1 / 1)
+   --bento-aspect-thirds  Aspect ratio for "thirds" col cells  (default 1 / 1)
+   --bento-aspect-full    Aspect ratio for "full" rectangle row (default 16 / 7)
+   --bento-max-width      Max width of the whole grid          (default 960px)
+*/
+/* BentoGrid.css */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bento-gap: var(--space-12);
+  --bento-radius: var(--border-radius-2rem);
+  --bento-bg: var(--bg-white);
+  --bento-border: var(--border-width) solid var(--border-color);
+  --bento-aspect-halves: 1 / 1;
+  --bento-aspect-thirds: 1 / 1;
+  --bento-aspect-full: 15 / 7;
+  --bento-max-width: 1380px;
+}
+
+.bento-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--bento-gap);
+  width: 100%;
+  max-width: var(--bento-max-width);
+  margin-inline: auto;
+  padding: var(--space-4) var(--space-16) var(--space-16);
+}
+
+.bento-row {
+  display: grid;
+  gap: var(--bento-gap);
+  width: 100%;
+}
+
+.bento-row--halves {
+  grid-template-columns: 1fr 1fr;
+}
+
+.bento-row--thirds {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bento-row--full {
+  grid-template-columns: 1fr;
+}
+
+.bento-row--full .bento-cell {
+  aspect-ratio: var(--bento-aspect-full);
+}
+
+.bento-cell {
+  position: relative;
+  border-radius: var(--bento-radius);
+  background: var(--bento-bg);
+  border: var(--bento-border);
+  overflow: hidden;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.bento-row--halves .bento-cell {
+  aspect-ratio: var(--bento-aspect-halves);
+}
+
+.bento-row--thirds .bento-cell--span-1 {
+  aspect-ratio: var(--bento-aspect-thirds);
+}
+
+.bento-cell--span-2 {
+  grid-column: span 2;
+}
+
+.bento-cell__inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bento-cell--hoverable .bento-cell__inner {
+  transition: transform var(--transition-slow);
+}
+
+.bento-cell--hoverable:hover .bento-cell__inner {
+  transform: scale(1.02);
+}
+
+.bento-cell--no-scale .bento-cell__inner {
+  transform: none !important;
+  transition: none !important;
+}
+
+.bento-cell__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: var(--space-4);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.bento-cell:hover .bento-cell__overlay {
+  opacity: 1;
+}
+
+.bento-cell__overlay>* {
+  pointer-events: auto;
+}
+
+.bento-cell__link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+@media (min-width: 901px) and (max-width: 1280px) {
+  .bento-grid {
+    --bento-gap: var(--space-8);
+    padding: var(--space-4) var(--space-8) var(--space-8);
+  }
+}
+
+@media (max-width: 900px) {
+  .bento-grid {
+    --bento-gap: var(--space-4);
+    padding: var(--space-4) var(--space-4) var(--space-8);
+  }
+
+  .bento-row--halves,
+  .bento-row--thirds {
+    grid-template-columns: 1fr;
+  }
+
+  .bento-cell--span-2 {
+    grid-column: span 1;
+  }
+
+  .bento-row--halves .bento-cell,
+  .bento-row--thirds .bento-cell,
+  .bento-row--full .bento-cell {
+    aspect-ratio: 1 / 1;
+  }
+
+  .bento-cell__overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

@@ -18,29 +18,14 @@ function Navbar() {
 						<ul className='desktop-menu'>
 							<li className='nav-item'>
 								<NavLink to='/portfolio' className='nav-links'>
-									Home
+									Portfolio
 								</NavLink>
 							</li>
-							<li className='nav-item'>
-								<NavLink to='/portfolio/projects' className='nav-links'>
-									Projects
-								</NavLink>
-							</li>
-							{/* <li className='nav-item'>
-								<NavLink to='/portfolio/playground' className='nav-links'>
-									Playground
-								</NavLink>
-							</li> */}
 							<li className='nav-item'>
 								<NavLink to='/portfolio/about' className='nav-links'>
 									About
 								</NavLink>
 							</li>
-							{/* <li className='nav-item'>
-								<NavLink to='/contact' className='nav-links'>
-									Contact
-								</NavLink>
-							</li> */}
 						</ul>
 					</div>
 					<div className='menu-icon' onClick={handleClick}>
@@ -49,29 +34,14 @@ function Navbar() {
 					<ul className={click ? 'nav-menu active' : 'nav-menu'}>
 						<li className='nav-item'>
 							<NavLink to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
-								Home
+								Portfolio
 							</NavLink>
 						</li>
-						<li className='nav-item'>
-							<NavLink to='/portfolio/projects' className='nav-links' onClick={closeMobileMenu}>
-								Projects
-							</NavLink>
-						</li>
-						{/* <li className='nav-item'>
-							<NavLink to='/portfolio/playground' className='nav-links' onClick={closeMobileMenu}>
-								Playground
-							</NavLink>
-						</li> */}
 						<li className='nav-item'>
 							<NavLink to='/portfolio/about' className='nav-links' onClick={closeMobileMenu}>
 								About
 							</NavLink>
 						</li>
-						{/* <li className='nav-item'>
-							<NavLink to='/contact' className='nav-links' onClick={closeMobileMenu}>
-								Contact
-							</NavLink>
-						</li> */}
 					</ul>
 				</div>
 			</nav>

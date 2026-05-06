@@ -1,0 +1,266 @@
+/* ============================================
+   CSS DESIGN TOKENS — App.css
+   ============================================ */
+
+:root {
+
+    /* ------------------------------------------
+     TYPOGRAPHY — Family
+  ------------------------------------------ */
+    --font-family-base: 'Poppins', sans-serif;
+
+    /* ------------------------------------------
+     TYPOGRAPHY — Size
+  ------------------------------------------ */
+    --font-size-1rem: 1rem;
+    /* 16px — body copy */
+    --font-size-15rem: 1.5rem;
+    /* 24px */
+    --font-size-2rem: 2rem;
+    /* 32px */
+    --font-size-25rem: 2.5rem;
+    /* 40px */
+    --font-size-3rem: 3rem;
+    /* 48px */
+    --font-size-4rem: 4rem;
+    /* 64px */
+
+    /* ------------------------------------------
+     TYPOGRAPHY — Weight
+  ------------------------------------------ */
+    --font-weight-light: 400;
+    --font-weight-regular: 500;
+    --font-weight-bold: 600;
+    --font-weight-extra-bold: 700;
+
+    /* ------------------------------------------
+     TYPOGRAPHY — Color
+  ------------------------------------------ */
+    --color-text-grey: #344054;
+    --color-text-black: #182337;
+    --color-text-muted: #667085;
+    --color-text-disabled: #98a2b3;
+    --color-text-inverse: #ffffff;
+
+    /* ------------------------------------------
+     TYPOGRAPHY — Line Height
+  ------------------------------------------ */
+    --line-height-tight: 1.2;
+    --line-height-base: 1.5;
+    --line-height-loose: 1.75;
+
+    /* ------------------------------------------
+     TYPOGRAPHY — Letter Spacing
+  ------------------------------------------ */
+    --letter-spacing-tight: -0.01em;
+    --letter-spacing-base: 0em;
+    --letter-spacing-wide: 0.05em;
+    /* useful for labels/caps */
+
+    /* ------------------------------------------
+     BACKGROUNDS
+  ------------------------------------------ */
+    --bg-white: #ffffff;
+    --bg-grey: #f5f5f7;
+    --bg-grey-medium: #e4e7ec;
+    /* dividers, subtle borders */
+    --bg-dark: #182337;
+    /* dark section backgrounds */
+    --bg-overlay: rgba(24, 35, 55, 0.5);
+    /* modals / overlays */
+
+    /* ------------------------------------------
+     BORDER
+  ------------------------------------------ */
+    --border-color: #e4e7ec;
+    --border-color-focus: #344054;
+    --border-radius-quarter: 0.25rem;
+    --border-radius-half: 0.5rem;
+    --border-radius-1rem: 1rem;
+    --border-radius-2rem: 2rem;
+    --border-radius-3rem: 3rem;
+    --border-radius-4rem: 4rem;
+    --border-radius-full: 9999px;
+    /* pill / avatar */
+    --border-width: 1px;
+
+    /* ------------------------------------------
+     SPACING — 4pt grid
+  ------------------------------------------ */
+    --space-1: 0.25rem;
+    /* 4px  */
+    --space-2: 0.5rem;
+    /* 8px  */
+    --space-3: 0.75rem;
+    /* 12px */
+    --space-4: 1rem;
+    /* 16px */
+    --space-5: 1.25rem;
+    /* 20px */
+    --space-6: 1.5rem;
+    /* 24px */
+    --space-8: 2rem;
+    /* 32px */
+    --space-10: 2.5rem;
+    /* 40px */
+    --space-12: 3rem;
+    /* 48px */
+    --space-16: 4rem;
+    /* 64px */
+    --space-20: 5rem;
+    /* 80px */
+
+    /* ------------------------------------------
+     SHADOW
+  ------------------------------------------ */
+    --shadow-xs: 0 1px 2px rgba(16, 24, 40, 0.05);
+    --shadow-sm: 0 1px 3px rgba(16, 24, 40, 0.1), 0 1px 2px rgba(16, 24, 40, 0.06);
+    --shadow-md: 0 4px 8px rgba(16, 24, 40, 0.1), 0 2px 4px rgba(16, 24, 40, 0.06);
+    --shadow-lg: 0 12px 24px rgba(16, 24, 40, 0.1), 0 4px 8px rgba(16, 24, 40, 0.06);
+    --shadow-xl: 0 24px 48px rgba(16, 24, 40, 0.12);
+
+    /* ------------------------------------------
+     TRANSITIONS
+  ------------------------------------------ */
+    --transition-fast: 150ms ease;
+    --transition-base: 250ms ease;
+    --transition-slow: 400ms ease;
+
+    /* ------------------------------------------
+     Z-INDEX
+  ------------------------------------------ */
+    --z-below: -1;
+    --z-base: 0;
+    --z-raised: 10;
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-modal: 300;
+    --z-toast: 400;
+
+    /* ------------------------------------------
+     LAYOUT
+  ------------------------------------------ */
+    --container-max-width: 1280px;
+    --container-padding: var(--space-6);
+}
+
+
+/* ============================================
+   BASE RESET & DEFAULTS
+   ============================================ */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    /* 1rem anchor */
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-light);
+    line-height: var(--line-height-base);
+    color: var(--color-text-grey);
+    background-color: var(--bg-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ============================================
+   TYPOGRAPHY HELPERS
+   ============================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-text-black);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-tight);
+}
+
+h1 {
+    font-size: var(--font-size-3xl);
+}
+
+h2 {
+    font-size: var(--font-size-2xl);
+}
+
+h3 {
+    font-size: var(--font-size-xl);
+}
+
+h4 {
+    font-size: var(--font-size-lg);
+}
+
+h5 {
+    font-size: var(--font-size-md);
+}
+
+h6 {
+    font-size: var(--font-size-base);
+}
+
+p {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-light);
+    color: var(--color-text-grey);
+    line-height: var(--line-height-base);
+}
+
+small {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+a {
+    color: var(--color-text-black);
+    text-decoration: none;
+    transition: opacity var(--transition-fast);
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+img {
+    width: 100%;
+}
+
+/* ── Input ──────────────────────────────────── */
+.input {
+    width: 100%;
+    /* max-width: 20rem; */
+    height: 48px;
+    padding: var(--space-3) var(--space-4);
+    background: var(--bg-grey);
+    border: none;
+    border-radius: var(--border-radius-half);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-1rem);
+    color: var(--color-text-black);
+    outline: none;
+    box-sizing: border-box;
+    transition: box-shadow 160ms ease;
+}
+
+.input::placeholder {
+    color: var(--color-text-muted);
+}
+
+.input:focus {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.38);
+}

@@ -1,0 +1,27 @@
+.white-page {
+    width: 480px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.white-page video {
+    width: 390px;
+}
+
+.white-page Button {
+    width: 480px;
+    margin: 0 1rem;
+}
+
+@media (max-width: 800px) {
+    .white-page {
+        width: 320px;
+    }
+
+    .white-page video {
+        width: 320px;
+    }
+}

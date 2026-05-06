@@ -1,0 +1,180 @@
+/* ─────────────────────────────────────────────
+   Modal.css  —  Simple, clean modal style
+   ───────────────────────────────────────────── */
+
+/* ── Backdrop ───────────────────────────────── */
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1.5rem; */
+    background: rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+
+    animation: backdropIn 220ms ease both;
+}
+
+@keyframes backdropIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* ── Panel ──────────────────────────────────── */
+.modal-panel {
+    position: relative;
+    width: 100%;
+    background: var(--bg-white);
+    border-radius: var(--border-radius-2rem);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    font-family: var(--font-family-base);
+    color: var(--color-text-grey);
+    animation: panelIn 260ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes panelIn {
+    from {
+        opacity: 0;
+        transform: translateY(16px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* ── Size variants ──────────────────────────── */
+.modal-sm {
+    max-width: 450px;
+}
+
+.modal-md {
+    max-width: 500px;
+}
+
+.modal-lg {
+    max-width: 900px;
+}
+
+/* ── Header ─────────────────────────────────── */
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: var(--space-6) var(--space-6) var(--space-4);
+}
+
+.modal-title {
+    /* display: none; */
+    /* title shown in body area instead */
+}
+
+/* ── Close button ───────────────────────────── */
+.modal-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--font-size-1rem);
+    height: var(--font-size-1rem);
+    background: var(--bg-white);
+    border: none;
+    border-radius: var(--border-radius-full);
+    color: var(--color-text-grey);
+    font-size: var(--font-size-15rem);
+    cursor: pointer;
+    transition: background 160ms ease;
+}
+
+/* .modal-close:hover {
+    background: #e0e0e0;
+} */
+
+/* .modal-close:focus-visible {
+    outline: 2px solid #111;
+    outline-offset: 2px;
+} */
+
+/* ── Body ───────────────────────────────────── */
+.modal-body {
+    padding: 0 var(--space-4) var(--space-6);
+    max-height: 80vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd transparent;
+}
+
+.modal-body::-webkit-scrollbar {
+    width: 4px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+    background: var(--bg-white);
+    border-radius: var(--border-radius-full);
+}
+
+/* ── Typography inside body ─────────────────── */
+/* .modal-body h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 0.4rem;
+    color: var(--color-text-black);
+} */
+
+.modal-body p {
+    font-size: var(--font-size-1rem);
+    color: var(--color-text-grey);
+    margin: var(--space-4) var(--space-2) 0;
+}
+
+
+.modal-media {
+    background: var(--bg-grey);
+    border-radius: var(--border-radius-1rem);
+    margin: 0 0 var(--space-2)
+}
+
+/* ── Media inside body (images / videos) ────── */
+.modal-body img,
+.modal-body video {
+    height: 468px;
+    /* margin: 0 auto var(--space-4); */
+    border-radius: var(--border-radius-1rem);
+    display: block;
+}
+
+/* ── Footer ─────────────────────────────────── */
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 var(--space-6);
+}
+
+/* ── Responsive ─────────────────────────────── */
+@media (max-width: 480px) {
+    .modal-panel {
+        border-radius: var(--border-radius-1rem)
+    }
+
+    .modal-body {
+        padding: 1rem 1.25rem 1.5rem;
+        max-height: 65vh;
+    }
+
+    .modal-header {
+        padding: 1rem 1rem 0;
+    }
+}

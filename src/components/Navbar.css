@@ -1,15 +1,17 @@
-/* Mobile styling */
+/* ── Navbar.css ───────────────────────────────── */
+
+/* Mobile */
 .navbar {
-  background: rgba(0, 0, 0, 1);
+  background: var(--bg-white);
   height: 3.8rem;
   display: flex;
   justify-content: left;
   align-items: center;
-  font-size: 1rem;
+  font-size: var(--font-size-1rem);
   position: sticky;
   top: 0;
-  z-index: 999;
-  color: #ffffff;
+  z-index: var(--z-sticky);
+  color: var(--color-text-black);
 }
 
 .navbar-container {
@@ -21,27 +23,28 @@
 }
 
 .navbar-logo {
-  margin-left: 1.5rem;      
+  margin-left: var(--space-6);
   cursor: pointer;
   display: flex;
-  align-items: center;    /* vertical center */
-  height: 100%;           /* make the container same height as navbar */
-  padding: 0;             /* remove extra padding */
+  align-items: center;
+  height: 100%;
+  padding: 0;
 }
 
 .navbar-logo img {
-  height: 2rem;           /* your logo size */
+  height: 2rem;
   width: auto;
-  display: block;          /* remove inline spacing issues */
-  border-radius: 0.25rem;
+  display: block;
+  border-radius: var(--border-radius-quarter);
+  box-shadow: var(--shadow-sm);
 }
 
 .menu-icon {
   position: absolute;
   right: 3vw;
-  top: 50%; /* center relative to navbar */
-  transform: translateY(-50%); /* adjust exactly to middle */
-  font-size: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: var(--font-size-15rem);
   cursor: pointer;
 }
 
@@ -54,34 +57,34 @@
   top: 3.8rem;
   left: -100%;
   opacity: 1;
-  transition: all 0.5s ease;
+  transition: all var(--transition-slow);
 }
 
 .nav-menu.active {
-  background: rgba(0, 0, 0, 1);
+  background: var(--bg-white);
   left: 0;
   opacity: 1;
-  transition: all 0.5s ease;
-  z-index: 1;
+  transition: all var(--transition-slow);
+  z-index: var(--z-raised);
+  height: 100vh;
 }
 
 .nav-links {
   text-align: center;
   text-decoration: none;
-  padding: 2rem;
+  padding: var(--space-4);
   width: 100%;
   display: table;
 }
 
 .nav-links:hover {
-  /* background-color: rgb(255, 255, 255); */
-  color: #e9e9e9;
+  color: var(--color-text-disabled);
   border-radius: 0;
 }
 
 .fa-times {
-  color: #fff;
-  font-size: 2rem;
+  color: var(--color-text-grey);
+  font-size: var(--font-size-15rem);
 }
 
 .desktop-menu {
@@ -89,63 +92,65 @@
 }
 
 
-
-/* Desktop styling */
-@media only screen and (min-width: 650px) {
-    .navbar {
-      background: rgba(0, 0, 0, 0.8);
-      backdrop-filter: blur(30px);
-    }
-
-    .navbar-container {
-      margin: 0 auto;
-    }
-
-    .desktop-menu {
-      display: grid;
-      grid-template-columns: repeat(4, auto);
-      grid-gap: 1rem;
-      list-style: none;
-      text-align: center;
-      width: 60vw;
-      justify-content: end;
-      opacity: 1;
-    }
-
-    .nav-menu, .nav-menu.active {
-      display: none;
-    }
-
-    .navbar-logo {
-      margin-left: 0.5rem;
-    }
-
-    .nav-item {
-      height: 3.8rem;
-    }
-
-    .nav-links {
-      color: #fff;
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      height: 100%;
-    }
-
-    .nav-links:hover {
-      color: #e9e9e9;
-      /* color: #fff;
-      background-color: #000; */
-      /* border-bottom: 3px solid #fff; */
-      transition: all 0.2s ease-out;
-    }
-
-    .fa-bars {
-      color: #fff;
-    }
-
-    .menu-icon {
-      display: none;
-    }
+/* Desktop */
+@media only screen and (min-width: 900px) {
+  .navbar {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
   }
+
+  .navbar-container {
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1380px;
+    padding: 0 var(--space-16);
+  }
+
+  .desktop-menu {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: var(--space-4);
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    opacity: 1;
+  }
+
+  .nav-menu,
+  .nav-menu.active {
+    display: none;
+  }
+
+  .navbar-logo {
+    margin-left: var(--space-2);
+  }
+
+  .nav-item {
+    height: 3.8rem;
+  }
+
+  .nav-links a {
+    color: var(--color-text-black);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+  }
+
+  .nav-links:hover {
+    color: var(--color-text-black);
+    transition: all var(--transition-fast);
+  }
+
+  .nav-links:visited {
+    color: var(--color-text-black);
+  }
+
+  .fa-bars {
+    color: var(--color-text-inverse);
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
