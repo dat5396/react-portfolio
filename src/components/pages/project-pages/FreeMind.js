@@ -205,7 +205,7 @@ function FreeMind() {
                     <h2>5. Experience the app on the App Store</h2>
                 </div>
                 <div className="large__image__grid">
-                    <p>Users could download and experience the app on the Apple App Store</p>
+                    <p>Users could download and experience the app on the Apple App store</p><a href="https://apps.apple.com/ca/app/freemind-relax-and-reflect/id6761868559" target="_blank" rel="noreferrer"><p>Apple App store link</p></a>
                     <div className="large__image__grid">
                         <img src='images/project images/FRM/FR-98.png'></img>
                     </div>

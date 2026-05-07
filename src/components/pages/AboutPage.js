@@ -18,7 +18,7 @@ export default function AboutPage() {
                         </div>
                     </BentoCell>
                     <BentoCell span={1}>
-                        <img src='/images/home images/avatar.jpg' alt='' />
+                        <img src='/images/home images/avatar.webp' alt='' />
                     </BentoCell>
                 </BentoRow>
 
