@@ -150,10 +150,15 @@
 /* ── Media inside body (images / videos) ────── */
 .modal-body img,
 .modal-body video {
-    height: 468px;
-    /* margin: 0 auto var(--space-4); */
+    height: 436px;
     border-radius: var(--border-radius-1rem);
+    margin: 0 auto;
+    /* border: 2px solid var(--border-color); */
     display: block;
+}
+
+.modal-body video {
+    margin: -3rem auto -2rem;
 }
 
 /* ── Footer ─────────────────────────────────── */

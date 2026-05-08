@@ -8,20 +8,25 @@ export function useLazyVideo() {
         const el = ref.current;
         if (!el) return;
 
+        let loaded = false;
+
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (entry.isIntersecting) {
-                    // Load each <source> if present, otherwise use data-src
-                    el.querySelectorAll("source").forEach(source => {
-                        source.src = source.dataset.src;
-                    });
-                    if (el.dataset.src) el.src = el.dataset.src;
-                    el.load();
+                    if (!loaded) {
+                        el.querySelectorAll("source").forEach(source => {
+                            source.src = source.dataset.src;
+                        });
+                        if (el.dataset.src) el.src = el.dataset.src;
+                        el.load();
+                        loaded = true;
+                    }
                     el.play().catch(() => { });
-                    observer.disconnect();
+                } else {
+                    el.pause();
                 }
             },
-            { rootMargin: "200px" } // start loading 200px before it enters view
+            { rootMargin: "200px" }
         );
 
         observer.observe(el);
