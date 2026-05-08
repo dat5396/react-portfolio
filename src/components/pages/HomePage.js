@@ -223,7 +223,7 @@ export default function HomePage() {
       >
         {productSelectionModalOpen && (
           <div>
-            <video playsInline autoPlay loop muted src="/images/home images/p-s.webm" />
+            <video playsInline autoPlay loop muted src="/images/home images/p-s3.webm" />
           </div>
         )}
         <p>Product cards in the tile view that I explored during the design process of the product selection page redesign.</p>
