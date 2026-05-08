@@ -25,24 +25,37 @@ export default function AboutPage() {
 
                 {/* Row 4 – Type 2: three equal squares */}
                 <BentoRow type="thirds">
+
                     <BentoCell span={1}>
                         <div className="contact-content">
                             <img src='/images/home images/contact-text.webp' loading="lazy" alt='' />
                         </div>
                     </BentoCell>
 
-                    <BentoCell span={1} hoverable label="View my LinkedIn">
+                    <BentoCell
+                        span={1}
+                        hoverable
+                        label="View my LinkedIn"
+                        onView={() => window.open('https://www.linkedin.com/in/dattran6868/', '_blank')}
+                    >
                         <div className="contact-content">
                             <img src='/images/home images/linkedin.webp' loading="lazy" alt='' />
-                            <a href="https://www.linkedin.com/in/dattran6868/" target="_blank" rel="noreferrer"><p>Linkedin</p></a>
+                            <p>LinkedIn</p>
                         </div>
                     </BentoCell>
-                    <BentoCell span={1} hoverable label="Copy email address">
+
+                    <BentoCell
+                        span={1}
+                        hoverable
+                        label="Copy email address"
+                        onView={() => navigator.clipboard.writeText('dattientran6868@gmail.com')}
+                    >
                         <div className="contact-content">
                             <img src='/images/home images/mail.webp' loading="lazy" alt='' />
                             <p>dattientran6868@gmail.com</p>
                         </div>
                     </BentoCell>
+
                 </BentoRow>
             </BentoGrid>
         </div>

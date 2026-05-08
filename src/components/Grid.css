@@ -137,14 +137,14 @@
   z-index: 1;
 }
 
-@media (min-width: 901px) and (max-width: 1280px) {
+@media (min-width: 801px) and (max-width: 1280px) {
   .bento-grid {
     --bento-gap: var(--space-8);
     padding: var(--space-4) var(--space-8) var(--space-8);
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .bento-grid {
     --bento-gap: var(--space-4);
     padding: var(--space-4) var(--space-4) var(--space-8);
@@ -168,5 +168,10 @@
   .bento-cell__overlay {
     opacity: 1;
     pointer-events: auto;
+  }
+
+  .bento-row--full img {
+    height: 100%;
+    width: auto;
   }
 }
