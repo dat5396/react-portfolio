@@ -12,14 +12,18 @@ import Modal from "../Modal";
 
 
 export default function HomePage() {
-  const [chartModalOpen, setChartModalOpen] = useState(false);
-  const [logoModalOpen, setlogoModalOpen] = useState(false);
-  const [lightDarkModeModalOpen, setlightDarkModeModalOpen] = useState(false);
   const [productSelectionModalOpen, setproductSelectionModalOpen] = useState(false);
+  const [lightDarkModeModalOpen, setlightDarkModeModalOpen] = useState(false);
+  const [logoModalOpen, setlogoModalOpen] = useState(false);
+  const [logoFreemindModalOpen, setlogoFreemindModalOpen] = useState(false);
+  const [chartModalOpen, setChartModalOpen] = useState(false);
+  const [audienceModalOpen, setaudienceModalOpen] = useState(false);
   const chartVideoRef = useLazyVideo();
   const breathingVideoRef = useLazyVideo();
   const logoVideoRef = useLazyVideo();
+  const logoFreemindVideoRef = useLazyVideo();
   const productSelectionVideoRef = useLazyVideo();
+  const audienceVideoRef = useLazyVideo();
   const navigate = useNavigate();
 
   return (
@@ -148,33 +152,34 @@ export default function HomePage() {
         </BentoRow>
 
         {/* Row 7 – Type 2: three equal squares */}
-        {/* <BentoRow type="thirds">
+        <BentoRow type="thirds">
 
+
+
+
+
+          <BentoCell span={1}
+            hoverable
+            label="3D FreeMind logo">
+            <div className="square-video-full" onClick={() => setlogoFreemindModalOpen(true)} style={{ cursor: "pointer" }}>
+              <video ref={logoFreemindVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-lg3.webm" />
+            </div>
+          </BentoCell>
+          <BentoCell span={1}
+            hoverable
+            label="Audience insights panel">
+            <div className="square-video-full" onClick={() => setaudienceModalOpen(true)} style={{ cursor: "pointer" }}>
+              <video ref={audienceVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-ai-panel.webm" />
+            </div>
+          </BentoCell>
           <BentoCell span={1}
             hoverable
             label="Cost guidance chart">
-            <div className="square-video-full" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
-              <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-im-c2.webm" />
+            <div className="square-video" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
+              <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-im-c.webm" />
             </div>
           </BentoCell>
-
-          <BentoCell span={1}>
-            <img src='/images/home images/p-s.png' loading="lazy" alt='' />
-          </BentoCell>
-
-          <BentoCell span={1}
-            hoverable
-            label="View Project">
-            <video
-              playsInline
-              autoPlay
-              loop
-              muted
-              src="/images/home images/f-lg.webm"
-            />
-          </BentoCell>
-
-        </BentoRow> */}
+        </BentoRow>
 
         {/* Row 7 – Type 2: three equal squares */}
         <BentoRow type="thirds">
@@ -230,18 +235,21 @@ export default function HomePage() {
       </Modal>
 
       <Modal
-        isOpen={chartModalOpen}
-        onClose={() => setChartModalOpen(false)}
+        isOpen={lightDarkModeModalOpen}
+        onClose={() => setlightDarkModeModalOpen(false)}
         size="md"
-        buttonLabel="View Inventory marketplace"
-        onButtonClick={() => navigate('/nvntrmrktplc')}
+        buttonLabel="View FreeMind app"
+        onButtonClick={() => navigate('/frmnd')}
       >
-        {chartModalOpen && (
-          <div>
-            <video playsInline autoPlay loop muted src="/images/home images/i-im-c2.webm" />
+        {lightDarkModeModalOpen && (
+          <div style={{ margin: "0" }}>  {/* adjust -24px to match your modal's padding */}
+            <ReactCompareImage
+              leftImage="/images/home images/f-lm.webp"
+              rightImage="/images/home images/f-dm.webp"
+            />
           </div>
         )}
-        <p>The cost guidance chart showed users how bid price affected win rate in the Inventory Marketplace.</p>
+        <p>Light and dark modes for the Reflect view in the FreeMind app.</p>
       </Modal>
 
       <Modal
@@ -259,21 +267,47 @@ export default function HomePage() {
       </Modal>
 
       <Modal
-        isOpen={lightDarkModeModalOpen}
-        onClose={() => setlightDarkModeModalOpen(false)}
+        isOpen={logoFreemindModalOpen}
+        onClose={() => setlogoFreemindModalOpen(false)}
         size="md"
-        buttonLabel="View FreeMind app"
-        onButtonClick={() => navigate('/frmnd')}
+        onButtonClick={() => navigate('/freemind')}
       >
-        {lightDarkModeModalOpen && (
-          <div style={{ margin: "0" }}>  {/* adjust -24px to match your modal's padding */}
-            <ReactCompareImage
-              leftImage="/images/home images/f-lm.webp"
-              rightImage="/images/home images/f-dm.webp"
-            />
+        {logoFreemindModalOpen && (
+          <div>
+            <video playsInline autoPlay loop muted src="/images/home images/f-lg3.webm" />
           </div>
         )}
-        <p>Light and dark modes for the Reflect view in the FreeMind app.</p>
+        <p>Freemind logo with a glassmorphism design.</p>
+      </Modal>
+
+      <Modal
+        isOpen={chartModalOpen}
+        onClose={() => setChartModalOpen(false)}
+        size="md"
+        buttonLabel="View Inventory marketplace"
+        onButtonClick={() => navigate('/nvntrmrktplc')}
+      >
+        {chartModalOpen && (
+          <div>
+            <video playsInline autoPlay loop muted src="/images/home images/i-im-c.webm" />
+          </div>
+        )}
+        <p>The cost guidance chart showed users how bid price affected win rate in the Inventory Marketplace.</p>
+      </Modal>
+
+      <Modal
+        isOpen={audienceModalOpen}
+        onClose={() => setaudienceModalOpen(false)}
+        size="md"
+        buttonLabel="View Audience insights"
+        onButtonClick={() => navigate('/nvntrmrktplc')}
+      >
+        {audienceModalOpen && (
+          <div>
+            <video className="square-video" playsInline autoPlay loop muted src="/images/home images/i-ai-panel.webm" />
+          </div>
+        )}
+        <p>The audience insights panel where users can view the potential reach of their tactic and easily add audiences to achieve that reach.</p>
       </Modal>
     </div>
   );

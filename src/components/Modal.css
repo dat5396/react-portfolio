@@ -74,10 +74,6 @@
     padding: var(--space-6) var(--space-6) var(--space-4);
 }
 
-.modal-title {
-    /* display: none; */
-    /* title shown in body area instead */
-}
 
 /* ── Close button ───────────────────────────── */
 .modal-close {
@@ -158,7 +154,7 @@
 }
 
 .modal-body video {
-    margin: -3rem auto -2rem;
+    margin: -2rem auto -2rem;
 }
 
 /* ── Footer ─────────────────────────────────── */
