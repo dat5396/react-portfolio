@@ -45,7 +45,7 @@ function Unknown() {
       </div>
 
       <div className="modal-footer">
-        <Button onClick={handleSubmit} size="lg">
+        <Button variant="primary" onClick={handleSubmit} size="lg">
           Access
         </Button>
       </div>

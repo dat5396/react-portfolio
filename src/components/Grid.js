@@ -66,7 +66,7 @@ export function BentoCell({
 
       {hoverable && showButton && (
         <div className="bento-cell__overlay">
-          <Button onClick={(e) => { e.stopPropagation(); onView?.(); }}>
+          <Button variant="secondary" onClick={(e) => { e.stopPropagation(); onView?.(); }}>
             {label}
           </Button>
         </div>

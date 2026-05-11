@@ -26,6 +26,24 @@
 	padding: 0 var(--space-8);
 }
 
-.gb:hover {
+/* Secondary (default) */
+.gb--secondary {
+	background: var(--bg-white);
+	color: var(--color-text-black);
+}
+
+.gb--secondary:hover {
 	background: var(--bg-grey);
+}
+
+/* Primary */
+.gb--primary {
+	background: var(--color-text-black);
+	color: var(--bg-white);
+	border-color: var(--color-text-black);
+}
+
+.gb--primary:hover {
+	background: var(--color-text-black);
+	opacity: 0.85;
 }
