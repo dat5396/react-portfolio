@@ -183,8 +183,10 @@ function InventoryMarketplace() {
           <h2>5. FINAL DESIGN</h2>
         </div>
         <p className='space'>A</p>
-        <h3>Inventory marketplace</h3>
+        <h3>Inventory marketplace page</h3>
         <img loading="lazy" src='images/project images/IM/IM-E01.png' className='large__image'></img>
+        <h3>Inventory marketplace in the Campaign setup drawer</h3>
+        <img loading="lazy" src='images/project images/IM/IM-E02.png' className='large__image'></img>
         <h3>Interactive prototype</h3>
         <p>Please select 'Fit width and height' for the best experience.</p>
         <a href="https://www.figma.com/proto/TDium992Hrmi8B5y0xqk4o/IM?node-id=1-265877&viewport=17%2C-21%2C0.09&t=vRvJiiqOgo9N2Njn-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A265877&page-id=1%3A262925" target="_blank" rel="noreferrer"><p>Figma link</p></a>
