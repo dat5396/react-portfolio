@@ -165,11 +165,16 @@ function InventoryMarketplace() {
         <img loading="lazy" src='images/project images/IM/IM-D10.png' className='large__image'></img>
         <p>I explored different types of graphs to present cost guidance in a clear and useful way.</p>
         <img loading="lazy" src='images/project images/IM/IM-D11.png' className='large__image'></img>
+        <p>To gather feedback on the 4th iteration, we shared the designs with users and company stakeholders. </p>
+        <ul>
+          <li>Testers preferred Concept 2 for the cost guidance, as it displayed the highest, lowest, and average prices needed to win the deal based on the past seven days of data.</li>
+        </ul>
 
         <h3>The 5th Iteration</h3>
-        <p>Cost guidance with win rate</p>
+        <p>In this iteration, I focused on Concept 2 of the cost guidance chart. Rather than showing static data, I introduced the idea for users to input values—such as win rate or custom CPM—and see the impact.</p>
+        <h4>Cost guidance with win rate</h4>
         <img loading="lazy" src='images/project images/IM/IM-D12.png' className='large__image'></img>
-        <p>Cost guidance with custom CPM</p>
+        <h4>Cost guidance with custom CPM</h4>
         <img loading="lazy" src='images/project images/IM/IM-D13.png' className='large__image'></img>
       </div>
 
