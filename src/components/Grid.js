@@ -1,20 +1,3 @@
-// BentoGrid.jsx
-// A reusable bento-box grid layout component for React portfolios.
-//
-// Usage:
-//   import BentoGrid, { BentoRow, BentoCell } from './BentoGrid';
-//
-// Row types:
-//   type="halves"   → 2 equal columns        (Type 1)
-//   type="thirds"   → 3 equal columns        (Type 2)
-//   type="full"     → 1 full-width rectangle (Type 3)
-//
-// BentoCell props:
-//   span={1|2}     only inside type="thirds" rows
-//   label          text shown inside the GlassButton on hover  (default "View Project")
-//   buttonVariant  any GlassButton variant                     (default "dark")
-//   onView         click handler for the GlassButton
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
@@ -47,7 +30,8 @@ export function BentoCell({
   href,
   label = '',
   onView,
-  showButton = true,       // ← add this
+  showButton = true,
+  backgroundColor,        // ← new prop
   children,
   className = '',
   ...props
@@ -60,6 +44,7 @@ export function BentoCell({
         ${hoverable && !zoomOnHover ? 'bento-cell--no-zoom' : ''}
         ${className}
       `}
+      style={backgroundColor ? { '--bento-bg': backgroundColor } : undefined}  // ← apply it
       {...props}
     >
       <div className="bento-cell__inner">{children}</div>

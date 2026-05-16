@@ -1,0 +1,195 @@
+.dynamic__gradient h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 2rem 0rem 0rem;
+}
+
+.dynamic__gradient h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 2rem 1rem 0rem;
+}
+
+.dynamic__gradient h4 {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: bold;
+    padding: 2rem 1rem 0rem;
+}
+
+.dynamic__gradient p {
+    font-size: 1rem;
+    padding: 2rem 0rem 1rem;
+}
+
+.dynamic__gradient ol {
+    font-size: 1rem;
+    padding: 0.5rem 2rem 0rem;
+}
+
+.dynamic__gradient ul {
+    font-size: 1rem;
+    padding: 0.5rem 2rem 0rem;
+}
+
+.dynamic__gradient li {
+    padding: 0rem 0rem 0.5rem;
+}
+
+.dynamic__gradient {
+    text-align: left;
+    color: #344054;
+    background-color: #ffffff;
+}
+
+.extra__small__image {
+    width: 40%;
+    margin: 2rem auto;
+    border-radius: 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+}
+
+.small__image {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+}
+
+.medium__image {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+}
+
+.medium__image__noshadow {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
+}
+
+
+.large__image__grid {
+    width: auto;
+    margin: 2rem 1rem;
+    border-radius: 0rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.large__image__grid img {
+    height: 80%;
+    width: auto;
+}
+
+.logo {
+    margin: 9rem auto 12rem;
+    height: 80px;
+}
+
+.section__name {
+    margin: 0rem 1rem 0rem 1rem;
+    /* border-bottom: 2px solid #000000; */
+}
+
+.space {
+    opacity: 0%;
+}
+
+
+/* .group__image {
+    margin: 2rem 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    border-radius: 1rem;;
+} */
+
+
+
+@media only screen and (min-width: 1080px) {
+    .project__container {
+        padding: 0 10vw 20vh 10vw;
+    }
+
+    .dynamic__gradient h2 {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .dynamic__gradient h3 {
+        padding: 2rem 12.5rem 0rem 0rem;
+    }
+
+    .dynamic__gradient h4 {
+        padding: 2rem 12.5rem 0rem 0rem;
+    }
+
+    .dynamic__gradient p {
+        padding: 2rem 0rem 1rem;
+        /* width: 70vw; */
+    }
+
+    .dynamic__gradient ol {
+        padding: 0.5rem 12.5rem 0.5rem 1.5rem;
+    }
+
+    .dynamic__gradient ul {
+        padding: 0.5rem 12.5rem 0.5rem 1.5rem;
+    }
+
+    .dynamic__gradient li {
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .dynamic__gradient .extra__small__image {
+        width: 25%;
+        margin: 2rem 0rem 2rem 0.5rem;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+
+    }
+
+    .dynamic__gradient .small__image {
+        width: 40%;
+        margin: 2rem 50rem 2rem 0.5rem;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    }
+
+    .dynamic__gradient .medium__image {
+        width: 80%;
+        margin: 2rem 50rem 2rem 0.5rem;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    }
+
+    .dynamic__gradient .medium__image__noshadow {
+        width: 80%;
+        margin: 2rem 18rem 2rem 0.5rem;
+        border-radius: 1rem;
+    }
+
+    .dynamic__gradient .large__image__grid {
+        width: 70vw;
+        margin: 0rem 0rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+    }
+
+    .large__image__grid img {
+        border-radius: 2rem;
+    }
+
+    .dynamic__gradient .section__name {
+        margin: 5rem 12.5rem 0rem 0rem;
+    }
+
+    .dynamic__gradient .logo {
+        width: auto;
+        margin: 10rem 18rem 10rem 0.5rem;
+    }
+}

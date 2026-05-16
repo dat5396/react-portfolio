@@ -18,6 +18,7 @@ import AudienceRecommendation from './components/pages/project-pages/AudienceRec
 import ProductPage from './components/pages/project-pages/ProductPage';
 import SupportCenter from './components/pages/project-pages/SupportCenter';
 import FreeMind from './components/pages/project-pages/FreeMind';
+import DynamicGradient from './components/pages/project-pages/DynamicGradient';
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage';
 
@@ -52,6 +53,7 @@ function AppContent() {
 				<Route path='/spprtcntr' element={<SupportCenter />} />
 				<Route path='/prdctpg' element={<ProductPage />} />
 				<Route path='/frmnd' element={<FreeMind />} />
+				<Route path='/dnmcgrdnt' element={<DynamicGradient />} />
 				<Route path="*" element={<Navigate to="/" replace />} />
 
 			</Routes>

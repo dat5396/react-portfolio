@@ -13,7 +13,7 @@ import Modal from "../Modal";
 
 export default function HomePage() {
   const [productSelectionModalOpen, setproductSelectionModalOpen] = useState(false);
-  const [lightDarkModeModalOpen, setlightDarkModeModalOpen] = useState(false);
+  const [freeMindModalOpen, setfreeMindModalOpen] = useState(false);
   const [logoModalOpen, setlogoModalOpen] = useState(false);
   const [logoFreemindModalOpen, setlogoFreemindModalOpen] = useState(false);
   const [chartModalOpen, setChartModalOpen] = useState(false);
@@ -66,15 +66,40 @@ export default function HomePage() {
           </BentoCell>
           <BentoCell
             hoverable
-            label="FreeMind iOS app"
-            href="/frmnd"
+            label="Audience insights"
+            href="/dncrcmmndtn">
+            <img src='/images/home images/i-ai.webp' loading="lazy" alt='' />
+          </BentoCell>
+        </BentoRow>
+        {/* Row 3 – Type 1: two equal halves */}
+        <BentoRow type="halves">
+          <BentoCell
+            hoverable
+            label="Dynamic gradient studio"
+            href="/dnmcgrdnt"
           >
             <div className="square-video-full">
-              <video ref={breathingVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-br.mp4" />
+              <video playsInline autoPlay loop muted src="/images/home images/dg-1.webm" />
+            </div>
+          </BentoCell>
+
+
+          <BentoCell
+            span={1}
+            hoverable
+            className="bento-cell--no-scale"
+            label="FreeMind iOS app"
+            onView={() => navigate('/frmnd')}    // ← button navigates
+            showButton={true}
+          >
+            <div style={{ cursor: "pointer", width: "100%", height: "100%" }}>
+              <ReactCompareImage
+                leftImage="/images/home images/f-dm2.png"
+                rightImage="/images/home images/f-lm2.png"
+              />
             </div>
           </BentoCell>
         </BentoRow>
-
         {/* Row 4 – Type 2: three equal squares */}
         <BentoRow type="thirds">
 
@@ -89,17 +114,12 @@ export default function HomePage() {
           </BentoCell>
 
           <BentoCell
-            span={1}
             hoverable
-            className="bento-cell--no-scale"
-            label="Light and dark modes"
-            onView={() => setlightDarkModeModalOpen(true)}
-          >
-            <div style={{ cursor: "pointer", width: "100%", height: "100%" }}>
-              <ReactCompareImage
-                leftImage="/images/home images/f-lm.png"
-                rightImage="/images/home images/f-dm.png"
-              />
+            label="Breathing exercise"
+            onClick={() => setfreeMindModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full" >
+              <video ref={breathingVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-br2.webm" />
             </div>
           </BentoCell>
 
@@ -118,9 +138,9 @@ export default function HomePage() {
 
           <BentoCell
             hoverable
-            label="Audience insights"
-            href="/dncrcmmndtn">
-            <img src='/images/home images/i-ai.webp' loading="lazy" alt='' />
+            label="Support center"
+            href="/spprtcntr">
+            <img src='/images/home images/i-sc.webp' loading="lazy" alt='' />
           </BentoCell>
 
           <BentoCell
@@ -132,31 +152,10 @@ export default function HomePage() {
 
         </BentoRow>
 
-        {/* Row 6 – Type 1: two equal halves */}
-        <BentoRow type="halves">
 
-          <BentoCell
-            hoverable
-            label="Support center"
-            href="/spprtcntr">
-            <img src='/images/home images/i-sc.webp' loading="lazy" alt='' />
-          </BentoCell>
-
-          <BentoCell
-            hoverable
-            label="First party audience onboarding"
-            href="/frstprtdncnbrdng">
-            <img src='/images/home images/i-fpa.webp' loading="lazy" alt='' />
-          </BentoCell>
-
-        </BentoRow>
 
         {/* Row 7 – Type 2: three equal squares */}
         <BentoRow type="thirds">
-
-
-
-
 
           <BentoCell span={1}
             hoverable
@@ -235,21 +234,18 @@ export default function HomePage() {
       </Modal>
 
       <Modal
-        isOpen={lightDarkModeModalOpen}
-        onClose={() => setlightDarkModeModalOpen(false)}
+        isOpen={freeMindModalOpen}
+        onClose={() => setfreeMindModalOpen(false)}
         size="md"
         buttonLabel="View FreeMind app"
         onButtonClick={() => navigate('/frmnd')}
       >
-        {lightDarkModeModalOpen && (
-          <div style={{ margin: "0" }}>  {/* adjust -24px to match your modal's padding */}
-            <ReactCompareImage
-              leftImage="/images/home images/f-lm.webp"
-              rightImage="/images/home images/f-dm.webp"
-            />
+        {freeMindModalOpen && (
+          <div>
+            <video playsInline autoPlay loop muted src="/images/home images/f-br2.webm" />
           </div>
         )}
-        <p>Light and dark modes for the Reflect view in the FreeMind app.</p>
+        <p>The box breathing exercise helped users relax in the FreeMind app.</p>
       </Modal>
 
       <Modal

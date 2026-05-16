@@ -41,7 +41,7 @@
 
 .square-video,
 .square-video-full {
-    background: var(--bg-white);
+    /* background: var(--bg-white); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +57,7 @@
 
 .square-video-full video {
     width: auto;
-    height: 105%;
+    height: 100%;
     object-fit: cover;
 }
 
