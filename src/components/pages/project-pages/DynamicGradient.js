@@ -15,7 +15,8 @@ function DynamicGradient() {
         { id: 'section2', title: '2. Mercury gradient' },
         { id: 'section3', title: '3. Wave gradient' },
         { id: 'section4', title: '4. Plasma gradient' },
-        { id: 'section5', title: '5. Experience the tool on the wesbite' },
+        { id: 'section5', title: '5. Customizations and other features' },
+        { id: 'section6', title: '6. Experience the tool on the wesbite' },
     ];
 
     useEffect(() => {
@@ -54,9 +55,9 @@ function DynamicGradient() {
 
     return (
         <div className="project__container dynamic__gradient" >
-            {/* <div className="large__image__grid">
-                <img src='images/project images/FRM/FR-00.png'></img>
-            </div> */}
+            <div className="large__image__grid">
+                <img src='images/project images/DG/DG-0.png'></img>
+            </div>
 
             <div id="section1">
                 <div className='section__name'>
@@ -117,7 +118,46 @@ function DynamicGradient() {
 
             <div id="section5">
                 <div className='section__name'>
-                    <h2>5. Experience the tool on the website</h2>
+                    <h2>5. Customizations and other features</h2>
+                </div>
+                <p>Users could customize how their gradients look with many customization controls.</p>
+                <div className="large__image__grid">
+                    <BentoRow type="halves">
+                        <BentoCell>
+                            <img src='/images/Project images/DG/dg-51.png' loading="lazy" alt='' />
+                        </BentoCell>
+                        <BentoCell>
+                            <img src='/images/Project images/DG/dg-52.png' loading="lazy" alt='' />
+                        </BentoCell>
+                    </BentoRow>
+                </div>
+                <p className='space'>A</p>
+                <div className="large__image__grid">
+                    <BentoRow type="halves">
+                        <BentoCell>
+                            <img src='/images/Project images/DG/dg-53.png' loading="lazy" alt='' />
+                        </BentoCell>
+                        <BentoCell>
+                            <img src='/images/Project images/DG/dg-54.png' loading="lazy" alt='' />
+                        </BentoCell>
+                    </BentoRow>
+                </div>
+                <p>Users could easily preview other types of gradients by hovering over the tab and export the gradient as an image or video.</p>
+                <div className="large__image__grid">
+                    <BentoRow type="halves">
+                        <BentoCell>
+                            <img src='/images/Project images/DG/dg-55.png' loading="lazy" alt='' />
+                        </BentoCell>
+                        <BentoCell>
+                            <img src='/images/Project images/DG/dg-56.png' loading="lazy" alt='' />
+                        </BentoCell>
+                    </BentoRow>
+                </div>
+            </div>
+
+            <div id="section6">
+                <div className='section__name'>
+                    <h2>6. Experience the tool on the website</h2>
                 </div>
                 <div className="large__image__grid">
                     <p>Everyone can customize, generate, and export gradients as images or videos at <a href="https://www.dynamicgradient.com/" target="_blank" rel="noreferrer" style={{ fontWeight: 'var(--font-weight-bold)' }}>www.dynamicgradient.com</a></p>
