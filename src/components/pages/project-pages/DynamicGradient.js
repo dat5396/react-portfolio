@@ -76,7 +76,7 @@ function DynamicGradient() {
                 <div className="large__image__grid">
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
-                            <div className="square-video-full">
+                            <div className="square-video-full-height">
                                 <video playsInline autoPlay loop muted src="/images/project images/DG/dg-2.webm" />
                             </div>
                         </BentoCell>
@@ -92,7 +92,7 @@ function DynamicGradient() {
                 <div className="large__image__grid">
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
-                            <div className="square-video-full">
+                            <div className="square-video-full-height">
                                 <video playsInline autoPlay loop muted src="/images/project images/DG/dg-3.webm" />
                             </div>
                         </BentoCell>
@@ -108,7 +108,7 @@ function DynamicGradient() {
                 <div className="large__image__grid">
                     <BentoRow type="full">
                         <BentoCell backgroundColor="#000000">
-                            <div className="square-video-full">
+                            <div className="square-video-full-height">
                                 <video playsInline autoPlay loop muted src="/images/project images/DG/dg-4.webm" />
                             </div>
                         </BentoCell>
