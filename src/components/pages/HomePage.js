@@ -85,7 +85,7 @@ export default function HomePage() {
             label="Dynamic gradient studio"
             href="/dnmcgrdnt"
           >
-            <div className="square-video-full">
+            <div className="square-video-full-height">
               <video playsInline autoPlay loop muted src="/images/home images/dg-1.webm" />
             </div>
           </BentoCell>
@@ -116,7 +116,7 @@ export default function HomePage() {
           <BentoCell span={1}
             hoverable
             label="3D personal logo">
-            <div className="square-video-full" onClick={() => setlogoModalOpen(true)} style={{ cursor: "pointer" }}>
+            <div className="square-video-full-height" onClick={() => setlogoModalOpen(true)} style={{ cursor: "pointer" }}>
               <video ref={logoVideoRef} playsInline autoPlay loop muted data-src="/images/home images/d-lg8.webm" />
             </div>
           </BentoCell>
@@ -147,7 +147,7 @@ export default function HomePage() {
             label="Breathing exercise"
             onClick={() => setfreeMindModalOpen(true)}
             style={{ cursor: "pointer" }}>
-            <div className="square-video-full" >
+            <div className="square-video-full-height" >
               <video ref={breathingVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-br2.webm" />
             </div>
           </BentoCell>
@@ -198,7 +198,7 @@ export default function HomePage() {
             label="Product cards"
             onClick={() => setproductSelectionModalOpen(true)}
             style={{ cursor: "pointer" }}>
-            <div className="square-video-full" >
+            <div className="square-video-full-height" >
               <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home images/p-s3.webm" />
             </div>
           </BentoCell>
@@ -212,14 +212,14 @@ export default function HomePage() {
           <BentoCell span={1}
             hoverable
             label="3D FreeMind logo">
-            <div className="square-video-full" onClick={() => setlogoFreemindModalOpen(true)} style={{ cursor: "pointer" }}>
+            <div className="square-video-full-height" onClick={() => setlogoFreemindModalOpen(true)} style={{ cursor: "pointer" }}>
               <video ref={logoFreemindVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-lg3.webm" />
             </div>
           </BentoCell>
           <BentoCell span={1}
             hoverable
             label="Audience insights panel">
-            <div className="square-video-full" onClick={() => setaudienceModalOpen(true)} style={{ cursor: "pointer" }}>
+            <div className="square-video-full-height" onClick={() => setaudienceModalOpen(true)} style={{ cursor: "pointer" }}>
               <video ref={audienceVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-ai-panel.webm" />
             </div>
           </BentoCell>
@@ -376,7 +376,7 @@ export default function HomePage() {
       <Modal
         isOpen={waveGradientModalOpen}
         onClose={() => setwaveGradientModalOpen(false)}
-        size="md"
+        size="lg"
         buttonLabel="View Dynamic gradient studio"
         onButtonClick={() => navigate('/dnmcgrdnt')}
       >
@@ -385,13 +385,15 @@ export default function HomePage() {
             <video className="square-video" playsInline autoPlay loop muted src="/images/home images/g-4.webm" />
           </div>
         )}
-        <p>The wave gradient I created in the Dynamic gradient studio.</p>
+        <div className="text-in-modal">
+          <p>The wave gradient that I created in the Dynamic gradient studio.</p>
+        </div>
       </Modal>
 
       <Modal
         isOpen={mercuryGradientModalOpen}
         onClose={() => setmercuryGradientModalOpen(false)}
-        size="md"
+        size="lg"
         buttonLabel="View Dynamic gradient studio"
         onButtonClick={() => navigate('/dnmcgrdnt')}
       >
@@ -400,7 +402,9 @@ export default function HomePage() {
             <video className="square-video" playsInline autoPlay loop muted src="/images/home images/g-5.webm" />
           </div>
         )}
-        <p>The mercury gradient I created in the Dynamic gradient studio.</p>
+        <div className="text-in-modal">
+          <p>The mercury gradient that I created in the Dynamic gradient studio.</p>
+        </div>
       </Modal>
 
       <Modal

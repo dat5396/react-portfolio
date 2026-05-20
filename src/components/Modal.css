@@ -63,7 +63,7 @@
 }
 
 .modal-lg {
-    max-width: 900px;
+    max-width: 800px;
 }
 
 /* ── Header ─────────────────────────────────── */
@@ -147,7 +147,7 @@
 .modal-body img,
 .modal-body video {
     height: 436px;
-    border-radius: var(--border-radius-1rem);
+    /* border-radius: var(--border-radius-half); */
     margin: 0 auto;
     /* border: 2px solid var(--border-color); */
     display: block;
@@ -156,6 +156,7 @@
 .modal-body video {
     margin: -2rem auto -2rem;
 }
+
 
 /* ── Footer ─────────────────────────────────── */
 .modal-footer {

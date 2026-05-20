@@ -40,7 +40,7 @@
 }
 
 .square-video,
-.square-video-full,
+.square-video-full-height,
 .square-video-full-width {
     /* background: var(--bg-white); */
     display: flex;
@@ -56,7 +56,7 @@
     object-fit: cover;
 }
 
-.square-video-full video {
+.square-video-full-height video {
     width: auto;
     height: 100%;
     object-fit: cover;
@@ -66,6 +66,10 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.text-in-modal {
+    margin: 3rem 0 0;
 }
 
 @media (min-width: 801px) and (max-width: 1280px) {
