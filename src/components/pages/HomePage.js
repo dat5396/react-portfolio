@@ -18,12 +18,19 @@ export default function HomePage() {
   const [logoFreemindModalOpen, setlogoFreemindModalOpen] = useState(false);
   const [chartModalOpen, setChartModalOpen] = useState(false);
   const [audienceModalOpen, setaudienceModalOpen] = useState(false);
+  const [previewGradientModalOpen, setpreviewGradientModalOpen] = useState(false);
+  const [waveGradientModalOpen, setwaveGradientModalOpen] = useState(false);
+  const [mercuryGradientModalOpen, setmercuryGradientModalOpen] = useState(false);
+  const [measurementCardModalOpen, setmeasurementCardModalOpen] = useState(false);
   const chartVideoRef = useLazyVideo();
   const breathingVideoRef = useLazyVideo();
   const logoVideoRef = useLazyVideo();
   const logoFreemindVideoRef = useLazyVideo();
   const productSelectionVideoRef = useLazyVideo();
   const audienceVideoRef = useLazyVideo();
+  const previewGradientVideoRef = useLazyVideo();
+  const waveGradientVideoRef = useLazyVideo();
+  const mercuryGradientVideoRef = useLazyVideo();
   const navigate = useNavigate();
 
   return (
@@ -101,18 +108,40 @@ export default function HomePage() {
           </BentoCell>
         </BentoRow>
         {/* Row 4 – Type 2: three equal squares */}
+
+
+
         <BentoRow type="thirds">
 
           <BentoCell span={1}
             hoverable
-            label="Product cards"
-            onClick={() => setproductSelectionModalOpen(true)}
-            style={{ cursor: "pointer" }}>
-            <div className="square-video-full" >
-              <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home images/p-s3.webm" />
+            label="3D personal logo">
+            <div className="square-video-full" onClick={() => setlogoModalOpen(true)} style={{ cursor: "pointer" }}>
+              <video ref={logoVideoRef} playsInline autoPlay loop muted data-src="/images/home images/d-lg8.webm" />
             </div>
           </BentoCell>
 
+          <BentoCell span={1}
+            hoverable
+            label="Preview gradient styles">
+            <div className="square-video" onClick={() => setpreviewGradientModalOpen(true)} style={{ cursor: "pointer" }}>
+              <video playsInline autoPlay loop muted src="/images/home images/g-6.webm" />
+            </div>
+          </BentoCell>
+
+          <BentoCell span={1}
+            hoverable
+            label="Cost guidance chart">
+            <div className="square-video" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
+              <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-im-c.webm" />
+            </div>
+          </BentoCell>
+
+
+
+        </BentoRow>
+
+        <BentoRow type="thirds">
           <BentoCell
             hoverable
             label="Breathing exercise"
@@ -123,14 +152,15 @@ export default function HomePage() {
             </div>
           </BentoCell>
 
-          <BentoCell span={1}
+          <BentoCell span={2}
             hoverable
-            label="3D personal logo">
-            <div className="square-video-full" onClick={() => setlogoModalOpen(true)} style={{ cursor: "pointer" }}>
-              <video ref={logoVideoRef} playsInline autoPlay loop muted data-src="/images/home images/d-lg8.webm" />
+            label="Wave gradient"
+            onClick={() => setwaveGradientModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full-width" >
+              <video ref={waveGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home images/g-4.webm" />
             </div>
           </BentoCell>
-
         </BentoRow>
 
         {/* Row 5 – Type 1: two equal halves */}
@@ -152,7 +182,29 @@ export default function HomePage() {
 
         </BentoRow>
 
+        <BentoRow type="thirds">
+          <BentoCell span={2}
+            hoverable
+            label="Mercury gradient"
+            onClick={() => setmercuryGradientModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full-width" >
+              <video ref={mercuryGradientVideoRef} playsInline autoPlay loop muted data-src="/images/home images/g-5.webm" />
+            </div>
+          </BentoCell>
 
+          <BentoCell span={1}
+            hoverable
+            label="Product cards"
+            onClick={() => setproductSelectionModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full" >
+              <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home images/p-s3.webm" />
+            </div>
+          </BentoCell>
+
+
+        </BentoRow>
 
         {/* Row 7 – Type 2: three equal squares */}
         <BentoRow type="thirds">
@@ -171,12 +223,13 @@ export default function HomePage() {
               <video ref={audienceVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-ai-panel.webm" />
             </div>
           </BentoCell>
-          <BentoCell span={1}
+
+          <BentoCell
             hoverable
-            label="Cost guidance chart">
-            <div className="square-video" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
-              <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-im-c.webm" />
-            </div>
+            label="Measurement card"
+            onClick={() => setmeasurementCardModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <img src="images/home images/Illumin-footfall-card.png"></img>
           </BentoCell>
         </BentoRow>
 
@@ -305,6 +358,67 @@ export default function HomePage() {
         )}
         <p>The audience insights panel where users can view the potential reach of their tactic and easily add audiences to achieve that reach.</p>
       </Modal>
+      <Modal
+        isOpen={previewGradientModalOpen}
+        onClose={() => setpreviewGradientModalOpen(false)}
+        size="md"
+        buttonLabel="View Dynamic gradient studio"
+        onButtonClick={() => navigate('/dnmcgrdnt')}
+      >
+        {previewGradientModalOpen && (
+          <div>
+            <video className="square-video" playsInline autoPlay loop muted src="/images/home images/g-6.webm" />
+          </div>
+        )}
+        <p>Hovering over the tab displays a preview of the gradient in the Dynamic gradient studio.</p>
+      </Modal>
+
+      <Modal
+        isOpen={waveGradientModalOpen}
+        onClose={() => setwaveGradientModalOpen(false)}
+        size="md"
+        buttonLabel="View Dynamic gradient studio"
+        onButtonClick={() => navigate('/dnmcgrdnt')}
+      >
+        {waveGradientModalOpen && (
+          <div>
+            <video className="square-video" playsInline autoPlay loop muted src="/images/home images/g-4.webm" />
+          </div>
+        )}
+        <p>The wave gradient I created in the Dynamic gradient studio.</p>
+      </Modal>
+
+      <Modal
+        isOpen={mercuryGradientModalOpen}
+        onClose={() => setmercuryGradientModalOpen(false)}
+        size="md"
+        buttonLabel="View Dynamic gradient studio"
+        onButtonClick={() => navigate('/dnmcgrdnt')}
+      >
+        {mercuryGradientModalOpen && (
+          <div>
+            <video className="square-video" playsInline autoPlay loop muted src="/images/home images/g-5.webm" />
+          </div>
+        )}
+        <p>The mercury gradient I created in the Dynamic gradient studio.</p>
+      </Modal>
+
+      <Modal
+        isOpen={measurementCardModalOpen}
+        onClose={() => setmeasurementCardModalOpen(false)}
+        size="md"
+        buttonLabel="View Footfall measurement"
+        onButtonClick={() => navigate('/ftfllmsrmnt')}
+      >
+        {measurementCardModalOpen && (
+          <div>
+            <img src="/images/home images/Illumin-footfall-card.png" />
+          </div>
+        )}
+        <p>I designed the measurement card for the Measurement Marketplace, and it was later reused in the Footfall Measurement feature.
+        </p>
+      </Modal>
+
     </div>
   );
 }
