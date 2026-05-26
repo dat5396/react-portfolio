@@ -73,7 +73,7 @@ export default function HomePage() {
           </BentoCell>
           <BentoCell
             hoverable
-            label="Audience insights"
+            label="AI-powered Audience insights"
             href="/dncrcmmndtn">
             <img src='/images/home images/i-ai.webp' loading="lazy" alt='' />
           </BentoCell>
@@ -348,7 +348,7 @@ export default function HomePage() {
         isOpen={audienceModalOpen}
         onClose={() => setaudienceModalOpen(false)}
         size="md"
-        buttonLabel="View Audience insights"
+        buttonLabel="View AI-powered Audience insights"
         onButtonClick={() => navigate('/nvntrmrktplc')}
       >
         {audienceModalOpen && (
