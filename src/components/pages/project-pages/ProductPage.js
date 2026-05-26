@@ -77,6 +77,7 @@ function ProductPage() {
           <h2>2. DISCOVERY & ANALYSIS</h2>
         </div>
         <h3>Current product selection experience analysis</h3>
+        <p>I analyzed the current product selection experience, combining it with feedback I got from user interviews about campaign creation improvements.</p>
         <img loading="lazy" src='images/project images/PP/PP-B01.png' className='medium__image'></img>
         <img loading="lazy" src='images/project images/PP/PP-B02.png' className='medium__image'></img>
         <img loading="lazy" src='images/project images/PP/PP-B03.png' className='medium__image'></img>
