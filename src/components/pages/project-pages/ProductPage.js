@@ -102,7 +102,7 @@ function ProductPage() {
         <h3>Ideation with AI</h3>
         <p>I used AI to quickly generate and explore multiple design concepts for the drawer experience.</p>
         <img loading="lazy" src='images/project images/PP/PP-C04.png' className='medium__image'></img>
-        <h4>Added selection feedback and view options</h4>
+        <h4>Added selection feedback and different view options</h4>
         <p>I added a progress indicator to show how many products users had selected. I also explored both tile and table views to support different browsing needs.</p>
         <img loading="lazy" src='images/project images/PP/PP-C05.png' className='medium__image'></img>
         <h4>Narrowed down to the strongest concepts which were option 1 and 3 and applied the Criteo UI style</h4>
