@@ -168,9 +168,9 @@ export default function HomePage() {
 
           <BentoCell
             hoverable
-            label="Support center"
-            href="/spprtcntr">
-            <img src='/images/home images/i-sc.webp' loading="lazy" alt='' />
+            label="Facebook & Instagram integration"
+            href="/fcbknstgrmntgrtn">
+            <img src='/images/home images/i-fi.webp' loading="lazy" alt='' />
           </BentoCell>
 
           <BentoCell
@@ -178,6 +178,24 @@ export default function HomePage() {
             label="Footfall measurement"
             href="/ftfllmsrmnt">
             <img src='/images/home images/i-fm.webp' loading="lazy" alt='' />
+          </BentoCell>
+
+        </BentoRow>
+
+        <BentoRow type="halves">
+
+          <BentoCell
+            hoverable
+            label="Support center"
+            href="/spprtcntr">
+            <img src='/images/home images/i-sc.webp' loading="lazy" alt='' />
+          </BentoCell>
+
+          <BentoCell
+            hoverable
+            label="First-party audience onboarding"
+            href="/frstprtdncnbrdng">
+            <img src='/images/home images/i-fpa.webp' loading="lazy" alt='' />
           </BentoCell>
 
         </BentoRow>
