@@ -79,34 +79,26 @@ export default function HomePage() {
           </BentoCell>
         </BentoRow>
         {/* Row 3 – Type 1: two equal halves */}
+
+
         <BentoRow type="halves">
-          <BentoCell
-            hoverable
-            label="Dynamic gradient studio"
-            href="/dnmcgrdnt"
-          >
-            <div className="square-video-full-height">
-              <video playsInline autoPlay loop muted src="/images/home images/dg-1.webm" />
-            </div>
-          </BentoCell>
-
 
           <BentoCell
-            span={1}
             hoverable
-            className="bento-cell--no-scale"
-            label="FreeMind iOS app"
-            onView={() => navigate('/frmnd')}    // ← button navigates
-            showButton={true}
-          >
-            <div style={{ cursor: "pointer", width: "100%", height: "100%" }}>
-              <ReactCompareImage
-                leftImage="/images/home images/f-dm2.png"
-                rightImage="/images/home images/f-lm2.png"
-              />
-            </div>
+            label="Facebook & Instagram integration"
+            href="/fcbknstgrmntgrtn">
+            <img src='/images/home images/i-fi.webp' loading="lazy" alt='' />
           </BentoCell>
+
+          <BentoCell
+            hoverable
+            label="Footfall measurement"
+            href="/ftfllmsrmnt">
+            <img src='/images/home images/i-fm.webp' loading="lazy" alt='' />
+          </BentoCell>
+
         </BentoRow>
+
         {/* Row 4 – Type 2: three equal squares */}
 
 
@@ -141,6 +133,37 @@ export default function HomePage() {
 
         </BentoRow>
 
+
+
+        {/* Row 5 – Type 1: two equal halves */}
+        <BentoRow type="halves">
+          <BentoCell
+            hoverable
+            label="Dynamic gradient studio"
+            href="/dnmcgrdnt"
+          >
+            <div className="square-video-full-height">
+              <video playsInline autoPlay loop muted src="/images/home images/dg-1.webm" />
+            </div>
+          </BentoCell>
+
+
+          <BentoCell
+            span={1}
+            hoverable
+            className="bento-cell--no-scale"
+            label="FreeMind iOS app"
+            onView={() => navigate('/frmnd')}    // ← button navigates
+            showButton={true}
+          >
+            <div style={{ cursor: "pointer", width: "100%", height: "100%" }}>
+              <ReactCompareImage
+                leftImage="/images/home images/f-dm2.png"
+                rightImage="/images/home images/f-lm2.png"
+              />
+            </div>
+          </BentoCell>
+        </BentoRow>
         <BentoRow type="thirds">
           <BentoCell
             hoverable
@@ -162,26 +185,6 @@ export default function HomePage() {
             </div>
           </BentoCell>
         </BentoRow>
-
-        {/* Row 5 – Type 1: two equal halves */}
-        <BentoRow type="halves">
-
-          <BentoCell
-            hoverable
-            label="Facebook & Instagram integration"
-            href="/fcbknstgrmntgrtn">
-            <img src='/images/home images/i-fi.webp' loading="lazy" alt='' />
-          </BentoCell>
-
-          <BentoCell
-            hoverable
-            label="Footfall measurement"
-            href="/ftfllmsrmnt">
-            <img src='/images/home images/i-fm.webp' loading="lazy" alt='' />
-          </BentoCell>
-
-        </BentoRow>
-
         <BentoRow type="halves">
 
           <BentoCell
