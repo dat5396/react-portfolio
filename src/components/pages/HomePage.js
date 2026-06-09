@@ -123,7 +123,7 @@ export default function HomePage() {
 
           <BentoCell span={1}
             hoverable
-            label="Cost guidance chart">
+            label="AI-powered Cost guidance tool">
             <div className="square-video" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
               <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-im-c.webm" />
             </div>

@@ -171,10 +171,10 @@ function InventoryMarketplace() {
         </ul>
 
         <h3>The 5th Iteration</h3>
-        <p>In this iteration, I focused on Concept 2 of the cost guidance chart. Rather than showing static data, I introduced the idea for users to input values—such as win rate or custom CPM—and see the impact.</p>
-        <h4>Cost guidance with win rate</h4>
+        <p>In this iteration, I focused on Concept 2 of the cost guidance chart. Rather than showing static data, I introduced the idea for users to input values such as win rate or custom CPM and see the impact. Other than that, we used AI to predict the price for the next 7 days instead of relying on the past data.</p>
+        <h4>AI-powered cost guidance with win rate</h4>
         <img loading="lazy" src='images/project images/IM/IM-D12.png' className='large__image'></img>
-        <h4>Cost guidance with custom CPM</h4>
+        <h4>AI-powered cost guidance with custom CPM</h4>
         <img loading="lazy" src='images/project images/IM/IM-D13.png' className='large__image'></img>
       </div>
 
