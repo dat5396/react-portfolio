@@ -22,6 +22,7 @@ export default function HomePage() {
   const [waveGradientModalOpen, setwaveGradientModalOpen] = useState(false);
   const [mercuryGradientModalOpen, setmercuryGradientModalOpen] = useState(false);
   const [measurementCardModalOpen, setmeasurementCardModalOpen] = useState(false);
+  const [stockAppModalOpen, setstockAppModalOpen] = useState(false);
   const chartVideoRef = useLazyVideo();
   const breathingVideoRef = useLazyVideo();
   const logoVideoRef = useLazyVideo();
@@ -137,7 +138,7 @@ export default function HomePage() {
 
         {/* Row 5 – Type 1: two equal halves */}
         <BentoRow type="halves">
-          <BentoCell
+          {/* <BentoCell
             hoverable
             label="Dynamic gradient studio"
             href="/dnmcgrdnt"
@@ -145,6 +146,15 @@ export default function HomePage() {
             <div className="square-video-full-height">
               <video playsInline autoPlay loop muted src="/images/home images/dg-1.webm" />
             </div>
+          </BentoCell> */}
+
+          <BentoCell
+            span={1}
+            hoverable
+            label="Insider Trading App"
+            onClick={() => setstockAppModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <img src='/images/home images/s.png' loading="lazy" alt='' />
           </BentoCell>
 
 
@@ -441,6 +451,22 @@ export default function HomePage() {
           </div>
         )}
         <p>I designed the measurement card for the Measurement Marketplace, and it was later reused in the Footfall Measurement feature.
+        </p>
+      </Modal>
+
+      <Modal
+        isOpen={stockAppModalOpen}
+        onClose={() => setstockAppModalOpen(false)}
+        size="lg"
+      // buttonLabel="View Footfall measurement"
+      // onButtonClick={() => navigate('/ftfllmsrmnt')}
+      >
+        {stockAppModalOpen && (
+          <div>
+            <img src="/images/home images/s2.png" />
+          </div>
+        )}
+        <p>(Coming soon) I designed and developed an iOS app that helps retail investors track insider trading activity in public companies, making investment research more transparent and accessible.
         </p>
       </Modal>
 

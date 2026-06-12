@@ -144,7 +144,7 @@
 }
 
 /* ── Media inside body (images / videos) ────── */
-.modal-body img,
+/* .modal-body img, */
 .modal-body video {
     height: 436px;
     /* border-radius: var(--border-radius-half); */
