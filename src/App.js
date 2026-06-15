@@ -20,6 +20,7 @@ import SupportCenter from './components/pages/project-pages/SupportCenter';
 import ComponentLibrary from './components/pages/project-pages/ComponentLibrary';
 import FreeMind from './components/pages/project-pages/FreeMind';
 import DynamicGradient from './components/pages/project-pages/DynamicGradient';
+import FairShare from './components/pages/project-pages/FairShare';
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage';
 
@@ -56,6 +57,7 @@ function AppContent() {
 				<Route path='/prdctpg' element={<ProductPage />} />
 				<Route path='/frmnd' element={<FreeMind />} />
 				<Route path='/dnmcgrdnt' element={<DynamicGradient />} />
+				<Route path='/frshr' element={<FairShare />} />
 				<Route path="*" element={<Navigate to="/" replace />} />
 
 			</Routes>

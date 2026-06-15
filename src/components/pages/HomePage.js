@@ -151,9 +151,8 @@ export default function HomePage() {
           <BentoCell
             span={1}
             hoverable
-            label="Insider Trading App"
-            onClick={() => setstockAppModalOpen(true)}
-            style={{ cursor: "pointer" }}>
+            label="Fairshare: Insider Trading App"
+            href="/frshr">
             <img src='/images/home images/s.png' loading="lazy" alt='' />
           </BentoCell>
 
