@@ -92,11 +92,13 @@
 }
 
 
-/* .group__image {
-    margin: 2rem 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
-    border-radius: 1rem;;
-} */
+.large__image,
+.medium__image,
+.medium__image__noshadow,
+.small__image,
+.extra__small__image {
+    max-width: 100%;
+}
 
 
 

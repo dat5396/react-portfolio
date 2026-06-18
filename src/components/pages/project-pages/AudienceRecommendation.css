@@ -91,6 +91,13 @@
     opacity: 0%;
 }
 
+.large__image,
+.medium__image,
+.medium__image__noshadow,
+.small__image,
+.extra__small__image {
+    max-width: 100%;
+}
 
 /* .group__image {
     margin: 2rem 0;
