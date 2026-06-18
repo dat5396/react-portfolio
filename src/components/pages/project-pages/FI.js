@@ -7,51 +7,52 @@ import Sidebar from '../../Sidebar';
 function FI() {
     const [activeSection, setActiveSection] = useState(null);
 
-  const sections = [
-    { id: 'section1', title: '1. Project overview' },
-    { id: 'section2', title: '2. Discovery & analysis' },
-    { id: 'section3', title: '3. Ideation & concept development' },
-    { id: 'section4', title: '4. User testing, gathering feedbacks & iterations' },
-    { id: 'section5', title: '5. Final design' },
-    { id: 'section6', title: '6. Outcome & impact' },
-  ];
+    const sections = [
+        { id: 'section1', title: '1. Project overview' },
+        { id: 'section2', title: '2. Discovery & analysis' },
+        { id: 'section3', title: '3. Ideation & concept development' },
+        { id: 'section4', title: '4. User testing, gathering feedbacks & iterations' },
+        { id: 'section5', title: '5. Final design' },
+        { id: 'section6', title: '6. Outcome & impact' },
+    ];
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY + 100; // Add a buffer for better UX
-      let foundSection = null;
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY + 100; // Add a buffer for better UX
+            let foundSection = null;
 
-      sections.forEach(section => {
-        const element = document.getElementById(section.id);
+            sections.forEach(section => {
+                const element = document.getElementById(section.id);
+                if (element) {
+                    const top = element.offsetTop;
+                    const height = element.offsetHeight;
+                    if (scrollPosition >= top && scrollPosition < top + height) {
+                        foundSection = section.id;
+                    }
+                }
+            });
+
+            setActiveSection(foundSection);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Call handleScroll initially to set the active section
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [sections]);
+
+    const handleLinkClick = (event, sectionId) => {
+        event.preventDefault();
+        setActiveSection(sectionId);
+        const element = document.getElementById(sectionId);
         if (element) {
-          const top = element.offsetTop;
-          const height = element.offsetHeight;
-          if (scrollPosition >= top && scrollPosition < top + height) {
-            foundSection = section.id;
-          }
+            const y = element.getBoundingClientRect().top + window.scrollY - 32;
+            window.scrollTo({ top: y, behavior: 'instant' });
         }
-      });
-
-      setActiveSection(foundSection);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Call handleScroll initially to set the active section
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [sections]);
-
-  const handleLinkClick = (event, sectionId) => {
-    event.preventDefault();
-    setActiveSection(sectionId);
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView();
-    }
-  };
-
-	return (
-		<div className="project__container white__container FI" >
-			<div>
+    return (
+        <div className="project__container white__container FI" >
+            <div>
                 <img src='images/project images/FI/FI-0.png' ></img>
             </div>
             {/* <div>
@@ -69,7 +70,7 @@ function FI() {
                 <p>The design phase for this project lasted for 12 weeks.</p>
                 <p>My role was Product Designer. What I show in this portfolio was my contribution to the project.</p>
             </div>
-            
+
             <div id="section2">
                 <div className='section__name'>
                     <h2>2. DISCOVERY & ANALYSIS</h2>
@@ -80,7 +81,7 @@ function FI() {
                 <p>Furthermore, considering our plans to integrate additional Social and Search channels in the future, comprehending the ad hierarchies of those platforms was imperative. This understanding equipped me with the knowledge needed to construct scalable solutions.</p>
                 <img src='images/project images/FI/FI-A2.png' className='large__image'></img>
                 <p>In general, despite these platforms employing varying names for their ad structures, they adhere to a consistent 3-level hierarchy. Consequently, I held the belief that any component of this project showcasing the 3 levels of ads could be reused in future.</p>
-                
+
                 <h3>UX/UI Reference</h3>
                 <p>After that, I conducted research to analyze the UX and UI of Facebook Ads Manager, as well as other social and search platforms that we might potentially integrate later.</p>
                 <img src='images/project images/FI/FI-A3.png' className='large__image'></img>
@@ -95,19 +96,19 @@ function FI() {
                 <div className='section__name'>
                     <h2>3. IDEATION & CONCEPT DEVELOPMENT</h2>
                 </div>
-                
+
                 <h3>User flow</h3>
                 <p>I initiated this phase by crafting the primary user flow, centered around the creation and execution of Facebook and Instagram ads within the journey canvas. The flow within the canvas was pivotal, as it enabled users to vividly conceptualize their advertising journey, which stood as the cornerstone feature of illumin.</p>
                 <img src='images/project images/FI/FI-B1.png' className='large__image'></img>
                 <p>Guided by the user flow, I identified specific areas that required ideation:</p>
                 <div className='list'>
-                <ul>
-                    <li>The authorization process</li>
-                    <li>The canvas element of Meta</li>
-                    <li>The right drawer facilitating users to configure Facebook & Instagram ads</li>
-                </ul>
+                    <ul>
+                        <li>The authorization process</li>
+                        <li>The canvas element of Meta</li>
+                        <li>The right drawer facilitating users to configure Facebook & Instagram ads</li>
+                    </ul>
                 </div>
-                
+
                 <h3>Authorization process from Licensee Settings</h3>
                 <p>In order to create and manage Facebook & Instagram ads, users were required to undergo an authorization process to establish a connection between illumin and Facebook. Beginning with a basic concept, I thought that users should initiate the authorization process within the Licensee settings page.</p>
                 <img src='images/project images/FI/FI-B2.png' className='large__image'></img>
@@ -157,8 +158,8 @@ function FI() {
                 <img src='images/project images/FI/FI-B6.png' className='large__image'></img>
                 <p>After choosing direction 2, I created a high-fidelity design for the user flow, integrating the canvas element with the right drawer. Collaborating closely with the Product Manager and Engineering team, we finalized the forms and features to be included in the initial release.</p>
                 <img src='images/project images/FI/FI-B7.png' className='large__image'></img>
-                
-                
+
+
                 {/* <h3>Journey header</h3>
                 <p>Additionally, I needed to design the journey header to display information related to the aggregated budget and flight range of the entire journey, as well as the budget and flight range specific to each channel.</p>
                 <h4>Direction 1: Active channels icons</h4>
@@ -168,7 +169,7 @@ function FI() {
                 <p>In addition to displaying the aggregated budget and flight range, small panels show the budget and flight range of each active channel.</p>
                 <img src='images/project images/FI/FI-B16.png' className='medium__image'></img> */}
             </div>
-            
+
             <div id="section4">
                 <div className='section__name'>
                     <h2>4. USER TESTING, GATHERING FEEDBACKS & ITERATION</h2>
@@ -176,14 +177,14 @@ function FI() {
                 <p className='space'>A</p>
                 <p>I partnered with a UX Researcher to facilitate some rapid testing sessions, aimed at gathering user feedback. The participants consisted of campaign managers from our company, individuals who utilize the product daily to execute campaigns.</p>
                 <p>Additionally, I presented the design and collected feedback from other members of the Product team and the Engineering team.</p>
-                
+
                 <p>Some insights and feedback I gathered after the 1st iteration:</p>
                 <div className='list'>
-                <ul>
-                    <li>The authorization process from the Licensee Settings was effective. However, we needed to provide users with an easier touchpoint for authorization.</li>
-                    <li>The canvas element was visually appealing but lacked key campaign information, such as the number of Ad sets and Ads.</li>
-                    <li>Configuration was a complex task involving multiple smaller steps, so it should be placed in a larger space for better usability.</li>
-                </ul>
+                    <ul>
+                        <li>The authorization process from the Licensee Settings was effective. However, we needed to provide users with an easier touchpoint for authorization.</li>
+                        <li>The canvas element was visually appealing but lacked key campaign information, such as the number of Ad sets and Ads.</li>
+                        <li>Configuration was a complex task involving multiple smaller steps, so it should be placed in a larger space for better usability.</li>
+                    </ul>
                 </div>
                 <p className='space'>A</p>
                 <h3>The 2nd iteration</h3>
@@ -210,12 +211,12 @@ function FI() {
                 <img src='images/project images/FI/FI-C17.png' className='large__image'></img>
                 <p>Some insights and feedback I gathered after the 2nd iteration:</p>
                 <div className='list'>
-                <ul>
-                    <li>The Meta logo was less recognizable compared to the Facebook and Instagram logos. Using the Meta logo might hinder the recognition of this new social channel integration.</li>
-                    <li>The authorization process from the canvas was not intuitive, as hovering over a disabled element and navigating to Journey settings for authorization was not a common pattern.</li>
-                    <li>The updated canvas element was good, as it contained key information while maintaining visual appeal.</li>
-                    <li>Users and stakeholders preferred large drawers for the configuration flow, as they helped users stay focused on their setups.</li>
-                </ul>
+                    <ul>
+                        <li>The Meta logo was less recognizable compared to the Facebook and Instagram logos. Using the Meta logo might hinder the recognition of this new social channel integration.</li>
+                        <li>The authorization process from the canvas was not intuitive, as hovering over a disabled element and navigating to Journey settings for authorization was not a common pattern.</li>
+                        <li>The updated canvas element was good, as it contained key information while maintaining visual appeal.</li>
+                        <li>Users and stakeholders preferred large drawers for the configuration flow, as they helped users stay focused on their setups.</li>
+                    </ul>
                 </div>
                 <p className='space'>A</p>
                 <h3>The 3rd iteration</h3>
@@ -234,22 +235,22 @@ function FI() {
                 <p>After deciding to proceed with the large drawer version, I designed the error flow for the configuration in this iteration.</p>
                 <p>When users encountered errors, there were 3 locations that indicate these issues:</p>
                 <div className='list'>
-                <ul>
-                    <li>Error icons on the tree selector, pointing out the specific areas of errors</li>
-                    <li>An error panel on the right side, providing detailed information about the errors</li>
-                    <li>Error status displayed on the footer</li>
-                </ul>
+                    <ul>
+                        <li>Error icons on the tree selector, pointing out the specific areas of errors</li>
+                        <li>An error panel on the right side, providing detailed information about the errors</li>
+                        <li>Error status displayed on the footer</li>
+                    </ul>
                 </div>
                 <img src='images/project images/FI/FI-C25.png' className='large__image'></img>
                 <p>Some insights and feedback I gathered after the 2nd iteration:</p>
                 <div className='list'>
-                <ul>
-                    <li>Users and stakeholders provided positive feedback on the new authorization process from the canvas, finding it more intuitive than the previous version.</li>
-                    <li>The canvas elements and right drawers also received good feedback and were finalized.</li>
-                </ul>
+                    <ul>
+                        <li>Users and stakeholders provided positive feedback on the new authorization process from the canvas, finding it more intuitive than the previous version.</li>
+                        <li>The canvas elements and right drawers also received good feedback and were finalized.</li>
+                    </ul>
                 </div>
             </div>
-            
+
             <div id="section5">
                 <div className='section__name'>
                     <h2>5. FINAL DESIGN</h2>
@@ -265,19 +266,19 @@ function FI() {
                 <h3>Configure Facebook & Instagram ads</h3>
                 <img src='images/project images/FI/FI-D4.png' className='large__image'></img>
             </div>
-            
+
             <div id="section6">
                 <div className='section__name'>
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-<p>The project marked a milestone in the history of illumin, enabling users to create and manage their first-ever social media ads on Facebook and Instagram directly through the platform. This capability quickly became a meaningful driver of business growth within its first year. <a id='success__story' href="https://illumin.com/case-study/mnco-open-web-to-social/" target="_blank">A notable success story</a> was the 40% increase in average click-through rate (CTR) for social campaigns when users executed connected campaigns across the Open Web, Facebook, and Instagram within illumin. This approach, as opposed to running siloed campaigns, proved to be significantly more effective.</p>                <img src='images/illumin-logo.svg' className='logo'></img>
+                <p>The project marked a milestone in the history of illumin, enabling users to create and manage their first-ever social media ads on Facebook and Instagram directly through the platform. This capability quickly became a meaningful driver of business growth within its first year. <a id='success__story' href="https://illumin.com/case-study/mnco-open-web-to-social/" target="_blank">A notable success story</a> was the 40% increase in average click-through rate (CTR) for social campaigns when users executed connected campaigns across the Open Web, Facebook, and Instagram within illumin. This approach, as opposed to running siloed campaigns, proved to be significantly more effective.</p>                <img src='images/illumin-logo.svg' className='logo'></img>
             </div>
             <div>
                 <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
             </div>
-		</div>
-	)
+        </div>
+    )
 }
 
 export default FI;

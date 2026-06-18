@@ -49,7 +49,8 @@ function FairShare() {
         setActiveSection(sectionId);
         const element = document.getElementById(sectionId);
         if (element) {
-            element.scrollIntoView();
+            const y = element.getBoundingClientRect().top + window.scrollY - 32;
+            window.scrollTo({ top: y, behavior: 'instant' });
         }
     };
 
