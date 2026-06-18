@@ -241,15 +241,19 @@ export default function HomePage() {
 
           <BentoCell span={1}
             hoverable
-            label="3D FreeMind logo">
-            <div className="square-video-full-height" onClick={() => setlogoFreemindModalOpen(true)} style={{ cursor: "pointer" }}>
+            label="3D FreeMind logo"
+            onClick={() => setlogoFreemindModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full-height">
               <video ref={logoFreemindVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-lg3.webm" />
             </div>
           </BentoCell>
           <BentoCell span={1}
             hoverable
-            label="Audience insights panel">
-            <div className="square-video-full-height" onClick={() => setaudienceModalOpen(true)} style={{ cursor: "pointer" }}>
+            label="Audience insights panel"
+            onClick={() => setaudienceModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full-height" >
               <video ref={audienceVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-ai-panel.webm" />
             </div>
           </BentoCell>
