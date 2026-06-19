@@ -9,7 +9,7 @@ function ComponentLibrary() {
 
     const sections = [
         { id: 'section1', title: '1. Project overview' },
-        { id: 'section2', title: '2. General' },
+        { id: 'section2', title: '2. Foundation' },
         { id: 'section3', title: '3. Data entry' },
         { id: 'section4', title: '4. Data display' },
         { id: 'section5', title: '5. Navigation' },
@@ -66,12 +66,14 @@ function ComponentLibrary() {
 
             <div id="section2">
                 <div className='section__name'>
-                    <h2>2. Gerneral</h2>
+                    <h2>2. Foundation</h2>
                 </div>
                 <img loading="lazy" src='images/project images/DS/DS-A01.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-A02.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-A03.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-A04.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-A05.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-A06.png' className='large__image'></img>
             </div>
 
             <div id="section3">
