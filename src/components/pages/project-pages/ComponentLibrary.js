@@ -59,14 +59,17 @@ function ComponentLibrary() {
 
             <div id="section1">
                 <div className='section__name'>
-                    <h2>1. Gerneral</h2>
+                    <h2>1. PROJECT OVERVIEW</h2>
                 </div>
-                <p>Lorem ipsum</p>
+                <h3>Project objective</h3>
+                <p>The objective of this project was to establish a design system, starting with a component library. This system enabled the product design team to deliver consistent UX and UI across the platform, ensure accessibility standards were met, and reduce design-to-development handoff time.</p>
+                <h3>My role</h3>
+                <p>My role was Product Designer. What I show in this portfolio was my contribution to the project.</p>
             </div>
 
             <div id="section2">
                 <div className='section__name'>
-                    <h2>2. Foundation</h2>
+                    <h2>2. FOUNDATION</h2>
                 </div>
                 <img loading="lazy" src='images/project images/DS/DS-A01.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-A02.png' className='large__image'></img>
@@ -78,7 +81,7 @@ function ComponentLibrary() {
 
             <div id="section3">
                 <div className='section__name'>
-                    <h2>3. Data Entry</h2>
+                    <h2>3. DATA ENTRY</h2>
                 </div>
                 <img loading="lazy" src='images/project images/DS/DS-B01.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-B02.png' className='large__image'></img>
@@ -91,7 +94,7 @@ function ComponentLibrary() {
 
             <div id="section4">
                 <div className='section__name'>
-                    <h2>4. Data Display</h2>
+                    <h2>4. DATA DISPLAY</h2>
                 </div>
                 <img loading="lazy" src='images/project images/DS/DS-C01.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-C02.png' className='large__image'></img>
@@ -102,7 +105,7 @@ function ComponentLibrary() {
 
             <div id="section5">
                 <div className='section__name'>
-                    <h2>5. Navigation</h2>
+                    <h2>5. NAVIGATION</h2>
                 </div>
                 <img loading="lazy" src='images/project images/DS/DS-D01.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-D02.png' className='large__image'></img>
@@ -110,7 +113,7 @@ function ComponentLibrary() {
 
             <div id="section6">
                 <div className='section__name'>
-                    <h2>6. Feedback</h2>
+                    <h2>6. FEEDBACK</h2>
                 </div>
                 <img loading="lazy" src='images/project images/DS/DS-E01.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-E02.png' className='large__image'></img>
