@@ -1,15 +1,12 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import { Navigate } from 'react-router-dom';
 import './AppStyle.css';
 import React from 'react';
 import ScrollToTop from './ScrollToTop';
 import Analytics from './components/Analytics';
 import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Projects from './components/pages/Projects';
-import Unknown from './components/pages/project-pages/Unknown';
+import { AuthProvider, useAuth } from './AuthContext';
+import Screen from './components/Screen';
 import FI from './components/pages/project-pages/FI';
 import FirstPartyAudience from './components/pages/project-pages/FirstPartyAudience';
 import FootfallMeasurement from './components/pages/project-pages/FootfallMeasurement';
@@ -24,42 +21,31 @@ import FairShare from './components/pages/project-pages/FairShare';
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage';
 
-
-
 function ProtectedRoute({ children }) {
-	const isAuthenticated = sessionStorage.getItem('auth') === 'true';
-
-	return isAuthenticated ? children : <Navigate to="/" replace />;
+	const { isAuthenticated } = useAuth();
+	console.log('ProtectedRoute — isAuthenticated:', isAuthenticated);
+	return isAuthenticated ? children : <Screen />;
 }
 
-
 function AppContent() {
-	const location = useLocation();
-	const hideNavbar = location.pathname === '/';
 	return (
 		<>
-			{!hideNavbar && <Navbar />}
+			<Navbar />
 			<Routes>
-				<Route path='/' element={<Unknown />} />
-				<Route path='/portfolio0' element={<Home />} />
-				<Route path='/portfolio/about0' element={<About />} />
-				<Route path='/portfolio/projects' element={<Projects />} />
-				<Route path='/portfolio' element={<HomePage />} />
+				<Route path='/' element={<HomePage />} />
 				<Route path='/portfolio/about' element={<AboutPage />} />
-				{/* <Route path='/1368' element={ <ProtectedRoute> <Home /> </ProtectedRoute>} /> */}
-				<Route path='/fcbknstgrmntgrtn' element={<FI />} />
-				<Route path='/frstprtdncnbrdng' element={<FirstPartyAudience />} />
-				<Route path='/ftfllmsrmnt' element={<FootfallMeasurement />} />
-				<Route path='/nvntrmrktplc' element={<InventoryMarketplace />} />
-				<Route path='/dncrcmmndtn' element={<AudienceRecommendation />} />
-				<Route path='/spprtcntr' element={<SupportCenter />} />
-				<Route path='/1' element={<ComponentLibrary />} />
-				<Route path='/prdctpg' element={<ProductPage />} />
-				<Route path='/frmnd' element={<FreeMind />} />
-				<Route path='/dnmcgrdnt' element={<DynamicGradient />} />
-				<Route path='/frshr' element={<FairShare />} />
+				<Route path='/fcbknstgrmntgrtn' element={<ProtectedRoute><FI /></ProtectedRoute>} />
+				<Route path='/frstprtdncnbrdng' element={<ProtectedRoute><FirstPartyAudience /></ProtectedRoute>} />
+				<Route path='/ftfllmsrmnt' element={<ProtectedRoute><FootfallMeasurement /></ProtectedRoute>} />
+				<Route path='/nvntrmrktplc' element={<ProtectedRoute><InventoryMarketplace /></ProtectedRoute>} />
+				<Route path='/dncrcmmndtn' element={<ProtectedRoute><AudienceRecommendation /></ProtectedRoute>} />
+				<Route path='/spprtcntr' element={<ProtectedRoute><SupportCenter /></ProtectedRoute>} />
+				<Route path='/dsgnsstm' element={<ProtectedRoute><ComponentLibrary /></ProtectedRoute>} />
+				<Route path='/prdctpg' element={<ProtectedRoute><ProductPage /></ProtectedRoute>} />
+				<Route path='/frmnd' element={<ProtectedRoute><FreeMind /></ProtectedRoute>} />
+				<Route path='/dnmcgrdnt' element={<ProtectedRoute><DynamicGradient /></ProtectedRoute>} />
+				<Route path='/frshr' element={<ProtectedRoute><FairShare /></ProtectedRoute>} />
 				<Route path="*" element={<Navigate to="/" replace />} />
-
 			</Routes>
 		</>
 	);
@@ -68,9 +54,11 @@ function AppContent() {
 function App() {
 	return (
 		<Router>
-			<ScrollToTop />
-			<Analytics />
-			<AppContent />
+			<AuthProvider>
+				<ScrollToTop />
+				<Analytics />
+				<AppContent />
+			</AuthProvider>
 		</Router>
 	);
 }

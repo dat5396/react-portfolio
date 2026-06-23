@@ -122,15 +122,23 @@ export default function HomePage() {
             </div>
           </BentoCell>
 
-          <BentoCell span={1}
+          {/* <BentoCell span={1}
             hoverable
             label="AI-powered Cost guidance tool">
             <div className="square-video" onClick={() => setChartModalOpen(true)} style={{ cursor: "pointer" }}>
               <video ref={chartVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-im-c.webm" />
             </div>
+          </BentoCell> */}
+
+          <BentoCell span={1}
+            hoverable
+            label="Product cards"
+            onClick={() => setproductSelectionModalOpen(true)}
+            style={{ cursor: "pointer" }}>
+            <div className="square-video-full-height" >
+              <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home images/p-s3.webm" />
+            </div>
           </BentoCell>
-
-
 
         </BentoRow>
 
@@ -205,12 +213,30 @@ export default function HomePage() {
 
           <BentoCell
             hoverable
+            label="Design system: Component library"
+            href="/dsgnsstm">
+            <img src='/images/home images/i-ds.png' loading="lazy" alt='' />
+          </BentoCell>
+
+        </BentoRow>
+
+        {/* <BentoRow type="halves">
+          <BentoCell
+            hoverable
+            label="Dynamic gradient studio"
+            href="/dnmcgrdnt"
+          >
+            <div className="square-video-full-height">
+              <video playsInline autoPlay loop muted src="/images/home images/dg-1.webm" />
+            </div>
+          </BentoCell>
+          <BentoCell
+            hoverable
             label="First-party audience onboarding"
             href="/frstprtdncnbrdng">
             <img src='/images/home images/i-fpa.webp' loading="lazy" alt='' />
           </BentoCell>
-
-        </BentoRow>
+        </BentoRow> */}
 
         <BentoRow type="thirds">
           <BentoCell span={2}
@@ -225,11 +251,11 @@ export default function HomePage() {
 
           <BentoCell span={1}
             hoverable
-            label="Product cards"
-            onClick={() => setproductSelectionModalOpen(true)}
+            label="Audience insights panel"
+            onClick={() => setaudienceModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-height" >
-              <video ref={productSelectionVideoRef} playsInline autoPlay loop muted data-src="/images/home images/p-s3.webm" />
+              <video ref={audienceVideoRef} playsInline autoPlay loop muted data-src="/images/home images/i-ai-panel.webm" />
             </div>
           </BentoCell>
 
@@ -237,8 +263,7 @@ export default function HomePage() {
         </BentoRow>
 
         {/* Row 7 – Type 2: three equal squares */}
-        <BentoRow type="thirds">
-
+        {/* <BentoRow type="thirds">
           <BentoCell span={1}
             hoverable
             label="3D FreeMind logo"
@@ -248,6 +273,7 @@ export default function HomePage() {
               <video ref={logoFreemindVideoRef} playsInline autoPlay loop muted data-src="/images/home images/f-lg3.webm" />
             </div>
           </BentoCell>
+
           <BentoCell span={1}
             hoverable
             label="Audience insights panel"
@@ -265,7 +291,7 @@ export default function HomePage() {
             style={{ cursor: "pointer" }}>
             <img src="images/home images/Illumin-footfall-card.png"></img>
           </BentoCell>
-        </BentoRow>
+        </BentoRow> */}
 
         {/* Row 7 – Type 2: three equal squares */}
         <BentoRow type="thirds">

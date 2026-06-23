@@ -10,6 +10,7 @@ const projects = [
 	{ label: 'Footfall Measurement', href: '/ftfllmsrmnt', img: '/images/illumin-icon.svg' },
 	{ label: 'Support Center', href: '/spprtcntr', img: '/images/illumin-icon.svg' },
 	{ label: 'First Party Audience Onboarding', href: '/frstprtdncnbrdng', img: '/images/illumin-icon.svg' },
+	{ label: 'Design System: Component Library', href: '/dsgnsstm', img: '/images/illumin-icon.svg' },
 	{ label: 'FreeMind', href: '/frmnd', img: '/images/freemind-icon.svg' },
 	{ label: 'FairShare', href: '/frshr', img: '/images/fairshare-icon.svg' },
 	{ label: 'Dynamic Gradient Studio', href: '/dnmcgrdnt', img: '/images/dynamicgradient-icon.svg' },
