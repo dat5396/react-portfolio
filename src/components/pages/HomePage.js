@@ -251,7 +251,7 @@ export default function HomePage() {
 
           <BentoCell span={1}
             hoverable
-            label="Audience insights panel"
+            label="AI-powered insights panel"
             onClick={() => setaudienceModalOpen(true)}
             style={{ cursor: "pointer" }}>
             <div className="square-video-full-height" >
