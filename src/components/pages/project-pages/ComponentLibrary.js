@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../../App.css';
-import './AudienceRecommendation.css';
+import './ComponentLibrary.css';
 import Sidebar from '../../Sidebar';
 
 
@@ -52,7 +52,7 @@ function ComponentLibrary() {
 
 
     return (
-        <div className="project__container audience__recommendation" >
+        <div className="project__container component__library" >
             <div>
                 <img src='images/project images/DS/DS-00.png' className='large__image'></img>
             </div>
@@ -101,6 +101,8 @@ function ComponentLibrary() {
                 <img loading="lazy" src='images/project images/DS/DS-C03.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-C04.png' className='large__image'></img>
                 <img loading="lazy" src='images/project images/DS/DS-C05.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C06.png' className='large__image'></img>
+                <img loading="lazy" src='images/project images/DS/DS-C07.png' className='large__image'></img>
             </div>
 
             <div id="section5">
