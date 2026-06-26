@@ -25,7 +25,7 @@ function Screen() {
     return (
         <div className="screen">
             <video playsInline autoPlay loop muted src="/images/home images/lock.webm" />
-            <p>Please enter the password to access this page.</p>
+            <p>Please enter the password to access all pages</p>
             <form onSubmit={handleSubmit}>
                 <input
                     ref={inputRef}
