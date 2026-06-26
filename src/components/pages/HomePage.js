@@ -74,7 +74,7 @@ export default function HomePage() {
           </BentoCell>
           <BentoCell
             hoverable
-            label="AI-powered Audience insights"
+            label="AI-powered Audience & Creative insights"
             href="/dncrcmmndtn">
             <img src='/images/home images/i-ai.webp' loading="lazy" alt='' />
           </BentoCell>
@@ -408,7 +408,7 @@ export default function HomePage() {
         isOpen={audienceModalOpen}
         onClose={() => setaudienceModalOpen(false)}
         size="md"
-        buttonLabel="View AI-powered Audience insights"
+        buttonLabel="View AI-powered Audience & Creative insights"
         onButtonClick={() => navigate('/nvntrmrktplc')}
       >
         {audienceModalOpen && (
@@ -416,7 +416,7 @@ export default function HomePage() {
             <video className="square-video" playsInline autoPlay loop muted src="/images/home images/i-ai-panel.webm" />
           </div>
         )}
-        <p>The audience insights panel where users can view the potential reach of their tactic and easily add audiences to achieve that reach.</p>
+        <p>The insights panel where users can view the potential reach of their tactic and easily add audiences to achieve that reach.</p>
       </Modal>
       <Modal
         isOpen={previewGradientModalOpen}

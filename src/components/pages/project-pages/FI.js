@@ -272,7 +272,9 @@ function FI() {
                     <h2>6. OUTCOME & IMPACT</h2>
                 </div>
                 <p className='space'>A</p>
-                <p>The project marked a milestone in the history of illumin, enabling users to create and manage their first-ever social media ads on Facebook and Instagram directly through the platform. This capability quickly became a meaningful driver of business growth within its first year. <a id='success__story' href="https://illumin.com/case-study/mnco-open-web-to-social/" target="_blank">A notable success story</a> was the 40% increase in average click-through rate (CTR) for social campaigns when users executed connected campaigns across the Open Web, Facebook, and Instagram within illumin. This approach, as opposed to running siloed campaigns, proved to be significantly more effective.</p>                <img src='images/illumin-logo.svg' className='logo'></img>
+                <p>The project marked a milestone in the history of illumin, enabling users to create and manage their first-ever social media ads on Facebook and Instagram directly through the platform. This capability quickly became a meaningful driver of business growth within its first year. <a id='success__story' href="https://illumin.com/case-study/mnco-open-web-to-social/" target="_blank">A notable success story</a> was the 40% increase in average click-through rate (CTR) for social campaigns when users executed connected campaigns across the Open Web, Facebook, and Instagram within illumin. This approach, as opposed to running siloed campaigns, proved to be significantly more effective.</p>
+                <img src='images/project images/FI/FI-E1.png' className='large__image'></img>
+                {/* <img src='images/illumin-logo.svg' className='logo'></img> */}
             </div>
             <div>
                 <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />

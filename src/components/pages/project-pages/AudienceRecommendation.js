@@ -64,7 +64,7 @@ function AudienceRecommendation() {
         <h3>Context</h3>
         <p>One of the biggest challenges in running ads was finding the right audience, especially when a campaign did not perform well. When results were poor, advertisers tried to reach more people to increase impressions. However, there were many audience options available in the third-party market. With so many choices, it was hard for advertisers to know which audiences were the best fit for their campaigns.</p>
         <h3>Project objective</h3>
-        <p>To solve this problem, we used AI to recommend the most suitable and high-potential audiences. Our system analyzed campaign data and suggested audience segments that were more likely to improve performance and deliver better results.</p>
+        <p>To solve this problem, we used AI to recommend the most suitable and high-potential audiences and creative sizes. Our system analyzed campaign data and suggested audience segments and creative sizes that were more likely to improve performance and deliver better results.</p>
         <h3>Project duration</h3>
         <p>The design phase for this project lasted for 4 weeks.</p>
         <p>My role was Product Designer. What I show in this portfolio was my contribution to the project.</p>
@@ -74,10 +74,12 @@ function AudienceRecommendation() {
         <div className='section__name'>
           <h2>2. DISCOVERY & ANALYSIS</h2>
         </div>
-        <h3>How AI-powered audience recommendation works</h3>
+        <h3>How AI-powered audience insights work</h3>
         <img loading="lazy" src='images/project images/AR/AR-B01.png' className='large__image'></img>
-        <h3>UX/UI references</h3>
+        <h3>How AI-powered creative insights work</h3>
         <img loading="lazy" src='images/project images/AR/AR-B02.png' className='large__image'></img>
+        <h3>UX/UI references</h3>
+        <img loading="lazy" src='images/project images/AR/AR-B03.png' className='large__image'></img>
       </div>
 
       <div id="section3">
@@ -142,6 +144,7 @@ function AudienceRecommendation() {
           <h2>5. FINAL DESIGN</h2>
         </div>
         <p className='space'>A</p>
+        <h2>Audience insights</h2>
         <h3>Add recommended audiences to the audience list</h3>
         <img loading="lazy" src='images/project images/AR/AR-E01.png' className='large__image'></img>
         <h3>Discover new AI-powered audience insights in the canvas</h3>
@@ -150,6 +153,9 @@ function AudienceRecommendation() {
         <img loading="lazy" src='images/project images/AR/AR-E03.png' className='large__image'></img>
         <h3>See how AI-powered recommended audiences impact campaign performance</h3>
         <img loading="lazy" src='images/project images/AR/AR-E04.png' className='large__image'></img>
+        <h2>Creative insights</h2>
+        <p>I applied the same design pattern for Creative insights, ensuring consistent experience for users.</p>
+        <img loading="lazy" src='images/project images/AR/AR-E05.png' className='large__image'></img>
 
       </div>
 
@@ -158,8 +164,9 @@ function AudienceRecommendation() {
           <h2>6. OUTCOME & IMPACT</h2>
         </div>
         <p className='space'>A</p>
-        <p>As a result, advertisers were able to identify the right audiences more quickly and with greater confidence. The AI recommendations reduced the time spent searching through third-party segments and made the targeting process more efficient. Campaign performance improved through better audience selection, leading to higher impressions and stronger overall results. This solution helped advertisers make smarter decisions and optimize their campaigns more effectively.</p>
-        <img loading="lazy" src='images/illumin-logo.svg' className='logo'></img>
+        <p>As a result, advertisers identified the right audiences and creative sizes faster and with greater confidence. AI-powered insights cut down time spent searching through third-party segments, streamlining the targeting process and unlocking up to 48% more third-party reach, driving higher impressions and stronger overall campaign performance.</p>
+        <img loading="lazy" src='images/project images/AR/AR-F01.png' className='large__image'></img>
+        {/* <img loading="lazy" src='images/illumin-logo.svg' className='logo'></img> */}
       </div>
       <div>
         <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
