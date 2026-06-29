@@ -53,7 +53,7 @@ function FI() {
     return (
         <div className="project__container white__container FI" >
             <div>
-                <img src='images/project images/FI/FI-0.png' ></img>
+                <img src='images/project images/FI/FI-0.png' className='large__image' ></img>
             </div>
             {/* <div>
                 <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
@@ -158,16 +158,6 @@ function FI() {
                 <img src='images/project images/FI/FI-B6.png' className='large__image'></img>
                 <p>After choosing direction 2, I created a high-fidelity design for the user flow, integrating the canvas element with the right drawer. Collaborating closely with the Product Manager and Engineering team, we finalized the forms and features to be included in the initial release.</p>
                 <img src='images/project images/FI/FI-B7.png' className='large__image'></img>
-
-
-                {/* <h3>Journey header</h3>
-                <p>Additionally, I needed to design the journey header to display information related to the aggregated budget and flight range of the entire journey, as well as the budget and flight range specific to each channel.</p>
-                <h4>Direction 1: Active channels icons</h4>
-                <p>In addition to displaying the aggregated budget and flight range, users can hover over icons representing active channels to view the budget and flight range of each.</p>
-                <img src='images/project images/FI/FI-B15.png' className='medium__image'></img>
-                <h4>Direction 2: Small panels of active channels</h4>
-                <p>In addition to displaying the aggregated budget and flight range, small panels show the budget and flight range of each active channel.</p>
-                <img src='images/project images/FI/FI-B16.png' className='medium__image'></img> */}
             </div>
 
             <div id="section4">
@@ -261,7 +251,7 @@ function FI() {
                 {/* <img src='images/project images/FI/FI-D9.png' className='large__image'></img> */}
                 <h3>Authorize (Connect illumin to Facebook) in licensee settings</h3>
                 <img src='images/project images/FI/FI-D2.png' className='large__image'></img>
-                <h3>Authorize (Connect illumin to Facebook) in journey settings</h3>
+                <h3>Authorize (Connect illumin to Facebook) in journey canvas</h3>
                 <img src='images/project images/FI/FI-D3.png' className='large__image'></img>
                 <h3>Configure Facebook & Instagram ads</h3>
                 <img src='images/project images/FI/FI-D4.png' className='large__image'></img>
