@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../../App.css';
-import './FreeMind.css';
+import './ProjectPage.css';
 import Sidebar from '../../Sidebar';
 import { BentoGrid } from "../../Grid";
 import { BentoRow } from "../../Grid";
@@ -48,23 +47,23 @@ function FreeMind() {
         setActiveSection(sectionId);
         const element = document.getElementById(sectionId);
         if (element) {
-            const y = element.getBoundingClientRect().top + window.scrollY - 32;
+            const y = element.getBoundingClientRect().top + window.scrollY + 32;
             window.scrollTo({ top: y, behavior: 'instant' });
         }
     };
 
 
     return (
-        <div className="project__container free__mind" >
-            <div className="large__image__grid">
-                <img src='images/project images/FRM/FR-00.png'></img>
+        <div className="project-page__container project-page free__mind" >
+            <div className="lg__image__grid">
+                <img src='images/project-images/FRM/FR-00.png'></img>
             </div>
 
             <div id="section1">
                 <div className='section__name'>
                     <h2>1. Project overview</h2>
                 </div>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <p>I designed and built FreeMind to help users relax through breathing exercises, natural soothing sounds, and reflective journaling. Leveraging AI, I built the app in Xcode and published it to the App Store.</p>
                 </div>
             </div>
@@ -73,41 +72,41 @@ function FreeMind() {
                 <div className='section__name'>
                     <h2>2. Relax feature</h2>
                 </div>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <p>The home screen was the Relax page, designed to help users quickly choose a way to unwind.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-home.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-home.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-home.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-home.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could choose session duration, background sounds, or guided voice for breathing exercises.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-breathing.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-breathing.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-breathing.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-breathing.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>A variety of natural ambient sounds helped users relax and unwind.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-listen.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-listen.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-listen.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-listen.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>The timer feature allowed users to set a duration for sound playback. The sound gradually faded out and stopped when the time ran out.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-timer.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-timer.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-timer.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-timer.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
 
@@ -118,41 +117,41 @@ function FreeMind() {
                 <div className='section__name'>
                     <h2>3. Reflect feature</h2>
                 </div>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <p>The Reflect view was a calendar-based interface that allowed users to easily navigate to any day to create or edit a reflection.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-reflect.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-reflect.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-reflect.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-reflect.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could add images to their reflections.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-reflect-image.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-reflect-image.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-reflect-image.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-reflect-image.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could use emojis to express how their day felt.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-reflectemoji.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-reflectemoji.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-reflectemoji.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-reflectemoji.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Over 200 emojis were available for users to choose from.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-emoji-picker.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-emoji-picker.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-emoji-picker.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-emoji-picker.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                 </div>
@@ -162,41 +161,41 @@ function FreeMind() {
                 <div className='section__name'>
                     <h2>4. Other features</h2>
                 </div>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <p>A global playback bar at the bottom of the screen allowed users to control audio while using other features.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-globalbar.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-globalbar.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-globalbar.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-globalbar.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>The app included a range of settings to enhance user experience and accessibility.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-menu.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-menu.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-menu.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-menu.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could set daily reminders to relax and reflect on their day.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-reminder.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-reminder.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-reminder.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-reminder.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <p>Users could send feedback to help improve the app.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-lm-feedback.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-lm-feedback.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/f-dm-feedback.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/f-dm-feedback.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                 </div>
@@ -206,47 +205,47 @@ function FreeMind() {
                 <div className='section__name'>
                     <h2>5. Accessibility</h2>
                 </div>
-                <div className="large__image__grid">
-                    <p>I designed this app with accessibility features based on the Accessibility Nutrition Labels from Apple to ensure it provides an inclusive experience for a wide range of users.</p>
-                    <img src='images/project images/FRM/F-D00.png' className='medium__image'></img>
+                <p>I designed this app with accessibility features based on the Accessibility Nutrition Labels from Apple to ensure it provides an inclusive experience for a wide range of users.</p>
+                <img src='images/project-images/FRM/F-D00.png' className='sm__image'></img>
+                <div className="lg__image__grid">
                     <h3>VoiceOver</h3>
                     <p>Users could navigate and explore the app using gestures, keyboard, braille, and speech output.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/F-D01.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/F-D01.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/F-D02.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/F-D02.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <h3>Dark interface</h3>
                     <p>Users with light sensitivity could maintain a dark user interface for the common tasks of the app to reduce eye pain or discomfort.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/F-D03.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/F-D03.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/F-D04.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/F-D04.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <h3>Larger text</h3>
                     <p>Users could adjust the size of text to make them more legible, visible, and comfortable to read.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/F-D05.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/F-D05.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/F-D06.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/F-D06.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                     <h3>Sufficient contrast</h3>
                     <p>Sufficient contrast helped users whose vision is reduced due to a disability or situational impairment such as bright sunlight.</p>
                     <BentoRow type="halves">
                         <BentoCell>
-                            <img src='/images/project images/FRM/F-D07.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/F-D07.png' loading="lazy" alt='' />
                         </BentoCell>
                         <BentoCell>
-                            <img src='/images/project images/FRM/F-D08.png' loading="lazy" alt='' />
+                            <img src='/images/project-images/FRM/F-D08.png' loading="lazy" alt='' />
                         </BentoCell>
                     </BentoRow>
                 </div>
@@ -256,15 +255,15 @@ function FreeMind() {
                 <div className='section__name'>
                     <h2>6. Experience the app on the App Store</h2>
                 </div>
-                <div className="large__image__grid">
+                <div className="lg__image__grid">
                     <p>Users could download and experience the app on the Apple App store</p><a href="https://apps.apple.com/ca/app/freemind-relax-and-reflect/id6761868559" target="_blank" rel="noreferrer"><p>Apple App store link</p></a>
-                    <div className="large__image__grid">
-                        <img src='images/project images/FRM/FR-98.png'></img>
+                    <div className="lg__image__grid">
+                        <img src='images/project-images/FRM/FR-98.png'></img>
                     </div>
                 </div>
             </div>
 
-            <div className='side__bar'>
+            <div>
                 <Sidebar activeSection={activeSection} sections={sections} handleLinkClick={handleLinkClick} />
             </div>
         </div>
