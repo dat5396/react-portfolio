@@ -221,6 +221,7 @@ export default function HomePage() {
         </BentoRow>
 
         <BentoRow type="halves">
+
           <BentoCell
             hoverable
             label="Dynamic gradient studio"
@@ -409,7 +410,7 @@ export default function HomePage() {
         onClose={() => setaudienceModalOpen(false)}
         size="md"
         buttonLabel="View AI-powered Audience & Creative insights"
-        onButtonClick={() => navigate('/nvntrmrktplc')}
+        onButtonClick={() => navigate('/dncrcmmndtn')}
       >
         {audienceModalOpen && (
           <div>
