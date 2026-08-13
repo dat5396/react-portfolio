@@ -10,7 +10,7 @@ function DaiichiJapan() {
 
     const sections = [
         { id: 'section1', title: '1. Project overview' },
-        { id: 'section2', title: '2. Discovery & analysis' },
+        { id: 'section2', title: '2. Research & analysis' },
         { id: 'section3', title: '3. Design' },
         { id: 'section4', title: '4. Responsive design' },
         { id: 'section5', title: '5. Content management system' },
@@ -60,7 +60,7 @@ function DaiichiJapan() {
                 <div className='section__name'>
                     <h2>1. PROJECT OVERVIEW</h2>
                 </div>
-                <h3>Context</h3>
+                <h3>Context & Problem</h3>
                 <p>Dai-ichi Japan was a dedicated importer and distributor of premium food products, specializing in Southeast Asian groceries. The company provided a curated selection of fresh and authentic ingredients to businesses across Japan.</p>
                 <p>However, they did not have a website to showcase their products or receive customer inquiries and orders online. Customers had to contact the company through traditional channels, which made the ordering process less efficient.</p>
                 <h3>Project objective</h3>
@@ -82,7 +82,7 @@ function DaiichiJapan() {
 
             <div id='section2'>
                 <div className='section__name'>
-                    <h2>2. DISCOVERY & ANALYSIS</h2>
+                    <h2>2. RESEARCH & ANALYSIS</h2>
                 </div>
                 <h3>Understanding the existing product catalog</h3>
                 <p>I reviewed the existing product catalog to understand the types of information available for each product and identify the key details needed to build the website.</p>
@@ -90,13 +90,16 @@ function DaiichiJapan() {
                 <h3>Competitive analysis</h3>
                 <p>I conducted a competitive analysis to explore how other wholesale companies structured their websites and presented their products online.</p>
                 <img loading="lazy" src='images/project-images/DJ/DJ-B02.png' className='lg__image'></img>
+                <h3>Persona</h3>
+                <p>I interviewed senior employees at Dai-ichi Japan to develop personas for the website’s target users and gain a deeper understanding of their goals, pain points, motivations, and buying behaviours.</p>
+                <img loading="lazy" src='images/project-images/DJ/DJ-B03.png' className='lg__image'></img>
             </div>
 
             <div id='section3'>
                 <div className='section__name'>
                     <h2>3. DESIGN</h2>
                 </div>
-                <h3>Sitemap</h3>
+                <h3>Information architecture</h3>
                 <img loading="lazy" src='images/project-images/DJ/DJ-C01.png' className='lg__image'></img>
                 <h3>Typography</h3>
                 <img loading="lazy" src='images/project-images/DJ/DJ-C02.png' className='lg__image'></img>
@@ -106,16 +109,22 @@ function DaiichiJapan() {
                 <img loading="lazy" src='images/project-images/DJ/DJ-C04.png' className='lg__image'></img>
                 <h3>Flow 1: Browse products and request a quote</h3>
                 <p>Customers could explore the product catalog, view product details, and submit a quote request.</p>
+                <h4>User flow</h4>
                 <img loading="lazy" src='images/project-images/DJ/DJ-C05.png' className='lg__image'></img>
+                <h4>Wireframes</h4>
+                <img loading="lazy" src='images/project-images/DJ/DJ-C06.png' className='lg__image'></img>
                 <h3>Flow 2: Search for a product and request a quote</h3>
                 <p>Customers could quickly find a specific product through search and request a quote directly.</p>
-                <img loading="lazy" src='images/project-images/DJ/DJ-C06.png' className='lg__image'></img>
-                <h3>Flow 3: Learn about the company</h3>
-                <p>Customers could learn more about the company, its products, and its business operations.</p>
+                <h4>User flow</h4>
                 <img loading="lazy" src='images/project-images/DJ/DJ-C07.png' className='lg__image'></img>
-                <h3>Flow 4: Find contact information and send messages</h3>
-                <p>Customers could access contact details and send inquiries through the website.</p>
+                <h4>Wireframes</h4>
                 <img loading="lazy" src='images/project-images/DJ/DJ-C08.png' className='lg__image'></img>
+                <h3>Flow 3: Learn about the company and contact</h3>
+                <p>Customers could learn more about the company, its products, its business operations, and reach out to the company.</p>
+                <h4>User flow</h4>
+                <img loading="lazy" src='images/project-images/DJ/DJ-C09.png' className='lg__image'></img>
+                <h4>Wireframes</h4>
+                <img loading="lazy" src='images/project-images/DJ/DJ-C10.png' className='lg__image'></img>
             </div>
 
             <div id='section4'>
