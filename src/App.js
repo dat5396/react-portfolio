@@ -35,7 +35,7 @@ function AppContent() {
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<HomePage />} />
-				<Route path='/portfolio/about' element={<AboutPage />} />
+				<Route path='/about' element={<AboutPage />} />
 				<Route path='/fcbknstgrmntgrtn' element={<ProtectedRoute><FI /></ProtectedRoute>} />
 				<Route path='/frstprtdncnbrdng' element={<ProtectedRoute><FirstPartyAudience /></ProtectedRoute>} />
 				<Route path='/ftfllmsrmnt' element={<ProtectedRoute><FootfallMeasurement /></ProtectedRoute>} />
